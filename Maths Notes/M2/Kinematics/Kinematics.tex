@@ -1,0 +1,99 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - M2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Kinematics}
+\end{center}
+\begin{obeylines}
+\section{Horizontal Projections}
+For a \textbf{constant speed} use \textbf{$Speed=\dfrac{Distance}{Time}$}
+
+For a \textbf{constant acceleration} use \textbf{SUVAT}
+
+For all projections:
+\begin{itemize}
+\item Assume air resistance to be zero
+\item Resolve horizontal and vertical motion
+\item Horizontal - Constant speed
+\item Vertical - Constant acceleration
+
+\end{itemize}
+
+\section{Angular projections}
+The same as horizontal projections but the initial vertical velocity isn't zero.
+Example:
+A particle is projected at a speed of $49ms^{-1}$ at an angle of $45 \degree$ above the horizontal.
+\textit{What is the time taken for the particle to reach its maximum height?}
+\begin{itemize}
+\item u=$49\sin45$
+\item v=0
+\item a=-g
+\item t=?
+\end{itemize}
+$0=49\sin45-gt$
+$t=\dfrac{49\sin45}{g}=\dfrac{5\sqrt{2}}{2}\approx3.54$
+\textit{What is the maximum height reached?}
+\begin{itemize}
+\item u=$49\sin45$
+\item v=0
+\item a=-g
+\item s=?
+\end{itemize}
+$v^2=u^2+2as$
+0=$(49\sin45)^2-2gs$
+$S=\dfrac{(49\sin45)^2}{2g}=61.3$
+\textit{What is the time of the flight?}
+\begin{itemize}
+\item u=$49\sin45$
+\item a=-g
+\item S=0
+\item t=?
+\end{itemize}
+$S=ut+\dfrac{1}{2}at^2$
+$ $
+$0=(49\sin45)t-\dfrac{1}{2}gt^2$
+0=$t(49\sin45-\dfrac{gt}{2}$
+$t=0$
+$49\sin45=\dfrac{gt}{2}$
+$t=\dfrac{2\times49\sin45}{g}=7.07$
+\textit{What is the horizontal range of the particle?}
+\begin{itemize}
+\item t=7.07
+\item Speed=$49\cos45$
+\end{itemize}
+$S=45\cos45\times7.07=245$
+
+
+
+
+
+
+
+
+\end{obeylines}
+\end{document}

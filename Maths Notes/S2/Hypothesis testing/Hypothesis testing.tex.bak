@@ -1,0 +1,48 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Hypothesis testing}
+\end{center}
+\section{Tests of hypotheses}
+\textbf{Statistical hypothesis} - An assertion or conjecture concerning a population.\\
+\\
+To test the validity of a statement a random sample is taken from the population and that data can them be used to provide evidence that either supports or does not support the hypothesis.\\
+\\
+\textbf{Null hypothesis} - $H_0$ - A hypothesis assumed to be true
+\textbf{Alternative hypothesis} - $H_1$ - The situation if $H_0$ is false.
+
+If the data leads to rejection of the null hypothesis the alternative hypothesis will be accepted.
+
+The sample data is used to evaluate the \textbf{test statistic}, probabilities related to it can be calculated using the null hypothesis.
+
+Critical values are the range of values that if the test statistic is found in 
+ 
+
+
+\end{document}

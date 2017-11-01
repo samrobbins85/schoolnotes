@@ -1,0 +1,78 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{mwe}
+\usepackage{float}
+\usepackage{polynom}
+
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - C4}
+\rfoot{Page \thepage}
+
+\newcommand{\R}{\mathbb{R}}
+\pgfplotsset{ytick style={draw=none}}
+\pgfplotsset{xtick style={draw=none}}
+
+\begin{document}
+\begin{center}
+\underline{\huge Coordinate Geometry}
+\end{center}
+\section{Parametric equations}
+In parametric equations, coordinates x and y are expressed as functions.\\
+$x=f(t)$ and $y=g(t)$ where t is the independent variable (called a parameter)
+\subsection{Converting parametric equations into Cartesian form}
+\textbf{Example 1}\\
+$x=2t$\\
+$y=t^2$\\
+\\
+$t=\dfrac{x}{2}$\\
+\\
+$y=\frac{1}{4}x^2$\\
+\\
+\textbf{Example 2}\\
+$x=\sin(t)+2$\\
+$y=\cos(t)-3$\\
+\\
+$\sin(t)=x-2$\\
+$\cos(t)=y+3$\\
+\\
+$\sin^2\theta+\cos^2\theta=1$\\
+$(x-2)^2+(y+3)^2=1$
+\section{Parametric differentiation}
+The chain rule can be used to differentiate parametric equations\\
+$\dfrac{dy}{dx}=\dfrac{dy}{dt}\times\dfrac{dt}{dx}$\\
+This can be used to find the gradient of normals and tangents.\\
+\\
+\textbf{Example}\\
+$x=t^3+t$\\
+$y=t^2+1$\\
+\\
+\textbf{Differentiate the x and y terms}\\
+$\dfrac{dy}{dt}=2t$\\
+$\dfrac{dx}{dt}=3t^2+1$\\
+\\
+\textbf{Invert the differential of x to fit the formula}\\
+$\dfrac{dt}{dx}=\dfrac{1}{3t^2+1}$\\
+\\
+\textbf{Multiply together to make one fraction}\\
+$\dfrac{dy}{dx}=\dfrac{2t}{3t^2+1}$
+
+\end{document}

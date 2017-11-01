@@ -1,0 +1,134 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Physics - Fields}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Physics Capacitor Notes}
+\end{center}
+
+\begin{obeylines}
+\section{Introduction to Capacitors}
+A capacitor is a device used to store charge, constructed of two parallel metal gates near each other with an insulator in between. One conductor gains electrons and the other one loses them. 
+
+The charge on a capacitor with constant current is $Q=It$. Voltage across a capacitor is directly proportional to the current stored.
+
+The unit of capacitance is the Farad, equal to one coulomb per volt. It will usually be given in $\mu F$, $nF$ or $pF$.
+$ $
+$C=\dfrac{Q}{V}$
+
+\section{Uses of Capacitors}
+\begin{itemize}
+\item Smoothing circuits
+\item Back-up power supplies
+\item Timing circuits
+\item Pulse producing circuits
+\item Tuning circuits
+\item Filter circuits (remove unwanted frequencies)
+\end{itemize}
+
+\section{Capacitor discharge through a fixed resistor}
+As a capacitor discharges through a fixed resistor the current reduces to zero. This is because as charge reduces, voltage reduces. Because $Current = \dfrac{pd}{resistance}$ and resistance is constant current decreases as voltage decreases. Current and voltage decrease exponentially over time, giving their graph with time a curve. If the initial charge is Q, and after t the charge is 0.8 Q then after nt the charge will be $0.8^nQ$. 
+This is because
+$I=\dfrac{V}{R}=\dfrac{Q}{CR}$
+$ $
+$\Delta Q=-I \Delta t$
+$ $
+$\dfrac{dQ}{dt}=-\dfrac{Q}{CR}$
+$ $
+$\int\dfrac{dQ}{Q}=-\int\dfrac{1}{CR}dt$
+$lnQ=-\dfrac{t}{CR}+A$
+$ $
+$Q=e^{-\dfrac{t}{RC}+A}=e^{-\dfrac{t}{RC}}e^A=Qe^{-\dfrac{t}{RC}}$
+
+Time Constant = RC, unit=seconds
+\section{Charging a capacitor through a fixed resistor}
+As the capacitor charge increases the charging current decreases. When the capacitor is fully charged, its PD=Source PD and the current is 0. The time constant for the circuit is the time it takes for the capacitor to reach 63\% charge.
+Source PD = Resistor PD + Capacitor PD
+$V_0=IR+\dfrac{Q}{C}$ at any time
+Initial current $(I_0)=\dfrac{V_0}{R}$ assuming the capacitor is initially uncharged.
+At time $t$ after the charging starts $I=I_0e^{\dfrac{-t}{RC}}$
+$V_0=V_0e^{\dfrac{-t}{RC}}+\dfrac{Q}{C}$
+$\dfrac{Q}{C}=V_0(1-e^{\dfrac{-t}{RC}})$
+$V=\dfrac{Q}{C}$
+$Q=CV_0(1-e^{\dfrac{-t}{RC}})$
+At time t=0:
+$e^{\dfrac{-t}{RC}}=1$ so Q=0 and V=0
+As time $t \rightarrow \infty$:
+$e^{\dfrac{-t}{RC}}=0$
+$Q \rightarrow Q_0$
+$V \rightarrow V_0$
+
+\section{Dielectric action}	
+The charge stored on the plates on a capacitor can be increased by inserting a \textbf{Dielectric} between the plates. These are electrically insulating materials that increase the charge storing ability. Polythene and waxed paper are examples of this.
+
+When a dielectric is placed in a capacitor and connected to a battery the molecules become polarised, meaning that electrons are pulled slightly towards the positive plate. 
+
+This causes more charge to be stored on the plates as:
+\begin{itemize}
+\item The positive side of the dielectric attracts more electrons from the battery onto the negative plate
+\item The negative side of the dielectric pushed electrons back to the battery from the positive plate
+\end{itemize}
+\section{Relative permittivity}
+Relative permittivity is the ratio of charge stored without a dielectric, compared to that with a dielectric.
+Relative permittivitty $\epsilon _r=\dfrac{Q}{Q_0}$
+Q = Charge stored when the area between the plates is completely filled with dielectric substances.
+$Q_0$ = Charge without any dielectric.
+
+For a fixed voltage $\epsilon _r = \dfrac{C}{C_0}$
+
+The relative permittivity is also called the dielectric constant.
+
+\section{Capacitor design}
+Capacitance = $\dfrac{A \epsilon _0 \epsilon _r}{d}$
+A= Surface area
+D = Distance between plates
+A large capacitance can be achieved by:
+\begin{itemize}
+\item Making the area as large as possible
+\item Making the plate spacing as small as possible
+\item Filling the space between the plates with a dielectric which has a relative permittivity as large as possible.
+\end{itemize}
+
+\section{Polarisation mechanisms}
+\subsection{Orientation polarisation}
+For molecules where covalent bonds are formed between atoms of different elements. This forms a dipole as the electrons are shared unequally. When an electric field is applied the atoms are displaced in opposite directions, to align with the field.
+\subsection{Ionic polarisation}
+For substances where ions are held together by ionic bonds. Opposite direction displacement.
+\subsection{Electronic polarisation}
+Electrons in each atom are displaced relative to the nucleus when an electric field is applied. The electron distribution and the nucleus form a dipole.
+
+\end{obeylines}
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

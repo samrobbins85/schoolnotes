@@ -1,0 +1,48 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - M2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Work, energy and power}
+\end{center}
+\begin{obeylines}
+\section{Work}
+$\mathbf{Work(J)=Force(N)\times Distance(m)}$
+For work done against  gravity, use vertical distance.
+For work against friction, use distance in the direction of motion
+\section{Energy}
+$\mathbf{E_K=\frac{1}{2}mv^2}$
+$ $
+$\mathbf{GPE=E_P=mgh}$
+\section{Conservation of energy}
+A particle's total energy is constant if it is subject only to gravity (i.e. smooth surfaces)
+If there are frictional forces to consider then the loss of energy is the work done by friction.
+\section{Power}
+$\mathbf{Power=Force\times Velocity}$
+Usually given in kW
+\end{obeylines}
+\end{document}

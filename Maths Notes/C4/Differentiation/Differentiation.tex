@@ -1,0 +1,148 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{mwe}
+\usepackage{float}
+\usepackage{polynom}
+
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - C4}
+\rfoot{Page \thepage}
+
+\newcommand{\R}{\mathbb{R}}
+\pgfplotsset{ytick style={draw=none}}
+\pgfplotsset{xtick style={draw=none}}
+
+\begin{document}
+\begin{center}
+\underline{\huge Differentiation}
+\end{center}
+\section{Implicit differentiation}
+An implicit function is in terms of $x$ and $y$ and cannot easily be written as $y=?$
+\subsection{Formula}
+$\dfrac{d}{dx}(y^n)=ny^{n-1}\times\dfrac{dy}{dx}$\\
+This is a formula you need to remember for the exam
+\subsection{Example}
+$x^3+x+y^3+3y=6$\\
+$\dfrac{d}{dx}(x^3+x+y^3+3y)=\dfrac{d}{dx}(6)$\\
+\\
+\textbf{Differentiate each term}\\
+$3x^2+1+3y^2\frac{dy}{dx}+3\frac{dy}{dx}=0$\\
+\\
+\textbf{Collect terms}\\
+$\dfrac{dy}{dx}(3y^2+3)=-3x^2-1$\\
+\\
+\textbf{Isolate $\mathbf{\frac{dy}{dx}}$}\\
+$\dfrac{dy}{dx}=\dfrac{-3x^2-1}{3y^2+3}$
+\\
+\subsection{Example with combined xy terms}
+$\dfrac{d}{dx}(x,y)=x'y+xy'$\\
+\\
+\textbf{Example}
+\\
+$\dfrac{d}{dx}xy$\\
+\\
+$\dfrac{d}{dx}x=1$\\
+$\dfrac{d}{dx}y=\dfrac{dy}{dx}$\\
+\\
+$\dfrac{d}{dx}=1\times y+x\times\dfrac{dy}{dx}$\\
+\\
+\textbf{Example 2}\\
+\textit{Find $\dfrac{dy}{dx}$ of $4xy^2+\dfrac{6x^2}{y}$}\\
+\\
+\textbf{Simplify}\\
+$4xy^3+6x^2-10y=0$\\
+\\
+\textbf{Differentiate each term}\\
+$\dfrac{d}{dx}=\bigg[1\times4y^3+4x\times3y^2\frac{dy}{dx}\bigg]+12x-10\frac{dy}{dx}$\\
+\\
+\textbf{Collect terms}\\
+$\dfrac{dy}{dx}(12xy^2-10)=-(4y^3+12x)$\\
+\\
+\textbf{Isolate $\mathbf{\dfrac{dy}{dx}}$}\\
+$\dfrac{dy}{dx}=\dfrac{-(4y^3+12x)}{12xy^2-10}$
+\section{Differentiating $\mathbf{y=a^x}$}
+$y=a^x$\\
+\\
+\textbf{Write in terms of logs}\\
+$\ln(y)=x\ln(a)$\\
+\\
+\textbf{Differentiate both sides}\\
+$\dfrac{d}{dx}\ln(y)=\dfrac{d}{dx}x\ln(a)$\\
+\\
+$\dfrac{1}{y}\dfrac{dy}{dx}=\ln(a)$\\
+\\
+\textbf{Simplify}\\
+$\dfrac{dy}{dx}=y\ln(a)$\\
+\\
+\textbf{Sub y with $\mathbf{a^x}$}\\
+$\dfrac{dy}{dx}=a^x\ln(a)$\\
+\subsection{Differentiating $\mathbf{y=a^{f(x)}}$}
+$\dfrac{dy}{dx}=a^{f(x)}f'(x)\ln(a)$\\
+\section{Related rates of change}
+You can use the chain rule to connect related rates of change\\
+For example:\\
+$\dfrac{dx}{dt}=\dfrac{dV}{dt}\times\dfrac{dx}{dV}$\\
+Where x is side length, v is volume and t is time.\\
+\\
+We need to be able to interpret numerical information as a rate of change, for example:\\
+$2cm^2s^-1=\dfrac{dA}{dt}$\\
+\\
+\textbf{Example 1}\\
+A cylinder is expanding under heat\\
+After t seconds:\\
+The radius is x cm\\
+The length is 5x cm\\
+The cross sectional area is increasing at a constant rate of $0.037cm^2s^{-1}$\\
+\\
+\textit{Find $\frac{dx}{dt}$ when r=4}\\
+\\
+\textbf{Find the area in terms of x}\\
+$A=\pi x^2$\\
+\\
+\textbf{Differentiate the area with respect to x}\\
+$\dfrac{dA}{dx}=2\pi x$\\
+\\
+\textbf{Re write the rate of change}\\
+$\dfrac{dA}{dt}=0.037$\\
+\\
+\textbf{Use the chain rule}
+$\dfrac{dx}{dt}=\dfrac{dx}{dA}\times\dfrac{dA}{dt}$\\
+\\
+$\dfrac{dx}{dt}=\dfrac{0.037}{2\pi x}$\\
+\\
+\textbf{Sub x=4}\\
+$\dfrac{dx}{dt}=0.00147cms^{-1}$\\
+\\
+\textit{Find the rate of change of the volume when x=4}\\
+$V=5\pi x^3$\\
+\\
+\textbf{Differentiate the volume with respect to x}\\
+$\dfrac{dV}{dx}=15\pi x^2$\\
+\\
+\textbf{Use the chain rule}\\
+$\dfrac{dV}{dt}=\dfrac{dV}{dx}\times\dfrac{dx}{dt}=15\pi x^2\times 0.00147$\\
+\\
+\textbf{Sub x=4}\\
+$1.11cm^3s^{-1}$
+
+
+\end{document}

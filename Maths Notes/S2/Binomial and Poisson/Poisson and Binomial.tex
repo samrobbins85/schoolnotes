@@ -1,0 +1,133 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Binomial and Poisson Distributions}
+\end{center}
+\begin{obeylines}
+\section{The Binomial Distribution}
+\subsection{Introduction to the binomial distribution}
+The binomial distribution is a \textbf{discrete} distribution.
+Conditions for a binomial distribution:
+\begin{itemize}
+\item There are a fixed number of trials, \textbf{n}
+\item There are two outcomes (success and failure)
+\item Each trial is independent
+\item The probability of success is constant, \textbf{p}
+\end{itemize}
+Formula:
+For $X~B(n,p)$
+
+$P(X=r)=\binom{n}{r}p^r(1-p)^{n-r}$
+
+Example:
+If 25 dice are thrown, find the probability three sixes are obtained.
+$X~B(25,\frac{1}{6})$
+$P(X=3)=\binom{25}{3}(\frac{1}{6})^3(\frac{5}{6})^{22}=0.1929$
+\subsection{Use of tables}
+Tables give "less than or equal to" probabilities.
+
+Example:
+$X~B(5,0.35)$
+$P(x\leq3)=0.9640$ (in the table where n=5, p=0.35 and x=3)
+$P(x<4)=0.9640$ (the data is discrete)
+$P(x=3)=P(x\leq3)-P(x\leq2)$
+$P(x=3)=0.9640-0.7648$
+$ $
+$P(x\geq3)=1-P(X\leq2)$
+$P(x\geq3)=1-0.7648$
+$P(x\geq3)=0.2352$
+\subsection{Dealing with $P>\frac{1}{2}$}
+Example:
+In the production of a car it is found that 85 \% are without defects.
+The cars are produces in batches of 50
+\textit{Find the probability there are at least 40 defect-free cars in a batch}
+X=Number of cars without defects
+$X~B(50,0.85)$
+$P(X\geq40)$
+Y=Number of cars with defects
+$Y~B(50,0.15)$
+$P(Y\leq10)=0.8801=P(x\geq40)$
+\subsection{Mean and variance of the binomial distribution}
+$E(X)=np$
+$Var(x)=np(1-p)$
+$\sigma(x)=\sqrt{Var(x)}$
+Example 1:
+$X~B(80,0.4)$ \textit{Find $E(x)$ and $\sigma$}
+$E(x)=80\times0.4=32$
+$\sigma=80\times0.4(1-0.4)=4.38$
+$ $
+\newpage
+Example 2:
+$E(x)=8$
+$Var(x)=6.4$
+\textit{Find n and p}
+$np-np^2=6.4$
+$8-np^2=6.4$
+$np^2=1.6$
+$ $
+$p=\dfrac{np^2}{np}=\dfrac{1.6}{8}=0.2$
+$ $
+$n=\dfrac{np}{p}=\dfrac{8}{0.2}=40$
+\section{The Poisson Distribution}
+\subsection{Introduction to the Poisson Distribution}
+The conditions for a poisson distribution are:
+\begin{itemize}
+\item Events occur at random
+\item Events occur independently of each other
+\item The average rate of occurrences remains constant
+\item There is zero probability of simultaneous occurrences 
+\end{itemize}
+$P(x=r)=\dfrac{e^{-\lambda}\lambda^r}{r!}$
+$\lambda$ represents the mean number of occurrences in the time period.
+\textbf{Example}
+$x\sim P_o(4)$
+$P(x=2)=\dfrac{e^{-4}\times 4^2}{2!}=0.1465$
+\subsection{Mean and variance of the poisson distribution}
+If $X~P_o(\lambda)$ then $E(x)=\mu=\lambda$ and $Var(x)=\lambda$
+\subsection{Using the Poisson as an approximation of the binomial}
+You can use the Poisson distribution as an approximation if:
+\begin{itemize}
+\item P is small $(<0.1)$
+\item n is large $(>50)$
+\end{itemize}
+$\lambda=np$
+$X\sim B(n,p)\approx Y\sim P_o(np)$
+\textbf{Example}
+$X\sim B(250,0.01)\approx X\sim P_o(2.5)$
+
+
+
+
+
+
+
+
+
+\end{obeylines}
+\end{document}

@@ -1,0 +1,71 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - M2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Centres of mass}
+\end{center}
+\begin{obeylines}
+\section{Centre if mass of a discrete mass distribution}
+$\bar{x}=\dfrac{\Sigma m_ix_i}{\Sigma m_i}$\\
+$\bar{y}=\dfrac{\Sigma m_iy_i}{\Sigma m_i}$\\
+\textbf{Example}\\
+\end{obeylines}
+\begin{tabular}{|c|c|c|c|}
+ \hline
+ Mass&$2$&$3$&$2$\\
+ \hline
+ $x$&2&3&-3\\
+ \hline
+ $y$&3&6&2\\
+ \hline
+
+\end{tabular}
+\\
+\\
+\begin{obeylines}
+$\bar{x}=\dfrac{2\times 2+3\times3+2\times-3}{2+3+2}=1$
+$\bar{y}=\dfrac{2\times3+3\times6+2\times2}{2+3+2}=4$
+\section{Uniform laminae}
+For a triangular lamina the centre of mass is $\frac{2}{3}$ along the line from the vertex to the middle of the line opposite.
+For a sector of a circle, radius r, where the angle at the centre is $2\alpha$ the centre of mass is $\dfrac{2r\sin\alpha}{3\alpha}$
+\section{Rods}
+In a circular arc, radius r, where the angle at the centre is $2\alpha$, the centre of mass is $\dfrac{r\sin\alpha}{\alpha}$ away from the centre.
+\section{Equilibrium}
+To avoid tipping, the lime of action of the weight must be within the side of the lamina in contact with the plane.
+If a lamina is suspended from a fixed point, the centre of mass will be vertically below the point of suspension.
+
+
+
+
+
+\end{obeylines}
+
+
+
+\end{document}

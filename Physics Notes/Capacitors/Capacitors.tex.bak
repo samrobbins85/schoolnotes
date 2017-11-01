@@ -1,0 +1,58 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{circuitikz}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Physics - Fields}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Capacitors}
+\end{center}
+A capacitor is constructed from two conducting plates separated by an insulator.\\
+Charge can flow onto and off the plates but not across the plates.\\
+\\
+\textbf{Charging circuit for a capacitor}\\
+\begin{center}
+\begin{circuitikz}[american voltages]
+\draw
+  (0,0) to [short] (3,0)
+  to [battery] (4,0)
+  (4,0) to[short] (5,0)
+  (4.4,-3) node[spdt](spdt) {}
+  (5,0) to[short] (spdt.out 1)
+  (spdt.in) to [capacitor] (2,-3)
+  (2,-3) to[short] (0,-3)
+(0,-3) to[short] (0,0)
+(spdt.out 2) to [short] (5,-5) 
+(5,-5) to[lamp] (1,-5) 
+(1,-5) to[short] (0,-5)
+(0,-5) to[short] (0,-3)
+  ;
+  \end{circuitikz}
+  \end{center}
+  
+When charging the current flows round the top half of the circuit, when discharging the SPDT is changed to the other output and the current flows round the bottom ha
+
+
+
+\end{document}
