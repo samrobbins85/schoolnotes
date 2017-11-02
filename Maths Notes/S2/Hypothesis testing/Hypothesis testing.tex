@@ -9,6 +9,7 @@
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
 \usepackage{gensymb}
+\usepackage{amssymb}
 
 \pgfplotsset{width=10cm,compat=1.9}
 
@@ -58,7 +59,44 @@ The \textbf{boundary values} of the critical region are called the critical valu
 \end{itemize}
 \item Interpret the results in terms of the original claim
 \end{enumerate}
- 
+\subsection{Example}
+\textbf{Establish the null and alternative hypothesis}\\
+$H_0:p=0.5$\\
+$H_1:p>0.5$\\
+\\
+\textbf{Define the distribution under $\mathbf{H_O}$}\\
+Under $H_0$ $X\sim B(15,0.5)$\\
+\\
+\textbf{Decide on the significance level}\\
+$5\%$\\
+\\
+\textbf{Collect data, state the test statistic}\\
+X=12\\
+\\
+\textbf{Calculate the probability of obtaining the test statistic or a more extreme result}\\
+\begin{tabular}{r l}
+$P(X\geqslant 12)$&$=1-P(X\leqslant 11)$\\
+&$=1-0.9824$\\
+&$=0.0176$\\
+\end{tabular}
+\\
+\textbf{Compare this to the sig level as a decimal}
+$0.0176<0.05$\\
+\\
+\textbf{Interpret the results in terms of the original claim}\\
+There is evidence to reject $H_0$ in favour of $H_1$. The test is significant.
+\subsection{Finding critical values}
+We require a value c such that:\\
+$P(X\geqslant c)<0.05$\\
+$1-P(X\leqslant c-1)<0.05$\\
+$P(X\leqslant c-1)>0.95$\\
+\\
+\textbf{Test against tables}\\
+$P(X<11)=0.9824$\\
+\\
+$c-1=11$\\
+$c=12$
+\subsection{Two tailed tests}
 
 
 \end{document}
