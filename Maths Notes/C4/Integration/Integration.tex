@@ -1,0 +1,187 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{mwe}
+\usepackage{float}
+\usepackage{polynom}
+\usepackage{tabu}
+\usepackage{relsize}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\usepackage{mathtools}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - C4}
+\rfoot{Page \thepage}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\newcommand{\R}{\mathbb{R}}
+\pgfplotsset{ytick style={draw=none}}
+\pgfplotsset{xtick style={draw=none}}
+
+\begin{document}
+\begin{center}
+\underline{\huge Integration}
+\end{center}
+\section{Standard Results}
+Standard results not on formula book:\\
+\\
+{\renewcommand{\arraystretch}{2}
+\begin{tabu} to \textwidth { | X[c] | X[c] | }
+ \hline
+ \textbf{f(x)} & $\mathbf{\mathlarger{\int} f(x)\ dx}$ \\
+ \hline
+ $x^n$  & $\dfrac{x^{n+1}}{n+1}+c$ \\
+\hline
+$e^x$&$e^x+c$\\
+\hline
+$\dfrac{1}{x}$&$\ln|x|+c$\\
+\hline
+$\sin x$&$-\cos x$\\
+\hline
+$\cos x$&$\sin x$\\
+\hline
+$a^x$&$\dfrac{a^x}{\ln|a|}+c$\\
+\hline
+\end{tabu}
+}
+\section{Integration by substitution}
+\textbf{Example}\\
+$\mathlarger{\int}(3x+2)^4 \ dx$\\
+\\
+\textbf{Find a value for u}\\
+$u=3x+2$\\
+\\
+\textbf{Substitute the value of u into the initial question}\\
+$\mathlarger{\int}u^4 \ dx$\\
+\\
+\textbf{Find dx in terms of du}\\
+$\dfrac{du}{dx}=3$\\
+$du=3dx$\\
+$dx=\frac{1}{3}du$\\
+\textcolor{red}{Note - if an x term remains with the dx there may be a way to replace both the x term and dx}
+\\
+\textbf{Replace dx with du into the modified initial equation}\\
+$\frac{1}{3}\mathlarger{\int}u^4 \ du$\\
+\\
+\textbf{Integrate using normal integration rules}\\
+$\frac{1}{3}\mathlarger{\int}u^4 \ du=\frac{1}{15}u^5$\\
+\\
+\textbf{Substitute the value for u back in}\\
+$\frac{1}{15}u^5=\frac{1}{15}(3x+2)^5$\\
+\newpage
+\section{Parametric integration}
+$\mathlarger{\int}y \ dx$ gives the area under the function y.\\
+\\
+For parametric equations we use:\\
+$\mathlarger{\int}y\dfrac{dx}{dt}dt$\\
+\\
+We have to integrate with respect to t or $\theta$ as it is the parameter.\\
+Limits will sometimes need to be changed from x to t or $\theta$.
+
+\subsection{Example}
+$x=5t^2$\\
+$y=t^3$\\
+Find $\mathlarger{\int_1^2}y \ dt$\\
+\\
+\\
+\textbf{Find $\mathbf{\dfrac{dx}{dt}}$}\\
+$\dfrac{dx}{dt}=10t$\\
+\\
+\textbf{Substitute into the model $\mathbf{\mathlarger{\int}y\dfrac{dx}{dt} \ dt}$}\\
+$\mathlarger{\int_1^2}t^3\times10t \ dt = \mathlarger{\int_1^2}10t^4 \ dt = \Big[2t^5\Big]^2_1=2\times2^5-2\times1^5=64-2=62$\\
+\section{Integration using trig identities}
+\subsection{Example 1 - sinf(x)cosf(x)}
+$\mathlarger{\int}\sin(3x)\cos(3x) \ dx$\\
+\\
+\textbf{Use addition formula to simplify}\\
+\textcolor{red}{$\sin2x=2\cos x\sin x$}\\
+\textcolor{red}{$\sin3x\cos3x=\frac{1}{2}\sin6x$}\\
+$\frac{1}{2}\mathlarger{\int}\sin6x \ dx$\\
+\\
+\textbf{Find a value for u}\\
+$u=6x$\\
+\\
+\textbf{Find dx in terms of du}\\
+$\dfrac{du}{dx}=6$\\
+$dx=\frac{1}{6}du$\\
+\\
+\textbf{Substitute two conversions from x to u}\\
+$\frac{1}{2}\times\frac{1}{6}\mathlarger{\int}\sin u \ du$\\
+\\
+\textbf{Use integration of sin formula}\\
+$\frac{1}{12}\mathlarger{\int}\sin u \ du=-\frac{1}{12}\cos6x+c$
+\newpage
+\subsection{Example 2 - sinf(x)cosg(x)}
+$\mathlarger{\int}\sin(3x)\cos(2x) \ dx$\\
+\\
+\textbf{Add together sin addition formula and sin subtraction formula}\\
+\textcolor{red}{$\sin(A+B)=\sin A\cos B+\cos A\sin B$}\\
+\textcolor{red}{$\sin(A-B)=\sin A\cos B-\cos A\sin B$}\\
+\textcolor{red}{$\sin(A+B)+\sin(A-B)=2\sin A\cos B$}\\
+\textcolor{red}{$\sin 3x\cos 2x=\sin(3x+2x)+\sin(3x-2x)$}\\
+$\frac{1}{2}\mathlarger{\int}\sin5x+\sin x \ dx=\frac{1}{2}\mathlarger{\int}\sin5x \ dx+\frac{1}{2}\mathlarger{\int}\sin x \ dx$\\
+\\
+\textbf{Integrate using sin standard result}\\
+$-\frac{1}{10}\cos5x-\frac{1}{1}\cos x+c$
+\subsection{Example 3 - $\sin^2f(x)\cos^2f(x)$}
+$\mathlarger{\int}\sin^2(x)cos^2(x) \ dx$\\
+\textbf{Give $\mathbf{sin^2(x)cos^2(x)}$ in terms of $\mathbf{sin^2(x)}$}\\
+\textcolor{red}{$2\sin(x)\cos(x)=\sin2x$}\\
+\textcolor{red}{$4\sin^2(x)\cos^2(x)=\sin^22x$}\\
+$\cos^2x\sin^2x=\frac{1}{4}\sin^22x$\\
+\textbf{Sub simplified version}\\
+$\mathlarger{\int}\frac{1}{4}\sin^22x \ dx$\\
+\textbf{Give $\mathbf{sin^2x}$ in terms of $\mathbf{cosx}$}\\
+\textcolor{red}{$2\sin^22x=\sin^22x+(1-\cos^22x)$}\\
+\textcolor{red}{$2\sin^22x=1-(\cos^22x-\sin^22x)$}\\
+\textcolor{red}{$2\sin^22x=1-\cos4x$} - Use of cos subtraction formula\\
+$\sin^22x=\frac{1}{2}-\frac{1}{2}\cos4x$\\
+\textbf{Sub simplified version}\\
+$\frac{1}{4}\mathlarger{\int}\frac{1}{2}-\frac{1}{2}\cos4x \ dx$\\
+$\frac{1}{8}\mathlarger{\int}1-\cos4x \ dx$\\
+\textbf{Use cos integration standard result}\\
+$\frac{1}{8}(x-\frac{1}{4}\sin4x)+c$\\
+\\
+$\frac{1}{8}x-\frac{1}{32}\sin4x+c$\\
+\newpage
+\section{Integration of partial fractions}
+\subsection{Simple example}
+$\mathlarger{\int}\dfrac{x-5}{(x+1)(x-2)}$\\
+\textbf{Write as separate fractions}\\
+$\dfrac{A}{x+1}+\dfrac{B}{x-2}$\\
+\\
+\textbf{Multiply out}\\
+$A(x-2)+B(x+1)=x-5$\\
+\\
+\textbf{Solve}\\
+B=-1\\
+A=2\\
+\\
+\textbf{Substitute}\\
+$\mathlarger{\int}\dfrac{2}{x+1}-\dfrac{1}{x-2} \ dx$\\
+\\
+\textbf{Separate and simplify}\\
+$2\mathlarger{\int}\dfrac{1}{x+1} \ dx-\mathlarger{\int}\dfrac{1}{x-2} \ dx$\\
+\\
+\textbf{Use integration of $\mathbf{\dfrac{1}{x}}$ standard result}\\
+$2\ln(x+1)-\ln(x-2)+c$\\
+\\
+\textbf{Simplify using laws of logs}\\
+$\ln\abs*{\dfrac{(x+1)^2}{x-2}}+c$
+\section{Integration by substitution - Fractional type}
+$\mathlarger{\int}\dfrac{f'(x)}{f(x)} \ dx$ can be written as $\ln f(x)+c$\\
+
+\end{document}

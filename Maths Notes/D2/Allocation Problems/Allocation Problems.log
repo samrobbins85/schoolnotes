@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  5 NOV 2017 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  5 NOV 2017 21:43
 entering extended mode
-**./Capacitors.tex
-(Capacitors.tex
+**"./Allocation Problems.tex"
+("Allocation Problems.tex"
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -934,70 +934,52 @@ s
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
 )
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\latex\circuitikz\circuitikz.sty
-Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
- 0.8.3
+("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks41
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
 raries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryar
-rows.code.tex
-File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen188
-)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirc.defines
-.tex
-\pgf@circ@res@up=\dimen189
-\pgf@circ@res@down=\dimen190
-\pgf@circ@res@zero=\dimen191
-\pgf@circ@res@left=\dimen192
-\pgf@circ@res@right=\dimen193
-\pgf@circ@res@other=\dimen194
-\pgf@circ@res@step=\dimen195
-\pgf@circ@res@temp=\dimen196
-\pgfstartlinewidth=\dimen197
-\pgf@circ@Rlen=\dimen198
-)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircutils.te
-x)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircshapes.t
-ex)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmonopole
-s.tex)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircbipoles.
-tex)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirctripoles
-.tex)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircquadpole
-s.tex)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirclabel.te
-x)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircvoltage.
-tex)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirccurrent.
-tex)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircflow.tex
-)
-(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircpath.tex
-))
 \tindent=\skip57
- (Capacitors.aux)
-\openout1 = `Capacitors.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count130
+\float@exts=\toks42
+\float@box=\box41
+\@float@everytoks=\toks43
+\@floatcapt=\box42
+)
+("Allocation Problems.aux")
+\openout1 = `"Allocation Problems.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1035,17 +1017,17 @@ LaTeX Font Info:    ... okay on input line 27.
 
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen199
-\scratchbox=\box41
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen256
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count131
+\scratchdimen=\dimen188
+\scratchbox=\box43
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen189
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1098,58 +1080,113 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
-
- []
+LaTeX Info: Redefining \celsius on input line 49.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 49.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
+Package gensymb Warning: Not defining \perthousand.
 
- []
+LaTeX Info: Redefining \ohm on input line 49.
+Package gensymb Info: Using \Omega for \ohm on input line 49.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
+Package gensymb Warning: Not defining \micro.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--85
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--99
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--202
 
  []
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] [2] (Capacitors.aux) ) 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 205--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--235
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 252--268
+
+ []
+
+[3] ("Allocation Problems.aux")
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 31006 strings out of 493318
- 821810 string characters out of 3139004
- 1078190 words of memory out of 3000000
- 34098 multiletter control sequences out of 15000+200000
- 7581 words of font info for 28 fonts, out of 3000000 for 9000
+ 23889 strings out of 493318
+ 598820 string characters out of 3139004
+ 794313 words of memory out of 3000000
+ 26996 multiletter control sequences out of 15000+200000
+ 7156 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,96p,730b,1906s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Capacitors.pdf (2 pages, 85238 bytes).
+ 62i,14n,96p,741b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/symbols/msam10.pfb>
+Output written on "Allocation Problems.pdf" (3 pages, 98345 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
