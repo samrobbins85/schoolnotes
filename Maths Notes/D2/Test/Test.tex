@@ -1,0 +1,28 @@
+\documentclass[svgnames]{amsart}
+\usepackage{array}
+\usepackage{pst-node}
+\usepackage{auto-pst-pdf} %% to compiile with pdflatex -shell-escape (TeX Live, MacTeX)
+                                                %% or pdflatex --enable-write18 (MiKTeX)
+
+\begin{document}
+
+\[ \begin{postscript}
+\setlength{\extrarowheight}{3pt}
+\begin{array}{|c|c|c|c|}
+\hline
+& Dig & \Rnode{W}{Weed} & Cut\\
+\hline
+Boris & 50 & 0 & 50\\
+\hline
+Percival & 20 & 0 & 30 \\
+\hline
+\pnode[-4pt, 0.7ex]{A}Spike & 0 &\Rnode{O}{0} & 0\pnode[4pt, 0.7ex]{B} \\
+\hline
+\end{array}
+%% Node connections:
+\psset{linewidth=0.6pt, linecolor=Crimson, linestyle=dashed, dash=3pt 3pt}
+\ncline[nodesep=-9pt]{W}{O}
+\ncline{A}{B}
+\end{postscript} \]
+
+\end{document}
