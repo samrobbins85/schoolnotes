@@ -184,9 +184,21 @@ IP is only concerned with moving data, it doesn't check the data has arrived(han
 When IP receives data from TCP in the computer it wraps the TCP datagram in an IP datagram with senders and receivers address, along with other information.\\
 \\
 When IP receives data from the internet, it removes the IO datagram and passes it to TCP.
-\section{Test}
-This is some test text
-\paragraph{Test}
-How is this
+\paragraph{IP addresses}
+Every computer connected to the internet has an IP Address\\
+\\
+There are two forms of IP addresses \textbf{IPv4} and \textbf{IPv6}.
+\paragraph{IPv6}
+IPv6 can support $3.5\times10^{38}$ IP addresses, meaning it is able to accommodate any demand. IPv6 is intended to replace IPv4, however it is taking a long time, the best solution so far is to map all IPv4 addresses to IPv6.
+\paragraph{Reserved IP Numbers}
+There are many IP addresses reserved for private networks, outside of the internet, for example:
+\begin{itemize}
+\item 10.0.0.0 to 10.255.255.255
+\item 169.254.0.0 to 169.254.255.255
+\item 172.16.0.0 to 172.31.255.255
+\item 192.168.0.0 to 192.168.255.255
+\end{itemize}
+\subsection{DNS}
+A DNS translates an readable address(e.g. google.com) to an IP address
 
 \end{document}
