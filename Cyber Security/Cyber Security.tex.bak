@@ -25,11 +25,25 @@
 \lhead{GCHQ Cyberfirst}
 \rfoot{Page \thepage}
 
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 \begin{document}
 \begin{center}
 \underline{\huge Cyber Security Notes}
 \end{center}
+\section{Security Essentials}
+\begin{itemize}
+\item Integrity
+\item Availability 
+\item Confidentiality 
+\end{itemize}
 \section{Introductory definitions}
 \begin{itemize}
 \item Information Assets - Data to be protected
@@ -117,4 +131,72 @@ When a large amount of data is sent over the internet it is split into small, un
 \textbf{Header} - Sender and recipient's address, unique number, data stamp and error correcting information\\
 \textbf{Payload} - The actual information being delivered
 \subsection{Wireless networks}
+WiFi allows devices to be connected together wirelessly to form a LAN\\
+WiFi refers to the wireless LAN standard from the Institute of Electrical and Electronic Engineers (IEEE) called the 802.11 family.\\
+\\
+\textbf{SSID} - The name of the network (Service Set IDentifier)\\
+The SSID allows nodes on a wireless LAN to distinguish themselves from nodes on other wireless LANs in the same physical space.
+\section{Network security challenges}
+\textbf{Packet Sniffing} - The copying of datagrams without the recipient knowing
+\subsection{Security risks of wireless networking}
+A wireless network should ensure that an eavesdropper is not able to convert wireless signals into the original message. This ensures \textbf{confidentiality}.
+\subsubsection{Man in the middle attacks}
+A man in the middle attack is where malicious users interpose themselves between the sender and receiver to modify or destroy the messages being sent. This compromises the \textbf{integrity} of the data being transferred.
+\subsubsection{Denial of service attacks}
+An attacker could transmit lots or random data on the frequency used by the wireless network, congesting the network and so preventing others from sending data. This compromises the \textbf{availability} of the network.
+\newpage
+\subsection{How encryption helps prevent security issues in wireless networks}
+Encryption helps ensure:
+\begin{itemize}
+\item \textbf{Confidentiality} - Encryption keys are needed to decrypt information, meaning attackers can't recover the information
+\item \textbf{Integrity} - Encryption prevents messages from being modified without the receivers knowledge
+\item \textbf{Authentication} - Encryption proves the identities of the sender and receiver
+\end{itemize}
+\subsection{Implementation of encryption in WiFi}
+\subsubsection{WEP(Wired Equivalent Privacy)}
+WEP has many serious problems as the encryption key can be computed in a few minutes. Many devices still support this to ensure compatibility but it should not be used.
+\subsubsection{WPA2(WiFi Protected Access 2)}
+This uses a more secure key to encrypt data that WEP, this is the default for WiFi networks. All WiFi devices must support it to be compliant with the 802.11 standard.
+\section{The role of standards in the internet}
+\subsection{Why standards are needed on the internet}
+Standards are needed to ensure that all devices can communicate with each other.
+\subsection{TCP/IP Protocols}
+\subsubsection{TCP}
+TCP ensures that data can be sent reliably over the internet. This works through software ports to keep data separate on the same computer.\\
+The port decides how the data is handled when it reaches it's destination.\\
+\\
+Common TCP Ports:
+\begin{itemize}
+\item 20 and 21 - FTP - for sending and receiving files(20) and control(21)
+\item 22 - SSH for secure logins
+\item 25 - SMTP(Simple Mail transfer protocol) - Email
+\item 80 - HTTP(HyperText Transfer Protocol) - Web Pages
+\end{itemize}
+\textbf{Traffic type} - The type of data and the port associated with it. For example SSH or HTTP.
+\\
+TCP also ensures all data sent from a computer is received by the destination. It does this by waiting for acknowledgements of receipt from the remote computer, and if the data was not received, sending the message again.\\
+\\
+Applications where latency is more important than accuracy, such as video conferencing, use \textbf{UDP} to send and receive data.
+\subsubsection{IP}
+\textbf{IP} - Internet Protocol\\
+IP is only concerned with moving data, it doesn't check the data has arrived(handled by TCP).\\
+\\
+When IP receives data from TCP in the computer it wraps the TCP datagram in an IP datagram with senders and receivers address, along with other information.\\
+\\
+When IP receives data from the internet, it removes the IO datagram and passes it to TCP.
+\paragraph{IP addresses}
+Every computer connected to the internet has an IP Address\\
+\\
+There are two forms of IP addresses \textbf{IPv4} and \textbf{IPv6}.
+\paragraph{IPv6}
+IPv6 can support $3.5\times10^{38}$ IP addresses, meaning it is able to accommodate any demand. IPv6 is intended to replace IPv4, however it is taking a long time, the best solution so far is to map all IPv4 addresses to IPv6.
+\paragraph{Reserved IP Numbers}
+There are many IP addresses reserved for private networks, outside of the internet, for example:
+\begin{itemize}
+\item 10.0.0.0 to 10.255.255.255
+\item 169.254.0.0 to 169.254.255.255
+\item 172.16.0.0 to 172.31.255.255
+\item 192.168
+\end{itemize}
+
 \end{document}
