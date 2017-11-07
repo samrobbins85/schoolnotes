@@ -117,13 +117,4 @@ When a large amount of data is sent over the internet it is split into small, un
 \textbf{Header} - Sender and recipient's address, unique number, data stamp and error correcting information\\
 \textbf{Payload} - The actual information being delivered
 \subsection{Wireless networks}
-WiFi allows devices to be connected together wirelessly to form a LAN\\
-WiFi refers to the wireless LAN standard from the Institute of Electrical and Electronic Engineers (IEEE) called the 802.11 family.\\
-\\
-\textbf{SSID} - The name of the network (Service Set IDentifier)\\
-The SSID allows nodes on a wireless LAN to distinguish themselves from nodes on other wireless LANs in the same physical space.
-\section{Network security challenges}
-\textbf{Packet Sniffing} - The copying of datagrams without the recipient knowing
-\subsection{Security risks of wireless networking}
-
 \end{document}
