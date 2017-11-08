@@ -196,7 +196,94 @@ There are many IP addresses reserved for private networks, outside of the intern
 \item 10.0.0.0 to 10.255.255.255
 \item 169.254.0.0 to 169.254.255.255
 \item 172.16.0.0 to 172.31.255.255
-\item 192.168
+\item 192.168.0.0 to 192.168.255.255
 \end{itemize}
+\subsection{DNS}
+A DNS translates an readable address(e.g. google.com) to an IP address.\\
+When a computer needs to get an IP address from a hostname it contacts the DNS responsible for the Top level domain (.com in this case). This DNS then responds with the correct IP address. The computer then uses this to contact the server. 
+\subsection{Difference between the Internet and the World Wide Web}
+The world wide web is the part of the internet than can be accessed through HTTP.\\
+The internet covers all communication between online systems, such as FTP or SSH.\\
+\section{Cryptography}
+\subsection{Basics of cryptography}
+\subsection{Terminology}
+\begin{itemize}
+\item \textbf{plaintext} - Information that can be read directly by humans
+\item \textbf{ciphertext} - The encrypted data
+\item \textbf{a cipher} - The mathematics that turn ciphertext into plaintext
+\item \textbf{encryption} - Converting plaintext to ciphertext
+\item \textbf{decryption} - Reverting ciphertext to plaintext
+\end{itemize}
+\subsection{Encryption keys}
+\textbf{Keys} - Pieces of information that determine the output from an encryption process.\\
+A single cipher can produce an extremely large number of different outputs with different key values. This means communication is secure, even if the cipher is known to 3rd parties.\\
+\\
+An encryption key is a binary string. The total number of keys for a given key length is $2^{\text{key length}}$
+\paragraph{The problem of short keys}
+Short keys are vulnerable to \textbf{brute force} attacks.
+\subsection{The problem of key distribution}
+If encryption keys are stolen or copied during transit, the encryption is useless.\\
+\\
+The number of keys needed for large number of parties becomes difficult to manage. The number of keys is calculated by $\dfrac{n(n-1)}{2}$ where n is the number of communicating parties.
+\subsection{Asymmetric/public key cryptography}
+Public key cryptography requires two keys:
+\begin{itemize}
+\item \textbf{Private key} - Kept safe and not distributed
+\item \textbf{Public key} - Sent to anyone they want to exchange encrypted information with
+\end{itemize}
+The message is encrypted with the \textbf{public key}, but can only be decrypted using the \textbf{private key}.\\
+\\
+This method of encryption is secure as it means that any data intercepted cannot be turned into the message.
+\subsection{Why isn't the internet encrypted}
+The amount of computing power required to encrypt and decrypt all traffic sent over the internet would lead to significant costs.\\
+Some applications on the internet selectively use cryptography for key tasks(online payments).
+\subsection{Comparison of cryptographic techniques}
+\subsubsection{DES(Data Encryption Standard)}
+DES was developed in the 1970s, it has relatively small key sizes, so is possible to break with a brute force attack. Because this was developed when computers were primitive, brute force was not a problem at it's invention, however it is now.\\
+Triple DES provides additional security by doing 3 rounds of DES encryption, each with a different, 56 bit key.\\
+Triple DES will remain secure until at least 2030.
+\subsubsection{AES(Advanced Encryption Standard)}
+AES was adopted as a standard in 2001, it uses symmetric cyphers with either 128,192 or 256 bits.\\
+It is widely used in commercial applications as it is free. Many microprocessors now include AES in their instruction sets to speed up encryption and decryption.
+\subsubsection{Blowfish}
+Blowfish was developed in the 1990s, but wasn't widely accepted like AES is. This uses key lengths from 1 to 448 and there has been no successful attempt to break the encryption.
+\subsection{Using cryptography to prove identity}
+This works by checking that your copy of a piece of data us an exact match for the one you requested.
+\subsubsection{Hashing}
+Hashing is the mathematical process of converting data of any size into data of a fixed length.\\
+Hashing only works in one way, meaning the data cannot be reconstructed from a hash.\\
+If there is a difference of one bit in a file there will be a large difference in the hash.\\
+MD5, SHA-1 and SHA-2 are in common use. Both MD5 and SHA-1 are flawed as "collisions" can occur where two pieces of different data can generate the same hash value.
+\subsection{Digital signatures and certificates}
+A digital signature is used to ensure that data originated from its supposed author.\\
+A digital signature works by encrypting data with a private key, meaning that anyone with the public key can decrypt it. They know that only the person with the private key could have sent that message.
+\subsection{Encrypted network connections}
+In 1995 SSL was introduced, this allowed for encrypted traffic on the internet for things like online payments. This has now been replaced with TLS(Transport layer security).
+\subsubsection{TLS/SSL}
+These methods use a combination of asymmetric and symmetric encryption to exchange data. When a web browser connects to a server it undergoes a "handshake" which agrees the type of cryptography that will be used.\\
+\\
+After the handshake the server transmits a public key and certificate of authenticity to the users computer, the users computer then checks this. The user's computer then generates a \textbf{master secret}, encrypts it with the server's public key and sends it back.\\
+\\
+The server then decrypts the master secret. This secret means that both the server and computer can now generate identical copies of a \textbf{symmetric encryption key}, without transmitting this key in plaintext to each other.\\
+\\
+The computers then confirm with each other that all other transactions will take place using the key(called the session key). The computers can now perform a secure transaction.\\
+\\
+At the end of the session, the computers confirm that the transaction has finished and deletes their key.
+\section{Network Security}
+\subsection{Protecting data on the network}
+\subsubsection{Firewall basics}
+A firewall is a barrier that blocks all dangerous communication from spreading across a network.\\
+\\
+Firewalls block network communication by looking at the addressing and protocol information in the data packet's header. This header is compared to rules in the firewall's software to determine whether to let the packet in.\\
+\subsubsection{Personal firewalls}
+A firewall is only able to protect the computer it is installed on and devices attached to it, meaning it is called a personal firewall.\\
+\\
+These are especially useful for portable devices as these will be connected to a wide range of computer networks.
+\subsection{VPNs}
+\subsubsection{VPN basics}
+A VPN is a way of creating a private network across an untrusted network, such as the internet.
+VPNs are used for:
+\begin{itemize}
 
+\end{itemize}
 \end{document}
