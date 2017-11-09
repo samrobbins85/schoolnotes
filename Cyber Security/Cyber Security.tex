@@ -292,4 +292,99 @@ VPNs are used for:
 VPNs are typically implemented using dedicated network devices and software. The software is made of two parts, the \textbf{client} and the \textbf{server}. The client connects users to the VPN and the server authenticates users and routes traffic.\\
 \\
 The VPN software creates a "tunnel" between the VPN client and server. This tunnel can be established on an untrusted network.
+\subsubsection{Securing a VPN}
+\paragraph{Encryption}
+VPNs use public encryption standards due to their increased reliability compared to proprietary standards.
+\paragraph{Authenticity and integrity}
+It is vital to ensure that data can be trusted, VPNs use the following method to ensure authenticity:
+\begin{itemize}
+\item Hashes
+\item Digital Signatures
+\item MACs(Message Authentication Codes)
+\end{itemize}
+\textbf{MACs} are appended to messages and act as an authenticator. They are similar to digital signatures but use symmetric encryption.
+\subsubsection{VPN Protocols}
+\paragraph{PPTP(Point to point tunnelling protocol)}
+PPTP was designed by a consortium led by Microsoft. This standard did not use a single form of authentication or encryption, this meant that different PPTP systems were incompatible with each other
+\paragraph{L2TP(Layer 2 Tunnelling Protocol)}
+This is an adaptation of a protocol known as L2F. This combines the features of PPTP and L2F.
+\paragraph{IPSec(Internet Protocol Security)}
+This is the most widely supported protocol. This is very secure due to its use of well known and trusted technologies, which had been under a lot of scrutiny to ensure there are no vulnerabilities.
+\subsubsection{Security risks of a VPN}
+\paragraph{Security of remote machines}
+Remote machines connected to a VPN must be themselves secure, otherwise they would be a vulnerability into a company network.
+\paragraph{Security of the VPN implementation}
+If an insecure VPN implementation, such as PPTP then the network will be insecure.
+\paragraph{Security of network availability}
+AS VPNs rely on the internet for delivering information, there are no guarantees about the reliability.
+\subsection{Detecting attacks}
+\subsubsection{Intrusion detection system(IDS)}
+An there are two types of IDS:
+\begin{itemize}
+\item \textbf{Network intrusion detection system(NIDS)} - Monitors data passing over a network
+\item \textbf{Host intrusion detection system(HIDS)} - Monitoring data to and from a computer
+\end{itemize}
+An IDS can support a network firewall. An IDS then scans any traffic passing through the firewall using a \textbf{NIDS} while also detecting attacks from in the computer using a \textbf{HIDS}.
+\paragraph{Weaknesses}
+\begin{itemize}
+\item Too sensitive, leading to false positives
+\item Not sensitive enough, leading to slow attacks getting through
+\item Relies on software suppliers issuing updates of known signatures
+\end{itemize}
+\subsubsection{How an IDS works in practice}
+\paragraph{Anomaly detection}
+Anomaly detection works on having a model of "normal" network behaviour of users and applications. This means that the system is able to detect previously unknown attacks by looking for patterns that deviate from normal behaviour.\\
+A disadvantage of this is that legitimate activities may be incorrectly identified.
+\paragraph{Misuse detection}
+Misuse detection works on the system knowing a set of attack patterns, or "signatures" to compare network activity against.\\
+This has the advantage of minimising false positives. There is the disadvantage that it can only identify attacks where there is a known pattern.
+\subsubsection{Honeypots}
+Sometimes network administrators want to study attacks to develop suitable countermeasures, or as part of an investigation for criminal prosecution.\\
+\\
+One method of doing this is to focus attackers on a computer that seems legitimate, but is actually a closely monitored trap known as a \textbf{honeypot}. This means all the attackers actions can be reported without risk to data.\\
+\\
+\section{When your defences fail}
+\subsection{What's the worst that could happen?}
+\subsubsection{Identity theft}
+\textbf{Identity theft} - Where an attacker uses stolen information to impersonate another person.\\
+\paragraph{Preventing identity theft}
+Identity theft can be prevented using an antivirus program and not responding to phishing emails.
+\paragraph{Detecting identity theft}
+Signs a victim might notice:
+\begin{itemize}
+\item Unexplained bank withdrawals
+\item Expected official letters not arriving
+\item Cards or cheques declined
+\item Contacted by debt collectors
+\item Notice from a company that data has been compromised
+\item Bank provider making contact about suspicious behaviour
+\end{itemize}
+\subsubsection{Loss of data}
+Data loss means either the deletion of data or the unauthorised copying of data.
+\paragraph{Insider attacks}
+Insider attacks are where the attacker has direct access to a computer.
+\paragraph{Risks of data loss}
+There are many costs of data loss, including:
+\begin{itemize}
+\item The cost of recreating the data
+\item The cost of continuing without that data
+\item The cost of informing others about the loss
+\end{itemize}
+\subsection{Cyber Security and the law}
+\subsubsection{Laws and Computers}
+\paragraph{Criminal and civil law}
+Law in Britain is divided into two categories:
+\begin{itemize}
+\item \textbf{Criminal law} - Punishing behaviour that is considered unacceptable. The majority of cases are brought by the state against individuals and companies. These causes require a high standard of proof to secure a convictions. They have high punishments.
+\item \textbf{Civil law} - Concerned with disputes, brought before the court by individuals. Cover things like property law, contracts and noise. These require a lower standard of proof and have financial punishments.
+\end{itemize}
+\paragraph{Bills, acts and laws}
+\textbf{Act of Parliament} - A law approved by the British Parliament\\
+\\
+\textbf{Bill} - The draft of an act which is debated in the house of commons. If the house of Lords and the house of Commons agree the bill is given Royal Ascent and becomes an Act.\\
+\\
+There is often a delay between enactment and implementation in a bill as processes need to be put in place to achieve compliance.
+\subsubsection{The Data Protection Act 1998}
+The data protection act says that organisations are legally obliged to act responsibly with respect to personal information on any living individual on computer databases.
+
 \end{document}

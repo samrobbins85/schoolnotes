@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.12)  8 NOV 2017 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.12)  9 NOV 2017 07:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1084,26 +1084,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--222
 
  []
 
-[5] (./Cyber Security.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 263--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--295
+
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 382--387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--387
+
+ []
+
+[10] (./Cyber Security.aux) ) 
 Here is how much of TeX's memory you used:
  23645 strings out of 492990
  589061 string characters out of 6138688
- 781663 words of memory out of 5000000
+ 782662 words of memory out of 5000000
  26779 multiletter control sequences out of 15000+600000
  7156 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,733b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on "Cyber Security.pdf" (5 pages, 104837 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb>
+Output written on "Cyber Security.pdf" (10 pages, 118718 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
