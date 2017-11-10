@@ -52,7 +52,7 @@
 \item Malware - A contraction of malicious software
 \item Ransomware - Malware that demands money to stop from doing something
 \item Spyware - Malware that records the activity of the user
-\item Botnets - Malware that records the activities of the user
+\item Botnets - A network of computers under the control of an attacker
 \item Vulnerability - A point at which there is potential for a security breach
 \item Threat - Some danger that can exploit a vulnerability
 \item Countermeasure - An action taken to protect information from threats and vulnerabilities
@@ -116,7 +116,7 @@ Botnets are used to coordinate the activity of many computers, these are often u
 \\
 \textbf{Sandbox} - A way for computers to run programs in a controlled environment. This constrains computing resources, allowing the program to not cause a threat to the computer.\\
 \\
-\textbf{Signed programs} - The sue of cryptography when companies issue copies of a program, so that the user can check it for authenticity.
+\textbf{Signed programs} - The use of cryptography when companies issue copies of a program, so that the user can check it for authenticity.
 \section{How the internet works}
 The internet comprises of a hierarchy of individual networks that have been connected to each other.\\
 \\
@@ -163,7 +163,7 @@ Standards are needed to ensure that all devices can communicate with each other.
 \subsection{TCP/IP Protocols}
 \subsubsection{TCP}
 TCP ensures that data can be sent reliably over the internet. This works through software ports to keep data separate on the same computer.\\
-The port decides how the data is handled when it reaches it's destination.\\
+The port decides how the data is handled when it reaches its destination.\\
 \\
 Common TCP Ports:
 \begin{itemize}
@@ -183,7 +183,7 @@ IP is only concerned with moving data, it doesn't check the data has arrived(han
 \\
 When IP receives data from TCP in the computer it wraps the TCP datagram in an IP datagram with senders and receivers address, along with other information.\\
 \\
-When IP receives data from the internet, it removes the IO datagram and passes it to TCP.
+When IP receives data from the internet, it removes the IP datagram and passes it to TCP.
 \paragraph{IP addresses}
 Every computer connected to the internet has an IP Address\\
 \\
