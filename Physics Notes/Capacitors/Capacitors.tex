@@ -10,7 +10,7 @@
 \usepackage{fancyhdr}
 \usepackage{circuitikz}
 \pgfplotsset{width=10cm,compat=1.9}
-
+\usepackage{relsize}
 \titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \newlength\tindent
 \setlength{\tindent}{\parindent}
@@ -96,5 +96,47 @@ $E=\frac{1}{2}CV^2$\\
 $E=\frac{1}{2}\dfrac{Q^2}{C}$\\
 \\
 The battery supplies energy QV to the circuit but the capacitor only stores $\frac{1}{2}QV$, this means that 50\% of the energy provided by the battery is wasted due to resistance in the circuit.
-
+\section{Charging and discharging a capacitor}
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[ticks=none,ylabel=Voltage\textbackslash V,xlabel=Time\textbackslash S,axis lines=middle,
+label style={font=\large},xmin=0,xmax=2, 
+ x label style={at={(axis description cs:0.5,0)},anchor=north,font=\LARGE},
+ y label style={at={(axis description cs:0,.5)},rotate=90,anchor=south,font=\LARGE},
+]
+\addplot[mark=none,domain=0:2]{1/exp(x)};
+\end{axis}
+\end{tikzpicture}\\
+The smaller the resistor connected to the capacitor, the steeper the initial gradient\\
+\\
+$\text{p.d.}\propto \text{rate of change of p.d.}$\\
+\\
+\textbf{Formula for discharge of a capacitor}\\
+$\mathlarger{\mathlarger{Q=Q_0e^{-\frac{t}{RC}}}}$\\
+\\
+Where:\\
+Q=Charge at time, t\\
+$Q_0$=Initial charge\\
+\\
+$\mathlarger{\mathlarger{e^{-\frac{t}{RC}}}}$=Multiplication factor between 0 and 1\\
+\\
+This also works for:\\
+\\
+$\mathlarger{\mathlarger{V=V_0e^{-\frac{t}{RC}}}}$\\
+\textbf{Formula for charging of a capacitor}\\
+$\mathlarger{\mathlarger{Q=Q_0(1-e^{-\frac{t}{RC}})}}$\\
+\\
+\textbf{Rearranging for time}\\
+\\
+$\mathlarger{\mathlarger{V=V_0e^{-\frac{t}{RC}}}}$\\
+\\
+$\dfrac{V}{V_0}=e^{-\frac{t}{RC}}$\\
+$\ln\Big(\dfrac{V}{V_0}\Big)=-\dfrac{t}{RC}$\\
+$t=-RC\ln\Big(\dfrac{V}{V_0}\Big)$\\
+$t=RC\ln\Big(\dfrac{V_0}{V}\Big)$\\
+\\
+\subsection{Proof of the units of the time constant being seconds}
+$\tau=RC$\\\\
+$\tau=\dfrac{V}{I}\times\dfrac{Q}{V}=\dfrac{Q}{I}$\\
+\\
+$\dfrac{Q}{I}=t$(unit seconds)
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  5 NOV 2017 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  12 NOV 2017 12:11
 entering extended mode
 **./Capacitors.tex
 (Capacitors.tex
@@ -981,9 +981,12 @@ tex)
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircflow.tex
 )
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircpath.tex
-))
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
 \tindent=\skip57
- (Capacitors.aux)
+
+(Capacitors.aux)
 \openout1 = `Capacitors.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -1131,25 +1134,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] [2] (Capacitors.aux) ) 
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <17.28> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+
+ []
+
+[2] [3] (Capacitors.aux) ) 
 Here is how much of TeX's memory you used:
- 31006 strings out of 493318
- 821810 string characters out of 3139004
- 1078190 words of memory out of 3000000
- 34098 multiletter control sequences out of 15000+200000
- 7581 words of font info for 28 fonts, out of 3000000 for 9000
+ 31103 strings out of 493318
+ 823252 string characters out of 3139004
+ 1079084 words of memory out of 3000000
+ 34184 multiletter control sequences out of 15000+200000
+ 11000 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,96p,730b,1906s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Capacitors.pdf (2 pages, 85238 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Capacitors.pdf (3 pages, 159026 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
