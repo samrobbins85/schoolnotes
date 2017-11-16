@@ -70,4 +70,12 @@ To create a complete network of least distances, you must ensure the \textbf{tri
 The longest side of any triangle $\leqslant$ The sum of the two shorter sides\\
 \\
 In a network where the triangle inequality does not hold, replace the longest arc with the sum of the two shorter ones.
+\section{Using a Minimum Spanning tree to find the upper bound of the travelling salesman problem}
+Method:
+\begin{itemize}
+\item Find the minimum spanning tree(Prim's or Kruskal's). This guarantees all vertexes are included.
+\item Double the length of the minimum spanning tree as the route includes going there and back.
+\item Find "short cuts"(using the non included arcs to bypass repeated edges.
+\end{itemize}
+This algorithm gives the initial upper bound
 \end{document}

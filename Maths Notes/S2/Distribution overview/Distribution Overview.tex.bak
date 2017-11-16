@@ -1,0 +1,240 @@
+\documentclass{article}[5pt]
+\usepackage[utf8]{inputenc}
+\usepackage[lmargin=0.1in,rmargin=0.1in,bmargin=0.1in,tmargin=0.6in,landscape,a4paper]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{pbox}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{mathtools}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\usepackage{relsize}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Distribution Overview}
+\end{center}
+\begin{center}
+
+\begin{small}
+{\renewcommand{\arraystretch}{3}
+\begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+ 
+ 
+&Uniform(Continuous)&Binomial(Discrete)&Poisson(Discrete)&Normal(Continuous)&CRVs(Continuous)\\
+\hline
+
+
+Notation&$\mathcal{U}(a,b)$&$B(n,p)$&$P_o(\lambda)$&$\mathcal{N}(\mu,\sigma^2)$&
+
+$
+  f(x)=\left\{
+  \begin{array}{@{}ll@{}}
+    f(x), & \text{for}\ a\leq x \leq b  \\
+    0, & \text{otherwise}
+  \end{array}\right.
+$
+\\
+\hline
+Parameters&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+a= Start value\\
+b= End value\\
+\end{tabular}}
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+n= Number of trials\\
+p= Probability of success\\
+\end{tabular}}
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+$\lambda$= Mean number of occurrences\\
+in the time period\\
+\end{tabular}}
+
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+$\mu$= Mean\\
+$\sigma$= Standard Deviation\\
+\end{tabular}}
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+a= Start value\\
+b= End value\\
+\end{tabular}}
+\\
+\hline
+
+PDF or PMF&
+{\renewcommand{\arraystretch}{2}
+$
+  f(x)=\left\{
+  \begin{array}{@{}ll@{}}
+    \dfrac{1}{b-a}, & \text{for}\ a\leq x \leq b  \\
+    0, & \text{otherwise}
+  \end{array}\right.
+$}&
+{\renewcommand{\arraystretch}{2}
+$
+  f(r)=\left\{
+  \begin{array}{@{}ll@{}}
+    \binom{n}{r}p^r(1-p)^{n-r}, & \text{for}\ 0\leq r \leq n  \\
+    0, & \text{otherwise}
+  \end{array}\right.
+$}
+&
+{\renewcommand{\arraystretch}{2}
+$
+  f(r)=\left\{
+  \begin{array}{@{}ll@{}}
+    \dfrac{e^{-\lambda}\lambda^k}{k!}, & \text{for}\ 0\leq r \leq n  \\
+    0, & \text{otherwise}
+  \end{array}\right.
+$
+}
+&Don't need to know&
+\pbox[c][20pt][c]{\textwidth}{Given in question or:\\$\frac{dy}{dx}F(x)$}
+\\
+\hline
+
+
+CDF&
+{\renewcommand{\arraystretch}{2}
+$
+  f(x)=\left\{
+  \begin{array}{@{}ll@{}}
+  	0, & \text{for}\ x<a\\
+    \dfrac{x-a}{b-a}, & \text{for}\ a\leq x < b  \\
+    1, & \text{for}\ x\geq b
+  \end{array}\right.
+$}
+&
+Use tables
+&
+Use tables
+&
+\begin{tabular}{c}
+$z=\dfrac{x-\mu}{\sigma}$\\
+Then use tables\\
+\end{tabular}
+&
+$F(x)=\mathlarger{\int_{a}^{x}} f(x) dx$
+\\
+\hline
+
+
+Mean&
+$\frac{1}{2}(a+b)$
+&
+np
+&
+$\lambda$
+&
+$\mu$
+&
+$\mathlarger{\int_{a}^{b}} xf(x) dx$
+\\
+
+
+\hline
+Variance&
+$\frac{1}{12}(b-a)^2$
+&
+$np(1-p)$
+&
+$\lambda$
+&
+$\sigma^2$
+&
+$\mathlarger{\int_{a}^{b}} x^2f(x)dx-\mu^2 $
+\\
+\hline
+
+
+Median&
+$\frac{1}{2}(a+b)$&
+Don't need to know&
+Don't  need to know&
+$\mu$&
+Where F(x)=0
+\\
+\hline
+
+
+Mode&
+Any Value&
+Don't need to know&
+Don't need to know&
+$\mu$&
+Where $f'(x)=0$
+\\
+\hline
+
+
+$\approx$ Binomial&
+No&
+N/A&
+Check using inverse&\pbox[b][20pt]{\textwidth}{$P=1-\frac{\sigma^2}{\mu}$\\$n=\frac{\mu}{P}$}&
+No\\
+\hline
+
+
+$\approx$ Poisson&
+No&
+\pbox[b][20pt]{\textwidth}{\textbf{Where $\mathbf{p<0.1}$ and $\mathbf{n>50}$}\\$X\sim B(n,p)\approx Y\sim P_o(np)$}&
+N/A&
+\pbox[b][20pt]{\textwidth}{\textbf{Where $\mathbf{\mu\approx\sigma^2}$ and $\mathbf{\mu>10}$}\\$\mathcal{N}(n,p)\approx X\sim P_o(n \ or \ p)$}&
+No\\
+\hline
+
+
+$\approx$ Normal&
+No&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+\textbf{Where $\mathbf{n>10}$ and $\mathbf{P<0.5}$}\\
+$X\sim B(n,p)\approx\mathcal{N}\big(np,np(1-p)\big)$\\
+Don't forget continuity correction\\
+\end{tabular}}
+
+%\pbox[b][20pt]{\textwidth}{\textbf{Where $\mathbf{n>10}$ and $\mathbf{P<0.5}$}\\$X\sim B(n,p)\approx\mathcal{N}\big(np,np(1-p)\big)$}
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+\textbf{Where $\mathbf{\lambda>10}$}\\
+$X\sim P_o(\lambda)\approx\mathcal{N}(\lambda,\lambda)$\\
+Don't forget continuity correction\\
+\end{tabular}}&
+N/A&
+No\\
+\hline
+
+
+\end{tabular}
+}
+\end{small}
+\end{center}
+
+
+
+\end{document}

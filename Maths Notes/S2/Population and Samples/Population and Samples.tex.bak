@@ -1,0 +1,58 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{tabularx}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+\begin{document}
+\begin{center}
+\underline{\huge Population and Samples}
+\end{center}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+  \textbf{Term} & \textbf{Definition} \\
+\hline
+Population&A collection of individual people or items\\
+\hline
+Finite population&Countable\\
+\hline
+Infinite population&Impossible to count (different from infinite number, e.g. grains of sand)\\
+\hline
+Census&Information obtained from all members of the population\\
+\hline
+Advantages of a census&
+\begin{itemize}
+\item Every single member of the population is used
+\item It is unbiased
+\item It gives an accurate answer
+\end{itemize}\\
+\hline
+Disadvantages of a census&
+\begin{itemize}
+\item Takes a long time
+\item Costly
+\end{itemize}
+\end{tabularx}
+
+\end{document}
