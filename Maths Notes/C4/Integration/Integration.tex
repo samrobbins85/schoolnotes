@@ -215,4 +215,20 @@ A double application can sometimes lead to the integral having the negative vers
 In C4 we may be asked to find the \% error between the trapezium rule approximation and an exact value.\\
 \\
 $$\text{\% error}=\dfrac{\text{Approx-Actual}}{\text{Actual}}\times 100$$
+\section{Volume of revolutions}
+This finds the volume of a graph when rotated round the x axis.\\
+$$\text{Volume}=\pi\mathlarger{\int_a^b}y^2 \ dx$$
+\subsection{Example}
+$y=\sin2x$\\
+\textit{Find the volume between $x=0$ and $x=\frac{\pi}{2}$ when rotated round the $x$ axis by $2\pi$}\\
+\\
+Volume = $\pi\mathlarger{\int_0^\frac{\pi}{2}}\sin^22x \ dx$\\
+\\
+Volume = $\pi\mathlarger{\int_0^\frac{\pi}{2}}\frac{1}{2}(1-\cos4x) \ dx$\\
+\\
+Volume = $\dfrac{\pi}{2}\mathlarger{\int_0^\frac{\pi}{2}}1 \ dx - \dfrac{\pi}{2}\mathlarger{\int_0^\frac{\pi}{2}}\cos4x \ dx$\\
+\\
+Volume = $\Big[\dfrac{\pi}{2}x\Big]^\frac{\pi}{2}_0-\Big[\dfrac{\pi}{8}\sin4x\Big]^\frac{\pi}{2}_0$\\
+\\
+Volume = $\dfrac{\pi^2}{4}$
 \end{document}
