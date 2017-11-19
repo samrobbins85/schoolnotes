@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage[a4paper,margin=0.5in, top=0.7in,landscape]{geometry}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{relsize}
+\usepackage{fancyhdr}
+\hyphenpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - C4}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Common integrals}
+\end{center}
+\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+$\mathlarger{\int}\sin f(x)\cos f(x) \ dx$&$\mathlarger{\int}\sin f(x)\cos g(x) \ dx$&$\mathlarger{\int}\sin^2f(x)\cos^2f(x) \ dx$\\
+\hline
+\textbf{Example}:$\mathlarger{\int}\sin 3x\cos 3x \ dx$\newline
+\newline
+\textbf{Use addition formula to simplify}\newline
+\textcolor{red}{$\sin2x=2\cos x\sin x$}\newline
+\textcolor{red}{$\sin3x\cos3x=\frac{1}{2}\sin6x$}\newline
+$\frac{1}{2}\mathlarger{\int}\sin6x \ dx$\newline
+\newline
+\textbf{Find a value for u}\newline
+$u=6x$\newline
+\newline
+\textbf{Find dx in terms of du}\newline
+$\frac{du}{dx}=6$\newline
+$dx=\frac{1}{6}du$\newline
+\newline
+\textbf{Substitute two conversions from x to u}\newline
+$\frac{1}{2}\times\frac{1}{6}\mathlarger{\int}\sin u \ du$\newline
+\newline
+\textbf{Use integration of sin formula}\newline
+$\frac{1}{12}\mathlarger{\int}\sin u \ du=-\frac{1}{12}\cos u +c$\newline
+\newline
+\textbf{Substitute x for u}\newline
+$-\frac{1}{12}\cos6x+c$
+&
+\textbf{Example:}$\mathlarger{\int}\sin(3x)\cos(2x) \ dx$\newline
+\newline
+\textbf{Add together sin addition formula and sin subtraction formula}\newline
+\textcolor{red}{$\sin(A+B)=\sin A\cos B+\cos A\sin B$}\newline
+\textcolor{red}{$\sin(A-B)=\sin A\cos B-\cos A\sin B$}\newline
+\textcolor{red}{$\sin(A+B)+\sin(A-B)=2\sin A\cos B$}\newline
+\textcolor{red}{$\sin 3x\cos 2x=\sin(3x+2x)+\sin(3x-2x)$}\newline
+$\frac{1}{2}\mathlarger{\int}\sin5x+\sin x \ dx=\frac{1}{2}\mathlarger{\int}\sin5x \ dx+\frac{1}{2}\mathlarger{\int}\sin x \ dx$\newline
+\newline
+\textbf{Integrate using sin standard result}\newline
+$-\frac{1}{10}\cos5x-\frac{1}{1}\cos x+c$
+&
+\textbf{Example:}$\mathlarger{\int}\sin^2(x)cos^2(x) \ dx$\newline
+\textbf{Give $\mathbf{sin^2(x)cos^2(x)}$ in terms of $\mathbf{sin^2(x)}$}\newline
+\textcolor{red}{$2\sin(x)\cos(x)=\sin2x$}\newline
+\textcolor{red}{$4\sin^2(x)\cos^2(x)=\sin^22x$}\newline
+$\cos^2x\sin^2x=\frac{1}{4}\sin^22x$\newline
+\textbf{Sub simplified version}\newline
+$\mathlarger{\int}\frac{1}{4}\sin^22x \ dx$\newline
+\textbf{Give $\mathbf{sin^2x}$ in terms of $\mathbf{cosx}$}\newline
+\textcolor{red}{$2\sin^22x=\sin^22x+(1-\cos^22x)$}\newline
+\textcolor{red}{$2\sin^22x=1-(\cos^22x-\sin^22x)$}\newline
+\textcolor{red}{$2\sin^22x=1-\cos4x$} - Use of cos subtraction formula\newline
+$\sin^22x=\frac{1}{2}-\frac{1}{2}\cos4x$\newline
+\textbf{Sub simplified version}\newline
+$\frac{1}{4}\mathlarger{\int}\frac{1}{2}-\frac{1}{2}\cos4x \ dx$\newline
+$\frac{1}{8}\mathlarger{\int}1-\cos4x \ dx$\newline
+\textbf{Use cos integration standard result}\newline
+$\frac{1}{8}(x-\frac{1}{4}\sin4x)+c$\newline
+\newline
+$\frac{1}{8}x-\frac{1}{32}\sin4x+c$\newline
+\\
+\hline
+\end{tabularx}
+\newpage
+
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+$\mathlarger{\int}\cos^2f(x) \ dx$&$\sin^2f(x) \ dx$&$\mathlarger{\int}\ln f(x) \ dx$\\
+\hline
+$\mathlarger{\int}\cos x\times\cos x$\newline
+$\mathbf{u}=\cos x$\newline
+$\mathbf{v'}=\cos x$\newline
+\newline
+\textbf{Use integration by parts}\newline
+$\mathlarger{\int}\cos^2x=\sin x\cos x-\mathlarger{\int}-\sin^2x$\newline
+$\mathlarger{\int}\cos^2x=\sin x\cos x+\mathlarger{\int}\sin^2x$\newline
+$\mathlarger{\int}\cos^2x=\sin x\cos x+\mathlarger{\int}1-\cos^2x$\newline
+$\mathlarger{\int}\cos^2x=\sin x\cos x+x-\mathlarger{\int}\cos^2x$\newline
+$2\mathlarger{\int}\cos^2x=\sin x\cos x+x$\newline
+$\mathlarger{\int}\cos^2x=\frac{1}{2}\sin x\cos x+\frac{1}{2}x+c$
+&
+$\mathlarger{\int}\sin x\times\sin x$\newline
+$\mathbf{u}=\sin x$\newline
+$\mathbf{v'}=\sin x$\newline
+\newline
+\textbf{Use integration by parts}\newline
+$\mathlarger{\int}\sin^2x=-\sin x\cos x-\mathlarger{\int}-\cos^2x$\newline
+$\mathlarger{\int}\sin^2x=-\sin x\cos x+\mathlarger{\int}\cos^2x$\newline
+$\mathlarger{\int}\sin^2x=-\sin x\cos x+\mathlarger{\int}1-\sin^2x$\newline
+$\mathlarger{\int}\sin^2x=-\sin x\cos x+x-\mathlarger{\int}\sin^2x$\newline
+$2\mathlarger{\int}\sin^2x=-\sin x\cos x+x$\newline
+$\mathlarger{\int}\sin^2x=-\frac{1}{2}\sin x\cos x+\frac{1}{2}x+c$
+
+&
+$\mathlarger{\int}\ln x \ dx$\newline
+\textbf{u}$=\ln x$\newline
+\textbf{v'}$=1$\newline
+\newline
+\textbf{Use integration by parts}\newline
+$\mathlarger{\int}\ln x=x\ln x-\mathlarger{\int}x\times\frac{1}{x}$\newline
+$\mathlarger{\int}\ln x=x\ln x-x$
+\\
+\hline
+\end{tabularx}
+\end{document}
