@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  12 NOV 2017 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  19 NOV 2017 18:19
 entering extended mode
 **./Challenges.tex
 (Challenges.tex
@@ -717,7 +717,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-Overfull \hbox (1.76126pt too wide) in paragraph at lines 350--353
+Overfull \hbox (4.03903pt too wide) in paragraph at lines 232--235
  []| 
  []
 
@@ -736,7 +736,7 @@ Here is how much of TeX's memory you used:
 /cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Challenges.pdf (2 pages, 65780 bytes).
+Output written on Challenges.pdf (2 pages, 64520 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
