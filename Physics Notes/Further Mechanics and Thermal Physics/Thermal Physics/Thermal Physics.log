@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  17 NOV 2017 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  23 NOV 2017 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -859,13 +859,31 @@ File: tikzlibraryscopes.code.tex 2008/06/27 v3.0.1a (rcs-revision 1.2)
 ) (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-\tindent=\skip57
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen188
+\extrarowheight=\dimen189
+\NC@list=\toks41
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\TX@col@width=\dimen190
+\TX@old@table=\dimen191
+\TX@old@col=\dimen192
+\TX@target=\dimen193
+\TX@delta=\dimen194
+\TX@cols=\count130
+\TX@ftn=\toks42
+)
+\tindent=\skip59
 \pgf@layerbox@background layer=\box41
 \pgf@layerboxsaved@background layer=\box42
 \pgf@layerbox@foreground layer=\box43
 \pgf@layerboxsaved@foreground layer=\box44
-
-(./Thermal Physics.aux)
+ (./Thermal Physics.aux)
 \openout1 = `"Thermal Physics.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -917,17 +935,17 @@ LaTeX Font Info:    ... okay on input line 31.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen188
+\scratchcounter=\count131
+\scratchdimen=\dimen195
 \scratchbox=\box45
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen189
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks42
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen196
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -996,7 +1014,7 @@ Package gensymb Info: Using \Omega for \ohm on input line 31.
 Package gensymb Warning: Not defining \micro.
 
 
-Overfull \hbox (39.10571pt too wide) in paragraph at lines 36--47
+Overfull \hbox (40.70569pt too wide) in paragraph at lines 36--47
 [][] 
  []
 
@@ -1032,31 +1050,37 @@ Package pdftex.def Info: Requested size: 144.54pt x 230.92412pt on input line 6
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./water_heat_curve.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
-[2 <./SHC_Experiment.jpg>] (./Thermal Physics.aux) ) 
+[2 <./SHC_Experiment.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 93--100
+
+ []
+
+[3] (./Thermal Physics.aux) ) 
 Here is how much of TeX's memory you used:
- 23378 strings out of 492985
- 586660 string characters out of 6138637
- 779708 words of memory out of 5000000
- 26531 multiletter control sequences out of 15000+600000
+ 23469 strings out of 492985
+ 587749 string characters out of 6138637
+ 782708 words of memory out of 5000000
+ 26616 multiletter control sequences out of 15000+600000
  6530 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,734b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Thermal Physics.pdf" (2 pages, 407369 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Thermal Physics.pdf" (3 pages, 419312 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

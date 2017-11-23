@@ -231,4 +231,31 @@ Volume = $\dfrac{\pi}{2}\mathlarger{\int_0^\frac{\pi}{2}}1 \ dx - \dfrac{\pi}{2}
 Volume = $\Big[\dfrac{\pi}{2}x\Big]^\frac{\pi}{2}_0-\Big[\dfrac{\pi}{8}\sin4x\Big]^\frac{\pi}{2}_0$\\
 \\
 Volume = $\dfrac{\pi^2}{4}$
+\newpage
+\section{Differential equations}
+$\dfrac{dy}{dx}=f(x)\cdot g(y)$\\
+\\
+\textbf{Separate variables}\\
+$\dfrac{dy}{g(y)}=f(x) \ dx$\\
+\\
+\textbf{Solve using integration}\\
+$\mathlarger{\int}\dfrac{1}{g(y)} \ dy=\mathlarger{\int}f(x) \ dx$
+\subsection{General solution}
+General solutions have an unknown constant term
+\subsection{Example}
+$\dfrac{dy}{dx}=(1+y)(1-2x)$\\
+\\
+$\mathlarger{\int}\dfrac{1}{1+y} \ dy = \mathlarger{\int}1-2x \ dx$\\
+\\
+$\ln(1+y)=x-x^2+c$\\
+\\
+$1+y=e^{x-x^2}\times k$\\
+\\
+$y=ke^{x(1-x)}-1$
+\subsection{Boundary conditions}
+We can find a "particular solution" to a differential equation if we are given boundary conditions.\\
+\\
+You start by finding the general solution, then apply the boundary conditions.
+\subsubsection{Example}
+The rate of change of the volume of a container is with respect to time.
 \end{document}

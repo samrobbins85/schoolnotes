@@ -12,7 +12,7 @@
 \usetikzlibrary{scopes}
 \pgfplotsset{width=10cm,compat=1.9}
 \usepackage{gensymb}
-
+\usepackage{tabularx}
 \titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \newlength\tindent
 \setlength{\tindent}{\parindent}
@@ -69,10 +69,32 @@ The energy needed to change 1kg of a liquid to a vapour without a temperature ch
 \item Start a stopclock, record the V, I and temperature
 \item Record V, I and T every 2 minutes for 20 minutes
 \end{enumerate}
-\section{Boyle's law}
+\section{Gas laws}
+\subsection{Boyle's law}
 Boyle's law - Pressure is inversely proportional to volume\\
 Gases - Free moving particles, no forces\\
 $$\text{Boyle's law: } P=kV^{g}$$
 $$\ln(P)=\ln(k)+g\ln(V)$$
 $$\text{This is in the form y=c+mx}$$
+\subsection{Summary of gas laws}
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+Law&Proportionality&Constant&Equation\\
+\hline
+Boyle's&$p\propto\dfrac{1}{v}$&Temperature, moles&$p_1v_1=p_2v_2$\\
+\hline
+Charles'&$V\propto T$&Pressure, moles&$\dfrac{v_1}{T_1}=\dfrac{v_2}{T_2}$\\
+\hline
+Gay-Lussac&$p\propto T$&Volume, moles&$\dfrac{p_1}{T_1}=\dfrac{P_2}{T_2}$\\
+\hline
+\end{tabularx}
+\newpage
+\subsection{Ideal Gas equation}
+$$pV=nRT$$\\
+\\
+p=Pressure(Pascals)\\
+V=Volume($m^3$)\\
+n=Number of moles\\
+R=Universal gas constant=$8.31JK^{-1}mol^{-1}$\\
+T=Temperature(K)
 \end{document}
