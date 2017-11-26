@@ -288,14 +288,9 @@ cs:\pgfkeysvalueof{/pgfplots/xmax},0);
 \Huge{$\dfrac{dy}{dx}=n[f(x)]^{n-1}f'(x)$}
 \end{flashcard}
 
-\begin{flashcard}[]{\Huge{$y=f[g(x)]$}}
-\Huge{$\dfrac{dy}{dx}=f'[g(x)]g'(x)$}
+\begin{flashcard}[]{\Huge{$y=[f(x)]^n$}}
+\Huge{$\dfrac{dy}{dx}=n[f(x)]^{n-1}f'(x)$}
 \end{flashcard}
-
-\begin{flashcard}[]{\Huge{$y=uv$}}
-\Huge{$\dfrac{dy}{dx}=u\dfrac{dv}{dx}+v\dfrac{du}{dx}$}
-\end{flashcard}
-
 
 
 

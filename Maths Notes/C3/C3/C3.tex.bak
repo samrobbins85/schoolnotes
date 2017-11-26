@@ -65,7 +65,7 @@ Example, find the inverse function of $y=2x^2-7$:
 $y+7=2x^2$\\
 $\dfrac{y+7}{2}=x^2$\\
 $x=\sqrt{\dfrac{y+7}{2}}$\\
-$f^{-1}x=\sqrt{\dfrac{y+7}{2}}$\\
+$f^{-1}x=\sqrt{\dfrac{x+7}{2}}$\\
 
 When finding the graph of an inverse function, reflect $f(x)$ in the line y=x.
 
@@ -467,7 +467,7 @@ If $y=f[g(x)]$ then $\dfrac{dy}{dx}=f'[g(x)]g'(x)$
 \\
 \textbf{Example}
 \\
-$f(x)=3x^4+x$
+$f(x)=(3x^4+x)^5$
 \\
 $f'(x)=12x^3+1$
 \\
@@ -547,7 +547,13 @@ If $y=\cot f(x)$ then $\dfrac{dy}{dx}=-f'(x)\csc^2f(x)$\\
 \begin{center}
 \underline{\huge Differentiation Table}
 \end{center}
+
+
+
 \begin{center}
+
+\begin{Large}
+
 \begin{tabular}{|c|c|}
  \hline
  $y$&$\dfrac{dy}{dx}$\\
@@ -575,7 +581,9 @@ If $y=\cot f(x)$ then $\dfrac{dy}{dx}=-f'(x)\csc^2f(x)$\\
  $y=\cot f(x)$&$\dfrac{dy}{dx}=-f'(x)\csc^2f(x)$\\
  \hline
 \end{tabular}
+\end{Large}
 \end{center}
+
 
 
 
