@@ -162,4 +162,84 @@ For example for $f(x)=\sqrt x$ where $x\in\mathbb{R}$ all positive values get ma
  \end{tikzpicture}
  \end{figure}\\
 This means that the domain must be restricted to $x\geqslant0$
+\subsection{Inverse functions}
+The inverse of $f(x)$ is written as $f^{-1}(x)$\\
+The domain and range of inverse function are the opposite of the normal function.
+\subsubsection{Finding the inverse function}
+To find the inverse function isolate $x$ then replace $x$ with $f^{-1}(x)$ and $y$ with $x$\\
+\\
+$y=2x^2-7$\\
+\\
+$y=7=2x^2$\\
+\\
+$\dfrac{y+7}{2}=x^2$\\
+\\
+$x=\sqrt{\dfrac{y+7}{2}}$\\
+\\
+$f^{-1}(x)=\sqrt{\dfrac{x+7}{2}}$\\
+\\
+\textbf{To show this graph it is the reflection of the normal function in the line $\mathbf{y=x}$}
+\section{Exponential and log functions}
+\subsection{Formulas for exponential growth or decay}
+Example:
+$P=16000e^{-\dfrac{t}{10}}$
+Where P is the Price in £s and t is the years from new\\
+\\
+\textit{What was the price when new?}\\
+\textbf{Substitute t=0}\\
+\\
+$P=16000e^{-\dfrac{0}{10}}$\\
+$P=16000 \times 1$\\
+\\
+\textit{What is the value at 5 years old}\\
+\textbf{Substitute t=5}\\
+$P=16000e^{-\frac{5}{10}}$\\
+$P=\mathsterling 9704.49$\\
+\\
+\textit{What does the model say about the eventual value of the car}\\
+As $t \rightarrow \infty$, $e^{-\frac{t}{10}} \rightarrow \infty$\\
+Therefore $P \rightarrow 16000 \times 0 = 0$\\
+The eventual value is zero.
+\subsection{The inverse of the exponential function}
+The function $f(x)=\ln x$ has domain \{$x \in \mathbb{R}$, $x>0$\} and range \{$f(x) \in \mathbb{R}$\}
+\newpage
+\section{Numerical methods}
+\subsection{Approximations for roots based on graphs}
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle,ymin=-6,scale=0.5,xmax=6]
+
+\addplot[color=red]{x-4};
+\end{axis}
+\end{tikzpicture}\\
+On this graph if the value of $f(x)$ was to be found at 2 it would be \textbf{negative}, whereas if it was to be found at 6 it would be \textbf{positive}, this implies that there is a root in-between 2 and 6\\
+\\
+The exception to this rule is $f(x)=\frac{1}{x}$ as there is a discontinuity at $x=0$, however there is no root
+\subsection{Iteration for finding approximations of roots}
+To solve an equation of the form $f(x)=0$ by an iterative method, rearrange $f(x)=0$ into a for $x=g(x)$ and use the iterative formula $x_{n+1}=g(x_n)$.\\
+\\
+Example, find a root of the equation $x^2-4x+1=0$\\
+Re-write as $x=4-\dfrac{1}{x}$\\
+
+Create the formula $x_{n+1}=4-\dfrac{1}{x_n}$\\
+You get given a rough approximation, $x_0=3$\\
+Substitute\\
+$x_1=4-\dfrac{1}{x_0}$\\
+$x_1=4-\dfrac{1}{3}$\\
+$x_1=\dfrac{11}{3}$\\
+\\
+$x_2=4-\dfrac{1}{\frac{11}{3}}$\\
+$x_2=\dfrac{41}{11}$\\
+Continuing this increases the accuracy of the result.\\
+This may not work and will not converge to a root.
+\section{Further Trigonometric identities and their applications}
+\subsection{The R formula}
+For positive values of \textit{a} and \textit{b}
+\\
+$a\sin\theta\pm b\cos\theta$ can be expressed in the form $R\sin(\theta\pm\alpha)$, where $0<\alpha<90$
+\\
+$a\cos\theta\pm b\sin\theta$ can be expressed in the form $R\cos(\theta\mp\alpha)$, where $0<\alpha<90$ 
+\\
+$R=\sqrt{a^2+b^2}$
+\\
+$\alpha=\arctan(\frac{b}{a})$
 \end{document}
