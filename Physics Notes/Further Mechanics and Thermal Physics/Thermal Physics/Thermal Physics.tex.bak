@@ -88,6 +88,28 @@ Charles'&$V\propto T$&Pressure, moles&$\dfrac{v_1}{T_1}=\dfrac{v_2}{T_2}$\\
 Gay-Lussac&$p\propto T$&Volume, moles&$\dfrac{p_1}{T_1}=\dfrac{P_2}{T_2}$\\
 \hline
 \end{tabularx}
+\newpage
 \subsection{Ideal Gas equation}
-$$pV=nRT$$
+$$pV=nRT$$\\
+\\
+p=Pressure(Pascals)\\
+V=Volume($m^3$)\\
+n=Number of moles\\
+R=Universal gas constant=$8.31JK^{-1}mol^{-1}$\\
+T=Temperature(K)
+\section{Brownian Motion}
+The random and unpredictable motion of a particle such as a smoke particle caused by molecules of the surrounding substance colliding at random with the particle. Its discovery provided evidence for the existence of atoms.
+\section{Kinetic theory of gases}
+This is a model of gas behaviour based on known laws of physics.\\
+\\
+On the other hand the gas laws are empirical and are based on experimental results only.\\
+\subsection{Assumptions for an ideal gas}
+\begin{itemize}
+\item Newton's laws of motion can be applied
+\item The molecules of a particular gas are identical
+\item The size of the particles are negligible compared to the distance between them
+\item The molecules exert NO forces on each other, including during collision. Gravitational force is neglected. When not colliding, the particles move with constant velocity, and that velocity is random.
+\item All collisions are perfectly elastic
+\item The duration of the collision is 
+\end{itemize}
 \end{document}
