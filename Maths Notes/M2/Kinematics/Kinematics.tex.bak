@@ -98,9 +98,7 @@ $a=\dfrac{dv}{dt}$\\
   \node (disp) {\textbf{Displacement} $x$};
   \node[right=2cm of disp] (vel) {\textbf{Velocity} $v$};
   \node[right=2cm of vel] (acc) {\textbf{Acceleration} $a$};
-  \draw[-stealth,shorten >= 2pt] (disp.north) to[bend left] node[midway,above] {Differentiate} (vel.north);
-  \draw[-stealth] (vel.south) to[bend left] node[midway,below] {Integrate} (disp.south);
-  \draw[-stealth,shorten >= 2pt] (vel.north) to[bend left] node[midway,above] {Differentiate} (acc.north);
-    \draw[-stealth] (acc.south) to[bend left] node[midway,below] {Integrate} (vel.south);
+  \draw[-stealth,shorten >= 2pt] (disp.north) to[bend left] node[midway,above] {Integrate} (vel.north);
+  \draw[-stealth] (vel.south) to[bend left] node[midway,below] {Differentiate} (disp.south);
 \end{tikzpicture}
 \end{document}

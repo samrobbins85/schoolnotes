@@ -41,7 +41,7 @@ f(x) must satisfy these basic properties:
 \begin{itemize}
 \item $f(x)\geqslant 0$ for all values of $x$, so that no probabilities are negative.
 \item $\mathlarger{\int_{\infty}^{-\infty}} f(x) dx=1$  (The sum of all probabilities is 1)
-\item $P(a<x<b)=\mathlarger{\int_{b}^{a}} f(x) dx$
+\item $P(a<x<b)=\mathlarger{\int_{a}^{b}} f(x) dx$
 \end{itemize}
 For continuous random variables $P(x<z)=P(x\leqslant z)$
 
