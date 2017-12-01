@@ -9,7 +9,8 @@
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
 \usepackage{tikz}
-\usetikzlibrary{scopes}
+\usepackage{relsize}
+\usetikzlibrary{scopes,quotes,arrows.meta,arrows,shapes.geometric}
 \pgfplotsset{width=10cm,compat=1.9}
 \usepackage{gensymb}
 \usepackage{tabularx}
@@ -18,7 +19,7 @@
 \setlength{\tindent}{\parindent}
 \setlength{\parindent}{0pt}
 \renewcommand{\indent}{\hspace*{\tindent}}
-
+\tikzstyle{arrow} = [thick,->,>=stealth]
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Sam Robbins 13SE}
@@ -113,4 +114,91 @@ On the other hand the gas laws are empirical and are based on experimental resul
 \item The duration of the collision is negligible compared to the time between collisions.
 \item There are a large number of particles so that statistics can be meaningfully applied.
 \end{enumerate}
+\newpage
+\section{Derivation of the relationship between gas pressure and speed}
+
+\begin{tikzpicture}[every edge quotes/.append style={auto, text=black},scale=0.7]
+  \pgfmathsetmacro{\cubex}{5}
+  \pgfmathsetmacro{\cubey}{5}
+  \pgfmathsetmacro{\cubez}{5}
+  \draw [arrow] (-1,-1,1) -- (0,-1,1) node[below] {$C_{x\mathsmaller{1}}$};
+  \filldraw [red] (-1,-1,1) circle (6pt);
+  \draw [draw=black, every edge/.append style={draw=black, densely dashed, opacity=.5}]
+    (0,0,0) coordinate (o) -- ++(-\cubex,0,0) coordinate (a) -- ++(0,-\cubey,0) coordinate (b) edge coordinate [pos=1] (g) ++(0,0,-\cubez)  -- ++(\cubex,0,0) coordinate (c) -- cycle
+    (o) -- ++(0,0,-\cubez) coordinate (d) -- ++(0,-\cubey,0) coordinate (e) edge (g) -- (c) -- cycle
+    (o) -- (a) -- ++(0,0,-\cubez) coordinate (f) edge (g) -- (d) -- cycle;
+  \path [every edge/.append style={draw=black, |-|}]
+    (b) +(0,-5pt) coordinate (b1) edge ["l"'] (b1 -| c)
+    (b) +(-5pt,0) coordinate (b2) edge ["l"] (b2 |- a)
+    (c) +(3.5pt,-3.5pt) coordinate (c2) edge ["l"'] ([xshift=3.5pt,yshift=-3.5pt]e)
+    ;
+\end{tikzpicture}
+\\
+\textcolor{red}{Newton's $3^{\text{rd}}$ law - Every action has an equal and opposite reaction}\\
+$\Delta mc=mc_{x1}--mc_{x1}=2mc_{x1}$\\
+\\
+\\
+\textcolor{red}{Use $\text{Velocity}=\dfrac{\text{Distance}}{\text{Time}}$}\\
+Time=$\dfrac{\text{Distance}}{\text{Velocity}}=\dfrac{2l}{c_{x1}}$\\
+\\
+\\
+\textcolor{red}{Use force$=\dfrac{\text{Change in momentum}}{\text{time}}$}\\
+$\text{Force}=\dfrac{\Delta mc}{\Delta t}=\dfrac{2mc{x1}}{2l/c_{x1}}=\dfrac{mc_{x1}^2}{l}$\\
+\\
+\\
+\textcolor{red}{Use Pressure$=\dfrac{\text{Force}}{\text{Area}}$}\\
+\\
+$p_1=\dfrac{mc_{x1}^2/l}{l^2}=\dfrac{mc_{x1}^2}{l^3}$\\
+\\
+\\
+\textcolor{red}{Expand for N particles}\\
+$p=\Sigma p_n=p_1+p_2+p_3...+p_N$\\
+\\
+$p=\dfrac{mc_{x1}^2}{l^3}+\dfrac{mc_{x2}^2}{l^3}+\dfrac{mc_{x3}^2}{l^3}+\dfrac{mc_{xN}^2}{l^3}$\\
+\\
+$p=\dfrac{m}{l^3}(c_{x1}^2+c_{x2}^2+c_{x3}^2...+c_{xN}^2)$\\
+\\
+\\
+\textcolor{red}{The mean of all the squares of the velocities is written as $\mathlarger{\bar{c_x^2}}$}\\
+\\
+$\mathlarger{\bar{c_x^2}}=\dfrac{c_{x1}^2+c_{x2}^2+c_{x3}^2...+c_{xN}^2}{N}$\\
+\\
+$N\mathlarger{\bar{c_x^2}}=c_{x1}^2+c_{x2}^2+c_{x3}^2...+c_{xN}^2$\\
+\\
+\\
+\textcolor{red}{Simplify expression for pressure}\\
+\\
+$p=\dfrac{Nm\mathlarger{\bar{c_x^2}}}{l^3}$\\
+\\
+\\
+\\
+\textcolor{red}{Consider in 3 dimensions}\\
+\\
+$\mathlarger{\bar{c^2}=\bar{c_x^2}+\bar{c_y^2}+\bar{c_z^2}}$\\
+\\
+\\
+\textcolor{red}{Average of mean square velocity for each dimension are equal}\\
+\\
+$\mathlarger{\bar{c_x^2}=\bar{c_y^2}=\bar{c_z^2}}$\\
+\\
+\\
+\textcolor{red}{Simplify 3D formula}\\
+\\
+$\mathlarger{\dfrac{\bar{c^2}}{3}=\bar{c_x^2}=\bar{c_y^2}=\bar{c_z^2}}$\\
+\\
+\\
+\textcolor{red}{Simplify pressure formula}\\
+\\
+$p=\dfrac{1}{3}\times\dfrac{Nm\mathlarger{\bar{c^2}}}{l^3}$\\
+\\
+\\
+\textcolor{red}{Insert Density formula}\\
+\\
+$\rho=\dfrac{\text{Mass}}{\text{Volume}}=\dfrac{Nm}{l^3}$
+\\
+\\
+\\
+\textcolor{red}{Substitute into Pressure formula}\\
+\\
+$$p=\frac{1}{3}\rho\mathlarger{\bar{c^2}}$$
 \end{document}
