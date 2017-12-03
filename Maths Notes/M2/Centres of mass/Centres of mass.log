@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  2 DEC 2017 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  3 DEC 2017 11:06
 entering extended mode
 **"./Centres of mass.tex"
 ("Centres of mass.tex"
@@ -1120,22 +1120,77 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 <Equilibrium_Problem.JPG, id=16, 201.75375pt x 207.02344pt>
 File: Equilibrium_Problem.JPG Graphic file (type jpg)
 <use Equilibrium_Problem.JPG>
-Package pdftex.def Info: Equilibrium_Problem.JPG  used on input line 77. on inp
-ut line 77.
-Package pdftex.def Info: Requested size: 144.54pt x 148.31757pt on input line 7
-7.
+Package pdftex.def Info: Equilibrium_Problem.JPG  used on input line 76. on inp
+ut line 76.
+Package pdftex.def Info: Requested size: 108.405pt x 111.23817pt on input line 
+76.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--134
 
  []
 
 [2 <./Equilibrium_Problem.JPG>] ("Centres of mass.aux") ) 
 Here is how much of TeX's memory you used:
- 23443 strings out of 493318
- 592054 string characters out of 3139004
- 780313 words of memory out of 3000000
- 26571 multiletter control sequences out of 15000+200000
- 5306 words of font info for 20 fonts, out of 3000000 for 9000
+ 23558 strings out of 493318
+ 594778 string characters out of 3139004
+ 782313 words of memory out of 3000000
+ 26678 multiletter control sequences out of 15000+200000
+ 7925 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,737b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKT
@@ -1143,12 +1198,16 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Centres of mass.pdf" (2 pages, 106734 bytes).
+s/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmti10.pfb>
+Output written on "Centres of mass.pdf" (2 pages, 150869 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
