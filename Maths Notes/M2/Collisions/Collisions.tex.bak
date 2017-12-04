@@ -100,8 +100,8 @@ The balls have the same radius and can be modelled as particles.}\\
 \\
 \\
 \begin{tikzpicture}
-\filldraw[color=black,fill=none,very thick](3,0.5) circle (0.5) node{B};
-\filldraw[color=black,fill=none,very thick](-3,0.5) circle (0.5) node{A};
+\filldraw[color=black,fill=none,very thick](3,0.5) circle (0.5);
+\filldraw[color=black,fill=none,very thick](-3,0.5) circle (0.5) node{T};
 \draw (-4,0) -- (4,0);
 \end{tikzpicture}
 
