@@ -17,7 +17,8 @@
 \setlength{\tindent}{\parindent}
 \setlength{\parindent}{0pt}
 \renewcommand{\indent}{\hspace*{\tindent}}
-
+\pretolerance=10000
+\hyphenpenalty=10000
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Sam Robbins 13SE}
@@ -98,11 +99,113 @@ The balls have the same radius and can be modelled as particles.}\\
 \textit{Find the speed of A immediately after the collision}\\
 \\
 \\
+\textbf{1. Draw the diagram in its initial state}\\
 \\
 \begin{tikzpicture}
 \filldraw[color=black,fill=none,very thick](3,0.5) circle (0.5) node{B};
 \filldraw[color=black,fill=none,very thick](-3,0.5) circle (0.5) node{A};
 \draw (-4,0) -- (4,0);
-\end{tikzpicture}
+\draw[arrows=->](-2.5,0.5)--(-1.5,0.5) node[above]{$u$};
+\draw[arrows=->](2.5,0.5)--(1.5,0.5) node[above]{$u$};
+\end{tikzpicture}\\
+\\
+\textbf{2. Apply the conservation of momentum formula (make sure to remember different directions)}\\
+\textcolor{red}{$m_1u_1+m_2u_2=m_1v_1+m_2v_2$}\\
+\\
+$3mu-mu=3mv+mw$\\
+\\
+$\underline{2u=3v+w}$\\
+\\
+\textbf{3. Apply Newton's law of restitution}\\
+\\
+\textcolor{red}{$e=\dfrac{\text{Speed of separation}}{\text{Speed of approach}}$}\\
+\\
+\\
+$\dfrac{1}{2}=\dfrac{w-v}{2u}$\\
+\\
+$u=w-v$\\
+\\
+$\underline{u+v=w}$\\
+\\
+\textbf{4. Combine the results from momentum and restitution}\\
+\\
+$2u=3v+u+v$\\
+\\
+$u=4v$\\
+\\
+$v=\frac{1}{4}u$\\
+\\
+$\underline{|v|=\frac{1}{4}u}$\\
+\\
+\textit{Find the speed of B immediately after the collision}\\
+\\
+\textbf{Combine the result from Newton's law of restitution and the speed of A}\\
+\\
+$u=w-\frac{1}{4}u$\\
+\\
+$\underline{|w|=\frac{5}{4}u}$
+\newpage
+\textit{After the collision B hits a smooth vertical wall which is perpendicular to the direction of
+motion of B. The coefficient of restitution between B and the wall is $\frac{2}{5}$}\\
+\\
+\textit{Find the speed of B immediately after hitting the wall}\\
+\\
+\textbf{Apply Newton's law of restitution}\\
+\\
+\textcolor{red}{$e=\dfrac{\text{Speed of separation}}{\text{Speed of approach}}$}\\
+\\
+\\
+$\dfrac{2}{5}=\dfrac{V}{\frac{5}{4}u}$\\
+\\
+\\
+$V=\frac{2}{5}\times\frac{5}{4}u=\underline{\frac{1}{2}u}$\\
+\\
+\textit{The first collision between A and B occurred at a distance 4a from the wall. The balls collide
+again T seconds after the first collision.}\\
+\\
+\textit{Show that $T=\dfrac{112a}{15u}$}\\
+\\
+\textbf{Re-draw diagram to show new information}\\
+\\
+\begin{tikzpicture}
+\filldraw[color=black,fill=none,very thick](3,0.5) circle (0.5) node{B};
+\filldraw[color=black,fill=none,very thick](-3,0.5) circle (0.5) node{A};
+\draw (-4,0) -- (6,0);
+\draw (6,0) -- (6,2);
+\draw[arrows=->](-2.5,0.5)--(-1.5,0.5) node[above]{$\frac{1}{4}u$};
+\draw[arrows=->](2.5,0.5)--(1.5,0.5) node[above]{$\frac{1}{2}u$};
+\end{tikzpicture}\\
+\\
+\textbf{Calculate the time it takes for B to approach the wall}\\
+\\
+\textcolor{red}{Time$=\dfrac{\text{Distance}}{\text{Speed}}$}\\
+\\
+\\
+Time= $\dfrac{4a}{\frac{5}{4}u}=\dfrac{16a}{5u}$\\
+\\
+\textbf{Calculate the distance A moves towards the wall}\\
+\\
+$\text{Distance}=\dfrac{1}{4}u\times\dfrac{16a}{5u}=\dfrac{4}{5}a$\\
+\\
+\textbf{Calculate the speed A and B approach each other}\\
+\\
+$\dfrac{1}{4}u+\dfrac{1}{2}u=\dfrac{3}{4}u$\\
+\\
+\textbf{Calculate the distance between A and B immediately after B has collided with the wall}\\
+\\
+$4a-\dfrac{4}{5}a=\dfrac{16}{5}a$\\
+\\
+\textbf{Calculate time based on speed and distance}\\
+\\
+$t=\dfrac{\frac{16}{5}a}{\frac{3}{4}u}=\dfrac{64a}{15u}$\\
+\\
+\textbf{Add times to calculate total time}\\
+\\
+$\dfrac{16a}{5u}+\dfrac{64a}{15u}=\dfrac{112a}{15u}$
+
+
+
+
+
 
 \end{document}
