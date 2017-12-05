@@ -100,7 +100,7 @@ $\bar{x}=\dfrac{\frac{5}{2}a^3}{3a^2}=\dfrac{5a}{6}$\\
 \textit{The lamina is freely suspended from A and hangs in equilibrium.}\\
 \textit{(b) Find, in degrees to one decimal place, the angle which AF makes with the vertical.}\\
 \\
-\textbf{Use symmetry to find the y coordinate of the centre of mass}\\
+\textbf{3. Use symmetry to find the y coordinate of the centre of mass}\\
 \\
 \begin{tikzpicture}[scale=1.9]
 \tikzstyle{ann} = [fill=white,font=\footnotesize,inner sep=1pt]
@@ -114,7 +114,7 @@ $\bar{x}=\dfrac{\frac{5}{2}a^3}{3a^2}=\dfrac{5a}{6}$\\
 \end{tikzpicture}
 \\
 \\
-\textbf{Re-draw to find angle}\\
+\textbf{4. Re-draw to find angle}\\
 \begin{tikzpicture}[scale=1.9]
 \tikzstyle{ann} = [fill=white,font=\footnotesize,inner sep=1pt]
 \tikzstyle{angle} = [fill=none,font=\tiny,inner sep=1pt]
