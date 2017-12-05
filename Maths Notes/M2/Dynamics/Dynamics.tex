@@ -10,7 +10,7 @@
 \usepackage{fancyhdr}
 \usepackage{gensymb}
 \usepackage{tikz}
-\usetikzlibrary{positioning}
+\usetikzlibrary{positioning,scopes,decorations.text}
 \pgfplotsset{width=10cm,compat=1.9}
 
 \titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
@@ -39,4 +39,96 @@ horizontal, where $\sin\theta=\frac{1}{14}$ The resistance to the motion of the 
 forces is constant and is modelled as a single constant force of magnitude 650 N. The car’s
 engine is working at a rate of 30 kW.\\
 Find the acceleration of the car at the instant when its speed is 15$\text{ms}^{-1}$. }
+\\
+\\
+\textbf{Draw a diagram to represent the question}
+\\
+\\
+\def\iangle{35} % Angle of the inclined plane
+
+\def\down{-90}
+\def\arcr{0.5cm} % Radius of the arc used to indicate angles
+\begin{tikzpicture}[
+    force/.style={>=latex,draw=blue,fill=blue},
+    calculatedforce/.style={>=latex,draw=red,fill=red},
+    axis/.style={densely dashed,gray,font=\small},
+    M/.style={rectangle,draw,fill=lightgray,minimum size=0.5cm,thin},
+    m/.style={rectangle,draw=black,fill=lightgray,minimum size=0.3cm,thin},
+    plane/.style={draw=black,fill=blue!10},
+    string/.style={draw=red, thick},
+    pulley/.style={thick},
+    scale=2.25
+]
+
+
+
+    %% Free body diagram of M
+    \begin{scope}[rotate=\iangle]
+        \node[M,transform shape] (M) {};
+        % Draw axes and help lines
+
+        {[axis,-]
+            \draw (M.center) -- (0,-1) node[right] {};
+
+            % Indicate angle. The code is a bit awkward.
+
+            \draw[solid,shorten >=0.5pt] (\down-\iangle:\arcr)
+                arc(\down-\iangle:\down:\arcr);
+            \node at (\down-0.5*\iangle:1.3*\arcr) {$\theta$};
+        }
+
+        % Forces
+        {[force,->]
+            % Assuming that Mg = 1. The normal force will therefore be cos(alpha)
+            \draw (M.south) -- ++(0,{cos(\iangle)*1.5}) node[above right] {$R$};
+            \draw (M.west) -- ++(-1,0) node[left] {$650N$};
+            \draw (M.east) -- ++(1,0) node[above] {$T$};
+        
+            }
+        {[calculatedforce,->]       
+        
+        \draw (0,-1) -- ++(-0.7,0) node[pos=0,right,sloped] {};
+        }
+        \draw[black, thick] (-3,-0.25) -- (2,-0.25);
+		\node at (0,-1.13) (nodeA) {};
+		\node at (-0.7,-1.13) (nodeB) {};
+		\draw [decoration={text along path,text={{$1500g\sin\theta$}{}},text align={center}},decorate]  (nodeB) -- (nodeA);
+
+
+
+    \end{scope}
+    % Draw gravity force. The code is put outside the rotated
+    % scope for simplicity. No need to do any angle calculations. 
+    \draw[force,->] (M.center) -- ++(0,-1.5) node[below] {$1500g$};
+    \draw[black, thick] (-2.31,-1.93) -- (1.76,-1.93);
+    \draw[thick, -] (-1.8,-1.93) arc (0:36:0.5);
+    \node[] at (-1.93,-1.8) {$\theta$};
+
+
+    %%
+
+
+
+\\
+;
+\end{tikzpicture}
+\\
+\\
+\textbf{Apply Newton's Second Law (F=ma)}\\
+\\
+$T-650-1500g\sin\theta=1500a$\\
+\\
+\textbf{Use $\text{Power=Force}\times\text{Velocity}$}\\
+\\
+$30,000=T\times15$\\
+\\
+$T=\dfrac{30,000}{15}=2000$\\
+\\
+\textbf{Solve, substituting power result into Newton's Second Law result}\\
+\\
+$2000-650-1500\times9.8\times\frac{1}{14}=1500a$\\
+\\
+\\
+$a=\dfrac{2000-650-1500\times9.8\times\frac{1}{14}}{1500}=0.2$
+
 \end{document}
