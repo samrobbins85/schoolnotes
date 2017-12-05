@@ -1,0 +1,43 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - M2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Dynamics}
+\end{center}
+\newpage
+\begin{center}
+\underline{\huge Dynamics Example - F=ma on a slope}
+\end{center}
+A car of mass 1500 kg is moving up a straight road, which is inclined at an angle θ to the
+horizontal, where sin θ = . 14
+1 The resistance to the motion of the car from non-gravitational
+forces is constant and is modelled as a single constant force of magnitude 650 N. The car’s
+engine is working at a rate of 30 kW.
+Find the acceleration of the car at the instant when its speed is 15 m s–1. 
+\end{document}
