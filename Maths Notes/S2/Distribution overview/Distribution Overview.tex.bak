@@ -22,6 +22,7 @@
 \fancyhf{}
 \rhead{Sam Robbins 13SE}
 \lhead{A Level Maths - S2}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
 
 \begin{document}
@@ -33,22 +34,52 @@
 \begin{small}
 {\renewcommand{\arraystretch}{3}
 \begin{tabular}{|c|c|c|c|c|c|}
- \hline
- 
- 
+
+ \hline 
 &Uniform(Continuous)&Binomial(Discrete)&Poisson(Discrete)&Normal(Continuous)&CRVs(Continuous)\\
 \hline
+Conditions&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+All outcomes have\\
+the same probability\\
+\end{tabular}}
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+\tabitem There are a fixed number of trials\\
+\tabitem There are two outcomes\\
+\tabitem Each trial is independent\\
+\tabitem The probability of success is constant
+\end{tabular}}
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+\tabitem Events occur at random\\
+\tabitem Events are independent\\
+\tabitem Constant rate of occurrence\\
+\tabitem No simultaneous events
+\end{tabular}}
+&
+{\renewcommand{\arraystretch}{1}
+\begin{tabular}{c}
+Probabilities symmetrical\\
+about the mean
+\end{tabular}}
+&None
+\\
 
+\hline
 
 Notation&$\mathcal{U}(a,b)$&$B(n,p)$&$P_o(\lambda)$&$\mathcal{N}(\mu,\sigma^2)$&
-
+{\renewcommand{\arraystretch}{2}
 $
   f(x)=\left\{
   \begin{array}{@{}ll@{}}
     f(x), & \text{for}\ a\leq x \leq b  \\
     0, & \text{otherwise}
   \end{array}\right.
-$
+$}
 \\
 \hline
 Parameters&
@@ -119,7 +150,7 @@ $
 
 
 CDF&
-{\renewcommand{\arraystretch}{2}
+{\renewcommand{\arraystretch}{1.5}
 $
   f(x)=\left\{
   \begin{array}{@{}ll@{}}
@@ -133,10 +164,11 @@ Use tables
 &
 Use tables
 &
+{\renewcommand{\arraystretch}{1.5}
 \begin{tabular}{c}
 $z=\dfrac{x-\mu}{\sigma}$\\
 Then use tables\\
-\end{tabular}
+\end{tabular}}
 &
 $F(x)=\mathlarger{\int_{a}^{x}} f(x) dx$
 \\
@@ -176,7 +208,7 @@ $\frac{1}{2}(a+b)$&
 Don't need to know&
 Don't  need to know&
 $\mu$&
-Where F(x)=0
+Where F(x)=0.5
 \\
 \hline
 

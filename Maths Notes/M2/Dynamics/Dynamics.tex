@@ -130,5 +130,49 @@ $2000-650-1500\times9.8\times\frac{1}{14}=1500a$\\
 \\
 \\
 $a=\dfrac{2000-650-1500\times9.8\times\frac{1}{14}}{1500}=0.2$
+\newpage
+\begin{center}
+\underline{\huge Dynamics Example - Momentum and Impulse}
+\end{center}
+
+\textit{A ball of mass 0.5 kg is moving with velocity $(10\mathbf{i} + 24\mathbf{j}) \ \text{ms}^{-1}$ when it is struck by a bat.\\
+Immediately after the impact the ball is moving with velocity $20\mathbf{i} \ \text{ms}^{-1}$. }
+\\
+\\
+\textit{Find the magnitude of the impulse of the bat on the ball}\\
+\\
+\textbf{Apply the impulse formula}\\
+\\
+\textcolor{red}{$I=m(v-u)$}\\
+\\
+$I=0.5(20\mathbf{i}-(10\mathbf{i}+24\mathbf{j}))=\underline{5\mathbf{i}-12\mathbf{j}}$\\
+\\
+\textbf{Find the magnitude}\\
+\\
+$I=\sqrt{5^2+(-12)^2}=\underline{13Ns}$\\
+\\
+\textit{Find the size of the angle between the vector i and the impulse exerted by the bat on the ball}\\
+\\
+\\
+\textbf{Draw diagram to show vector}\\
+\\
+\begin{tikzpicture}[scale=0.3]
+\draw[black, ultra thick] (0,0) -- (5,0) -- (5,-12) -- cycle;
+\draw (0,0) -- (5,0) node [midway, above, sloped] (TextNode) {$5$};
+\draw (5,-12) -- (5,0) node [midway, below, sloped] (TextNode) {$12$};
+\draw[thick, -] (2,0) arc (0:-69:2);
+\node[] at (1,-0.9) {$\theta$};
+\end{tikzpicture}\\
+\\
+\textbf{Use trigonometry to find angle}\\
+\\
+$\theta=\arctan\Big(\dfrac{12}{5}\Big)=67.4\degree$\\
+\\
+\textit{Find the kinetic energy lost by the ball in the impact}\\
+\\
+\textcolor{red}{$\Delta E_k=E_{k2}-E_{k1}$}\\
+\\
+$\Delta E_k=\frac{1}{2}\times0.5\times20^2-\frac{1}{2}\times0.5\times(10^2+24^2)=-69J$
+
 
 \end{document}

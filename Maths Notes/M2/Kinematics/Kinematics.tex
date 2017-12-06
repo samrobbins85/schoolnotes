@@ -3,6 +3,8 @@
 \usepackage[margin=0.7in]{geometry}
 \usepackage{parselines} 
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{relsize}
 \usepackage{titlesec}
 \usepackage{pgfplots}
 \usepackage{graphicx}
@@ -103,4 +105,60 @@ $a=\dfrac{dv}{dt}$\\
   \draw[-stealth,shorten >= 2pt] (vel.north) to[bend left] node[midway,above] {Differentiate} (acc.north);
     \draw[-stealth] (acc.south) to[bend left] node[midway,below] {Integrate} (vel.south);
 \end{tikzpicture}
+\newpage
+\begin{center}
+\underline{\huge Kinematics Example - Problems with calculus}
+\end{center}
+\textit{A particle P moves along the x-axis in a straight line so that, at time t seconds, the velocity of P is $v \ \text{ms}^{-1}$, where}\\
+\\
+$
+  v=\left\{
+  \begin{array}{@{}ll@{}}
+    10t-2t^2, & \text{for}\ 0\leqslant t \leqslant 6  \\
+    -\dfrac{432}{t^2}, & t>6
+  \end{array}\right.
+$\\
+\\
+\\
+\textit{At $t = 0$, P is at the origin O. Find the displacement of P from O when}\\
+\\
+$\mathit{t = 6}$\\
+\\
+\textbf{Integrate velocity}\\
+\\
+\textcolor{red}{$\mathlarger{x=\int v \ dt}$}\\
+\\
+$x=\int 10t-2t^2 \ dt= 5t^2-\frac{2}{3}t^3+c$\\
+\\
+\\
+\textbf{Substitute in the value of t}\\
+\\
+$t=6$\\
+\\
+$x=5\times6^2-\frac{2}{3}\times6^3=36m$\\
+\\
+\\
+$\mathit{t = 10}$
+\\
+\textbf{Integrate velocity for the second half of the journey}\\
+\\
+$x=\mathlarger{\int-\dfrac{432}{t^2} \ dt=\int-432t^{-2} \ dt=\dfrac{-432t^{-1}}{-1}+k=\dfrac{432}{t}+k}$\\
+\\
+\textbf{Find value of k by using known distance at t=6}\\
+\\
+$t=6 \ \ x=36$\\
+\\
+$36=\dfrac{432}{6}+k$\\
+\\
+$k=36-72=-36$\\
+\\
+\textbf{Find distance using value of k and t}\\
+\\
+$t=10$\\
+\\
+$x=\dfrac{432}{10}-36=7.2\text{m}$
+
+
+
+
 \end{document}
