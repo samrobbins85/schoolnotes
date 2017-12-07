@@ -32,6 +32,12 @@
 \section{Sums and Differences}
 \Large{$\mu_{x+y}=\mu_x+\mu_y$}\\
 \Large{$\mu_{x-y}=\mu_x-\mu_y$}\\
-\Large{$\sigma_{x+y}=\sigma_x+\sigma_y$}\\
-\Large{$\sigma_{x-y}=\sigma_x+\sigma_y$}\\
+\Large{$\sigma^2_{x+y}=\sigma^2_x+\sigma^2_y$}\\
+\Large{$\sigma^2_{x-y}=\sigma^2_x+\sigma^2_y$}\\
+\section{Multiples}
+$\mu_{ax+by}=a\mu_x+b\mu_y$\\
+$\mu_{ax-by}=a\mu_x-b\mu_y$\\
+$\sigma^2_{ax+by}=a^2\sigma^2_x+b^2\sigma^2_x$\\
+$\sigma^2_{ax-by}=a^2\sigma^2_x+b^2\sigma^2_x$\\
+
 \end{document}
