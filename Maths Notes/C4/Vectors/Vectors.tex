@@ -1,0 +1,88 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{mwe}
+\usepackage{float}
+\usepackage{polynom}
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot} %requires 3dplot.sty to be in same directory, or in your LaTeX installation
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - C4}
+\rfoot{Page \thepage}
+
+\newcommand{\R}{\mathbb{R}}
+\pgfplotsset{ytick style={draw=none}}
+\pgfplotsset{xtick style={draw=none}}
+
+\begin{document}
+\begin{center}
+\underline{\huge Differentiation}
+\end{center}
+\section{3D Vectors}
+\tdplotsetmaincoords{60}{110}
+\pgfmathsetmacro{\rvec}{.8}
+\pgfmathsetmacro{\thetavec}{30}
+\pgfmathsetmacro{\phivec}{60}
+\begin{tikzpicture}[scale=5,tdplot_main_coords]
+
+\coordinate (O) at (0,0,0);
+
+\tdplotsetcoord{P}{1.5*\rvec}{1.5*\thetavec}{1.5*\phivec}
+
+\draw[thick,->] (0,0,0) -- (-1,0,0) node[anchor=north west]{$z$};
+\draw[thick,->] (0,0,0) -- (0,1,0) node[anchor=north west]{$x$};
+\draw[thick,->] (0,0,0) -- (0,0,1) node[anchor=south]{$y$};
+
+\draw[-stealth,color=red] (O) -- (P) node[anchor=west,above] {A(x,y,z)} node[midway,anchor=east,above]{\textbf{a}};
+\end{tikzpicture}
+\\
+\\
+$\overrightarrow{OA}=xi+yj+zk$\\
+\\
+$\overrightarrow{OA}=\begin{pmatrix}x\\y\\z\end{pmatrix}$\\
+\\
+\\
+\textbf{Magnitude of $\mathbf{\overrightarrow{OA}}$}\\
+\\
+$|\overrightarrow{OA}|=\sqrt{x^2+y^2+z^2}$\\
+\\
+\textbf{The vector between two vectors}\\
+\\
+$\overrightarrow{OA}=\begin{pmatrix}
+x_1\\
+y_1\\
+z_1\\
+\end{pmatrix}
+\quad
+\overrightarrow{OB}=\begin{pmatrix}
+x_2\\
+y_2\\
+z_2\\
+\end{pmatrix}
+$\\
+\\
+\\
+$|\overrightarrow{AB}|=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$\\
+\\
+\section{Vector dot product}
+
+\end{document}
