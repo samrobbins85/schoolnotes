@@ -37,7 +37,7 @@ Electrically insulating materials do not contain free electrons, all electrons a
 
 A \textbf{gold leaf electroscope} is used to detect charge. If it is in contact with charge the gold leaf and the metal stem have the same charge and so repel.
 \section{Shuttling ball experiment}
-A ball swinging between one positively charged plate and one negatively charged plate will lose electrons at the positive plate and so be repelled towards the negative plate, and so the process repeats.
+A ball swinging between one positively charged plate and one negatively charged plate will lose electrons at the positive plate and so be repelled towards the negative plate where it will pick up electrons and gets repelled away, and so the process repeats.
 \section{Field lines and patterns}
 Electric fields surround each charged object, if a small charged object is placed near a larger same charged object the path the small charge will follow is called a \textbf{line of force} or \textbf{field line}. The direction of an electric field is the direction the charge moves.
 \includegraphics[width=5in]{field_lines.png}
@@ -58,7 +58,6 @@ Field lines between two parallel plates are:
 $E=\dfrac{V}{d}$
 V=Potential difference between plates
 d= Separation between plates
-\newpage
 Proof:
 $F=QE$
 $Work done= Force \times Distance$
