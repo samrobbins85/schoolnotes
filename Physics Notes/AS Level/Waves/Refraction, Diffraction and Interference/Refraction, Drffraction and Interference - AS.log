@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  10 DEC 2017 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  10 DEC 2017 16:16
 entering extended mode
-**"./Centres of mass.tex"
-("Centres of mass.tex"
+**"./Refraction, Drffraction and Interference - AS.tex"
+("Refraction, Drffraction and Interference - AS.tex"
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -892,7 +892,34 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrarypl
 otmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count129
+\float@exts=\toks41
+\float@box=\box41
+\@float@everytoks=\toks42
+\@floatcapt=\box42
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen187
+\extrarowheight=\dimen188
+\NC@list=\toks43
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count130
+\TX@ftn=\toks44
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2017/06/29 3.12 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
@@ -914,8 +941,8 @@ File: babel.def 2017/06/29 3.12 Babel common definitions
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
 File: switch.def 2017/06/29 3.12 Babel switching mechanism
 )
-\babel@savecnt=\count129
-\U@D=\dimen187
+\babel@savecnt=\count131
+\U@D=\dimen194
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -924,54 +951,176 @@ File: switch.def 2017/06/29 3.12 Babel switching mechanism
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
-Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\latex\circuitikz\circuitikz.sty
+Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
+ 0.8.3
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen188
-\extrarowheight=\dimen189
-\NC@list=\toks41
-\extratabsurround=\skip57
-\backup@length=\skip58
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-\TX@col@width=\dimen190
-\TX@old@table=\dimen191
-\TX@old@col=\dimen192
-\TX@target=\dimen193
-\TX@delta=\dimen194
-\TX@cols=\count130
-\TX@ftn=\toks42
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryar
+rows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen195
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirc.defines
+.tex
+\pgf@circ@res@up=\dimen196
+\pgf@circ@res@down=\dimen197
+\pgf@circ@res@zero=\dimen198
+\pgf@circ@res@left=\dimen199
+\pgf@circ@res@right=\dimen256
+\pgf@circ@res@other=\dimen257
+\pgf@circ@res@step=\dimen258
+\pgf@circ@res@temp=\dimen259
+\pgfstartlinewidth=\dimen260
+\pgf@circ@Rlen=\dimen261
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircutils.te
+x)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircshapes.t
+ex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmonopole
+s.tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircbipoles.
+tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirctripoles
+.tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircquadpole
+s.tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirclabel.te
+x)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircvoltage.
+tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirccurrent.
+tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircflow.tex
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircpath.tex
+))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pgfli
+braryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pgfli
+braryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pgfli
+braryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pgfli
+braryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pgfli
+braryshapes.callouts.code.tex))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pgfli
+braryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box43
+\pgfnodeparttwobox=\box44
+\pgfnodepartthreebox=\box45
+\pgfnodepartfourbox=\box46
+\pgfnodeparttwentybox=\box47
+\pgfnodepartnineteenbox=\box48
+\pgfnodeparteighteenbox=\box49
+\pgfnodepartseventeenbox=\box50
+\pgfnodepartsixteenbox=\box51
+\pgfnodepartfifteenbox=\box52
+\pgfnodepartfourteenbox=\box53
+\pgfnodepartthirteenbox=\box54
+\pgfnodeparttwelvebox=\box55
+\pgfnodepartelevenbox=\box56
+\pgfnodeparttenbox=\box57
+\pgfnodepartninebox=\box58
+\pgfnodeparteightbox=\box59
+\pgfnodepartsevenbox=\box60
+\pgfnodepartsixbox=\box61
+\pgfnodepartfivebox=\box62
+)))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibrarydecorations.markings.code.tex
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decorations\
+pgflibrarydecorations.markings.code.tex))
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2014/03/21 v3.0.1a (rcs-revision 1.4)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
 )
 \tindent=\skip59
- ("Centres of mass.aux")
-\openout1 = `"Centres of mass.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+("Refraction, Drffraction and Interference - AS.aux")
+\openout1 = `"Refraction, Drffraction and Interference - AS.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1009,17 +1158,17 @@ LaTeX Font Info:    ... okay on input line 29.
 
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen195
-\scratchbox=\box41
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen196
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count132
+\scratchdimen=\dimen262
+\scratchbox=\box63
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen263
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks46
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1072,141 +1221,99 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Info: Redefining \celsius on input line 29.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 29.
-Package gensymb Info: Using \Omega for \ohm on input line 29.
-
-Package gensymb Warning: Not defining \micro.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--51
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
+<Interference.jpg, id=4, 376.40625pt x 263.48438pt>
+File: Interference.jpg Graphic file (type jpg)
+<use Interference.jpg>
+Package pdftex.def Info: Interference.jpg  used on input line 61. on input line
+ 61.
+Package pdftex.def Info: Requested size: 284.52756pt x 199.18477pt on input lin
+e 61.
+<Diffraction.png, id=5, 374.90062pt x 246.1697pt>
+File: Diffraction.png Graphic file (type png)
+<use Diffraction.png>
+Package pdftex.def Info: Diffraction.png  used on input line 65. on input line 
+65.
+Package pdftex.def Info: Requested size: 199.16928pt x 130.78107pt on input lin
+e 65.
+<Diffraction_Colours.png, id=7, 323.70938pt x 163.3603pt>
+File: Diffraction_Colours.png Graphic file (type png)
+<use Diffraction_Colours.png>
+Package pdftex.def Info: Diffraction_Colours.png  used on input line 67. on inp
+ut line 67.
+Package pdftex.def Info: Requested size: 199.16928pt x 100.51208pt on input lin
+e 67.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-]
-<eq.jpg, id=16, 201.75375pt x 207.02344pt>
-File: eq.jpg Graphic file (type jpg)
-<use eq.jpg>
-Package pdftex.def Info: eq.jpg  used on input line 76. on input line 76.
-Package pdftex.def Info: Requested size: 108.405pt x 111.23817pt on input line 
-76.
+ <./Interference.jpg> <./Diffraction.png> <./Diffraction_Colours.png>]
+<nlambda_1.png, id=19, 395.22656pt x 252.19218pt>
+File: nlambda_1.png Graphic file (type png)
+<use nlambda_1.png>
+Package pdftex.def Info: nlambda_1.png  used on input line 75. on input line 75
+.
+Package pdftex.def Info: Requested size: 199.16928pt x 127.0886pt on input line
+ 75.
+<nlambda_2.png, id=20, 395.22656pt x 327.47343pt>
+File: nlambda_2.png Graphic file (type png)
+<use nlambda_2.png>
+Package pdftex.def Info: nlambda_2.png  used on input line 76. on input line 76
+.
+Package pdftex.def Info: Requested size: 199.16928pt x 165.0255pt on input line
+ 76.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+<Fibre_Optic_1.png, id=21, 319.1925pt x 187.45032pt>
+File: Fibre_Optic_1.png Graphic file (type png)
+<use Fibre_Optic_1.png>
+Package pdftex.def Info: Fibre_Optic_1.png  used on input line 203. on input li
+ne 203.
+Package pdftex.def Info: Requested size: 199.16928pt x 116.96451pt on input lin
+e 203.
+<Fibre_Optic_2.jpg, id=22, 297.36093pt x 240.9pt>
+File: Fibre_Optic_2.jpg Graphic file (type jpg)
+<use Fibre_Optic_2.jpg>
+Package pdftex.def Info: Fibre_Optic_2.jpg  used on input line 204. on input li
+ne 204.
+Package pdftex.def Info: Requested size: 199.16928pt x 161.3507pt on input line
+ 204.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-[2 <./eq.jpg>] ("Centres of mass.aux") ) 
+[2 <./nlambda_1.png> <./nlambda_2.png>] [3 <./Fibre_Optic_1.png> <./Fibre_Optic
+_2.jpg>] ("Refraction, Drffraction and Interference - AS.aux") ) 
 Here is how much of TeX's memory you used:
- 23558 strings out of 493318
- 594693 string characters out of 3139004
- 782313 words of memory out of 3000000
- 26678 multiletter control sequences out of 15000+200000
- 7925 words of font info for 29 fonts, out of 3000000 for 9000
+ 32744 strings out of 493318
+ 870917 string characters out of 3139004
+ 1128482 words of memory out of 3000000
+ 35748 multiletter control sequences out of 15000+200000
+ 9023 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,96p,737b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmti10.pfb>
-Output written on "Centres of mass.pdf" (2 pages, 151295 bytes).
+ 62i,12n,96p,764b,1140s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Refraction, Drffraction and Interference - AS.pdf" (3 pages,
+ 305577 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
