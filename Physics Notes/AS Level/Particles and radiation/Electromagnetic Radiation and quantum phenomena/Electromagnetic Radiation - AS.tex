@@ -1,0 +1,107 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{circuitikz}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{relsize}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\hyphenpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{AS Level Physics - Particles and Radiation}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Electromagnetic radiation and quantum phenomena}
+\end{center}
+\section{The photoelectric effect}
+\textbf{The photoelectric effect - Metals liberate electrons when hit by photons}\\
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+\textbf{Observation}&\textbf{Explanation}\\
+\hline
+There is a minimum frequency required to liberate an electron, called the threshold frequency&At the minimum frequency KE=0 so the frequency must be Planck's Constant$\times$Frequency\\
+\hline
+Above the threshold frequency electrons are emitted immediately, regardless of intensity&Energy is immediately passed on\\
+\hline
+Intensity and electrons per second are directly proportional&1 photon liberates 1 electron\\
+\hline
+Below the threshold frequency no electrons are emitted, no matter the intensity&At the minimum frequency KE=0 so the frequency must be Planck's Constant$\times$Frequency\\
+\hline
+The electrons are emitted with a range of speeds unrelated to intensity&Through the metal the collisions for each electron vary, varying KE\\
+\hline
+Increasing frequency increases maximum speed but not number liberated per second&1 Photon liberates 1 electron\\
+\hline
+\end{tabularx}
+\subsection{Why the photoelectric effect can't be explained by the wave model}
+Waves transfer energy, it would be expected that the more intense the source the more energy the electrons would have.\\
+Given enough time electrons should be emitted with waves
+\subsection{Millikan's experiment}
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle,scale=0.8,ylabel = KE,xlabel=Frequency,ylabel style={rotate=90,anchor=south},xlabel style={anchor=south},xmin=0,xmax=7,ymin=-5,ymax=7,xtick={2},xticklabels={$F_0$},ytick={-2},yticklabels={$-\Phi$}
+]
+\addplot[color=black,domain=0:7]{x-2};
+\end{axis}
+\end{tikzpicture}\\
+$F_0$ - Threshold Frequency\\
+$-\Phi$ - Negative work function\\
+\textbf{Gradient} - Planck's Constant\\
+Equation of line - $E_K=hf-\phi$ 
+\newpage
+\section{Collisions of electrons with atoms}
+\textbf{Ionisation} - The adding or removal of electrons from an element\\
+\textbf{Excitation} - The moving of an electron to a higher energy level\\
+\subsection{How a fluorescent lamp works}
+\begin{enumerate}
+\item In a sealed unit with a phosphor coating on the inside of the glass. A small amount of mercury and an inert gas at a low pressure
+\item When the voltage is switched on electrons move from the cathode to the anode
+\item The electrons collide with the mercury, turning it into a vapour
+\item Once a vapour, the moving electrons can then collide with the mercury gas atoms, exciting the bound electrons
+\item The fired electron has undergone collisional excitation so has less energy
+\item The mercury excitation produces UV rays
+\item The phosphor coating is a chemical designed so it has UV excitation energy similar to the mercury excitation energy
+\item The phosphor absorbs photons and emits visible light
+\end{enumerate}
+\section{Energy levels and photon emission}
+\subsection{Absorption Spectra}
+This happens when a cool material is placed between a hot light and the observer.\\
+This causes dark lines in the spectrum\\
+From this it can be inferred that atoms only absorb radiation of certain frequencies.\\
+This technique can be used to identify different atoms\\
+The difference in absorption is caused by different numbers of electrons\\
+\subsection{Emission spectra}
+This is caused when a gas is heated\\
+The lines have the same wavelengths as absorption but the lines are light, rather than dark\\
+This is caused by electrons becoming excited and so emitting an electron\\
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+\textbf{Observation}&\textbf{Reason}\\
+\hline
+Discrete lines&The electrons are absorbing/emitting photons\\
+\hline
+The spectrum does not depend on the isotope&The electrons are arranged in shells\\
+\hline
+The spectral lines get closer together as the energy increases&The photons need a certain amount of energy to excite an electron\\
+\hline
+\end{tabularx}
+\subsection{The hydrogen atom}
+The hydrogen atom is used as the example for energy level calculations. The ground state is the state of minimum energy, calculations can be performed for all the energy levels
+\section{Wave-Particle Duality}
+Electron diffraction suggests that particles possess wave properties. The photoelectric effect suggests electromagnetic waves have a particle nature.\\
+The amount of diffraction changes when the momentum of the particle changes as it has a different de Broglie wavelength.
+\end{document}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  10 DEC 2017 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.28)  9 DEC 2017 11:02
 entering extended mode
-**"./Centres of mass.tex"
-("Centres of mass.tex"
+**"./Materials - AS.tex"
+("Materials - AS.tex"
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -892,7 +892,25 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrarypl
 otmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen187
+\extrarowheight=\dimen188
+\NC@list=\toks41
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count129
+\TX@ftn=\toks42
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2017/06/29 3.12 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
@@ -914,8 +932,8 @@ File: babel.def 2017/06/29 3.12 Babel common definitions
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
 File: switch.def 2017/06/29 3.12 Babel switching mechanism
 )
-\babel@savecnt=\count129
-\U@D=\dimen187
+\babel@savecnt=\count130
+\U@D=\dimen194
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -924,54 +942,83 @@ File: switch.def 2017/06/29 3.12 Babel switching mechanism
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
-Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\latex\circuitikz\circuitikz.sty
+Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
+ 0.8.3
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen188
-\extrarowheight=\dimen189
-\NC@list=\toks41
-\extratabsurround=\skip57
-\backup@length=\skip58
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\lib
+raries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-\TX@col@width=\dimen190
-\TX@old@table=\dimen191
-\TX@old@col=\dimen192
-\TX@target=\dimen193
-\TX@delta=\dimen194
-\TX@cols=\count130
-\TX@ftn=\toks42
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryar
+rows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen195
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirc.defines
+.tex
+\pgf@circ@res@up=\dimen196
+\pgf@circ@res@down=\dimen197
+\pgf@circ@res@zero=\dimen198
+\pgf@circ@res@left=\dimen199
+\pgf@circ@res@right=\dimen256
+\pgf@circ@res@other=\dimen257
+\pgf@circ@res@step=\dimen258
+\pgf@circ@res@temp=\dimen259
+\pgfstartlinewidth=\dimen260
+\pgf@circ@Rlen=\dimen261
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircutils.te
+x)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircshapes.t
+ex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmonopole
+s.tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircbipoles.
+tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirctripoles
+.tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircquadpole
+s.tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirclabel.te
+x)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircvoltage.
+tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirccurrent.
+tex)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircflow.tex
+)
+(C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircpath.tex
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
 )
 \tindent=\skip59
- ("Centres of mass.aux")
-\openout1 = `"Centres of mass.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+("Materials - AS.aux")
+\openout1 = `"Materials - AS.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1010,13 +1057,13 @@ LaTeX Font Info:    ... okay on input line 29.
 (C:\Users\Sam\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count131
-\scratchdimen=\dimen195
+\scratchdimen=\dimen262
 \scratchbox=\box41
 \nofMPsegments=\count132
 \nofMParguments=\count133
 \everyMPshowfont=\toks43
 \MPscratchCnt=\count134
-\MPscratchDim=\dimen196
+\MPscratchDim=\dimen263
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks44
@@ -1072,141 +1119,114 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Info: Redefining \celsius on input line 29.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
+<Stress_Strain.jpg, id=4, 481.8pt x 256.70906pt>
+File: Stress_Strain.jpg Graphic file (type jpg)
+<use Stress_Strain.jpg>
+Package pdftex.def Info: Stress_Strain.jpg  used on input line 44. on input lin
+e 44.
+Package pdftex.def Info: Requested size: 289.07999pt x 154.03053pt on input lin
+e 44.
 
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 29.
-Package gensymb Info: Using \Omega for \ohm on input line 29.
-
-Package gensymb Warning: Not defining \micro.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--51
+Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--51
+ <./Stress_Strain.jpg>]
+<Searle.jpg, id=16, 263.48438pt x 299.61937pt>
+File: Searle.jpg Graphic file (type jpg)
+<use Searle.jpg>
+Package pdftex.def Info: Searle.jpg  used on input line 54. on input line 54.
+Package pdftex.def Info: Requested size: 216.81pt x 246.55354pt on input line 5
+4.
 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
-<eq.jpg, id=16, 201.75375pt x 207.02344pt>
-File: eq.jpg Graphic file (type jpg)
-<use eq.jpg>
-Package pdftex.def Info: eq.jpg  used on input line 76. on input line 76.
-Package pdftex.def Info: Requested size: 108.405pt x 111.23817pt on input line 
-76.
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
+<young_modulus.jpg, id=17, 301.125pt x 376.40625pt>
+File: young_modulus.jpg Graphic file (type jpg)
+<use young_modulus.jpg>
+Package pdftex.def Info: young_modulus.jpg  used on input line 56. on input lin
+e 56.
+Package pdftex.def Info: Requested size: 216.81pt x 271.02377pt on input line 5
+6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
+[2 <./Searle.jpg> <./young_modulus.jpg>]
+<rubber.jpg, id=21, 155.07938pt x 145.29282pt>
+File: rubber.jpg Graphic file (type jpg)
+<use rubber.jpg>
+Package pdftex.def Info: rubber.jpg  used on input line 60. on input line 60.
+Package pdftex.def Info: Requested size: 144.54pt x 135.41798pt on input line 6
+0.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
+<metal.jpg, id=22, 273.27094pt x 207.02344pt>
+File: metal.jpg Graphic file (type jpg)
+<use metal.jpg>
+Package pdftex.def Info: metal.jpg  used on input line 62. on input line 62.
+Package pdftex.def Info: Requested size: 144.54pt x 109.50076pt on input line 6
+2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
+<Polythene.png, id=23, 240.9pt x 161.85469pt>
+File: Polythene.png Graphic file (type png)
+<use Polythene.png>
+Package pdftex.def Info: Polythene.png  used on input line 64. on input line 64
+.
+Package pdftex.def Info: Requested size: 144.54pt x 97.11601pt on input line 64
+.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--134
-
- []
-
-[2 <./eq.jpg>] ("Centres of mass.aux") ) 
+[3 <./rubber.jpg> <./metal.jpg> <./Polythene.png>] ("Materials - AS.aux") ) 
 Here is how much of TeX's memory you used:
- 23558 strings out of 493318
- 594693 string characters out of 3139004
- 782313 words of memory out of 3000000
- 26678 multiletter control sequences out of 15000+200000
- 7925 words of font info for 29 fonts, out of 3000000 for 9000
+ 30364 strings out of 493318
+ 801945 string characters out of 3139004
+ 1031429 words of memory out of 3000000
+ 33442 multiletter control sequences out of 15000+200000
+ 5911 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,96p,737b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmti10.pfb>
-Output written on "Centres of mass.pdf" (2 pages, 151295 bytes).
+ 62i,11n,96p,736b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb>
+Output written on "Materials - AS.pdf" (3 pages, 233174 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,160 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{circuitikz}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{relsize}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{AS Level Physics - Particles and Radiation}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Particles}
+\end{center}
+\section{Constituents of the atom}
+\textbf{Specific charge} - The charge to mass ratio\\
+\textbf{Isotope} - An atom with the same number of protons as an element but a different number of neutrons
+\section{Stable and unstable nuclei}
+\subsection{The strong nuclear force}
+$0fm-0.5fm$ - \textbf{Repulsion}\\
+$0.5fm-3fm$ - \textbf{Attraction}\\
+$3fm+$ - \textbf{No force}
+\subsection{Alpha decay}
+An atom emits an alpha particle (Helium Nucleus/2 protons and 2 neutrons)\\
+Reduces \textit{Mass Number} by \textbf{4} and \textit{proton number} by \textbf{2}
+\subsection{Beta decay}
+Neutron$\rightarrow$Proton+Electron+Neutrino\\
+The neutrino was hypothesised to conserve energy
+\section{Particles, antiparticles and photons}
+For every particle there is a corresponding antiparticle (can be itself)\\
+\\
+{\def\arraystretch{1.5}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+\textbf{Property}&\textbf{Particle}&\textbf{Antiparticle}\\
+\hline
+Mass&x&x\\
+\hline
+\textcolor{red}{Charge}&x&-x\\
+\hline
+Rest Energy&x&x\\
+\hline
+\textcolor{red}{Baryon Number}&x&-x\\
+\hline
+\textcolor{red}{Lepton Number}&x&-x\\
+\hline
+\textcolor{red}{Strangeness}&x&-x\\
+\hline
+\end{tabularx}}
+\\
+\\
+When a particle and antiparticle collide they annihilate each other\\
+A particle-antiparticle pair can be produced from energy
+\section{Particle interactions}
+Fundamental interactions:\\
+{\def\arraystretch{1.5}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+\textbf{Force}&\textbf{Affects}&\textbf{Gauge Boson}&\textbf{Range}\\
+\hline
+Gravitational&Mass&Graviton&Infinite\\
+\hline
+Electromagnetic&Charge&Photon&Infinite\\
+\hline
+Nuclear Strong&Quarks&Gluon(Pion)&$10^{-15}$m\\
+\hline
+Nuclear Weak&Leptons+Quarks&$W^+,W^-,Z^0$&$10^{-18}$m\\
+\hline
+\end{tabularx}}\\
+\\
+\newpage
+The exchange particles provide the forces between elementary particles\\
+Virtual photons are the exchange particle of the electromagnetic force\\
+Examples of the weak interaction:
+\begin{itemize}
+\item $\beta^+$ Decay
+\item $\beta^-$ Decay
+\item Electron capture
+\item Electron-proton collisions
+\end{itemize}
+\section{Classification of particles}
+\subsection{Hadrons}
+Hadrons are subject to the strong interaction\\
+There are two types of hadrons:
+\begin{itemize}
+\item Baryon(3 Quarks)
+\item Meson (Quark-Antiquark pair)
+\end{itemize}
+The baryon number is conserved in an interaction\\
+All baryons will eventually decay into protons\\
+Kaons can decay into pions\\
+\subsection{Leptons}
+Types of lepton(All have a lepton number of 1):
+\begin{itemize}
+\item Electron
+\item Muon
+\item Electron Neutrino (Approximated to massless)
+\item Muon Neutrino (Approximated to massless)
+\end{itemize}
+Lepton number is conserved during an interaction\\
+Muons decay into electrons\\
+\subsection{Strange particles}
+Produced through the strong interaction\\
+Decay through the weak interaction
+\newpage
+\section{Quarks and antiquarks}
+\subsection{Baryons}
+{\def\arraystretch{1.2}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+Proton&UUD\\
+\hline
+Neutron&DUD\\
+\hline
+\end{tabularx}}
+\subsection{Mesons}
+\subsubsection{Pions(All 0 Strangeness)}
+{\def\arraystretch{1.5}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+$\pi^0$&$U\bar{U}$ or $D\bar{D}$\\
+\hline
+$\pi^+$&$U\bar{D}$\\
+\hline
+$\pi^-$&$D\bar{U}$\\
+\hline
+\end{tabularx}}
+\subsubsection{Kaons (All strange)}
+{\def\arraystretch{1.5}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+$K^+$&$U\bar{S}$\\
+\hline
+$K^-$&$\bar{U}S$\\
+\hline
+$K^0$&$D\bar{S}$\\
+\hline
+$\bar{K^0}$&$\bar{D}S$\\
+\hline
+\end{tabularx}}
+
+\end{document}

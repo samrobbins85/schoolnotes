@@ -98,7 +98,7 @@ Voltmeter reads $\epsilon$&Voltmeter reads $\epsilon-IR$\\
 \end{tabularx}
 \subsection{Voltage Current Graph}
 \begin{tikzpicture}
-\begin{axis}[axis lines=middle,scale=0.5,    ylabel = Resistance,xlabel=Temperature,ylabel style={rotate=90,anchor=north},xlabel style={anchor=south},xmin=0,xmax=7,ymin=0,ymax=7,xtick={5},xticklabels={Short Circuit Current},ytick={5},yticklabels={$\epsilon$}
+\begin{axis}[axis lines=middle,scale=0.5,    ylabel = Vr,xlabel=Current,ylabel style={rotate=90,anchor=south},xlabel style={anchor=south},xmin=0,xmax=7,ymin=0,ymax=7,xtick={5},xticklabels={Short Circuit Current},ytick={5},yticklabels={$\epsilon$}
 ]
 \addplot[color=black,domain=0:5]{-x+5};
 \end{axis}
