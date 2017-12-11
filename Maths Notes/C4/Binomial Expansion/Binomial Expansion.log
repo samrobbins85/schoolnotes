@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.12)  5 OCT 2017 10:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  11 DEC 2017 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Binomial Expansion.tex"
 (./Binomial Expansion.tex
 LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
@@ -377,7 +377,7 @@ Package: parselines 2011/02/19 v1.4 - a simple line parser for TeX
 \parselin@read=\read1
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -819,19 +819,19 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/06/29 3.12 The Babel package
+Package: babel 2017/11/03 3.15 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/06/29 3.12 Babel common definitions
+File: babel.def 2017/11/03 3.15 Babel common definitions
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
 \babel@savecnt=\count129
 \U@D=\dimen187
@@ -1056,113 +1056,133 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--64
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--89
+Underfull \hbox (badness 10000) in paragraph at lines 67--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--89
+Underfull \hbox (badness 10000) in paragraph at lines 67--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--89
+Underfull \hbox (badness 10000) in paragraph at lines 67--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--89
+Underfull \hbox (badness 10000) in paragraph at lines 67--81
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+Underfull \hbox (badness 10000) in paragraph at lines 82--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--115
+Underfull \hbox (badness 10000) in paragraph at lines 82--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--115
+Underfull \hbox (badness 10000) in paragraph at lines 82--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--115
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--115
+Underfull \hbox (badness 10000) in paragraph at lines 95--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--115
+Underfull \hbox (badness 10000) in paragraph at lines 95--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--115
+Underfull \hbox (badness 10000) in paragraph at lines 95--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--115
+Underfull \hbox (badness 10000) in paragraph at lines 95--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--116
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 117--141
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--141
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--141
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--141
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--141
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--141
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--145
 
  []
 
 [3] (./Binomial Expansion.aux) ) 
 Here is how much of TeX's memory you used:
- 24393 strings out of 492990
- 599747 string characters out of 6138688
- 862882 words of memory out of 5000000
- 27506 multiletter control sequences out of 15000+600000
+ 24410 strings out of 492985
+ 600093 string characters out of 6138637
+ 862114 words of memory out of 5000000
+ 27528 multiletter control sequences out of 15000+600000
  9368 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,737b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1177,7 +1197,7 @@ cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Binomial Expansion.pdf" (3 pages, 142664 bytes).
+Output written on "Binomial Expansion.pdf" (3 pages, 142631 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
