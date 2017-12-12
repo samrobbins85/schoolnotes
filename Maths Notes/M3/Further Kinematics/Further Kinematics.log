@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  12 DEC 2017 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  12 DEC 2017 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Vectors.tex
-(./Vectors.tex
+**"Further Kinematics.tex"
+(./Further Kinematics.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -434,6 +434,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
@@ -853,141 +866,30 @@ s
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
 )
-(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texmf-dist/tex/latex/mwe/mwe.sty
-Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
-
-(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count130
-)
-(/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count131
-\c@Blindtext=\count132
-\c@blind@countparstart=\count133
-\blind@countxx=\count134
-\blindtext@numBlindtext=\count135
-\blind@countyy=\count136
-\c@blindlist=\count137
-\c@blindlistlevel=\count138
-\c@blindlist@level=\count139
-\blind@listitem=\count140
-\c@blind@listcount=\count141
-\c@blind@levelcount=\count142
-\blind@mathformula=\count143
-\blind@Mathformula=\count144
-\c@blind@randomcount=\count145
-\c@blind@randommax=\count146
-\c@blind@pangramcount=\count147
-\c@blind@pangrammax=\count148
-))
-(/usr/share/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count149
-\float@exts=\toks41
-\float@box=\box41
-\@float@everytoks=\toks42
-\@floatcapt=\box42
-)
-(/usr/share/texmf-dist/tex/latex/polynom/polynom.sty
-Package: polynom 2017/07/17 0.19 (CH,HA)
-\pld@currstage=\count150
-)
-(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
-)
-(/usr/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/share/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-calc.code.tex
-File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-3d.code.tex
-File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-arrows.code.tex
-File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+\tindent=\skip57
 
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen188
-)))
-(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
+No file "Further Kinematics".aux.
+\openout1 = `"Further Kinematics.aux"'.
 
-(/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count151
-\calc@Bcount=\count152
-\calc@Adimen=\dimen189
-\calc@Bdimen=\dimen190
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count153
-\calc@Cskip=\skip59
-)
-(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
-)
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count154
-\l_MT_multwidth_dim=\dimen191
-\origjot=\skip60
-\l_MT_shortvdotswithinadjustabove_dim=\dimen192
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen193
-\l_MT_above_intertext_sep=\dimen194
-\l_MT_below_intertext_sep=\dimen195
-\l_MT_above_shortintertext_sep=\dimen196
-\l_MT_below_shortintertext_sep=\dimen197
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-quotes.code.tex
-File: tikzlibraryquotes.code.tex 2014/03/21 v3.0.1a (rcs-revision 1.4)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-angles.code.tex
-File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
-)
-\tindent=\skip61
- (./Vectors.aux)
-\openout1 = `Vectors.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1024,17 +926,17 @@ LaTeX Font Info:    ... okay on input line 37.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen198
-\scratchbox=\box43
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen199
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count130
+\scratchdimen=\dimen188
+\scratchbox=\box41
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen189
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1091,235 +993,43 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Info: Redefining \celsius on input line 31.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 31.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 31.
+Package gensymb Info: Using \Omega for \ohm on input line 31.
+
+Package gensymb Warning: Not defining \micro.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--196
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-[3] (./Vectors.aux) ) 
+] (./Further Kinematics.aux) ) 
 Here is how much of TeX's memory you used:
- 26228 strings out of 492985
- 638482 string characters out of 6138637
- 897326 words of memory out of 5000000
- 29297 multiletter control sequences out of 15000+600000
- 13448 words of font info for 51 fonts, out of 8000000 for 9000
+ 23702 strings out of 492985
+ 590335 string characters out of 6138637
+ 778043 words of memory out of 5000000
+ 26842 multiletter control sequences out of 15000+600000
+ 5638 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,96p,724b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Vectors.pdf (3 pages, 136151 bytes).
+ 62i,11n,96p,737b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+
+Output written on "Further Kinematics.pdf" (1 page, 27339 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

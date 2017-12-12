@@ -156,6 +156,72 @@ Types of situation:\\
 \\
 \textcolor{red}{$\mathbf{r}=\mathbf{a}+t(\mathbf{b-a})$}\\
 \\
-
+\section{Proofs involving vectors}
+\subsection{Example of proving a point lies on a vector line}
+\textit{Show that} $\begin{pmatrix}
+9\\
+9\\
+3\\
+\end{pmatrix}
+$ lies on the line \textbf{r}=$\begin{pmatrix}
+1\\
+4\\
+2\\
+\end{pmatrix}+\lambda\begin{pmatrix}
+8\\
+5\\
+1\\
+\end{pmatrix}$\\
+\\
+\textbf{Substitute the point equalling r}\\
+\\
+$\begin{pmatrix}
+9\\
+9\\
+3\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+1\\
+4\\
+2\\
+\end{pmatrix}+\lambda
+\begin{pmatrix}
+8\\
+5\\
+1\\
+\end{pmatrix}$
+\\
+This is true when $\lambda$ equals one so the point is on the line
+\subsection{Example of finding where two lines intersect}
+\textit{Where do the lines $L_1$ and $L_2$ intersect}\\
+\\
+$L_1: \mathbf{r}=
+\begin{pmatrix}
+3\\
+1\\
+2\\
+\end{pmatrix}+\lambda
+\begin{pmatrix}
+1\\
+-1\\
+4\\
+\end{pmatrix}$\\
+\\
+\\
+$L_2: \mathbf{r}=
+\begin{pmatrix}
+0\\
+4\\
+-2\\
+\end{pmatrix}+\mu
+\begin{pmatrix}
+1\\
+1\\
+0\\
+\end{pmatrix}$\\
+\\
+\textbf{Equal coordinates in a certain dimension to each other, preferably where constants can be eliminated}\\
+\\
 
 \end{document}
