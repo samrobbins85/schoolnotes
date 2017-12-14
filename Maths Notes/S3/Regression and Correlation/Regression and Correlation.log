@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  14 DEC 2017 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  14 DEC 2017 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Magnetic Fields.tex"
-(./Magnetic Fields.tex
+**"Regression and Correlation.tex"
+(./Regression and Correlation.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -818,7 +818,26 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+))) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen187
+\extrarowheight=\dimen188
+\NC@list=\toks41
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count129
+\TX@ftn=\toks42
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/11/03 3.15 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
@@ -833,8 +852,8 @@ File: babel.def 2017/11/03 3.15 Babel common definitions
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
-\babel@savecnt=\count129
-\U@D=\dimen187
+\babel@savecnt=\count130
+\U@D=\dimen194
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -843,40 +862,39 @@ File: switch.def 2017/11/03 3.15 Babel switching mechanism
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 )
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-decorations.text.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
-ons.text.code.tex
-\pgf@lib@dec@text@box=\box41
+(/usr/share/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-\tikz@lib@dec@te@box=\box42
+(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
 )
-\tindent=\skip57
- (./Magnetic Fields.aux)
-\openout1 = `"Magnetic Fields.aux"'.
+\tindent=\skip59
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+(./Regression and Correlation.aux)
+\openout1 = `"Regression and Correlation.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -914,17 +932,17 @@ LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen188
-\scratchbox=\box43
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen189
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count131
+\scratchdimen=\dimen195
+\scratchbox=\box41
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen196
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -981,180 +999,97 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
-
- []
+LaTeX Info: Redefining \celsius on input line 29.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Package gensymb Warning: Not defining \perthousand.
 
- []
+LaTeX Info: Redefining \ohm on input line 29.
+Package gensymb Info: Using \Omega for \ohm on input line 29.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
-
- []
+Package gensymb Warning: Not defining \micro.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 38--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 38--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\OT1/cmr/m/n/10 Width of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
+Underfull \hbox (badness 10000) in paragraph at lines 80--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
+Underfull \hbox (badness 10000) in paragraph at lines 80--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
+Underfull \hbox (badness 10000) in paragraph at lines 80--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
+Underfull \hbox (badness 10000) in paragraph at lines 80--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
+Underfull \hbox (badness 10000) in paragraph at lines 80--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
+Underfull \hbox (badness 10000) in paragraph at lines 80--100
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-<cyclotron.jpg, id=17, 602.25pt x 401.5pt>
-File: cyclotron.jpg Graphic file (type jpg)
-<use cyclotron.jpg>
-Package pdftex.def Info: cyclotron.jpg  used on input line 76. on input line 76
-.
-Package pdftex.def Info: Requested size: 284.52756pt x 189.69136pt on input lin
-e 76.
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--96
-
- []
-
-<velocity_selector.jpg, id=18, 223.83624pt x 117.43875pt>
-File: velocity_selector.jpg Graphic file (type jpg)
-<use velocity_selector.jpg>
-Package pdftex.def Info: velocity_selector.jpg  used on input line 104. on inpu
-t line 104.
-Package pdftex.def Info: Requested size: 284.52756pt x 149.29605pt on input lin
-e 104.
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
-
- []
-
-[2 <./cyclotron.jpg>] [3 <./velocity_selector.jpg>] (./Magnetic Fields.aux) ) 
+] [2]
+(./Regression and Correlation.aux) ) 
 Here is how much of TeX's memory you used:
- 23787 strings out of 492985
- 601220 string characters out of 6138637
- 782708 words of memory out of 5000000
- 26940 multiletter control sequences out of 15000+600000
- 5911 words of font info for 22 fonts, out of 8000000 for 9000
+ 23910 strings out of 492985
+ 599360 string characters out of 6138637
+ 790708 words of memory out of 5000000
+ 27049 multiletter control sequences out of 15000+600000
+ 11102 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,96p,734b,1093s stack positions out of 5000i,500n,10000p,200000b,80000s
-</
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Magnetic Fields.pdf" (3 pages, 246688 bytes).
+ 62i,11n,96p,745b,1804s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Regression and Correlation.pdf" (2 pages, 102721 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

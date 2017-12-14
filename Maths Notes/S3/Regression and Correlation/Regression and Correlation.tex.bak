@@ -1,0 +1,116 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S3}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Regression and Correlation}
+\end{center}
+\section{Spearman's rank}
+Spearman's rank shows whether two sets of data agree or disagree.\\
+\\
+$r_s$ can take values from 1 to -1 (inclusive)
+\subsection{$\mathbf{r_s=1}$}
+The total sets of data are in perfect rank order.\\
+The gradient between each successive point is positive\\
+\\
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[ymin=0,ticks=none]
+\addplot[color=black,domain=-2:2]{exp(x)};
+\end{axis}
+\end{tikzpicture}
+\\
+\subsection{$\mathbf{r_s=-1}$}
+The gradient between each point is negative\\
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[ymin=0,ticks=none]
+\addplot[color=black,domain=0.1:2]{1/x};
+\end{axis}
+\end{tikzpicture}
+\subsection{Formula}
+$$r_s=1-\dfrac{6\Sigma d^2}{n(n^2-1)}$$
+\subsection{Example}
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+\hline
+Height of a sunflower(cm)&Rank&Width of stem(mm)&Rank&d&$d^2$\\
+\hline
+183&\textbf{4}&21&\textbf{4}&\textbf{0}&\textbf{0}\\
+\hline
+134&\textbf{3}&14&\textbf{1}&\textbf{2}&\textbf{4}\\
+\hline
+234&\textbf{6}&24&\textbf{5}&\textbf{1}&\textbf{1}\\
+\hline
+256&\textbf{7}&32&\textbf{7}&\textbf{0}&\textbf{0}\\
+\hline
+190&\textbf{5}&29&\textbf{6}&\textbf{1}&\textbf{1}\\
+\hline
+89&\textbf{1}&18&\textbf{2}&\textbf{1}&\textbf{1}\\
+\hline
+112&\textbf{2}&20&\textbf{3}&\textbf{1}&\textbf{1}\\
+\hline
+\end{tabularx}
+$\Sigma d^2=8$\\
+\\
+$1-\dfrac{6\times8}{7(7^2-1)}=\dfrac{6}{7}$
+\section{Hypothesis Test For $\mathbf{r_s}$}
+\underline{Step 1}\\
+State $H_0$ and $H_1$\\
+\\
+$H_0: \rho_s=0$ (always)\\
+\\
+$H_1: \rho_s\neq0$ or\\
+$H_1: \rho_s>0$ or\\
+$H_1: \rho<0$\\
+\\
+\underline{Step 2}\\
+State critical value from tables\\
+\\
+\underline{Step 3}\\
+Calculate $r_s$\\
+\\
+\underline{Step 4}\\
+Compare $r_s$ to the critical value. If in the critical region, testis significant, reject $H_0$ in favour of $H_1$\\
+\\
+\underline{Step 5}\\
+Make conclusion in context of question
+\section{Tied ranks}
+If there are tied ranks and average of the positions they would take up, for example:\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+\hline
+Value&12&14&10&12&13&13&13\\
+\hline
+Rank&2.5&7&1&2.5&5&5&5\\
+\hline
+\end{tabularx}
+\\
+
+
+
+
+
+
+\end{document}
