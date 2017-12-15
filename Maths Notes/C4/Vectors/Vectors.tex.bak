@@ -223,5 +223,67 @@ $L_2: \mathbf{r}=
 \\
 \textbf{Equal coordinates in a certain dimension to each other, preferably where constants can be eliminated}\\
 \\
+$2+4\lambda=-2$\\
+\\
+$\lambda=-1$
+\section{Finding the angle between two straight lines}
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (1,-0.5);
+\coordinate (c) at (2,2);
+\draw[black, thick] (-1,0.5) -- (2,-1) node[below] {$L_2$};
+\draw[black, thick] (-1,-1) -- (2,2) node[above] 
+{$L_1$}
+;
+\filldraw[black] (0,0) circle (2pt);
 
+\draw pic["$\theta$",draw=orange,<->,angle eccentricity=1.2,angle radius=1cm] {angle=b--a--c};
+\end{tikzpicture}
+\\
+These vectors can be represented in the form $\mathbf{r}=\mathbf{a}+\lambda\mathbf{d_1}$\\
+\\
+\textbf{Example}\\
+\\
+$\mathbf{r}=
+\begin{pmatrix}
+2\\
+0\\
+1\\
+\end{pmatrix}
++\lambda
+\begin{pmatrix}
+11\\
+5\\
+3\\
+\end{pmatrix}$\\
+\\
+Here $\mathbf{d_1}$ is $\begin{pmatrix}
+11\\
+5\\
+3\\
+\end{pmatrix}$\\
+\\
+\\
+$\cos\theta=\Bigg|\dfrac{\mathbf{d_1}\cdot\mathbf{d_2}}{|\mathbf{d_1}||\mathbf{d_2}|}\Bigg|$
+\\
+\section{Problems involving points on vector lines and perpendicular problems}
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (1,-1);
+\coordinate (c) at (2,2);
+\draw[black, thick] (-1,1) -- (2,-2) node[below] {O};
+\draw[black, thick] (-1,-1) -- (2,2) node[above] 
+{$L_1$}
+;
+\filldraw[black] (0,0) circle (2pt);
+
+\draw[black, thick] (0,0) -- (0.3,-0.3) -- (0.6,0) -- (0.3,0.3) -- cycle;
+\node[text width=4cm] at (1.6,-0.7) {$\begin{psmallmatrix}
+x\\
+y\\
+z\\
+\end{psmallmatrix}
+$};
+\end{tikzpicture}\\
+$L_1: \mathbf{r}=
 \end{document}
