@@ -102,7 +102,6 @@ A current will flow if the conductor is part of a complete circuit
 
 \draw [arrow] (-1.5,-2) -- node[anchor=north] {Movement} (1,-2);
 \end{tikzpicture}
-\newpage
 \section{The laws of electromagnetic induction}
 
 
