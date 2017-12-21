@@ -1,0 +1,53 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{circuitikz}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{relsize}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Physics - Alternating Current}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Alternating Current}
+\end{center}
+\section{Oscilloscopes}
+$x$-axis - Time base\\
+$y$-axis - Y Sensitivity\\
+\\
+The advantage of calculating peak to peak voltage over peak voltage is that it reduces the uncertainty in calculating the peak voltage.
+
+\section{Alternating and direct current}
+AC - Alternating Current - Current continuously changes direction\\
+DC - Direct Current - Current flows in one(same) direction\\
+\\
+Frequency - The number of waves passing a point per second (Hz)\\
+\section{Root mean square}
+Root mean square values are used to calculate average values for alternating current that are not zero\\
+\\
+Peak voltage = $V_0 \quad$ Peak current=$I_0$\\
+$$V_{RMS}=\dfrac{V_0}{\sqrt{2}}$$
+$$I_{RMS}=\dfrac{I_0}{\sqrt{2}}$$\\
+\\
+Power, $P=IV$\\
+\\
+$P_{RMS}=I_{RMS}V_{RMS}=\dfrac{I_0}{\sqrt{2}}\times\dfrac{V_0}{\sqrt{2}}=\dfrac{P_0}{2}$
+ 
+\end{document}
