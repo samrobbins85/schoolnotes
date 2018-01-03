@@ -1,15 +1,13 @@
 \documentclass{article}[18pt]
 \usepackage[utf8]{inputenc}
 \usepackage[margin=0.7in]{geometry}
-\usepackage{parselines} 
 \usepackage{amsmath}
 \usepackage{titlesec}
 \usepackage{pgfplots}
 \usepackage{graphicx}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
-\usetikzlibrary{decorations, decorations.text,positioning,quotes,arrows.meta,decorations.markings,3d,shapes}
-
+\usetikzlibrary{decorations, decorations.text,positioning,quotes,arrows.meta,decorations.markings,3d,shapes,decorations.pathmorphing}
 \pgfplotsset{width=10cm,compat=1.9}
 
 \titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
@@ -104,6 +102,81 @@ A current will flow if the conductor is part of a complete circuit
 \end{tikzpicture}
 \newpage
 \section{The laws of electromagnetic induction}
+\includegraphics[width=5cm]{magnetic_induction.jpg}\\
+North Pole - Anticlockwise current flow\\
+South Pole - Clockwise current flow\\
+\section{Lenz's law}
+The direction of the induced emf is always such as to oppose the change that is causing it.\\
+\includegraphics[width=5cm]{lenz.jpg}\\
+As the magnet is pushed into the coil it induces an emf in the coil, this produces a magnetic field which opposes the potion. When removing the magnet the polarity will be inversed.\\
+\section{Faraday's law}
+\begin{tikzpicture}
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\filldraw[color=black,fill=none,very thick](-1,0) circle (1.5);
+
+\draw[ultra thick, black] (0.06,1.06) -- (-2.06,-1.06);
+\draw[ultra thick, black] (-2.06,1.06) -- (0.06,-1.06);
+
+
+\draw[ultra thick, blue] (-2.06,1.5) -- (-2.06,-1.5);
+\draw[ultra thick, blue] (-1.5,1.5) -- (-1.5,-1.5);
+
+\draw [arrow] (-1.5,-2) -- node[anchor=north] {\footnotesize{Movement of wire}} (1,-2);
+\draw[thick, <->] (-3,-1.5) -- (-3,1.5) node[anchor=east,midway] {l};
+
+\draw[thick, <->] (-2.5,2) -- (0.5,2) node[anchor=south,midway] {$\Delta S$};
+\end{tikzpicture}\\
+\\
+\begin{tabular}{r l}
+Work done&$=F\times S$\\
+&$=BIl\times\Delta S$
+\end{tabular}\\
+\\
+Charge transfer, $Q=I\times\Delta t$\\
+\\
+$\epsilon=\dfrac{\text{Work done}}{\text{Charge}}=\dfrac{BIl\times\Delta S}{I\times\Delta t}=\dfrac{BA}{\Delta t}$\\
+\\
+\textcolor{red}{B=Magnetic flux density=$\dfrac{\phi}{A}$}\\
+\textcolor{red}{$\phi$ = Magnetic flux}
+$$\epsilon=\dfrac{\phi}{\Delta t}$$
+\newpage
+Faraday's law of electromagnetic induction is equal to the rate of change of flux(linkage) through the circuit.\\
+\\
+Flux linkage refers to coils, $N\phi$ replaces $\phi$ where N is the number of coils.
+$$\epsilon=-N\dfrac{\Delta\phi}{\Delta t}$$
+This equation may need to be expanded depending on the example
+\subsection{Example}
+\begin{tikzpicture}[cross/.style={path picture={ 
+  \draw[black]
+(path picture bounding box.south east) -- (path picture bounding box.north west) (path picture bounding box.south west) -- (path picture bounding box.north east);
+}},decoration={coil}]
+
+ \node [draw,circle,cross,minimum width=2 mm] at (2,0){}; 
+ \node [draw,circle,cross,minimum width=2 mm] at (2,-0.5){};
+ \node [draw,circle,cross,minimum width=2 mm] at (2,-1){};
+ \node [draw,circle,cross,minimum width=2 mm] at (2,-1.5){};
+ \node [draw,circle,cross,minimum width=2 mm] at (2,-2){};
+ 
+  \node [draw,circle,cross,minimum width=2 mm] at (3,0){}; 
+ \node [draw,circle,cross,minimum width=2 mm] at (3,-0.5){};
+ \node [draw,circle,cross,minimum width=2 mm] at (3,-1){};
+ \node [draw,circle,cross,minimum width=2 mm] at (3,-1.5){};
+ \node [draw,circle,cross,minimum width=2 mm] at (3,-2){};
+ 
+   \node [draw,circle,cross,minimum width=2 mm] at (4,0){}; 
+ \node [draw,circle,cross,minimum width=2 mm] at (4,-0.5){};
+ \node [draw,circle,cross,minimum width=2 mm] at (4,-1){};
+ \node [draw,circle,cross,minimum width=2 mm] at (4,-1.5){};
+ \node [draw,circle,cross,minimum width=2 mm] at (4,-2){};
+ 
+ \draw[decorate, decoration={aspect=0.3, segment length=2mm, amplitude=3mm}] (0,0) --(0,-2);
+ 
+ \draw[thick, ->] (0.5,-1) -- (1.5,-1) ;
+\end{tikzpicture}\\
+\\
+\textcolor{red}{$\epsilon=-N\dfrac{B\Delta A}{\Delta t}$}
+
+
 
 
 \end{document}
