@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.30)  15 JAN 2018 07:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.30)  17 JAN 2018 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Vectors.tex
-(./Vectors.tex
+**All.tex
+(./All.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -818,7 +818,26 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+))) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen187
+\extrarowheight=\dimen188
+\NC@list=\toks41
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count129
+\TX@ftn=\toks42
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/11/03 3.15 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
@@ -833,8 +852,8 @@ File: babel.def 2017/11/03 3.15 Babel common definitions
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
-\babel@savecnt=\count129
-\U@D=\dimen187
+\babel@savecnt=\count130
+\U@D=\dimen194
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -843,150 +862,70 @@ File: switch.def 2017/11/03 3.15 Babel switching mechanism
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 )
-(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
+ 0.8.3
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texmf-dist/tex/latex/mwe/mwe.sty
-Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
-
-(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count130
-)
-(/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count131
-\c@Blindtext=\count132
-\c@blind@countparstart=\count133
-\blind@countxx=\count134
-\blindtext@numBlindtext=\count135
-\blind@countyy=\count136
-\c@blindlist=\count137
-\c@blindlistlevel=\count138
-\c@blindlist@level=\count139
-\blind@listitem=\count140
-\c@blind@listcount=\count141
-\c@blind@levelcount=\count142
-\blind@mathformula=\count143
-\blind@Mathformula=\count144
-\c@blind@randomcount=\count145
-\c@blind@randommax=\count146
-\c@blind@pangramcount=\count147
-\c@blind@pangrammax=\count148
-))
-(/usr/share/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count149
-\float@exts=\toks41
-\float@box=\box41
-\@float@everytoks=\toks42
-\@floatcapt=\box42
-)
-(/usr/share/texmf-dist/tex/latex/polynom/polynom.sty
-Package: polynom 2017/07/17 0.19 (CH,HA)
-\pld@currstage=\count150
-)
-(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
-)
-(/usr/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 calc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-3d.code.tex
-File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-arrows.code.tex
-File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen188
-)))
-(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
+\arrowsize=\dimen195
+)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@res@up=\dimen196
+\pgf@circ@res@down=\dimen197
+\pgf@circ@res@zero=\dimen198
+\pgf@circ@res@left=\dimen199
+\pgf@circ@res@right=\dimen256
+\pgf@circ@res@other=\dimen257
+\pgf@circ@res@step=\dimen258
+\pgf@circ@res@temp=\dimen259
+\pgfstartlinewidth=\dimen260
+\pgf@circ@Rlen=\dimen261
+)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex))
+(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\tindent=\skip59
+ (./All.aux)
+\openout1 = `All.aux'.
 
-(/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count151
-\calc@Bcount=\count152
-\calc@Adimen=\dimen189
-\calc@Bdimen=\dimen190
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count153
-\calc@Cskip=\skip59
-)
-(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
-)
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count154
-\l_MT_multwidth_dim=\dimen191
-\origjot=\skip60
-\l_MT_shortvdotswithinadjustabove_dim=\dimen192
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen193
-\l_MT_above_intertext_sep=\dimen194
-\l_MT_below_intertext_sep=\dimen195
-\l_MT_above_shortintertext_sep=\dimen196
-\l_MT_below_shortintertext_sep=\dimen197
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-quotes.code.tex
-File: tikzlibraryquotes.code.tex 2014/03/21 v3.0.1a (rcs-revision 1.4)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-angles.code.tex
-File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
-)
-\tindent=\skip61
- (./Vectors.aux)
-\openout1 = `Vectors.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1024,16 +963,16 @@ LaTeX Font Info:    ... okay on input line 37.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen198
-\scratchbox=\box43
-\nofMPsegments=\count156
-\nofMParguments=\count157
+\scratchcounter=\count131
+\scratchdimen=\dimen262
+\scratchbox=\box41
+\nofMPsegments=\count132
+\nofMParguments=\count133
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen199
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen263
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks44
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1091,296 +1030,85 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--87
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]|\OT1/cmr/m/n/10 Strong, elec-tro-mag-netic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--196
-
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]|\OT1/cmr/m/n/10 Strong, elec-tro-mag-netic
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--335
-
- []
-
-[3] [4] (./Vectors.aux) ) 
+[4] [5] (./All.aux) ) 
 Here is how much of TeX's memory you used:
- 26231 strings out of 492985
- 638531 string characters out of 6138637
- 903325 words of memory out of 5000000
- 29300 multiletter control sequences out of 15000+600000
- 13448 words of font info for 51 fonts, out of 8000000 for 9000
+ 30801 strings out of 492985
+ 808826 string characters out of 6138637
+ 1061117 words of memory out of 5000000
+ 33904 multiletter control sequences out of 15000+600000
+ 6530 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,96p,724b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Vectors.pdf (4 pages, 148475 bytes).
+ 69i,11n,96p,720b,1872s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on All.pdf (5 pages, 121397 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
