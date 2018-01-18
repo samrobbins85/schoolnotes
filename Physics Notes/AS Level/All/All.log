@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.30)  17 JAN 2018 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  18 JAN 2018 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,10 +1088,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-[4] [5] (./All.aux) ) 
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--202
+
+ []
+
+[5] [6] (./All.aux) ) 
 Here is how much of TeX's memory you used:
  30801 strings out of 492985
- 808826 string characters out of 6138637
+ 808826 string characters out of 6138638
  1061117 words of memory out of 5000000
  33904 multiletter control sequences out of 15000+600000
  6530 words of font info for 24 fonts, out of 8000000 for 9000
@@ -1105,10 +1115,10 @@ ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on All.pdf (5 pages, 121397 bytes).
+Output written on All.pdf (6 pages, 126280 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
