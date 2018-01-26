@@ -1,0 +1,148 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{enumitem}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\hyphenpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S3}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Sampling}
+\end{center}
+\begin{tabularx}{\textwidth}{|c|X|X|X|}
+\hline
+&What it is&Advantages&Disadvantages\\
+\hline
+Census&A collection of data from an entire population&Gives a completely accurate result&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Time consuming+Expensive
+\item Can not be used when testing involves destruction
+\item Large volume of data to process
+\end{itemize}\\
+\hline
+Sample survey&A survey of a small sample of the population&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Cheaper
+\item Quicker
+\item Easier to process
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Data may not be accurate
+\item Data may not be large enough to represent small sub groups
+\end{itemize}\\
+\hline
+Random Sampling&Each thing has an equal chance of being selected&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Numbers truly random and free from bias
+\item Easy to use
+\item Each number has a known equal chance of being selected
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Not suitable when population is large
+\end{itemize}\\
+\hline
+Lottery sampling&Each element of a population put on a ticket. Tickets drawn randomly from container(without displacement)&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Tickets are drawn at random
+\item It is easy to use
+\item Each ticket has a known chance of selection
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item It is not suitable when the population is large
+\item A sampling frame is needed
+\end{itemize}\\
+\hline
+Systematic sampling&Required elements are chosen at regular intervals in an ordered list&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Simple to use
+\item Suitable for large samples
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Only random if ordered list is truly random
+\item Can introduce bias
+\end{itemize}\\
+\hline
+Stratified sampling&Population is divided into groups and a simple random sample is carried out in each group&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item It can give more accurate estimates than simple random sampling where clear strata are present
+\item Reflects the population structure
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Within the strata, the problems are than same as for any simple random sample
+\item If the strata are not clearly defined they may overlap
+\end{itemize}\\
+\hline
+Quota sampling&The population is divided into groups by gender etc. A quota of people in each group is set to try and reflect the group's proportion in the whole population&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Enables fieldwork to be done quickly because a small sample size is taken.
+\item Costs kept to a minimum
+\item Administering test is easy
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Not possible to estimate the sampling errors
+\item Interviewers may not be able to judge characteristics easily
+\item Non responses are not recorded
+\item Can introduce interview bias
+\end{itemize}\\
+\hline
+\end{tabularx}
+\newpage
+\begin{center}
+\underline{\huge Types of data}
+\end{center}
+\begin{tabularx}{\textwidth}{|c|X|X|}
+\hline
+Type of data&Advantages&Disadvantages\\
+\hline
+Primary&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item The collection method is known
+\item The accuracy is known
+\item The exact data needed is collected
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item It is costly in time and effort
+\end{itemize}\\
+\hline
+Secondary&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item They are cheap to obtain
+\item A large quantity of data is available
+\item Much of the data has been collected for years and can be used to plot trends
+\end{itemize}&
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+\item Bias is not always recognised
+\item It can be in a form that is difficult to deal with
+\end{itemize}\\
+\hline
+
+
+
+
+
+\end{tabularx}
+
+
+
+\end{document}
