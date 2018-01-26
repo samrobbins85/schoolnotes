@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  21 DEC 2017 10:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  26 JAN 2018 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,28 +1016,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--43
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
+
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(./First Order Differential Equations.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 71--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+[2] (./First Order Differential Equations.aux) ) 
 Here is how much of TeX's memory you used:
- 23852 strings out of 492985
- 599582 string characters out of 6138637
- 779708 words of memory out of 5000000
- 27010 multiletter control sequences out of 15000+600000
- 5603 words of font info for 21 fonts, out of 8000000 for 9000
+ 23875 strings out of 492985
+ 599818 string characters out of 6138638
+ 782708 words of memory out of 5000000
+ 27023 multiletter control sequences out of 15000+600000
+ 9369 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,96p,753b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "First Order Differential Equations.pdf" (1 page, 56264 bytes
-).
+</usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "First Order Differential Equations.pdf" (2 pages, 151797 byt
+es).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
