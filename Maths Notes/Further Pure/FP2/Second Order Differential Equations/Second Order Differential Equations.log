@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  26 JAN 2018 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.30)  27 JAN 2018 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -859,6 +859,9 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
+(/usr/share/texmf-dist/tex/generic/genmisc/nth.sty
+Package: nth 2002/02/27
+)
 \tindent=\skip57
 
 (./Second Order Differential Equations.aux)
@@ -991,27 +994,48 @@ Package gensymb Info: Using \Omega for \ohm on input line 28.
 
 Package gensymb Warning: Not defining \micro.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
+] [2] [3]
 (./Second Order Differential Equations.aux) ) 
 Here is how much of TeX's memory you used:
- 23386 strings out of 492985
- 586486 string characters out of 6138638
- 776708 words of memory out of 5000000
- 26546 multiletter control sequences out of 15000+600000
- 4393 words of font info for 17 fonts, out of 8000000 for 9000
+ 23454 strings out of 492985
+ 587345 string characters out of 6138637
+ 780708 words of memory out of 5000000
+ 26594 multiletter control sequences out of 15000+600000
+ 11448 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,754b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on "Second Order Differential Equations.pdf" (1 page, 42769 byte
-s).
+/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb>
+Output written on "Second Order Differential Equations.pdf" (3 pages, 170263 by
+tes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,103 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage[super]{nth}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - FP2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Second Order Differential Equations}
+\end{center}
+In FP2 we are interested in solving 2nd ODEs of the form:
+$$a\frac{d^2y}{dx^2}+b\frac{dy}{dx}+cy=f(x) \quad \quad \textrm{a,b,c are constants}$$
+\\
+We consider three distinct cases:\\
+$b^2>4ac\quad$  (Two real solutions)\\
+$b^2=4ac\quad$  (One repeated solution)\\
+$b^2<4ac\quad$  (Two complex solutions)\\
+\\
+To solve \nth{2} ODEs of this form we first consider solutions to:
+$$a\frac{d^2y}{dx^2}+b\frac{dy}{dx}+cy=0$$
+The process of solving a \nth{2} ODE starts with a general solution to a \nth{1} ODE of form:
+$$b\frac{dy}{dx}+cy=0$$
+$$\mathlarger{\int}\frac{1}{b} \ dy=\mathlarger{\int}\frac{1}{-cy} \ dy$$
+$$b\ln(y)=-cx+k$$
+$$y=Ae^{-\frac{c}{b}x}$$
+$$y=Ae^{mx}$$
+\textcolor{red}{This was suggested to be a solution to the \nth{2} ODE as well}\\
+\\
+We take $y=e^{mx}$ as a starting point for finding general solutions to:
+$$(1) \quad a\frac{d^2y}{dx^2}+b\frac{dy}{dx}+cy=0$$\\
+If $y=e^{mx}$ is a solution to (1):
+$$\frac{dy}{dx}=me^{mx}$$
+$$\frac{d^2y}{dx^2}=m^2e^{mx}$$
+Then substitute this into (1)
+$$am^2e^{mx}+bme^{mx}+ce^{mx}=0$$
+Factor out $e^{mx}$
+$$e^{mx}(am^2+bm+c)$$
+As $e^x$ must be greater than zero $am^2+bm+c=0$\\
+This is a solvable quadratic called the \textbf{Auxiliary equation}
+\newpage
+\section{Two real roots $\mathbf{b^2>4ac}$}
+$$(1) \quad a\frac{d^2y}{dx^2}+b\frac{dy}{dx}+cy=0$$\\
+The general solution to (1) is in the form:
+$$\mathlarger{y=Ae^{\alpha x}+Be^{\beta x}}$$
+Where A and B are constants and $\alpha$ and $\beta$ are the roots to the AE
+\subsection{Example}
+$$(1) \quad 2\frac{d^2y}{dx^2}+5\frac{dy}{dx}+3y=0$$
+Find the auxiliary equation
+$$2m^2e^{mx}+5me^{mx}+3e^{mx}=0$$
+$$e^{mx}(2m^2+5m+3=0$$
+$m=-\dfrac{3}{2}\quad m=-1$
+$$\textrm{General solution:} y=Ae^{\alpha x}+Be^{\beta x}$$
+$$GS=Ae^{-\frac{3}{2}x}+Be^{-x}$$
+\section{1 Real, Repeated root $\mathbf{b^2=4ac}$}
+$$\textrm{General solution}: \mathlarger{(A+bx)e^{\alpha x}}$$
+A and B are constants and $\alpha$ is the root of the AE
+\subsection{Example}
+\textit{Find the general solution of:}
+$$\frac{d^2y}{dx^2}+8\frac{dy}{dx}+16y=0$$
+Find the auxiliary equation
+$$e^{mx}(m^2+8m+16)=0$$
+Find the solution
+$$m=-4$$
+Substitute into the general solution formula
+$$y=(A+Bx)e^{-4x}$$
+\section{Imaginary only roots $\mathbf{b^2<4ac}$}
+This is when the AI has roots of form $\pm \alpha i$
+$$\textrm{General solution:} \quad \mathlarger{y=A\cos(\alpha x)+B\sin(\alpha x)}$$
+\newpage
+\section{Complex roots $\mathbf{b^2<4ac}$}
+This is used when the root is in the form $\beta\pm\alpha i$
+$$\textrm{General solution:} \quad \mathlarger{y=e^{\beta x}(A\cos(\alpha x)+B\sin(\alpha x))}$$
+\subsection{Example}
+\textit{Find the general solution of:}
+$$\frac{d^2y}{dx^2}-6\frac{dy}{dx}+34y=0$$
+Find the auxiliary equation
+$$m^2-6m+34=0$$
+Solve to find roots
+$$\textrm{Roots}=\frac{6\pm\sqrt{36-4\times1\times34}}{2}=\frac{6\pm10i}{2}=3\pm5i$$
+Substitute into general solution formula
+$$\mathlarger{y=e^{3x}(A\cos(5x)+B\sin(5x))}$$
+\end{document}
