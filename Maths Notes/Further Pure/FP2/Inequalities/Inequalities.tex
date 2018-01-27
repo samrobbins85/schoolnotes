@@ -1,0 +1,98 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage[super]{nth}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - FP2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Inequalities}
+\end{center}
+\section{Solving inequalities}
+We can build upon our previous algebraic skills in order to solve more complex inequalities\\
+Remember:
+\begin{itemize}
+\item Don't multiply anything that could be negative - use "squared" things
+\item Find the critical values (f(x)=0)
+\item Sketch the graph to solve
+\end{itemize}
+\subsection{Examples}
+\subsubsection{Example 1}
+$$2x^2<x+3$$
+Move all terms to one side
+$$2x^2-x-3<0$$
+Factorise
+$$(2x-3)(x+1)<0$$
+Solve to find critical values
+$$\textrm{CVs:} \ x=\frac{3}{2},-1$$
+Draw graph to find inequality\\
+\\
+\\
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[axis lines=middle,xtick={
+        -1,1.5
+    },
+    xticklabels={
+        -1,$\dfrac{3}{2}$
+    },ytick style={draw=none},ytick=\empty
+]
+\pgfplotsset{every tick label/.append style={font=\Large,color=red}}
+
+\addplot[name path=A,color=black,domain=-1.5:2]{2*x^2-x-3};
+\end{axis}
+\end{tikzpicture}\\
+Write inequality for when the graph is below the x axis
+$$-1<x<\frac{3}{2}$$
+\newpage
+\subsubsection{Example 2}
+$$\frac{x}{x+1}<\frac{2}{x+2}$$
+Multiply both sides by $(x+1)^2(x+3)^2$
+$$x(x+1)(x+3)^2<2(x+3)(x+1)^2$$
+Put all terms on one side
+$$x(x+1)(x+3)^2-2(x+3)(x+1)^2<0$$
+Simplify
+$$(x+1)(x+3)(x(x+3)-2(x+1))<0$$
+$$(x+1)(x+3)(x+2)(x-1)<0$$
+Plot graph\\
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[axis lines=middle,xtick={
+        -3,-2,-1,1
+    },
+    xticklabels={
+        -3,-2,-1,1
+    },ytick style={draw=none},ytick=\empty,ymax=2,xmax=3,samples=100
+]
+\pgfplotsset{every tick label/.append style={font=\Large,color=red}}
+
+\addplot[name path=A,color=black,domain=-4:4]{(x+1)*(x+3)*(x+2)*(x-1)};
+\end{axis}
+\end{tikzpicture}\\
+\\
+Write the inequality for when the graph is below the x axis
+$$-3<x<-2, \ -1<x<1$$
+
+
+
+\end{document}
