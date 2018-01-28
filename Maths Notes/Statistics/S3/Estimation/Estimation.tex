@@ -30,7 +30,36 @@
 \begin{center}
 \underline{\huge Estimation, confidence intervals and tests}
 \end{center}
-
-
-
+\section{Estimators}
+A statistic that is used to estimate a population parameter is an \textbf{estimator}.\\
+A particular individual value is an \textbf{estimate}.\\
+\textbf{Bias} is how far the estimator is from the true value\\
+\\
+If a statistic T is used as an estimator for a population parameter $\theta$ then the bias is:
+$$E(T)-\theta$$
+If $E(T)=\theta$ then the statistic is unbiased
+\subsection{Proving $\mathbf{E(\overline{X})=\mu}$}
+\textit{Prove that $\overline{X}$ is an unbiased estimator for $\mu$ when the population is normally distributed}\\
+\\
+A random sample $X_1,X_2,X_3...X_N$ is taken for a population with $X\sim N(\mu,\sigma^2)$
+$$\overline{X}=\frac{1}{n}\sum X$$
+$$E(\overline{X})=E\Big(\frac{1}{n}\sum X\Big)$$
+$$E(\overline{X})=\frac{1}{n}\big(E(X_1)+E(X_2)+E(X_3)...+E(X_N)\big)$$
+$$E(\overline{X})=\frac{1}{n}(\mu+\mu+\mu...+\mu)$$
+$$E(\overline{X})=\frac{1}{n}(n\mu)$$
+$$E(\overline{X})=\mu$$
+\subsection{Variance}
+$$Var(\overline{X})=\frac{\sigma^2}{\textrm{Sample size}}$$
+\\
+We use $S^2$ as an estimator for $\sigma^2$
+$$S^2=\frac{1}{n-1}\Big(\Sigma X^2-n\overline{X}^2\Big)$$
+\subsection{Uniform Distributions}
+\textit{Random variable X is continuously uniform $[0,\alpha]$. A sample $X_1,X_2..X_N$ is taken}\\
+\textit{Show that $\overline{X}$ is a biased estimate and state the bias}
+$$\overline{X}=\frac{0+\alpha}{2}=\frac{\alpha}{2}$$
+$$E(\overline{X})=E(\frac{\alpha}{2})=\frac{1}{2}E(\alpha)=\frac{\alpha}{2}$$
+$$\textrm{Bias}=\frac{\alpha}{2}-\alpha=-\frac{\alpha}{2}$$
+\newpage
+\section{Standard error}
+$$\textrm{Standard error}=\frac{\sigma}{\sqrt{n}} \ \textrm{or} \ \frac{s}{\sqrt{n}}$$
 \end{document}

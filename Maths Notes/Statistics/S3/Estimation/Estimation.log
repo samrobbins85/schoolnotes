@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  23 JAN 2018 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.30)  28 JAN 2018 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,8 +887,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitdp@description=\count131
 )
 \tindent=\skip60
-
-No file Estimation.aux.
+ (./Estimation.aux)
 \openout1 = `Estimation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -903,6 +902,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1017,23 +1017,42 @@ Package gensymb Info: Using \Omega for \ohm on input line 29.
 
 Package gensymb Warning: Not defining \micro.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./Estimation.aux) ) 
+] [2] (./Estimation.aux) ) 
 Here is how much of TeX's memory you used:
- 23745 strings out of 492985
- 591874 string characters out of 6138638
- 776708 words of memory out of 5000000
- 26897 multiletter control sequences out of 15000+600000
- 4393 words of font info for 17 fonts, out of 8000000 for 9000
+ 23796 strings out of 492985
+ 592471 string characters out of 6138637
+ 781708 words of memory out of 5000000
+ 26930 multiletter control sequences out of 15000+600000
+ 10609 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,727b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Estimation.pdf (1 page, 25213 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb>
+Output written on Estimation.pdf (2 pages, 124455 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
