@@ -1,0 +1,99 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usetikzlibrary{decorations, decorations.text,positioning,quotes,arrows.meta,decorations.markings,3d,shapes,decorations.pathmorphing}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage[super]{nth}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\hyphenpenalty =10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Physics - Nuclear Physics}
+\rfoot{Page \thepage}
+\usepackage{mathtools}
+\usetikzlibrary{calc,quotes,angles}
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\begin{document}
+\begin{center}
+\underline{\huge Radioactivity}
+\end{center}
+\section{Rutherford Scattering}
+\subsection{The plum pudding model}
+\includegraphics[width=3cm] {plum.jpg}  
+\includegraphics[width=3cm] {Plumpudding.png}
+\\
+The plum pudding model was the initial model of the atom, stating a sphere of positive charge with electrons embedded into it.
+\subsection{Rutherford's experiment}
+\includegraphics[width=6cm] {scatter.png}\\
+Rutherford's experiment involved firing a beam of alpha particles at gold foil and measuring the paths of particles from the foil.
+\begin{itemize}
+\item Gold was used as it was expected to have a large nucleus
+\item The screen fluoresces when collided with
+\item This showed the atom was mostly empty space with a positive nucleus
+\end{itemize}
+\subsubsection{Results}
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        
+\includegraphics[width=6cm]{foil.jpg}  
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+Observation&Explanation\\
+\hline
+Most electrons pass all the way through&Atoms are mostly empty space\\
+\hline
+Some are deflected&The atom has a positive centre\\
+\hline
+Some are deflected by significant angles&The positive charge is condensed in a small area\\
+\hline
+\end{tabularx}
+    \end{minipage}
+\end{figure}
+\subsection{Estimating the size of the nucleus}  
+\subsubsection{Closest approach method}
+\begin{tikzpicture}
+\filldraw[color=red, fill=red, very thick](0,0) circle (0.2);
+\draw[thick, ->,black] (0.4,0) -- (4,0) node[above,yshift=0.3cm,xshift=-2cm] {\footnotesize{Velocity reduces on approach}};
+\draw[color=red, very thick](6,0) circle (1) node[] {Au};
+\draw[color=black, very thick,dashed](6,0) circle (2) node[above,yshift=2cm] {EPE};
+\draw[thick, ->,black] (4,0) -- (1,-1);
+\end{tikzpicture}\\
+\\
+KE=EPE
+$$8.0\times10^{-13}=\frac{1}{4\pi\epsilon_0}\times\frac{Q_{Au}}{r}\times Q_{\alpha}$$
+$$r=4.55\times10^{-14}$$
+\subsubsection{Estimate from scattering data}
+\begin{itemize}
+\item About $\frac{1}{10,000}$ deflected through more than 90\degree
+\item Foil had n layers of atoms
+\end{itemize}
+\begin{tikzpicture}
+\draw[thick, stealth-stealth,black] (6.8,-0.4) -- (6.8,0.4) node[right,midway] {d} ;
+\draw[color=red, very thick](6,0) circle (0.5) node[] {\tiny{Nucleus}};
+\draw[color=black, very thick](6,0) circle (2) node[above,yshift=2cm] {Atom};
+\draw[thick, stealth-stealth,black] (8.5,-2) -- (8.5,2) node[right,midway] {D};
+\end{tikzpicture}\\
+$$\frac{\frac{1}{4}\pi d^2}{\frac{1}{4}\pi D^2}=\frac{d^2}{D^2}=\frac{1}{10,000n}$$
+$n=10^4$ layers
+$$\frac{d^2}{D^2}=\frac{1}{10,000\times1\times10^4}$$
+$$d=\frac{D}{10,000}$$
+\end{document}
