@@ -1,4 +1,5 @@
 \documentclass{article}[18pt]
+\usepackage[dvipsnames]{xcolor}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=0.7in]{geometry}
 \usepackage{parselines} 
@@ -6,6 +7,7 @@
 \usepackage{titlesec}
 \usepackage{pgfplots}
 \usepackage{tabularx}
+
 \usepgfplotslibrary{fillbetween}
 \usepackage{graphicx}
 \usepackage[english]{babel}
@@ -27,6 +29,17 @@
 \rfoot{Page \thepage}
 
 \usepackage{cancel}
+
+
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+
 
 \begin{document}
 \begin{center}
@@ -136,5 +149,43 @@ Rewrite
 $$r^{-m}(\cos(-m\theta)+i\sin(-m\theta))$$
 Replace -m with n
 $$r^n(\cos(n\theta)+i\sin(n\theta))$$
+\newpage
+\subsection{Applying De Moivres' Theorem}
+We can use the binomial expansion along with De Moivre's theorem to rewrite trigonometric expressions. This can be useful when integrating etc.
+\subsubsection{Example 1}
+\textit{Rewrite $\cos5\theta$ in powers of $\cos\theta$}
+$$(\cos\theta+i\sin\theta)^5$$
+Apply DM theorem
+$$\cos5\theta+i\sin5\theta$$
+Apply the binomial expansion to the initial expression
+$$\cos^5\theta+5\cos^4\theta i\sin\theta+10\cos^3\theta(i\sin\theta)^2+10\cos^2\theta(i\sin\theta)^3+5\cos\theta(i\sin\theta)^4+(i\sin\theta)^5$$
+Simplify
+$$\cos^5\theta+5i\cos^4\theta\sin\theta-10\cos^3\theta\sin^2\theta-10i\cos^2\theta\sin^3\theta+5\cos\theta\sin^4\theta+i\sin^5\theta$$
+Equate the real parts of this to the real parts of the result from DM theorem
+$$\cos5\theta=\cos^5\theta-10\cos^3\theta\sin^2\theta+5\cos\theta\sin^4\theta$$
+Replace sin terms with cos
+$$\cos5\theta=\cos^5\theta-10\cos^3\theta(1-\cos^2\theta)+5\cos\theta(1-\cos^2\theta)^2$$
+Simplify
+$$\cos5\theta=\cos^5\theta-10\cos^3\theta+10\cos^5\theta+5\cos\theta(1-\cos\cos^2\theta+cos^4\theta)$$
+Simplify further
+$$\cos5\theta=\cos^5\theta-10\cos^3\theta+10\cos^5\theta+5\cos\theta-10\cos63\theta+5\cos^5\theta$$
+Collect terms
+$$\cos5\theta=16\cos^5\theta-20\cos^3\theta+5\cos\theta$$
+\newpage
+\subsubsection{Z formulas}
+If $z=\cos\theta+i\sin\theta$
+$$z+\frac{1}{z}=2\cos\theta$$
+$$z-\frac{1}{z}=2i\sin\theta$$
+$$z^n+\frac{1}{z^n}=2\cos n\theta$$
+$$z^n-\frac{1}{z^n}=2i\sin n\theta$$
+\paragraph{Example}
+\textit{Express $\cos^5\theta$ in the form $a\cos5\theta+b\cos3\theta+c\cos\theta$}
+Create the situation using the z formulas
+$$\Bigg(z+\frac{1}{z}\Bigg)^5=(2\cos\theta)^5=32\cos^5\theta$$ 
+Expand using the binomial
+$$\textcolor{red}{z^5}+\textcolor{Green}{5z^4\times\frac{1}{z}}+\textcolor{Plum}{10z^3\times\frac{1}{z^2}}+\textcolor{Plum}{10z^2\times\frac{1}{z^3}}+\textcolor{Green}{5z\times\frac{1}{z^4}}+\textcolor{red}{\frac{1}{z^5}}$$
+Combine like coloured term using z formula
+$$32\cos^5\theta=\textcolor{red}{2\cos\theta}+\textcolor{Green}{10\cos3\theta}+\textcolor{Plum}{20\cos\theta}$$
+$$\cos^5\theta=\frac{\cos\theta}{16}+\frac{5\cos3\theta}{16}+\frac{5\cos\theta}{8}$$
 
 \end{document}

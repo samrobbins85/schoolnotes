@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Final.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: Final-blx.bib
+Database file #2: Final.bib
+Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+You've used 11 entries,
+            6256 wiz_defined-function locations,
+            1244 strings with 9814 characters,
+and the built_in function-call counts, 43963 in all, are:
+= -- 2784
+> -- 927
+< -- 245
++ -- 818
+- -- 285
+* -- 2912
+:= -- 3980
+add.period$ -- 0
+call.type$ -- 11
+change.case$ -- 139
+chr.to.int$ -- 30
+cite$ -- 20
+duplicate$ -- 4555
+empty$ -- 4479
+format.name$ -- 510
+if$ -- 9442
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 0
+newline$ -- 257
+num.names$ -- 470
+pop$ -- 3313
+preamble$ -- 1
+purify$ -- 178
+quote$ -- 0
+skip$ -- 1706
+stack$ -- 0
+substring$ -- 4358
+swap$ -- 1227
+text.length$ -- 208
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 362
+warning$ -- 0
+while$ -- 469
+width$ -- 0
+write$ -- 247
