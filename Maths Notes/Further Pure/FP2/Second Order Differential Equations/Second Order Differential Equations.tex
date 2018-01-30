@@ -100,4 +100,85 @@ Solve to find roots
 $$\textrm{Roots}=\frac{6\pm\sqrt{36-4\times1\times34}}{2}=\frac{6\pm10i}{2}=3\pm5i$$
 Substitute into general solution formula
 $$\mathlarger{y=e^{3x}(A\cos(5x)+B\sin(5x))}$$
+\section{Solving \nth{2} ODE = f(x)}
+Of the type:
+$$a\frac{d^2y}{dx^2}+b\frac{dy}{dx}+cy=f(x)$$
+There are set forms of f(x)\\
+\\
+The LHS will be solved in the standard way and the general solution of the LHS will be called the \textbf{complementary solution} (CS)\\
+\\
+Solving the RHS will give us a \textbf{particular integral} (PI)
+\begin{center}
+Full general solution=Complementary function+Particular integral
+\end{center}
+\subsection{Standard forms of f(x)}
+$f(x)=\lambda$\\
+$f(x)=\lambda+\mu x$\\
+$f(x)=\lambda+\mu x+\nu x^2$\\
+$f(x)=ke^{px}$\\
+$f(x)=m\cos\omega x$\\
+$f(x)=m\sin\omega x$\\
+$f(x)=m\cos\omega x\pm n\sin\omega x$
+\newpage
+\subsection{Examples}
+$$\frac{d^2y}{dx^2}-5\frac{dy}{dx}+6y=f(x)$$
+Find complementary function
+$$m^2-5m+6=0$$
+$$m=2 \quad m=2$$
+$$\textrm{Complementary funtion}=Ae^{3x}+Be^{2x}$$
+\subsubsection{\nth{2} ODE=$\lambda$}
+$f(x)=3$\\
+Start with $y=\lambda$
+$$y=\lambda$$
+$$\frac{dy}{dx}=0$$
+$$\frac{d^2y}{dx^2}=0$$
+Substitute values into LHS
+$$0-5\times0+6\lambda=3$$
+$$\lambda=\frac{1}{2}$$
+Add Complementary function to particular integral
+$$y=Ae^{3x}+Be^{2x}+\frac{1}{2}$$
+\subsubsection{\nth{2} ODE=$\lambda+\mu x$}
+$f(x)=2x$\\
+Start with $y=\lambda+\mu x$
+$$y=\lambda+\mu x$$
+$$\frac{dy}{dx}=\mu$$
+$$\frac{d^2y}{dx^2}=0$$
+Substitute into LHS
+$$0-5\mu+6(\lambda+\mu x)=2x$$
+Equate x terms
+$$6\mu x=2x$$
+$$\mu=\frac{1}{3}$$
+Equate constant terms
+$$-\frac{5}{3}+6\lambda=0$$
+$$6\lambda=\frac{5}{3}$$
+$$\lambda=\frac{5}{18}$$
+Substitute into form for the particular integral
+$$y=\frac{1}{3}x+\frac{5}{18}$$
+Add the PI and CF to find the general solution
+$$y=Ae^{3x}+Be^{2x}+\frac{1}{3}x+\frac{5}{18}$$
+\newpage
+\subsubsection{\nth{2} ODE=$\lambda+\mu x+\nu x^2$}
+$f(x)=3x^2$\\
+Start with $y=\lambda+\mu x+\nu x^2$
+$$y=\lambda+\mu x+\nu x^2$$
+$$\frac{dy}{dx}=\mu+2\nu x$$
+$$\frac{d^2y}{dx^2}=2\nu$$
+Substitute into the LHS
+$$2\nu-5(\mu+2\nu x)+6(\lambda+\mu x+\nu x^2)=3x^2$$
+Equate $x^2$ terms
+$$6\nu=3 \quad \nu=\frac{1}{2}$$
+Equate x terms
+$$-10\times\frac{1}{2}\times x+6\mu x=0$$
+$$-5+6\mu=0$$
+$$\mu=\frac{5}{6}$$
+Equate constant coefficients
+$$1-5\times\frac{5}{6}+6\lambda=0$$
+$$6\lambda=\frac{19}{6}$$
+$$\lambda=\frac{19}{36}$$
+Substitute into the particular integral form
+$$y=\frac{1}{2}x^2+\frac{5}{6}x+\frac{19}{36}$$
+Add CF and PI to get the general solution
+$$y=Ae^{3x}+Be^{2x}+\frac{1}{2}x^2+\frac{5}{6}x+\frac{19}{36}$$
+
+
 \end{document}
