@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{titlesec}
 \usepackage{pgfplots}
+\usepackage{tabularx}
 \usepgfplotslibrary{fillbetween}
 \usepackage{graphicx}
 \usepackage[english]{babel}
@@ -83,5 +84,57 @@ $$\mathlarger{Z_1Z_2=r_1e^{i\theta_1}\times r_2e^{i\theta_2}}$$
 Apply laws of indices 
 $$\mathlarger{Z_1Z_2=r_1r_2e^{i(\theta_1+\theta_2)}}$$
 \subsection{Dividing}
+\subsubsection{Trigonometric form}
+$$\frac{Z_1}{Z_2}=\frac{r_1(\cos\theta_1+i\sin\theta_1)}{r_2(\cos\theta_2+i\sin\theta_2)}$$
+Multiply by the complex conjugate 
+$$\frac{Z_1}{Z_2}=\frac{r_1(\cos\theta_1+i\sin\theta_1)}{r_2(\cos\theta_2+i\sin\theta_2)}\times\frac{\cos\theta_2-i\sin\theta_2}{\cos\theta_2-i\sin\theta_2}$$
+Expand
+$$\frac{Z_1}{Z_2}=\frac{r_1}{r_2}\times\frac{cos\theta_1\cos\theta_2-i\cos\theta_1\sin\theta_2+i\sin\theta_1\cos\theta_2+\sin\theta_1\sin\theta_2}{\cos^2\theta_2-i\cos\theta_2\sin\theta_2+i\sin\theta_2\cos\theta_2+\sin^2\theta_2}$$
+Simplify
+$$\frac{Z_1}{Z_2}=\frac{r_1}{r_2}\times\Big(\cos(\theta_1-\theta_2)+i\sin(\theta_1-\theta_2)\Big)$$
+\subsubsection{Exponential form}
+$$\mathlarger{\frac{Z_1}{Z_2}=\frac{r_1}{r_2}\times\frac{e^{i\theta_1}}{e^{i\theta_2}}}$$
+$$\mathlarger{\frac{Z_1}{Z_2}=\frac{r_1}{r_2}\times e^{i(\theta_1-\theta_2)}}$$
+\subsection{Comparison}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+Multiplying&Dividing\\
+\hline	
+Multiply modulus, add arguments&Divide modulus, subtract arguments\\
+\hline
+\end{tabularx}
+\newpage
+\section{De Moivre's Theorem}
+\textcolor{red}{$$\mathlarger{[r(\cos\theta+i\sin\theta)]^n=r^n(\cos(n\theta)+i\sin(n\theta))}$$}
+\subsection{Positive proof}
+Prove true for n=1
+$$r(\cos\theta+i\sin\theta)=r(\cos\theta+i\sin\theta)$$
+\begin{center}
+True for n=1
+\end{center}
+Assume true for n=k
+$$\mathlarger{[r(\cos\theta+i\sin\theta)]^k=r^k(\cos(k\theta)+i\sin(k\theta))}$$
+Prove true for n=k+1
+$$[r(\cos\theta+i\sin\theta)]^{k+1}$$
+$$[r(\cos\theta+i\sin\theta)]^k\times(r(\cos\theta+i\sin\theta))^1$$
+$$r^k(\cos(k\theta)+i\sin(k\theta))\times r(\cos\theta+i\sin\theta)$$
+$$r^kr(\cos(k\theta+\theta)+i\sin(k\theta+\theta))$$
+$$r^{k+1}(\cos((k+1)\theta)+i\sin((k+1)\theta))$$
+True
+\subsection{Negative proof}
+n=-m
+$$[r(\cos\theta+i\sin\theta)]^{-m}$$
+Multiply by complex conjugate
+$$\frac{1}{[r(\cos\theta+i\sin\theta)]^m}\times\frac{[r(\cos\theta-i\sin\theta)]^m}{[r(\cos\theta-i\sin\theta)]^m}$$
+Apply positive De Moivre's Theorem
+$$\mathlarger{\frac{r^m(\cos(m\theta)-i\sin(m\theta))}{r^m(\cos(m\theta)+i\sin(m\theta))\times r^m(\cos(m\theta)-i\sin(m\theta))}}$$
+Simplify and expand
+$$\mathlarger{\frac{\cos(m\theta)-i\sin(m\theta)}{r^m(\cos^2m\theta-i\cos m\theta\sin m\theta+i\cos m\theta\sin m\theta+\sin^2m\theta}}$$
+Simplify
+$$\frac{\cos m\theta-i\sin m\theta}{r^m}=r^{-m}(\cos m\theta-i\sin m\theta)$$
+Rewrite
+$$r^{-m}(\cos(-m\theta)+i\sin(-m\theta))$$
+Replace -m with n
+$$r^n(\cos(n\theta)+i\sin(n\theta))$$
 
 \end{document}
