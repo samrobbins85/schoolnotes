@@ -24,6 +24,19 @@
 \lhead{A Level Maths - FP2}
 \rfoot{Page \thepage}
 
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+
+\usepackage{mathtools}
+
+\newtagform{brackets}{[}{]}
+\usetagform{brackets}
 
 \begin{document}
 \begin{center}
@@ -179,6 +192,49 @@ Substitute into the particular integral form
 $$y=\frac{1}{2}x^2+\frac{5}{6}x+\frac{19}{36}$$
 Add CF and PI to get the general solution
 $$y=Ae^{3x}+Be^{2x}+\frac{1}{2}x^2+\frac{5}{6}x+\frac{19}{36}$$
+\newpage
+\subsubsection{Trigonometric f(x)}
+General forms:\\
+If $f(x)=m\cos\omega x$
+$$PI: \ y=P\cos\omega x+Q\sin\omega x$$
+If $f(x)=n\sin\omega x$
+$$PI: \ y=P\cos\omega x+Q\sin\omega x$$
+If $f(x)=m\cos\omega x\pm n\sin\omega x$
+$$PI: \ y=P\cos\omega x+Q\sin\omega x$$
+\paragraph{$f(x)=m\sin\omega x$ or $n\sin\omega x$}
+$f(x)=13\sin4x$
+$$PI: \ y=P\cos\omega x+Q\sin\omega x$$
+$$\frac{dy}{dx}=-\omega P\sin\omega x+\omega Q\cos\omega x$$
+$$\frac{d^2y}{dx^2}=-\omega^2P\cos\omega x-\omega^2Q\sin\omega x$$
+$$\textcolor{red}{\frac{d^2y}{dx^2}-5\frac{dy}{dx}+6y=13\sin3x}$$
+Substitute into LHS
+$$-\omega^2P\cos\omega x-\omega^2Q\sin\omega x-5(-\omega P\sin\omega x+\omega Q\cos\omega x)+6(P\cos\omega x+Q\sin\omega x)=13\sin3x$$
+Equate cos terms
+$$-\omega^2 P\cos\omega x-5\omega Q\cos\omega x+6P\cos\omega x=0$$
+Substitute $\omega=3$ and divide by $\cos3x$
+$$-9P-15Q+6P=0$$
+Simplify
+\begin{equation}\label{eq:cos}
+-3P-15Q=0
+\end{equation}
+Equate $\sin$ terms
+$$-\omega^2Q\sin\omega x+5\omega P\sin\omega x+6Q\sin\omega x=13\sin3x$$
+Substitute $\omega=3$ and divide by $\sin3x$
+$$-9Q+15P+6Q=13$$
+Simplify
+\begin{equation}\label{eq:sin}
+15P-3Q=13
+\end{equation}
+Multiply \eqref{eq:cos} by 5
+$$-15P-75Q=0$$
+Add the multiplied \eqref{eq:cos} and \eqref{eq:sin}
+$$-78Q=13$$
+Simplify
+$$Q=-\frac{1}{6}$$
+Substitute to find P
+$$15\times\frac{1}{6}=-3P \quad P=\frac{5}{6}$$
+Substitute and add to the CF to find the PI
+$$y=Ae^{3x}+Be^{2x}+\frac{5}{6}\cos3x-\frac{1}{6}\sin3x$$
 
 
 \end{document}
