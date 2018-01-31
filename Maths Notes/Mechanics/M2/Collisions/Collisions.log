@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  5 DEC 2017 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  31 JAN 2018 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1430,7 +1430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--251
 [5 <./oblique.png>] (./Collisions.aux) ) 
 Here is how much of TeX's memory you used:
  23416 strings out of 492985
- 587314 string characters out of 6138637
+ 587314 string characters out of 6138638
  783708 words of memory out of 5000000
  26572 multiletter control sequences out of 15000+600000
  6876 words of font info for 25 fonts, out of 8000000 for 9000

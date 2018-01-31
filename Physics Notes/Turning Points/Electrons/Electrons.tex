@@ -7,6 +7,7 @@
 \usepackage{fancyhdr}
 \usepackage{blindtext}
 \usepackage{textcomp}
+\usepackage{pgfplots}
 \titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \newlength\tindent
 \setlength{\tindent}{\parindent}
@@ -16,6 +17,16 @@
 \fancyhf{}
 \rhead{Sam Robbins 13SE}
 \lhead{A Level Physics - Turning Points}
+
+\usepackage{tikz}
+\usetikzlibrary{scopes}
+
+
+\usepackage{mathtools}
+
+\newtagform{brackets}{[}{]}
+\usetagform{brackets}
+
 \begin{document}
 \begin{center}
 \underline{\huge Electrons}
@@ -34,6 +45,7 @@ When several kV is applied a narrow band "glow" causes gas to glow brighter
 \item The ions will hit the metal cathode with sufficient energy to release free electrons from the surface
 \item The free electrons from the metal (low energy) can recombine with the gas ions-emitting photons and will be a continuous spectrum
 \item The free electrons accelerate towards the anode. These free electrons will \textbf{inelastically} collide with gas atoms (and ions) causing bound electrons to be excited, then de-excited. This will produce a discrete spectrum which is seen in the positive column.
+\end{itemize}
 \section{Thermionic emission}
 When a metal is heated the free electrons can gain enough energy to be released from the surface. This is called thermionic emission (similar to the photoelectric effect).\\
 \\
@@ -45,7 +57,6 @@ When accelerated through a p.d. of \textbf{V} volts the electron gains \textbf{e
 \subsection{Method 1}
 1. Thermionic electrons are accelerated through a p.d. $V_a$ and gain kinetic energy:\\
 $$eV_a=\frac{1}{2}mv^2 \quad \frac{e}{m}=\frac{\frac{1}{2}v^2}{v_a}$$
-\end{itemize}
 2. Electrons pass through an electric field (Field strength, E) and are deflected.\\
 \\
 3. A magnetic field (field strength, B) is applied at right angles to the E field until electron motion is again horizontal.
@@ -62,4 +73,54 @@ $$\textrm{This is the centripetal force} \frac{mv^2}{R}$$
 $$\frac{e}{m}=\frac{v}{BR} \quad \quad v=\frac{e}{m}BR$$
 $$\textrm{From accelerating p.d.}\quad eV_a=\frac{1}{2}mv^2$$
 $$\frac{e}{m}=\frac{2V_a}{(BR)^2}$$
+\newpage
+\section{Milikan's experiment}
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+\begin{tikzpicture}[
+    force/.style={>=latex,draw=black,fill=black},
+    m/.style={circle,draw=black,fill=white,radius=0.3cm,thin},
+]
+    \node[m] (m) {};
+    {[force,->]
+        \draw (m.north) -- ++(0,1) node[above] {Upthrust+Viscous drag};
+        \draw (m.south) -- ++(0,-1) node[below] {Weight};
+    }
+\end{tikzpicture}
+        \caption{No electric field}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+\begin{tikzpicture}[
+    force/.style={>=latex,draw=black,fill=black},
+    m/.style={circle,draw=black,fill=white,radius=0.3cm,thin},
+]
+    \node[m] (m) {};
+    {[force,->]
+        \draw (m.north) -- ++(0,1) node[above] {Upthrust+Electric force};
+        \draw (m.south) -- ++(0,-1) node[below] {Weight};
+    }
+\end{tikzpicture}    
+        \caption{Electric field}
+    \end{minipage}
+\end{figure}
+\subsection{With electric field}
+$$\textrm{Electric field}=\frac{QV}{d}$$
+$$\textrm{Weight}=mg$$
+$$\frac{QV}{d}=mg$$
+\subsection{Without electric field}
+$$F_D=6\pi r\eta v$$
+$$\textrm{Weight}=mg$$
+\begin{center}
+Mass=Density$\times$Volume
+$$\textrm{Mass}=\frac{4}{3}\pi r^3\rho$$
+$$6\pi r\eta v=\frac{4}{3}\pi r^3\rho g$$
+$$r^2=\frac{9\eta v}{2\rho g}$$
+\end{center}
+\subsection{Significance of results}
+These results were significant because it introduced the idea of quantisation of charge
+
+
 \end{document}
