@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  11 DEC 2017 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  6 FEB 2018 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1054,7 +1054,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--100
 (./Hypothesis testing 2.aux) ) 
 Here is how much of TeX's memory you used:
  25306 strings out of 492985
- 631595 string characters out of 6138637
+ 631595 string characters out of 6138638
  832080 words of memory out of 5000000
  28427 multiletter control sequences out of 15000+600000
  7775 words of font info for 30 fonts, out of 8000000 for 9000

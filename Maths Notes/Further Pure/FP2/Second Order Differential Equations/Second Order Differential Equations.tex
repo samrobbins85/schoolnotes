@@ -235,6 +235,27 @@ Substitute to find P
 $$15\times\frac{1}{6}=-3P \quad P=\frac{5}{6}$$
 Substitute and add to the CF to find the PI
 $$y=Ae^{3x}+Be^{2x}+\frac{5}{6}\cos3x-\frac{1}{6}\sin3x$$
-
-
+\newpage
+\section{Clash of terms between CF and PI}
+\textit{Solve:}
+$$\frac{d^2y}{dx^2}-5\frac{dy}{dx}+6y=e^{2x}$$
+Find the Complementary function
+$$m^2-5m+6=0$$
+$$CF: \ y=Ae^{3x}+Be^{2x}$$
+Here there will be a clash of terms between the CF and the PI so a different PI must be used, this will be given to you.
+$$\textrm{Use PI} \ y=\lambda xe^{2x}$$
+Differentiate twice
+$$\frac{dy}{dx}=\lambda e^{2x}+2\lambda xe^{2x}$$
+$$\frac{d^2y}{dx^2}=2\lambda e^{2x}+2\lambda e^{2x}+4\lambda xe^{2x}$$
+Substitute 
+$$2\lambda e^{2x}+2\lambda e^{2x}+4\lambda xe^{2x}-5(\lambda e^{2x}+2\lambda xe^{2x})+6\lambda xe^{2x}=e^{2x}$$
+$$\lambda=-1$$
+Substitute
+$$PI: \ y=-xe^{2x}$$
+\section{Applications of boundary conditions}
+If DE is in $\frac{d^2y}{dx^2}$ form then the numerical values for x,y and $\frac{dy}{dx}$ will be given for a value of x.\\
+\\
+If (as is common in exams) DE is in $\frac{d^2x}{dt^2}$ form then numerical values of x,t and $\frac{dx}{dt}$ will be given for a value of x.\\
+\\
+Used to find A and B in the CF. This gives a particular solution.
 \end{document}
