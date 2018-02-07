@@ -1,0 +1,86 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge CRV Exam Questions}
+\end{center}
+\section{Averages}
+\subsection{Mean}
+Use the formula on the data sheet:
+$$\mu=\int_a^bxf(x) dx$$
+Where a is the start of the range and b is the end.\\
+If the variable has multiple ranges add all the means together to find the total mean.
+\subsection{Variance}
+Use the formula on the data sheet:
+$$Var(X)=\int_a^b x^2f(x) \ dx-\mu^2$$
+Where a is the start of the range and b is the end.\\
+Find the mean using the method above
+
+
+\subsection{Median}
+To find the median set F(x) to 0.5. To do this you may need to convert the P.D.F to the C.D.F.\\
+If the C.D.F has different equations for different ranges substitute in for any range. If the result is outside the range try a different range.
+\subsubsection{Example}
+{\renewcommand{\arraystretch}{1.5}
+$
+  F(x)=\left\{
+  \begin{array}{@{}ll@{}}
+    0, & \ x<0\\
+    \frac{1}{4}x^2, &  0\leqslant x \leqslant 1\\
+    \frac{1}{20}x^4+\frac{1}{5}, &  1\leqslant x \leqslant 2\\
+    1 & x>2
+  \end{array}\right.
+$}\\
+Testing between 0 and 1:
+$$\frac{1}{4}x^2=0.5$$
+$$x=1.41$$
+As x is greater than 1 move to the next range
+$$\frac{1}{20}x^4+\frac{1}{5}=0.5$$
+$$x=1.57$$
+This is in the range so is correct
+\subsection{Mode}
+With difficult problems differentiate f(x) and set to zero. Most will be able to be solved with logic though
+\section{Conversions between the P.D.F and C.D.F}
+\subsection{P.D.F to C.D.F}
+To convert the P.D.F to the C.D.F it must be integrated.\\
+This integration is done as normal but needs no +C.\\
+If there are multiple ranges add the maximum value of the previous range to find the C.D.F.
+\subsubsection{Example}
+{\renewcommand{\arraystretch}{1.5}
+$
+  f(x)=\left\{
+  \begin{array}{@{}ll@{}}
+    \frac{1}{2}x, & \ 0\leqslant x\leqslant1\\
+    \frac{1}{5}x^3, &  1\leqslant x \leqslant 2\\
+    0 & \textrm{Otherwise}
+  \end{array}\right.
+$}\\
+
+
+\end{document}
