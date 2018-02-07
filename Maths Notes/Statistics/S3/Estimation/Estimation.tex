@@ -89,5 +89,24 @@ Look up the value of one of the tails on the percentage points table and substit
 For example:\\
 At a 95\% confidence interval each of the tails is 0.025 and the corresponding z value is 1.96.\\
 $$\overline{x}\pm1.96\times\frac{\sigma}{\sqrt{n}}$$
+\section{Hypothesis testing}
+The test statistic for the population mean $\mu$ is $Z=\dfrac{X-\mu}{\frac{\sigma}{\sqrt{n}}}$\\
+\\
+A hypothesis test can be done quicker by finding the critical values from the percentage points table.
+\subsection{Example}
+$\mu=0.58 \ \sigma=0.015$\\
+Measured\\
+$n=50 \ \mu=0.577 \ \sigma=0.015$\\
+\\
+$H_0: \mu=0.50$\\
+$H_1: \mu\neq0.58$\\
+$$\overline{D}\sim N(0.58,\frac{0.015^2}{50})$$
+$$Z=\frac{0.577-0.58}{\sqrt{\frac{0.015^2}{50}}}=-1.41$$
+At 0.5\%  per level Z=2.5758
+$$-1.41>-2.5758$$
+Not in critical region so not significant, no evidence to reject $H_0$, the diameter of the bolts is not changed.
+
+
+
 
 \end{document}
