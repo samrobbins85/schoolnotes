@@ -1,0 +1,88 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Continuous Distribution - Normal- Exam Questions}
+\end{center}
+\section{Approximations}
+\subsection{Poisson}
+\subsubsection{Cases where normal can be used to approximate poisson}
+\begin{itemize}
+\item $\lambda>10$
+\end{itemize}
+\subsubsection{Conversion}
+$$X\sim P_o(\lambda)$$
+$$X\sim N(\lambda,\lambda)$$
+\subsubsection{Continuity correction}
+As the poisson distribution is discrete and the normal distribution is continuous continuity correction must be used.\\
+\\
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline
+Probability&Corrected Probability\\
+\hline
+$P(X=n)$&$P(n-0.5<X<n+0.5)$\\
+\hline
+$P(X>n)$&$P(X>n+0.5)$\\
+\hline
+$P(X\leqslant n)$ &$P(X<n+0.5)$\\
+\hline
+$P(X<n)$&$P(X<n-0.5)$\\
+\hline
+$P(X\geqslant n)$&$P(X>n-0.5)$\\
+\hline
+\end{tabular}}
+\subsubsection{Example question}
+\textit{During the summer the mean number of yachts hired per week is 25.}\\
+\textit{The company has only 30 yachts for hire.}\\
+\textit{Using a suitable approximation find the probability that the demand for yachts cannot be
+met on a particular Saturday in the summer.}\\
+\\
+Let X Represent the number of yachts hired
+$$X\sim P_o(25)$$
+$$X\sim N(25,25)$$
+Write inequality
+$$P(X>30)$$
+Apply continuity correction
+$$P(X>30.5)$$
+Do Z transformation
+$$Z=\frac{30.5-25}{5}=1.1$$
+Lookup value in tables
+$$0.8643$$
+Subtract from one as probability is greater than
+$$1-0.8643=0.1357$$
+\newpage
+\subsection{Binomial}
+\subsubsection{Conditions for normal to approximate binomial}
+\begin{itemize}
+\item $n>10$
+\item $p<0.5$
+\end{itemize}
+
+\end{document}
