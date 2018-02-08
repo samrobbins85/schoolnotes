@@ -66,6 +66,7 @@ $$x=1.57$$
 This is in the range so is correct
 \subsection{Mode}
 With difficult problems differentiate f(x) and set to zero. Most will be able to be solved with logic though
+\newpage
 \section{Conversions between the P.D.F and C.D.F}
 \subsection{P.D.F to C.D.F}
 To convert the P.D.F to the C.D.F it must be integrated.\\
@@ -81,6 +82,58 @@ $
     0 & \textrm{Otherwise}
   \end{array}\right.
 $}\\
+\\
+Start by integrating the first range
+$$\int_0^x \frac{1}{2}x \ dx=\frac{1}{4}x^2$$
+Integrate the second range, remembering to add the area under the first range.
+$$\int_1^x \frac{1}{5}x^3 dx+\int_0^1\frac{1}{2}x \ dx=\frac{1}{20}x^4+\frac{1}{5}$$
+Write this in function form\\
+\\
+{\renewcommand{\arraystretch}{1.5}
+$
+  F(x)=\left\{
+  \begin{array}{@{}ll@{}}
+  0 & x<0\\
+    \frac{1}{4}x^2, & \ 0\leqslant x\leqslant1\\
+    \frac{1}{20}x^4+\frac{1}{5}, &  1\leqslant x \leqslant 2\\
+    1 & x>2
+  \end{array}\right.
+$}\\
+\subsection{C.D.F to P.D.F}
+{\renewcommand{\arraystretch}{1.5}
+$
+  F(x)=\left\{
+  \begin{array}{@{}ll@{}}
+  0 & x<1\\
+    \frac{4}{9}(x^2+2x-3), & \ 1\leqslant x\leqslant1.5\\
+    1 & x>1.5\\
+  \end{array}\right.
+$}\\
+\\
+Differentiate $\frac{4}{9}(x^2+2x-3)$
+$$\frac{8}{9}(x+1)$$
+Write in function form\\
+{\renewcommand{\arraystretch}{1.5}
+$
+  F(x)=\left\{
+  \begin{array}{@{}ll@{}}
+    \frac{8}{9}(x+1), & \ 1\leqslant x\leqslant1.5\\
+    0 & \textrm{Otherwise}\\
+  \end{array}\right.
+$}\\
+\newpage
+\section{Finding unknown constants}
+To find unknown constants set one of the formulas to a value it is known to be and rearrange.\\
+\\
+For example with a C.D.F find the uppermost value and set it equal to one to find any constants.
+\section{Finding probabilities}
+For questions where a probability must be found, either an inequality or specific value, use the P.D.F or the C.D.F.
+\subsection{Specific value}
+To find the probability of a specific value substitute that value into the P.D.F.
+\subsection{Inequality}
+To find the probability of an inequality use the C.D.F. The C.D.F gives a less than or equal probability, so to find greater than probabilities the probability found must be subtracted from one.
+
+
 
 
 
