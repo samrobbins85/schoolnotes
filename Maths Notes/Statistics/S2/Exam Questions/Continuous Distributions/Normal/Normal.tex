@@ -84,5 +84,42 @@ $$1-0.8643=0.1357$$
 \item $n>10$
 \item $p<0.5$
 \end{itemize}
+\subsubsection{Conversion}
+$$X\sim B(n,p)$$
+$$X\sim N(np,np(1-p))$$
+\subsubsection{Continuity correction}
+Binomial will also require continuity correction when approximated to normal as it is discrete and normal is continuous.\\
+\\
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline
+Probability&Corrected Probability\\
+\hline
+$P(X=n)$&$P(n-0.5<X<n+0.5)$\\
+\hline
+$P(X>n)$&$P(X>n+0.5)$\\
+\hline
+$P(X\leqslant n)$ &$P(X<n+0.5)$\\
+\hline
+$P(X<n)$&$P(X<n-0.5)$\\
+\hline
+$P(X\geqslant n)$&$P(X>n-0.5)$\\
+\hline
+\end{tabular}}
+\subsubsection{Example Question}
+\textit{In a large college 58\% of students are female and 42\% are male.\\ A random sample of 100
+students is chosen from the college.\\ Using a suitable approximation find the probability that
+more than half the sample are female.}
+Write the question in the binomial for females
+$$X\sim B(100,0.58)$$
+Use the conversion formula to convert to normal
+$$X\sim N(58,24.36)$$
+Write the inequality then apply continuity correction
+$$P(X>50)\rightarrow P(X>50.5)$$
+Find the Z value
+$$Z=\frac{50.5-58}{\sqrt{24.36}}\approx-1.52$$
+Convert the Z value to a probability using the tables
+$$p=0.9357$$
+\newpage
 
 \end{document}
