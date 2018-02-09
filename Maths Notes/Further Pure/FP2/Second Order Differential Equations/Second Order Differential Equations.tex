@@ -258,4 +258,34 @@ If DE is in $\frac{d^2y}{dx^2}$ form then the numerical values for x,y and $\fra
 If (as is common in exams) DE is in $\frac{d^2x}{dt^2}$ form then numerical values of x,t and $\frac{dx}{dt}$ will be given for a value of x.\\
 \\
 Used to find A and B in the CF. This gives a particular solution.
+\subsection{Example}
+\textit{When y=1 x=0 $\frac{dy}{dx}=0$}
+\\
+$$\frac{d^2y}{dx^2}+5\frac{dy}{dx}+6y=12e^x$$
+Find the complementary function
+$$y=Ae^{-3x}+Be^{-2x}$$
+Find the general form of the particular integral
+$$PI: \ \lambda e^x$$
+Differentiate the particular integral twice
+$$\frac{dy}{dx}=\lambda e^x$$
+$$\frac{d^2y}{dx^2}=\lambda e^x$$
+Substitute into the initial formula
+$$\lambda e^5+5\lambda e^x+6\lambda e^x=12e^x$$
+Simplify to find lambda
+$$12\lambda e^x=12e^x \quad	\lambda=1$$
+Add this to the complementary function to find the general solution
+$$GS:\ Ae^{-3x}+Be^{-2x}+e^x$$
+Substitute y=1 and x=0 into the general solution
+$$1=A+B+1$$
+Simplify
+$$A+B=0$$
+Substitute $\frac{dy}{dx}=0$ and $x=0$ into the differentiated form of the general solution\\
+Differentiate the general solution
+$$\frac{dy}{dx}=-3Ae^{-3x}-2Be^{-2x}+e^x$$
+Substitute values
+$$0=-3A-2B+1$$
+Solve simultaneous equations
+$$A=1 \quad B=-1$$
+Substitute into the general solution to find the particular solution
+$$PS: \ y=e^{-3x}-e^{-2x}+e^x$$
 \end{document}
