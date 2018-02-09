@@ -1,0 +1,73 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Continuous Distribution - Uniform - Exam Questions}
+\end{center}
+\section{Conditions}
+The conditions for a uniform distribution are:
+\begin{itemize}
+\item All values have the same probability
+\end{itemize}
+\section{Finding probabilities}
+The probability of any result in a uniform distribution in a range from a to b is:
+$$\frac{1}{b-a}$$
+\subsection{Example}
+\textit{A rectangle has a perimeter of 20 cm. The length, x cm, of one side of this rectangle is
+uniformly distributed between 1 cm and 7 cm.\\
+Find the probability that the length of the longer side of the rectangle is more than 6 cm long}\\
+Write down the distribution
+$$X\sim U[1,7]$$
+Find the probability wanted to be found
+$$P(X<4)+P(X>6)$$
+Find each probability
+$$P(X>6)=1\times\frac{1}{6}=\frac{1}{6}$$
+$$P(X<4)=3\times\frac{1}{6}=\frac{1}{2}$$
+Add the probability to find the answer
+$$\frac{1}{6}+\frac{1}{2}=\frac{2}{3}$$
+\section{Mean and Variance}
+\textit{Jean regularly takes a break from work to go to the post office. The amount of time Jean waits
+in the queue to be served at the post office has a continuous uniform distribution between 0 and
+10 minutes.}
+\subsection{Mean}
+\textit{Find the mean time Jean spends in the queue}\\
+Write down the distribution
+$$X\sim U[0,10]$$
+Use the formula in the formula book
+\textcolor{red}{$$\mu=\frac{1}{2}(a+b)$$}
+$$\mu=\frac{1}{2}(0+10)=5$$
+\subsection{Variance}
+\textit{Find the variance of the time Jean spends in the queue}\\
+Write down the distribution
+$$X\sim U[0,10]$$
+Use the formula in the formula book
+\textcolor{red}{$$\textrm{Variance}=\frac{1}{12}(b-a)^2$$}
+$$\textrm{Variance}=\frac{1}{12}(10-0)^2=\frac{25}{3}$$
+
+\end{document}

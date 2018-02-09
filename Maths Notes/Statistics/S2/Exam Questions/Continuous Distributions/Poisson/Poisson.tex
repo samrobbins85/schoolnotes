@@ -1,0 +1,74 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Continuous Distribution - Poisson - Exam Questions}
+\end{center}
+\section{Conditions}
+The conditions for a poisson distribution are:
+\begin{itemize}
+\item Events occur at random
+\item Events occur independently of each other
+\item The average rate of occurrences remains constant
+\item There is zero probability of simultaneous occurrences 
+\end{itemize}
+\section{Finding probabilities}
+\textit{A company has a large number of regular users logging onto its website. On average 4 users
+every hour fail to connect to the company's website at their first attempt.\\
+Find the probability that, in a randomly chosen \textbf{2 hour} period}
+\subsection{P(X=?)}
+\textit{All users connect at their first attempt}
+\subsubsection{Method 1 - Tables}
+Let X be the number of failed connections
+$$X\sim P_o(8)$$
+Write the question in terms of inequalities (so tables can be used)
+$$P(X=0)=P(X\leqslant0)$$
+Look up the value on the tables
+$$0.0002$$
+\subsubsection{Method 2 - Formula}
+Let X be the number failed connections
+$$X\sim P_o(8)$$
+Write down the probability to be found:
+$$P(X=0)$$
+Use the formula on the data sheet:
+\textcolor{red}{$$e^{-\lambda}\frac{\lambda^x}{x!}$$}
+Substitute values:
+$$e^{-8}\frac{8^0}{0!}=0.0003$$
+\subsection{P(X$>$?) or P(X$<$?)}
+\textit{At least 4 users fail to connect at their first attempt}\\
+Let X be the number of failed connections
+$$X\sim P_o(8)$$
+Write down the probability to be found and rewrite in terms of less than
+$$P(X\geqslant4)=1-P(X\leqslant3)$$
+Look up the value on the tables
+$$1-0.0424=0.9576$$
+
+
+
+\end{document}
