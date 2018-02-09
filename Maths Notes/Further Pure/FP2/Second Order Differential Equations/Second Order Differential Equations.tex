@@ -288,4 +288,46 @@ Solve simultaneous equations
 $$A=1 \quad B=-1$$
 Substitute into the general solution to find the particular solution
 $$PS: \ y=e^{-3x}-e^{-2x}+e^x$$
+\newpage
+\section{Substitution}
+\setcounter{equation}{0}
+\subsection{Example 1}
+\textit{Show that the substitution $x=e^u$ transforms}
+\begin{equation}\label{eq:1}
+x^2\frac{d^2y}{dx^2}+x\frac{dy}{dx}+y=0
+\end{equation}
+to
+\begin{equation}\label{eq:2}
+\frac{d^2y}{dx^2}+y=0
+\end{equation}
+\\
+Find $\frac{dx}{du}$
+$$\textrm{As} \ x=e^u, \ \frac{dx}{du}=e^u=x$$
+Find $\frac{dy}{du}$ using the chain rule
+\begin{equation}\label{eq:3}
+\frac{dy}{du}=\frac{dy}{dx}\times\frac{dx}{du}=e^u\frac{dy}{dx}=x\frac{dy}{dx}
+\end{equation}
+Find a simplification of $\frac{d^2y}{du^2}$
+$$\frac{d^2y}{du^2}=\frac{d}{du}\Bigg(\frac{dy}{du}\Bigg)$$
+Simplify using known expression for $\frac{dy}{du}$
+$$\frac{d^2y}{dx^2}=\frac{d}{du}\Bigg(e^u\frac{dy}{dx}\Bigg)$$
+Apply the product rule,using the chain rule to differentiate $\frac{dy}{dx}$ with respect to u
+$$\frac{d^2y}{dx^2}=e^u\frac{dy}{dx}+e^u\frac{d^2y}{dx^2}\frac{dx}{du}$$
+Replace $e^u\frac{dy}{dx}$ with $\frac{dy}{du}$ and $e^u$ and $\frac{dx}{du}$ each with x
+$$\frac{d^2y}{dx^2}=\frac{dy}{du}+x^2\frac{d^2y}{dx^2}$$
+Rearrange to find $x^2\frac{d^2y}{dx^2}$
+\begin{equation}\label{eq:4}
+x^2\frac{d^2y}{dx^2}=\frac{d^2y}{du^2}-\frac{dy}{du}
+\end{equation}
+Substitute the results from \eqref{eq:3} and \eqref{eq:4} into \eqref{eq:1}.
+$$\frac{d^2y}{dx^2}-\frac{dy}{du}+\frac{dy}{du}+y=0$$
+Simplify to find answer
+$$\frac{d^2y}{dx^2}+y=0$$
+\textit{Solve this to find the general solution}
+$$m^2+1=0$$
+$$m=\pm i$$
+Substitute into the general form
+$$y=A\cos u+B\sin u$$
+Substitute $u=\ln x$ to give GS in terms of x
+$$y=A\cos(\ln(x))+B\sin(\ln(x))$$
 \end{document}
