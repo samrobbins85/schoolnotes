@@ -1,0 +1,116 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Discrete Distributions Exam Questions}
+\end{center}
+\textit{A bag contains a large number of coins. It contains only 1p and 2p coins in the ratio 1:3}
+\section{Populations}
+\subsection{Mean and variance}
+\subsubsection{Mean}
+\textit{Find the mean of the population of coins}\\
+Use the formula on the data sheet:
+\textcolor{red}{$$\mu=\Sigma xP(X=x)$$}
+Create a table of probabilities and values of x
+\begin{center}
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|}
+\hline
+$x$&1p&2p\\
+\hline
+$P(X=x)$&$\frac{1}{4}$&$\frac{3}{4}$\\
+\hline
+\end{tabular}}
+\end{center}
+Add together the columns multiplied together
+$$\mu=1\times\frac{1}{4}+2\times\frac{3}{4}=\frac{7}{4}$$
+\subsubsection{Variance}
+\textit{Find the variance of the population of coins}\\
+Use the formula on the data sheet:
+\textcolor{red}{$$\mu=\Sigma x^2P(X=x)-\mu^2$$}
+Create a table of probabilities and values of x
+\begin{center}
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|}
+\hline
+$x^2$&1&4\\
+\hline
+$P(X=x)$&$\frac{1}{4}$&$\frac{3}{4}$\\
+\hline
+\end{tabular}}
+\end{center}
+Add together the columns multiplied together to find $E(X^2)$
+$$E(X^2)=1\times\frac{1}{4}+4\times\frac{3}{4}=\frac{13}{4}$$
+Subtract find $E(X^2)-E(X)^2$ to find the variance
+$$\frac{13}{4}-\Bigg(\frac{7}{4}\Bigg)^2=\frac{3}{16}$$
+\newpage
+\section{Samples}
+\textit{List all the possible samples that can be drawn}\\
+When doing this remember:
+\textcolor{red}{$$\textrm{Number of samples}=\textrm{Number of options}^\textrm{Sample size}$$}
+For the example:\\
+Number of options=2\\
+Sample size=3\\
+Number of samples=$2^3$=8\\
+\\
+\\
+List of samples:\\
+(1,1,1)\\
+(1,1,2)$\times$3\\
+(1,2,2)$\times$3\\
+(2,2,2)\\
+\\
+\textit{Find the sampling distribution of the mean value of these samples.}\\
+\\
+List the possible means
+$$1,\frac{4}{3},\frac{5}{3},2$$
+Calculate the probability of each, given the probability of picking a coin
+$$1: \ \Bigg(\frac{1}{4}\Bigg)^3=\frac{1}{64}$$
+$$\frac{4}{3}: \ 3\times\frac{1}{4}\times\frac{1}{4}\times\frac{3}{4}=\frac{9}{64}$$
+$$\frac{5}{3}: \ 3\times\frac{1}{4}\times\frac{3}{4}\times\frac{3}{4}=\frac{27}{64}$$
+$$2: \ \Bigg(\frac{3}{4}\Bigg)^3=\frac{27}{64}$$
+Write in a table\\
+\\
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+$\overline{x}$&1&$\frac{4}{3}$&$\frac{5}{3}$&2\\
+\hline
+$P(\overline{X}=\overline{x})$&$\frac{1}{64}$&$\frac{9}{64}$&$\frac{24}{64}$&$\frac{27}{64}$\\
+\hline
+
+\end{tabular}}
+
+
+
+
+
+
+
+\end{document}

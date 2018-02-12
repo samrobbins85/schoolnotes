@@ -1,0 +1,80 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Hypothesis tests - Binomial - Exam Questions}
+\end{center}
+\textit{A company claims that a quarter of the bolts sent to them are faulty. To test this claim the
+number of faulty bolts in a random sample of 50 is recorded.}
+\section{Finding the critical region}
+\textit{Using a 5\% significance level, find the critical region for a two-tailed test of the
+hypothesis that the probability of a bolt being faulty is $\frac{1}{4}$. The probability of rejection in
+either tail should be as close as possible to 0.025}\\
+\\
+Write down the distribution:
+$X\sim B(50,0.25)$
+For the lower value, look for the value closest to the probability of rejection
+$$P(X\leqslant6)=0.0194$$
+To find the upper value look for the value closest to (1-probability of rejection). Then add one to this value as:
+\textcolor{red}{$$P(X\geqslant c)=1-P(X\leqslant c-1)$$}
+$$P(X\leqslant18)=0.9713$$
+$$P(X\geqslant19)=0.0287$$
+\begin{center}
+The critical values are 6 and 19
+\end{center}
+\textit{Find the actual significance}\\
+The actual significance is the true probability of rejection
+$$0.0194+0.0287=0.0481$$
+\section{One tailed test}
+\textit{The machine making the bolts was reset and another sample of 50 bolts was taken. Only 5 were
+found to be faulty}\\
+\\
+\textit{Test at the 1\% level of significance whether or not the probability of a faulty bolt has
+decreased. State your hypotheses clearly.}\\
+\\
+State the null and alternative hypothesis related to the $\frac{1}{4}$ probability mentioned earlier in the question
+$$H_0: \ p=0.25$$
+$$H_1: \ p<0.25$$
+Write a probability based on the information given in the question
+$$P(X\leqslant5)$$
+Look up the probability on the tables
+$$P(X\leqslant5)=0.007$$
+Compare this to the significance level
+$$0.007<0.01$$
+Write the conclusion
+\begin{center}
+5 is in the critical region, reject $H_0$, the test is significant, there is evidence that the probability of faulty bolts has decreased.
+\end{center}
+\newpage
+\section{Two tailed test}
+\textit{A teacher thinks that 20\% of the pupils in a school read the Deano comic regularly.\\
+\\
+He chooses 20 pupils at random and finds 9 of them read Deano.}
+
+\end{document}

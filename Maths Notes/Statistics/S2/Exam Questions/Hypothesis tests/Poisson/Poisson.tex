@@ -1,0 +1,103 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{amssymb}
+
+\pgfplotsset{width=10cm,compat=1.9}
+
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S2}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Hypothesis tests - Poisson - Exam Questions}
+\end{center}
+\section{One tailed test}
+\textit{An effect of a certain disease is that a small number of the red blood cells are deformed. Emily
+has this disease and the deformed blood cells occur randomly at a rate of 2.5 per ml of her
+blood. Following a course of treatment, a random sample of 2 ml of Emily’s blood is found to
+contain only 1 deformed red blood cell.\\
+\\
+Stating your hypotheses clearly and using a 5\% level of significance, test whether or not there
+has been a decrease in the number of deformed red blood cells in Emily’s blood.}\\
+\\
+Write the null and alternate hypothesis, using information from the text
+$$H_0:\ \lambda=5$$
+$$H_1:\ \lambda<5$$
+Write down the distribution the hypothesis test will be done on
+$$X\sim P_o(5)$$
+Write down a probability to test based on the data, in this case 1 one deformed red blood cell
+$$P(X\leqslant1)$$
+Find this value in the tables, or using an approximation if needed
+$$P(X\leqslant1)=0.0404$$
+Compare this to the significance level
+$$0.0404<0.05$$
+Write the conclusion, if in the critical region, reject $H_0$, if not accept it
+\begin{center}
+As $0.0404<0.05$ the result is significant, so reject $H_0$\\
+There is evidence in a \textbf{decrease} in the mean \textbf{rate} of \textbf{deformed blood cells}
+\end{center}
+\section{Finding critical values}
+\textit{A test statistic has a Poisson distribution with parameter $\lambda$.}\\
+\textit{Given that:}
+$$H_0: \ \lambda=9,\ H_1: \ \lambda\neq9$$ 
+\textit{Find the critical region for the test statistic such that the probability in each tail is as close
+as possible to 2.5\%.}\\
+\\
+Write down the distribution
+$$X\sim P_o(9)$$
+Find the lower value by looking on the tables at the column related to $\lambda$ and look for the closest value to the probability wanted (in this case 2.5\%)
+$$P(X\leqslant3)=0.0212\approx0.025$$
+To find the upper value look for the value closest to (1-wanted probability). Then add one to this value as:
+\textcolor{red}{$$P(X\geqslant c)=1-P(X\leqslant c-1)$$}
+$$P(X\leqslant15)=0.9780\approx0.975$$
+$$P(X\geqslant16)=1-0.9780=0.022\approx0.025$$
+Critical values are 3 and 16\\
+\\
+\textit{Write down the actual significance}
+\\
+Actual significance is the probability of a value being found in the critical region.
+$$0.0212+0.022=0.0432$$
+\newpage
+\section{Two tailed test}
+\textit{Bacteria are randomly distributed in a river at a rate of 5 per litre of water. A new factory opens
+and a scientist claims it is polluting the river with bacteria. He takes a sample of 0.5 litres of
+water from the river near the factory and finds that it contains 7 bacteria. Stating your
+hypotheses clearly test, at the 5\% level of significance, the claim of the scientist.}\\
+\\
+Write down the null and alternative hypothesis
+$$H_0: \ \lambda=2.5$$
+$$H_1 \ \lambda\neq2.5$$
+Write down the distribution to be tested
+$$X\sim P_o(2.5)$$
+Find a probability to test from the data
+$$P(X\geqslant7)=1-P(X\leqslant6)$$
+Look up the probability on the tables
+$$1-P(X\leqslant6)=1-0.9858=0.0142$$
+Compare with the significance level, remembering to split it
+$$0.0142<0.025$$
+Write the conclusion
+\begin{center}
+There is significant evidence that the factory is polluting the river with bacteria
+\end{center}
+
+
+\end{document}
