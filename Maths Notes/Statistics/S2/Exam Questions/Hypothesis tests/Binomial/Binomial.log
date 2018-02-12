@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  12 FEB 2018 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  12 FEB 2018 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,7 +1023,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--62
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
 
  []
 
@@ -1043,7 +1053,7 @@ t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Binomial.pdf (2 pages, 93532 bytes).
+Output written on Binomial.pdf (2 pages, 95181 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
