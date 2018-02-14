@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  8 FEB 2018 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  14 FEB 2018 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,17 +1024,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--102
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
+Underfull \hbox (badness 10000) in paragraph at lines 104--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--124
+Underfull \hbox (badness 10000) in paragraph at lines 117--128
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
  []
 
@@ -1042,7 +1042,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 Here is how much of TeX's memory you used:
  23639 strings out of 492985
  589073 string characters out of 6138638
- 781708 words of memory out of 5000000
+ 782708 words of memory out of 5000000
  26781 multiletter control sequences out of 15000+600000
  7156 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1056,7 +1056,7 @@ ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "CRV Exam Questions.pdf" (3 pages, 110259 bytes).
+Output written on "CRV Exam Questions.pdf" (3 pages, 109558 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

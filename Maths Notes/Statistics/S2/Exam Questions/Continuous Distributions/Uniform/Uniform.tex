@@ -69,5 +69,17 @@ $$X\sim U[0,10]$$
 Use the formula in the formula book
 \textcolor{red}{$$\textrm{Variance}=\frac{1}{12}(b-a)^2$$}
 $$\textrm{Variance}=\frac{1}{12}(10-0)^2=\frac{25}{3}$$
+\newpage
+\subsubsection{Proof of variance formula}
+$$E(X)=\frac{1}{2}(a+b)$$
+$$E(X^2)=\frac{1}{b-a}\int^b_a x^2\ dx$$
+$$E(X^2)=\frac{1}{b-a}\Bigg[\frac{x^3}{3}\Bigg]^b_a$$
+$$E(X^2)=\frac{b^3-a^3}{b-a}$$
+$$E(X^2)=\frac{(b-a)(b^2+a^2+ab}{3(b-a)}$$
+$$E(X^2)=\frac{b^2+a^2+ab}{3}$$
+$$Var(X)=\frac{b^2+a^2+ab}{3}-\Big(\frac{a+b}{2}\Big)^2$$
+$$Var(X)=\frac{b^2+a^2+ab}{3}-\frac{a^2+2ab+b^2}{4}$$
+$$Var(X)=\frac{b^2-2ab+a^2}{12}$$
+$$Var(X)=\frac{(b-a)^2}{12}$$
 
 \end{document}
