@@ -26,8 +26,9 @@
 \rhead{Sam Robbins 13SE}
 \lhead{A Level Maths - M2}
 \rfoot{Page \thepage}
-
-
+\usepackage{mathtools}
+\newtagform{brackets}{[}{]}
+\usetagform{brackets}
 \begin{document}
 \begin{center}
 \underline{\huge Kinematics}
@@ -157,6 +158,42 @@ $k=36-72=-36$\\
 $t=10$\\
 \\
 $x=\dfrac{432}{10}-36=7.2\text{m}$
+\newpage
+\begin{center}
+\underline{\huge Kinematics Example - Finding direction of motion}
+\end{center}
+\textit{At $t=0$ a particle P is projected from a fixed point O with velocity $(7i+7\sqrt{3})ms^{-1}$. The particle moves freely under gravity. The position vector of a point on the path of P is $(x\mathbf{i}+y\mathbf{j})$m relative to O.}\\
+\textit{Show that:}
+$$y=\sqrt{3}x-\frac{g}{98}x^2$$
+\\
+\\
+$x$ has constant velocity so write in terms of t
+\begin{equation}\label{eq:1}
+x=7t
+\end{equation}
+Write an equation for y using $s=ut+\frac{1}{2}at^2$
+\begin{equation}\label{eq:2}
+y=7\sqrt{3}t-\frac{g}{2}t^2
+\end{equation}
+Substitute \eqref{eq:1} into the \eqref{eq:2}
+$$y=\sqrt{3}x-\frac{g}{2}\times\Big(\frac{x}{7}\Big)^2$$
+Simplify
+\begin{equation}\label{eq:3}
+y=\sqrt{3}x-\frac{g}{98}x^2
+\end{equation}
+\\
+\textit{Find the direction of motion of P when it passes through the point on the path where $x=20$}\\
+\\
+Differentiate \eqref{eq:3}
+$$\frac{dy}{dx}=\sqrt{3}-\frac{2gx}{98}$$
+Substitute in the value of x
+$$\frac{dy}{dx}=\sqrt{3}-\frac{40g}{98}$$
+\\
+\textcolor{red}{Arctan(gradient)=Angle to the positive horizontal as $\dfrac{dy}{dx}$ is the same as $\dfrac{O}{A}$
+}
+\\
+Perform arctan on the gradient to find the angle
+$$\arctan\Big(\sqrt{3}-\frac{40g}{98}\Big)=-66.2$$
 
 
 
