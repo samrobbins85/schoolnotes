@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  13 FEB 2018 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  16 FEB 2018 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,48 +1166,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+<Binding_Energy.jpg, id=18, 394.1124pt x 277.5168pt>
+File: Binding_Energy.jpg Graphic file (type jpg)
+<use Binding_Energy.jpg>
+Package pdftex.def Info: Binding_Energy.jpg  used on input line 90. on input li
+ne 90.
+Package pdftex.def Info: Requested size: 227.62204pt x 160.28232pt on input lin
+e 90.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--96
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
+Underfull \hbox (badness 10000) in paragraph at lines 86--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
+Underfull \hbox (badness 10000) in paragraph at lines 86--96
 
  []
 
-<reactor.png, id=22, 465.74pt x 422.57875pt>
+[2 <./Binding_Energy.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
+
+ []
+
+<reactor.png, id=23, 465.74pt x 422.57875pt>
 File: reactor.png Graphic file (type png)
 <use reactor.png>
-Package pdftex.def Info: reactor.png  used on input line 111. on input line 111
+Package pdftex.def Info: reactor.png  used on input line 118. on input line 118
 .
 Package pdftex.def Info: Requested size: 199.16928pt x 180.71231pt on input lin
-e 111.
+e 118.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
 [3 <./reactor.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 134--138
 
  []
 
 [4] (./Nuclear Energy.aux) ) 
 Here is how much of TeX's memory you used:
- 26750 strings out of 492985
- 680272 string characters out of 6138638
+ 26756 strings out of 492985
+ 680385 string characters out of 6138638
  862025 words of memory out of 5000000
- 29818 multiletter control sequences out of 15000+600000
+ 29822 multiletter control sequences out of 15000+600000
  6257 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,733b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1220,10 +1243,10 @@ sfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Nuclear Energy.pdf" (4 pages, 159021 bytes).
+Output written on "Nuclear Energy.pdf" (4 pages, 281271 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
