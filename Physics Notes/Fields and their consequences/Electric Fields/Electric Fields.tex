@@ -116,6 +116,44 @@ A point charge is a charge where the distances considered are much larger than t
 The electric field strength at a distance r from Q is:
 $E=\dfrac{Q}{4\pi\epsilon_0r^2}$
 \textit{Note that Q is negative}
+\subsection{Example Field strength question}
+\begin{tikzpicture}
+\draw[gray, thick,<->] (-1.8,0) -- (-0.2,0) node[above,midway] {0.2};
+\draw[gray, thick,<->] (0.2,0) -- (7.8,0) node[above, midway] {0.8};
+\filldraw[black] (0,0) circle (2pt) node[anchor=south] {X};
+\filldraw[black] (-2,0) circle (2pt) node[anchor=east] {A};
+\filldraw[black] (8,0) circle (2pt) node[anchor=west] {B};
+\end{tikzpicture}
+\textit{Find the field strength at the point X, the charge at A and B is $4\mu C$}\\
+E at X due to A
+$$\frac{1}{4\pi\epsilon_0}\times\frac{4\times10^{-6}}{0.2^2}=8.99\times10^5NC^{-1} \quad \textrm{Left to right}$$ 
+E at X Due to B
+$$\frac{1}{4\pi\epsilon_0}\times\frac{4\times10^{-6}}{0.8^2}=5.62\times10^4NC^{-1} \quad \textrm{Right to left}$$ 
+Total E at X
+$$8.99\times10^5-5.62\times10^4=8.43\times10^5NC^{-1}\quad \textrm{Left to right}$$
+\newpage
+\subsection{Example Electric Potential}
+\textbf{For electric potential, ignore which side of the point the charge is on}
+\begin{tikzpicture}
+\draw[gray, thick,<->] (-4.8,0) -- (-0.2,0) node[above,midway] {r};
+\draw[gray, thick,<->] (0.2,0) -- (4.8,0) node[above, midway] {r};
+\filldraw[black] (0,0) circle (2pt) node[anchor=south] {-2Q};
+\filldraw[black] (-5,0) circle (2pt) node[anchor=east] {+Q};
+\filldraw[black] (5,0) circle (2pt) node[anchor=west] {P};
+\end{tikzpicture}
+\textit{Find the electric potential at P}\\
+Electric potential due to +Q charge
+$$V=\frac{1}{4\pi\epsilon_0}\times\frac{Q}{2r}$$
+Electric potential due to -2Q charge
+$$V=\frac{1}{4\pi\epsilon_0}\times\frac{-2Q}{r}$$
+Add two equations
+$$V=\frac{1}{4\pi\epsilon_0}\Bigg(\frac{Q}{2r}-\frac{2Q}{r}\Bigg)$$
+Simplify
+$$V=\frac{1}{4\pi\epsilon_0}\times\frac{-3Q}{2r}$$
+
+
+
+
 \section{Electric field strength as a vector}
 In general, the electric field strength is the vector sum of the individual electric field strengths
 \subsection{Forces in the same direction}
