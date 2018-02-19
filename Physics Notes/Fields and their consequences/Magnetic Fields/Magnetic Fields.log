@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  14 DEC 2017 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.30)  17 FEB 2018 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,92 +982,32 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 51--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
+Underfull \hbox (badness 10000) in paragraph at lines 51--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
+Underfull \hbox (badness 10000) in paragraph at lines 51--59
 
  []
 
@@ -1077,60 +1017,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--70
 <cyclotron.jpg, id=17, 602.25pt x 401.5pt>
 File: cyclotron.jpg Graphic file (type jpg)
 <use cyclotron.jpg>
-Package pdftex.def Info: cyclotron.jpg  used on input line 76. on input line 76
+Package pdftex.def Info: cyclotron.jpg  used on input line 65. on input line 65
 .
 Package pdftex.def Info: Requested size: 284.52756pt x 189.69136pt on input lin
-e 76.
+e 65.
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--96
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--96
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 <velocity_selector.jpg, id=18, 223.83624pt x 117.43875pt>
 File: velocity_selector.jpg Graphic file (type jpg)
 <use velocity_selector.jpg>
-Package pdftex.def Info: velocity_selector.jpg  used on input line 104. on inpu
-t line 104.
+Package pdftex.def Info: velocity_selector.jpg  used on input line 94. on input
+ line 94.
 Package pdftex.def Info: Requested size: 284.52756pt x 149.29605pt on input lin
-e 104.
+e 94.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--114
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
@@ -1138,11 +1063,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--114
 Here is how much of TeX's memory you used:
  23787 strings out of 492985
  601220 string characters out of 6138637
- 782708 words of memory out of 5000000
+ 781708 words of memory out of 5000000
  26940 multiletter control sequences out of 15000+600000
  5911 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,96p,734b,1093s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,96p,734b,1093s stack positions out of 5000i,500n,10000p,200000b,80000s
 </
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/t
@@ -1151,7 +1076,7 @@ sfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
 .pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Magnetic Fields.pdf" (3 pages, 246688 bytes).
+Output written on "Magnetic Fields.pdf" (3 pages, 246321 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
