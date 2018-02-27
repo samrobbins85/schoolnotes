@@ -110,7 +110,22 @@ Not in critical region so not significant, no evidence to reject $H_0$, the diam
 If $\overline{X}\sim N\Big(\mu_x,\frac{\sigma^2_x}{n}\Big)$ and $\overline{Y}\sim N\Big(\mu_y,\frac{\sigma^2_y}{n}\Big)$
 $$\overline{X}-\overline{Y}\sim N\Bigg(\mu_x-\mu_y,\frac{\sigma^2_x}{n}+\frac{\sigma^2_y}{n}\Bigg)$$
 $$z=\frac{\overline{X}-\overline{Y}-(\mu_x-\mu_y)}{\sqrt{\frac{\sigma^2_x}{n}+\frac{\sigma^2_y}{n}}}$$
-
-
+\subsubsection{Example}
+\textit{The weight of boys and girls in a certain school are known to be normally distributed with standard deviations of 5kg and 8kg respectively. A random sample of 25 boys had a mean weight of 48kg and a random sample of 30 girls had a mean weight of 45kg.\\
+Stating your hypothesis clearly test, at the 5\% level of significance, whether or not there is evidence that the mean weight of boys in the school is greater than the mean weight of girls.}\\
+\\
+Write down the two distributions
+$$\overline{X_B}\sim N\Big(\mu_B,\frac{5^2}{25}\Big) \qquad \qquad \overline{X_G}\sim N\Big(\mu_G,\frac{8^2}{30}\Big)$$
+State the two hypotheses
+$$H_0: \ \mu_B=\mu_G$$
+$$H_1: \ \mu_B>\mu_G$$
+Find the $z$ value
+$$z=\frac{48-45-(0)}{\sqrt{\frac{5^2}{25}+\frac{8^2}{30}}}=1.6947$$
+Find the critical value from the percentage points table
+$$C.V.=1.6449$$
+Compare the critical value to the z value
+$$1.6449<1.6947$$
+Write conclusion
+As z is not in the critical region there is not enough evidence to reject $H_0$, there is not enough evidence to suggest that the mean weight of boys is greater than the mean weight of girls.
 
 \end{document}
