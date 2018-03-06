@@ -1,0 +1,71 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage[super]{nth}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - FP2}
+\rfoot{Page \thepage}
+
+\usepackage{cancel}
+
+\begin{document}
+\begin{center}
+\underline{\huge Polar Coordinates}
+\end{center}
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[axis lines=middle,ymin=0,ymax=2.5,xmin=0,xmax=2.5,ticks=none]
+\pgfplotsset{every tick label/.append style={font=\Huge}}
+
+\addplot coordinates { (0,0) (2,2) };
+\addplot [dashed] coordinates { (2,0) (2,2) };
+\addplot [dashed] coordinates { (0,2) (2,2) };
+
+\draw (axis cs: 0.7,0) arc[radius=70, start angle= 0, end angle= 45];
+    \node[] at (axis cs: 0.5,0.2) {\huge $\theta$};
+\node[blue] at (axis cs: 1,1.2) {\huge $r$};
+\node[black] at (axis cs: 2.1,1) {\huge $y$};
+\node[black] at (axis cs: 1,2.1) {\huge $x$};
+\end{axis}
+\end{tikzpicture}\\
+Usual conventions are either $-\pi<\theta\leqslant\pi$ or $0\leqslant\theta<\pi$\\
+\\
+$x=r\cos\theta$\\
+$y=r\sin\theta$\\
+$r^2=x^2+y^2$\\
+$\theta=\arctan\Big(\dfrac{y}{x}\Big)$
+\section{Converting between polar and Cartesian form}
+\subsection{Example 1}
+\textit{Find the Cartesian equation of:}
+$r=5$
+$$\sqrt{x^2+y^2}=5$$
+$$x^2+y^2=25$$
+\subsection{Example 2}
+\textit{Find the Cartesian equation of:}
+$$r=2+\cos2\theta$$
+Replace r and convert $\cos2\theta$
+$$\sqrt{x^2+y^2}=2+\cos^2\theta-\sin^2\theta$$
+Convert $\sin^2\theta$ and $\cos^2\theta$
+$$\sqrt{x^2+y^2}=2+\frac{x^2}{x^2+y^2}-\frac{y^2}{x^2+y^2}$$
+Multiply all terms by $x^2+y^2$
+$$(x^2+y^2)^{\frac{3}{2}}=3x^2+y^2$$
+\end{document}
