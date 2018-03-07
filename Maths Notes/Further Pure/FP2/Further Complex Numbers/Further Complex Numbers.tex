@@ -4,6 +4,7 @@
 \usepackage[margin=0.7in]{geometry}
 \usepackage{parselines} 
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{titlesec}
 \usepackage{pgfplots}
 \usepackage{tabularx}
@@ -208,7 +209,8 @@ $k=1 \quad z=i$\\
 $k=2 \quad z=-0.951+0.309i$
 \newpage
 \section{Loci on the complex plane}
-\subsection{$\mathbf{|z-z_1|=r}$}
+\subsection{Lines}
+\subsubsection{$\mathbf{|z-z_1|=r}$}
 $|z-z_1|=r$ is represented by a circle, centre $(x_1,y_1)$ with a radius r, where $z_1=x_1+iy_1$.\\
 \\
 This is the same as the Cartesian equation:
@@ -227,7 +229,7 @@ This looks like the graph:\\
        \draw[->](source)--(destination);
 \end{axis}
 \end{tikzpicture}
-\subsection{$\mathbf{|z-z_1|=|z-z_2|}$}
+\subsubsection{$\mathbf{|z-z_1|=|z-z_2|}$}
 $|z-z_1|=|z-z_2|$ is represented by a perpendicular bisector of the line segment joining points $z_1$ and $z_2$\\
 \\
 To find the Cartesian form, replace z with $x+iy$ and expand, squaring both sides to remove the modulus signs.\\
@@ -245,7 +247,7 @@ This looks like the graph:\\
 \end{tikzpicture}\\
 For cases where there is a constant in front of one of the modulus signs, use the algebraic method to find the Cartesian form, then plot that.
 \newpage
-\subsection{$\mathbf{\arg(z-z_1)=\theta}$}
+\subsubsection{$\mathbf{\arg(z-z_1)=\theta}$}
 $\arg(z-z_1)=\theta$ is represented by the half-line from the fixed point $z_1$, making an angle $\theta$ with a line from the fixed point $z_1$, parallel to the real axis.\\
 \\
 To find the Cartesian form, replace z with $x+iy$ and separate into the real and imaginary parts. Then use the trigonometric identity $\tan\theta=\dfrac{\textrm{Opposite}}{\textrm{Adjacent}}$ and simplify.\\
@@ -262,7 +264,37 @@ When plotting remember that $\theta$ is the angle anticlockwise.\\
 
 \end{axis}
 \end{tikzpicture}
-\subsection{$\mathlarger{\mathbf{\arg\Big(\frac{z-z_1}{z-z_2}\Big)}}$}
+\subsubsection{$\mathlarger{\mathbf{\arg\Big(\frac{z-z_1}{z-z_2}\Big)}}$}
 $\mathlarger{\arg\Big(\frac{z-z_1}{z-z_2}\Big)}$ represents an arc anticlockwise between $z_1$ and $z_2$
+\subsection{Regions}
+\subsubsection{$\mathbf{|z-(2+3i)|\leqslant3}$}
+This is the area inside the circle represented by $|z-(2+3i)|\leqslant3$\\
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[axis lines=middle,ymin=-5,ymax=5,xmin=-5,xmax=5,ticks=none]
+\pgfplotsset{every tick label/.append style={font=\Large}}
 
+\filldraw[gray,opacity=0.6] (axis cs:1,2) circle [black, radius=3];
+\draw (axis cs:1,2) circle [black, radius=3];
+\end{axis}
+\end{tikzpicture}
+\newpage
+\subsubsection{$\mathbf{|z-3|<|z-5|}$}
+This is the area to one side of the perpendicular bisector represented equal to $|z-3|=|z-5|$\\
+\pgfplotsset{compat=newest}
+
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[axis lines=middle,ymin=-5,ymax=5,xmin=-5,xmax=5,xtick={3,4,5}, ytick={0},ytick pos=right]
+\addplot coordinates { (4,-5) (4,5) };
+\filldraw [gray,opacity=0.6] (-5,-5) rectangle (4,5);
+\end{axis}
+\end{tikzpicture}
+\subsubsection{$\mathbf{0\leqslant\arg(z-2)<\frac{\pi}{4}}$}
+This is the area between the positive real axis and the half line equal to $\arg(z-2)=\frac{\pi}{4}$\\
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[axis lines=middle,ymin=-5,ymax=5,xmin=-5,xmax=5,xtick={2}, ytick={0},ytick pos=right]
+\addplot coordinates { (2,0) (5,3) };
+\filldraw[gray,opacity=0.6] (2,0) -- (5,0) -- (5,3) -- cycle;
+
+\end{axis}
+\end{tikzpicture}
 \end{document}
