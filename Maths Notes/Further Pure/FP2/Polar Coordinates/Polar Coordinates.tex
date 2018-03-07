@@ -28,6 +28,17 @@
 
 \usepackage{cancel}
 
+
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+
+
 \begin{document}
 \begin{center}
 \underline{\huge Polar Coordinates}
@@ -68,4 +79,61 @@ Convert $\sin^2\theta$ and $\cos^2\theta$
 $$\sqrt{x^2+y^2}=2+\frac{x^2}{x^2+y^2}-\frac{y^2}{x^2+y^2}$$
 Multiply all terms by $x^2+y^2$
 $$(x^2+y^2)^{\frac{3}{2}}=3x^2+y^2$$
+\newpage
+\section{Sketching polar curves}
+To plot less standard types we look for axes intercepts and max and min values
+\subsection{Standard types}
+\subsubsection{r=a}
+A circle, centre (0,0) with a radius of a
+\subsubsection{$\theta=\alpha$}
+A half line starting from (0,0) making an angle of $\alpha$ with the initial line (positive x axis)
+\subsubsection{$r=a\theta$}
+A spiral starting at the origin
+\subsection{Cardioid type}
+\subsubsection{$r=a(1+\cos\theta)$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+    axis equal image,
+    enlargelimits=true,
+     ]
+    \addplot[data cs=polar,red,domain=0:360,samples=360,smooth] (x,{6*(1+cos(x))});
+\end{axis}
+\end{tikzpicture}
+\subsubsection{$r=a(p+q\cos\theta)$}
+\paragraph{p=q}
+Factor out the value of p and plot as normal
+\paragraph{$p\geqslant2q$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+    axis equal image,
+    enlargelimits=true,
+     ]
+    \addplot[data cs=polar,red,domain=0:360,samples=360,smooth] (x,{(5+2*cos(x))});
+\end{axis}
+\end{tikzpicture}
+\newpage
+\paragraph{$q\leqslant p<2q$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+    axis equal image,
+    enlargelimits=true,
+     ]
+    \addplot[data cs=polar,red,domain=0:360,samples=360,smooth] (x,{(3+2*cos(x))});
+\end{axis}
+\end{tikzpicture}
+\subsubsection{$r^2=a^2\cos2\theta$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+    axis equal image,
+    enlargelimits=true,
+     ]
+    \addplot[data cs=polar,red,domain=0:360,samples=10000] (x,{sqrt(cos(2*x))});
+\end{axis}
+\end{tikzpicture}
+\\
+The 4 asymptotes are half lines at $\theta=\frac{\pi}{4},\frac{3\pi}{4},\frac{5\pi}{4},\frac{7\pi}{4}$
 \end{document}
