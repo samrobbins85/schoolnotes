@@ -1,0 +1,106 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{enumitem}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\hyphenpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S3}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Goodness of fit and contingency tables}
+\end{center}
+Method for testing goodness of fit:
+\begin{enumerate}
+\item Determine which distribution would conceptually be most appropriate
+\item Set significance level
+\item Estimate parameters (if necessary) from observed data
+\item Form hypotheses $H_0$ and $H_1$
+\item Calculate expected frequencies
+\item Combine expected frequencies so that none are $<5$
+\item Find degrees of freedom
+\item Calculate critical value of $\chi^2$ from the table
+\item Calculate $\sum\frac{(O_i-E_i)^2}{E_i}$
+\item See if the value is significant and draw conclusion
+\end{enumerate}
+$X^2$ is distributed with a chi squared distribution $\chi^2_\nu$\\
+Where $\nu=$ degrees of freedom\\
+$$\textrm{The number of degrees of freedom}=\textrm{Number of classes (after combining)}-1$$
+\newpage
+\subsection{Example}
+\textit{The data in the table is thought to be modelled by a binomial $B(10,0.2)$. Use the table for the binomial cumulative distribution function to find expected values, and conduct a test to see if this is a good model. Use a 5\% significance level.}\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+$x$&0&1&2&3&4&5&6&7&8\\
+\hline
+Freq of $x$&12&28&28&17&7&4&2&2&0\\
+\hline
+\end{tabular}
+\\
+\\
+\textcolor{red}{Define Hypotheses}
+$$H_0: \textrm{A B(10,0.2) distribution is suitable for the results}$$
+$$H_1: \textrm{The distribution is not suitable for the results}$$
+\textcolor{red}{Calculate the sum of frequencies}
+$$N=100$$
+\textcolor{red}{Complete the table of probabilities and expected frequencies, expected frequency=probability$\times$N}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|X|X|}
+\hline
+$x$&0&1&2&3&4&5&6&7&8\\
+\hline
+$p(x)$&0.1074&0.2684&0.3020&0.2013&0.0881&0.0264&0.0055&0.0008&0.0001\\
+\hline
+Expected freq&10.74&26.84&30.20&20.13&8.81&2.64&0.55&0.08&0.01\\
+\hline
+\end{tabularx}
+\\
+\\
+\textcolor{red}{As expected frequencies need to be greater than or equal to five, combine all probabilities greater than or equal to four}
+\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+\hline
+$x$&0&1&2&3&$\geqslant4$\\
+\hline
+$O_i$&12&28&28&17&15\\
+\hline
+$E_i$&10.74&26.84&30.20&20.13&12.09\\
+\hline
+$\dfrac{(O_i-E_i)^2}{E_i}$&0.1478&0.0501&0.1603&0.4867&0.7004\\
+\hline
+\end{tabularx}
+\textcolor{red}{Find the value of $\nu$}
+$$\nu=5-1=4$$
+\textcolor{red}{Find the value of $X^2$}
+$$X^2=0.1478+0.0501+0.1603+0.4867+0.7004=1.5453$$
+\textcolor{red}{Compare the value of $X^2$ to the value on the tables corresponding to the 5\% significance level and $\nu=4$}
+$$9.488>1.5453$$
+\textcolor{red}{Write conclusion}
+\begin{center}
+Not in critical region so insufficient evidence to reject $H_0$, binomial is a possible model
+\end{center}
+
+
+
+\end{document}
