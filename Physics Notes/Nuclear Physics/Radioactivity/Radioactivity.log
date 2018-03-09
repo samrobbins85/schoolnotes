@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.1.16)  6 MAR 2018 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  9 MAR 2018 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Radioactivity.tex
 (./Radioactivity.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
@@ -460,7 +460,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
@@ -814,22 +814,21 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/11/03 3.15 The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/11/03 3.15 Babel common definitions
-
-(/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
-)
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count129
 \U@D=\dimen187
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count130
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -867,7 +866,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@old@col=\dimen192
 \TX@target=\dimen193
 \TX@delta=\dimen194
-\TX@cols=\count130
+\TX@cols=\count131
 \TX@ftn=\toks41
 )
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
@@ -981,19 +980,19 @@ Package: nth 2002/02/27
 \tindent=\skip59
 
 (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count131
-\calc@Bcount=\count132
+\calc@Acount=\count132
+\calc@Bcount=\count133
 \calc@Adimen=\dimen199
 \calc@Bdimen=\dimen256
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count133
+\calc@Ccount=\count134
 \calc@Cskip=\skip62
 )
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -1003,7 +1002,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count134
+\g_MT_multlinerow_int=\count135
 \l_MT_multwidth_dim=\dimen257
 \origjot=\skip63
 \l_MT_shortvdotswithinadjustabove_dim=\dimen258
@@ -1023,18 +1022,18 @@ File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
 ) (./Radioactivity.aux)
 \openout1 = `Radioactivity.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1072,16 +1071,16 @@ LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
+\scratchcounter=\count136
 \scratchdimen=\dimen264
 \scratchbox=\box63
-\nofMPsegments=\count136
-\nofMParguments=\count137
+\nofMPsegments=\count137
+\nofMParguments=\count138
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count138
+\MPscratchCnt=\count139
 \MPscratchDim=\dimen265
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks43
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1117,7 +1116,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1139,67 +1138,62 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Info: Redefining \celsius on input line 30.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 30.
+LaTeX Info: Redefining \celsius on input line 41.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 41.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 30.
-Package gensymb Info: Using \Omega for \ohm on input line 30.
+LaTeX Info: Redefining \ohm on input line 41.
+Package gensymb Info: Using \Omega for \ohm on input line 41.
 
 Package gensymb Warning: Not defining \micro.
 
 <plum.jpg, id=4, 679.53876pt x 602.25pt>
 File: plum.jpg Graphic file (type jpg)
 <use plum.jpg>
-Package pdftex.def Info: plum.jpg  used on input line 36. on input line 36.
-Package pdftex.def Info: Requested size: 85.35826pt x 75.64864pt on input line 
-36.
+Package pdftex.def Info: plum.jpg  used on input line 47.
+(pdftex.def)             Requested size: 85.35826pt x 75.64864pt.
 <Plumpudding.png, id=5, 161.8848pt x 161.8848pt>
 File: Plumpudding.png Graphic file (type png)
 <use Plumpudding.png>
-Package pdftex.def Info: Plumpudding.png  used on input line 37. on input line 
-37.
-Package pdftex.def Info: Requested size: 85.35826pt x 85.35884pt on input line 
-37.
+Package pdftex.def Info: Plumpudding.png  used on input line 48.
+(pdftex.def)             Requested size: 85.35826pt x 85.35884pt.
 <scatter.png, id=7, 356.33125pt x 286.06876pt>
 File: scatter.png Graphic file (type png)
 <use scatter.png>
-Package pdftex.def Info: scatter.png  used on input line 41. on input line 41.
-Package pdftex.def Info: Requested size: 170.71652pt x 137.0539pt on input line
- 41.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+Package pdftex.def Info: scatter.png  used on input line 52.
+(pdftex.def)             Requested size: 170.71652pt x 137.0539pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
 <foil.jpg, id=8, 351.3125pt x 381.425pt>
 File: foil.jpg Graphic file (type jpg)
 <use foil.jpg>
-Package pdftex.def Info: foil.jpg  used on input line 55. on input line 55.
-Package pdftex.def Info: Requested size: 170.71652pt x 185.35173pt on input lin
-e 55.
+Package pdftex.def Info: foil.jpg  used on input line 66.
+(pdftex.def)             Requested size: 170.71652pt x 185.35173pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/cmr/m/n/10 Atoms are mostly
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 69--69
+Underfull \hbox (badness 1442) in paragraph at lines 80--80
 \OT1/cmr/m/n/10 con-densed in a small
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./plum.jpg> <./Plumpudding.png> <./scatter.png> <./foil.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
@@ -1207,32 +1201,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 <geiger.png, id=30, 623.32875pt x 301.125pt>
 File: geiger.png Graphic file (type png)
 <use geiger.png>
-Package pdftex.def Info: geiger.png  used on input line 114. on input line 114.
+Package pdftex.def Info: geiger.png  used on input line 125.
+(pdftex.def)             Requested size: 284.52756pt x 137.45319pt.
 
-Package pdftex.def Info: Requested size: 284.52756pt x 137.45319pt on input lin
-e 114.
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
 
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 135--135
+Underfull \hbox (badness 1831) in paragraph at lines 146--146
 []|\OT1/cmr/m/n/10 High speed elec-tron or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []|\OT1/cmr/m/n/10 Constant for a given
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []|\OT1/cmr/m/n/10 Constant for a given
  []
 
@@ -1240,56 +1232,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
 <nz_plot.png, id=35, 381.425pt x 509.905pt>
 File: nz_plot.png Graphic file (type png)
 <use nz_plot.png>
-Package pdftex.def Info: nz_plot.png  used on input line 150. on input line 150
-.
-Package pdftex.def Info: Requested size: 142.26378pt x 190.1791pt on input line
- 150.
+Package pdftex.def Info: nz_plot.png  used on input line 161.
+(pdftex.def)             Requested size: 142.26378pt x 190.1791pt.
  [4 <./nz_plot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
+Underfull \hbox (badness 10000) in paragraph at lines 176--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 189--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 189--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 189--195
 
  []
 
-[5] (./Radioactivity.aux) ) 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
+
+ []
+
+[6] [7] (./Radioactivity.aux) ) 
 Here is how much of TeX's memory you used:
- 26913 strings out of 492985
- 683203 string characters out of 6138638
- 864933 words of memory out of 5000000
- 29964 multiletter control sequences out of 15000+600000
- 9023 words of font info for 33 fonts, out of 8000000 for 9000
+ 26940 strings out of 492982
+ 683621 string characters out of 6138580
+ 865916 words of memory out of 5000000
+ 29992 multiletter control sequences out of 15000+600000
+ 9369 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,96p,730b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Radioactivity.pdf (5 pages, 696556 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb>
+Output written on Radioactivity.pdf (7 pages, 722543 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

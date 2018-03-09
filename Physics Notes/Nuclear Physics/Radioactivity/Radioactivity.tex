@@ -27,6 +27,17 @@
 \usepackage{mathtools}
 \usetikzlibrary{calc,quotes,angles}
 \tikzstyle{arrow} = [thick,->,>=stealth]
+
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+
+
 \begin{document}
 \begin{center}
 \underline{\huge Radioactivity}
@@ -184,5 +195,60 @@ The graph of R against $A^{\frac{1}{3}}$ gives a straight line through the origi
 $$V=\frac{4}{3}\pi R^3=\frac{4}{3}\pi(r_0A^{\frac{1}{3}})^3=\frac{4}{3}\pi r_0^3A$$
 As $\textrm{Density}=\frac{\textrm{Mass}}{\textrm{Volume}}$
 $$\textrm{Density}=\frac{Au}{\frac{4}{3}\pi r_0^3A}=\frac{1u}{4\pi r_0^3}=\frac{1.661\times10^{-27}}{\frac{4}{3}\pi(1.05\times10^{-15})^3}=3.4\times10^{17}kgm^{-3}$$
-
+\newpage
+\section{Radioactive isotopes in use}
+\subsection{Radioactive dating}
+\subsubsection{Carbon dating}
+Carbon-14 is used for carbon dating, this has a half life of 5570 years, meaning that there is very little decay while a plant is alive. However once the tree has died, the percentage of carbon-14 reduces as it decays. Because activity is proportional to the number of atoms still to decay, measuring the activity of the dead sample allows its age to be calculated.
+\paragraph{Example}
+\textit{A sample of dead wood is found to have an activity of 0.28Bq. An equal mass of living wood is found to have an activity of 1.3Bq.Calculate the age of the sample\\
+\\
+The half life of carbon-14 is 5570 years }\\
+\\
+Calculate the half life in seconds
+$$T_{\frac{1}{2}}=5570\times365\times24\times3600=1.76\times10^{11}s$$
+Calculate the decay constant using the formula on the formula sheet
+$$\lambda=\frac{\ln(2)}{1.76\times10^{11}}$$
+Use the formula $A=A_0e^{-\lambda t}$
+$$0.28=1.8e^{-\lambda t}$$
+Rearrange to find $\lambda t$
+$$e^{-\lambda t}=\frac{0.280}{1.30}=0.215$$
+$$\lambda t=1.535$$
+Rearrange and substitute in $\lambda$ to find t
+$$t=\frac{1.535}{\lambda}=\frac{1.535}{3.96\times10^{-12}}=3.88\times10^{11}s=12300 \ \textrm{years}$$
+\subsubsection{Argon dating}
+$$^{40}_{19}K+^0_{-1}e\rightarrow^{40}_{18}Ar+\nu_e$$
+The effective half-life of the decay of $^{40}_{19}K$ is 1250 million years. The age of the rock can be calculated by measuring the proportion of argon-40 to potassium-40.\\
+\\
+$^{40}_{19}K$ also decays to $^{40}_{20}Ca$. This process is eight times more probable than electron capture. This means that if there was one argon atom for every N potassium atoms, there would originally be N+9 potassium atoms, eight decaying to Calcium and one decaying to argon.
+\paragraph{Example}
+\textit{Suppose for every 4 potassium-40 atoms present a certain rock now mas 1 argon-40 atom, what is the age of the sample?}\\
+\\
+Find the values of $N$ and $N_0$ 
+$$N=4 \qquad N_0=4+9=13$$
+Substitute these values into $N=N_0e^{-\lambda t}$
+$$4-13e^{-\lambda t}$$
+Rearrange to find t 
+$$t=\frac{-\ln\frac{4}{13}}{\lambda}$$
+Substitute $\frac{\ln(2)}{T_{\frac{1}{2}}}$ for $\lambda$
+$$t=\frac{-\ln(\frac{4}{13})}{0.693}T_{\frac{1}{2}}$$
+Substitute in the known value of the half life of potassium
+$$1.7\times T_{\frac{1}{2}}=2120 \  \textrm{million years}$$
+\subsection{Radioactive tracers}
+A radioactive tracer follows the path of a substance through a system. These should:
+\begin{itemize}
+\item Have a half life stable enough for the necessary measurements to be made and short enough to decay quickly after use
+\item Emit $\beta$ radiation of $\gamma$ radiation so it can be detected outside the flow path
+\end{itemize}
+\subsection{Industrial uses}
+\subsubsection{Engine wear}
+The rate of wear of a piston ring can be measured by fitting a ring that is radioactive. This causes transfer of radioactive atoms from the ring to the engine oil, which can then be measured
+\subsubsection{Underground pipe leaks}
+Radioactive tracer is injected in the flow, A detector at the surface measures the leakage
+\subsubsection{Investigating the uptake of fertilisers by plants}
+The fertiliser is a $\beta^-$ emitter and so can be measured in the leaves.
+\subsubsection{Thickness monitoring}
+The thickness of continuous materials can be measured by placing a $\beta$ emitter and detector on either side of the material. This allows materials such as foil to have a uniform thickness.
+\subsubsection{Power sources for remote devices}
+Satellites, weather sensors etc can be powered using a radioactive isotope in a thermally insulated sealed container which absorbs all the radiation emitted by the isotope. A thermocouple attached to the container produces electricity of the container being warm.
 \end{document}
