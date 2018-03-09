@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[margin=0.7in]{geometry}
 \usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{pgfplots}
 \usepackage{graphicx}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
@@ -44,4 +46,12 @@ If
 The kinetic energy the electron has once it has left the metal varies from zero to a maximum value as electrons have to do different amounts of work depending on how far they have to move through the metal.\\
 He created the equation:
 $$\frac{1}{2}mv^2=hf-\phi$$
+\\
+\\
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle,scale=0.8,ylabel=$V_s$,xlabel=Frequency,ylabel style={rotate=90,anchor=south},xlabel style={anchor=south},xmin=0,xmax=7,ymin=-5,ymax=7,xtick={2},xticklabels={$f_0$},ytick={-2},yticklabels={$-\frac{\phi}{e}$}
+]
+\addplot[color=black,domain=0:7]{x-2};
+\end{axis}
+\end{tikzpicture}
 \end{document}
