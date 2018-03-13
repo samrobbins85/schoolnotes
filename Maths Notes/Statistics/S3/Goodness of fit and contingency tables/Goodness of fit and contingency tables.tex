@@ -48,7 +48,7 @@ $X^2$ is distributed with a chi squared distribution $\chi^2_\nu$\\
 Where $\nu=$ degrees of freedom\\
 $$\textrm{The number of degrees of freedom}=\textrm{Number of classes (after combining)}-1$$
 \newpage
-\subsection{Example}
+\subsection{Testing a Binomial distribution as a model}
 \textit{The data in the table is thought to be modelled by a binomial $B(10,0.2)$. Use the table for the binomial cumulative distribution function to find expected values, and conduct a test to see if this is a good model. Use a 5\% significance level.}\\
 \\
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
@@ -100,7 +100,126 @@ $$9.488>1.5453$$
 \begin{center}
 Not in critical region so insufficient evidence to reject $H_0$, binomial is a possible model
 \end{center}
-
-
-
+\newpage
+\subsection{What to do when p is not given}
+\textit{A study of the number of girls in families with 5 children was done on 100 such families. The results are summarised in the following table.}\\
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Num girls(r)&0&1&2&3&4&5\\
+\hline
+Frequency(f)&13&18&38&20&10&1\\
+\hline
+\end{tabular}\\
+\textit{Test, at the 5\% significance level, whether or not a binomial distribution is a good model.}\\
+\\
+\textcolor{red}{State hypotheses}
+\begin{center}
+$H_0$: The binomial distribution is a good model\\
+$H_1$: The binomial distribution is not a suitable model
+\end{center}
+\textcolor{red}{Calculate the mean}
+$$\overline{x}=\frac{0\times13+1\times18+2\times38+3\times20+4\times10+5\times1}{100}=1.99$$
+\textcolor{red}{Divide the mean by n, the number of children in the families, 5, to find p.}
+$$p=\frac{1.99}{5}=0.398$$
+\textcolor{red}{Using the values of n and p, find the probability the value is a certain number, multiply by 100 to find the expected value.}
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}
+\hline
+r&0&1&2&3&4&5\\
+\hline
+p(r)&0.079&0.261&0.3456&0.229&0.0755&0.0009\\
+\hline
+$E_i$&7.91&26.14&34.56&22.85&7.55&0.09\\
+\hline
+\end{tabularx}\\
+\\
+\textcolor{red}{Use the values in the two above tables to find the values of $O_i$, $E_i$ and $X^2$, combine expected values when under 5}\\
+\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}
+\hline
+r&0&1&2&3&$>3$&Total\\
+\hline
+$O_i$&13&18&38&20&11&\\
+\hline
+$E_i$&7.91&26.14&34.56&22.85&8.54&\\
+\hline
+$\frac{(O_i-E_i)^2}{E_i}$&3.28&2.53&0.34&0.36&0.71&7.22\\
+\hline
+\end{tabularx}
+\textcolor{red}{Calculate the degrees of freedom, subtracting one for a constant frequency sum and one for the estimated p}
+$$\nu=5-1-1=3$$
+\textcolor{red}{Find the value of $\chi^2_3$ at a 5\% significance level}
+$$\chi^2_3=7.815$$
+\textcolor{red}{Compare the value of $\chi^2_3$ to $X^2$ to determine the correct hypothesis}
+$$7.22<7.81$$
+\begin{center}
+Not in critical region, so not significant, do not reject $H_0$, binomial is a suitable model
+\end{center}
+\newpage
+\subsection{Testing a poisson distribution as a model}
+\textit{The numbers of telephone calls arriving at an exchange in six-minute periods were recorded over a period of 8 hours, with the following results}\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Num calls(r)&0&1&2&3&4&5&6&7&8\\
+\hline
+Freq(f)&8&19&26&13&7&5&1&1&0\\
+\hline
+\end{tabular}
+\\
+\textit{Can these results be modelled by a Poisson distribution? Test at the 5\% significance level}\\
+\\
+\textcolor{red}{Calculate $\lambda$ (the mean)}
+$$\lambda=\overline{x}=\frac{0\times8+1\times19+2\times26+3\times13+4\times7+5\times5+6\times1+7\times1+9\times0}{8+19+26+13+7+5+1+1+0}=2.2$$
+\textcolor{red}{Use this value of $\lambda$ to find $P(r)$ and $E(r)$ by multiplying by 80}\\
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+r&$P(r)$&Expected freq of r\\
+\hline
+0&0.1108&8.864\\
+\hline
+1&0.2438&19.504\\
+\hline
+2&0.2681&21.448\\
+\hline
+3&0.1966&15.728\\
+\hline
+4&0.1082&8.656\\
+\hline
+5&0.0476&3.808\\
+\hline
+6&0.0174&1.392\\
+\hline
+$\geqslant7$&0.0075&0.6\\
+\hline
+\end{tabularx}
+\\
+\textcolor{red}{Use the two above tables to calculate $O_i$, $E_i$ and $X^2$, combining classes where needed}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+r&$O_i$&$E_i$&$\frac{(O_i-E_i)^2}{E_i}$\\
+\hline
+0&8&8.864&0.0842\\
+\hline
+1&19&19.504&0.0130\\
+\hline
+2&26&21.448&0.9661\\
+\hline
+3&13&15.728&0.4732\\
+\hline
+4&7&8.656&0.3168\\
+\hline
+$\geqslant5$&7&5.8&0.2483\\
+\hline
+\end{tabularx}\\
+\textcolor{red}{Find the value of $X^2$ by finding the sum of $\frac{(O_i-E_i)^2}{E_i}$}
+$$X^2=0.0842+0.0130+0.9661+0.4732+0.3168+0.2483$$
+\textcolor{red}{Calculate the degrees of freedom, subtracting for constant probability and estimated $\lambda$}
+$$\nu=6-1-1=4$$
+\textcolor{red}{Use the value for the degrees of freedom and significance level to find $\chi^2$}
+$$\chi^2_4=9.488$$
+\textcolor{red}{Compare the value of $\chi_4^2$ to the value of $X^2$ to determine the correct hypothesis}
+$$2.1016<9.488$$
+\begin{center}
+Value not in critical region, non significant, accept $H_0$ insufficient evidence to reject $H_0$
+\end{center}
 \end{document}
