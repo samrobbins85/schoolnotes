@@ -1,12 +1,19 @@
-\documentclass{article}[18pt]
+\documentclass{article}
+% main document, called main.tex
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/] % activate!
+
 \usepackage[utf8]{inputenc}
 \usepackage[margin=0.7in]{geometry}
-\usepackage{parselines} 
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{titlesec}
-\usepackage{pgfplots}
-\usepgfplotslibrary{fillbetween}
+
+
+
+
 \usepackage{graphicx}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
@@ -19,7 +26,6 @@
 \setlength{\tindent}{\parindent}
 \setlength{\parindent}{0pt}
 \renewcommand{\indent}{\hspace*{\tindent}}
-
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Sam Robbins 13SE}
@@ -37,6 +43,9 @@
 \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
 \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
 \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+
+
+
 
 
 \begin{document}
@@ -131,9 +140,56 @@ Factor out the value of p and plot as normal
     axis equal image,
     enlargelimits=true,
      ]
-    \addplot[data cs=polar,red,domain=0:360,samples=10000] (x,{sqrt(cos(2*x))});
+    \addplot[data cs=polar,red,domain=0:360,samples=8000] (x,{sqrt(cos(2*x))});
 \end{axis}
 \end{tikzpicture}
 \\
 The 4 asymptotes are half lines at $\theta=\frac{\pi}{4},\frac{3\pi}{4},\frac{5\pi}{4},\frac{7\pi}{4}$
+\subsection{$r^2=a^2\sin2\theta$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+    axis equal image,
+    enlargelimits=true,
+     ]
+    \addplot[data cs=polar,red,domain=0:360,samples=8000] (x,{sqrt(sin(2*x))});
+\end{axis}
+\end{tikzpicture}
+\\
+This is an anticlockwise rotation of $r^2=a^2\cos2\theta$ by $\frac{\pi}{4}$, it is this not $\frac{\pi}{2}$ as the phase difference between $\cos2\theta$ and $\sin2\theta$ is $\frac{\pi}{4}$ compared to $\frac{\pi}{2}$ with one $\theta$.
+\subsubsection{$r=a(p+q\sin\theta)$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+    axis equal image,
+    enlargelimits=true,
+    ticks=none
+     ]
+    \addplot[data cs=polar,red,domain=0:360,samples=360,smooth] (x,{6*(1+sin(x))});
+\end{axis}
+\end{tikzpicture}
+\\
+This is a rotation of $r=a(p+q\cos\theta)$ anticlockwise by $\frac{\pi}{2}$
+\subsection{Other types}
+\subsubsection{$r=a\sin3\theta$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+    axis equal image,
+    enlargelimits=true,
+     ]
+    \addplot[data cs=polar,red,domain=0:360,samples=360,smooth] (x,{sin(3*x)});
+\end{axis}
+\end{tikzpicture}
+\\
+Asymptotes occur when $r=0$
+\subsubsection{$r=2\sec(\theta-\frac{\pi}{3})$}
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+    axis lines=center,
+     ]
+    \addplot[data cs=polar,red,domain=-10:100,samples=360,smooth] (x,{2/(cos(x-60))});
+\end{axis}
+\end{tikzpicture}
+
 \end{document}
