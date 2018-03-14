@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  13 MAR 2018 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  14 MAR 2018 14:56
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **"Goodness of fit and contingency tables.tex"
 (./Goodness of fit and contingency tables.tex
@@ -1087,7 +1087,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--172
 
  []
 
-[4] (./Goodness of fit and contingency tables.aux) ) 
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 228--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+[]|\OT1/cmr/m/n/10 Direction
+ []
+
+
+Overfull \hbox (8.4771pt too wide) in paragraph at lines 245--245
+[]|\OT1/cmr/m/n/10 Frequency(O)| 
+ []
+
+[5] (./Goodness of fit and contingency tables.aux) ) 
 Here is how much of TeX's memory you used:
  24069 strings out of 492982
  595784 string characters out of 6138580
@@ -1108,11 +1123,11 @@ sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msam10.pfb>
-Output written on "Goodness of fit and contingency tables.pdf" (4 pages, 141073
+Output written on "Goodness of fit and contingency tables.pdf" (5 pages, 148588
  bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

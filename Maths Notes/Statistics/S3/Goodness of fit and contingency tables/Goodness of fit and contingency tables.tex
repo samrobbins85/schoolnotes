@@ -222,4 +222,36 @@ $$2.1016<9.488$$
 \begin{center}
 Value not in critical region, non significant, accept $H_0$ insufficient evidence to reject $H_0$
 \end{center}
+\newpage
+\subsection{Testing a uniform distribution as a model}
+\textit{In a study of the habits of a flock of starlings, the direction in which they headed when they left their roost in the mornings was recorded over 240 days. The direction was sound by recording if they headed between certain features of the landscape. The compass bearings of these features were then measured. The results are given below.\\
+Suggest a suitable distribution, and test to see if the data supports this model}\\
+\\
+\textcolor{red}{State hypotheses}
+$$H_0:\textrm{The binomial distribution is a suitable model}$$
+$$H_1:\textrm{The binomial distribution is a suitable model}$$
+\\
+\textcolor{red}{Fill in the table below, calculating the expected value using $\frac{b-a}{\beta-\alpha}\times n$ where a and b are the start and end of the range, and $\alpha$ and $\beta$ are the start and end of the full range}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+\hline
+Direction (degrees)&$0\leqslant d<58$&$58\leqslant d<100$&$100\leqslant d<127$&$127\leqslant d<190$&$190\leqslant d<256$&$256\leqslant d<296$&$296\leqslant d<360$\\
+\hline
+Frequency(O)&31&40&47&40&32&30&20\\
+\hline
+E&38.67&28&18&42&44&26.67&42.67\\
+\hline
+$\frac{(O-E)^2}{E}$&1.52&5.14&46.72&0.095&3.27&0.42&12.04\\
+\hline
+\end{tabularx}\\
+\textcolor{red}{Calculate $X^2$}
+$$X^2=1.52+5.14+46.72+0.095+3.27+0.42+12.04=69.21$$
+\textcolor{red}{Calculate the degrees of freedom, only one restriction for constant frequency}
+$$\nu=7-1=6$$
+\textcolor{red}{Find the value of $\chi^2_6$ at 5\%}
+$$\chi^2_6=12.592$$
+\textcolor{red}{Compare the value of $\chi^2_6$ to the value of $X^2$ to determine the correct hypothesis}
+$$12.592<69.29$$
+\begin{center}
+In critical region, reject $H_0$, accept $H_1$, the uniform distribution is not a suitable model.
+\end{center}
 \end{document}
