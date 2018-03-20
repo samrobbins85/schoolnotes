@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  19 MAR 2018 08:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  20 MAR 2018 15:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -898,18 +898,18 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (./Polar-Coordinates.aux)
 \openout1 = `Polar-Coordinates.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -995,29 +995,29 @@ enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 51.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 51.
+LaTeX Info: Redefining \celsius on input line 49.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 49.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 51.
-Package gensymb Info: Using \Omega for \ohm on input line 51.
+LaTeX Info: Redefining \ohm on input line 49.
+Package gensymb Info: Using \Omega for \ohm on input line 49.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ===== Image 'tikz/Polar-Coordinates-figure0' is up-to-date. ======
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--76
+Underfull \hbox (badness 10000) in paragraph at lines 53--74
 
  []
 
@@ -1039,7 +1039,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--76
 ===== Image 'tikz/Polar-Coordinates-figure8' is up-to-date. ======
 [4 <./tikz/Polar-Coordinates-figure7.pdf> <./tikz/Polar-Coordinates-figure8.pdf
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 196--200
+Underfull \hbox (badness 10000) in paragraph at lines 194--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--214
 
  []
 
@@ -1047,7 +1072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--200
 Here is how much of TeX's memory you used:
  24095 strings out of 492982
  601547 string characters out of 6138580
- 750976 words of memory out of 5000000
+ 752976 words of memory out of 5000000
  27203 multiletter control sequences out of 15000+600000
  11849 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1065,7 +1090,7 @@ ublic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Polar-Coordinates.pdf (5 pages, 286819 bytes).
+Output written on Polar-Coordinates.pdf (5 pages, 293852 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  130 compressed objects within 2 object streams

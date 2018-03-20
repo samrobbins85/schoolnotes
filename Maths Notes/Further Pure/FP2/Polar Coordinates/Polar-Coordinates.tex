@@ -1,10 +1,8 @@
 \documentclass{article}
-% main document, called main.tex
 \usepackage{pgfplots}
 \usepackage{tikz}
 \usetikzlibrary{external}
-\tikzexternalize[prefix=tikz/] % activate!
-
+\tikzexternalize[prefix=tikz/]
 \usepackage[utf8]{inputenc}
 \usepackage[margin=0.7in]{geometry}
 \usepackage{amsmath}
@@ -197,4 +195,36 @@ $$\textrm{Area}=\frac{1}{2}\int^\beta_\alpha r^2 \ d\theta$$
 Where the area of the sector is bounded by the half lines $\theta=\alpha$ and $\theta=\beta$, the value of $\theta$ must always be in radians.\\
 \\
 The the radius in this sector must not drop to zero, choose angles so this doesn't happen. Or choose multiple sections and add together, or use symmetry. 
+\section{Differentiating Polar Equations to find tangents}
+We only find tangents parallel and perpendicular to the initial line.\\
+\\
+$x=r\cos\theta$\\
+$y=r\sin\theta$\\
+\\
+Using the chain rule:
+$$\frac{dy}{dx}=\frac{dy}{d\theta}\times\frac{d\theta}{dx}$$
+\\
+Parallel: $\frac{dy}{d\theta}=0$\\
+Perpendicular: $\frac{dx}{d\theta}=0$
+\subsection{Example}
+$r=a(1+\cos\theta)$\\
+\\
+Find the coordinates where the tangents are parallel to the initial line with $\theta=0$\\
+\\
+$$y=r\sin\theta$$
+\textcolor{red}{Replace r with $a(1+\cos\theta)$}
+$$y=a(\sin\theta+\sin\theta\cos\theta)$$
+\textcolor{red}{Now we can find $\frac{dy}{d\theta}$}
+$$\frac{dy}{d\theta}=a(\cos\theta+\cos^2\theta-\sin^2\theta)$$
+\textcolor{red}{Simplify and set equal to zero}
+$$2\cos^2\theta+\cos\theta-1$$
+$$0=(2\cos\theta-1)(\cos\theta+1)$$
+\textcolor{red}{Find $\cos\theta$, $\theta$ and $r$}
+$$\cos\theta \quad \cos\theta=-1$$
+$$\theta=\pm\frac{\pi}{3} \quad \theta=\pi$$
+$$r=\frac{3a}{2} \quad r=0$$
+\subsubsection{Finding the equations of tangents}
+$$\textrm{Cartesian equation:} \ y=r\sin\theta$$
+$$\textrm{Polar equation:} \ r=y\csc\theta=r\sin\theta\csc\theta$$
+
 \end{document}

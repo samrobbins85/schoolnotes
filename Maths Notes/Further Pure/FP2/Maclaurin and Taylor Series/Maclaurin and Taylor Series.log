@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  20 MAR 2018 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  20 MAR 2018 15:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**"Goodness of fit and contingency tables.tex"
-(./Goodness of fit and contingency tables.tex
+**"Maclaurin and Taylor Series.tex"
+(./Maclaurin and Taylor Series.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -434,16 +434,6 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
@@ -828,26 +818,23 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen187
-\extrarowheight=\dimen188
-\NC@list=\toks41
-\extratabsurround=\skip48
-\backup@length=\skip49
-)
-\TX@col@width=\dimen189
-\TX@old@table=\dimen190
-\TX@old@col=\dimen191
-\TX@target=\dimen192
-\TX@delta=\dimen193
-\TX@cols=\count129
-\TX@ftn=\toks42
-)
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetwee
+n.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.c
+ode.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+intersections.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.t
+ex
+\pgf@intersect@solutions=\count129
+))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.s
+oftclip.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.co
+de.tex)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decoration
+s.softclip.code.tex)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
@@ -859,7 +846,7 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count130
-\U@D=\dimen194
+\U@D=\dimen187
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count131
@@ -871,15 +858,15 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 )
 (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -887,18 +874,16 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip59
-\enit@outerparindent=\dimen195
-\enit@toks=\toks43
-\enit@inbox=\box41
-\enitdp@description=\count132
+(/usr/share/texmf-dist/tex/generic/genmisc/nth.sty
+Package: nth 2002/02/27
 )
-\tindent=\skip60
+\tindent=\skip57
 
-(./Goodness of fit and contingency tables.aux)
-\openout1 = `"Goodness of fit and contingency tables.aux"'.
+(/usr/share/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(./Maclaurin and Taylor Series.aux)
+\openout1 = `"Maclaurin and Taylor Series.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -949,17 +934,17 @@ LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen196
-\scratchbox=\box42
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen197
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count132
+\scratchdimen=\dimen188
+\scratchbox=\box41
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen189
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1027,125 +1012,45 @@ Package gensymb Info: Using \Omega for \ohm on input line 30.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 52--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--64
-
- []
-
-
-Overfull \hbox (1.82277pt too wide) in paragraph at lines 77--77
-[]|\OT1/cmr/m/n/10 Expected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--94
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 105--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--149
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 159--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--172
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 228--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-[]|\OT1/cmr/m/n/10 Direction
- []
-
-
-Overfull \hbox (8.4771pt too wide) in paragraph at lines 245--245
-[]|\OT1/cmr/m/n/10 Frequency(O)| 
- []
-
-[5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 261.
-
- (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-[]|\OT1/cmr/m/n/10 Height
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--277
-
- []
-
-[6] (./Goodness of fit and contingency tables.aux) ) 
+(./Maclaurin and Taylor Series.aux) ) 
 Here is how much of TeX's memory you used:
- 24089 strings out of 492982
- 596104 string characters out of 6138580
- 788489 words of memory out of 5000000
- 27216 multiletter control sequences out of 15000+600000
- 6589 words of font info for 26 fonts, out of 8000000 for 9000
+ 23961 strings out of 492982
+ 603076 string characters out of 6138580
+ 781002 words of memory out of 5000000
+ 27090 multiletter control sequences out of 15000+600000
+ 5949 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,96p,757b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/symbols/msam10.pfb>
-Output written on "Goodness of fit and contingency tables.pdf" (6 pages, 153108
- bytes).
+ 62i,11n,96p,757b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Maclaurin and Taylor Series.pdf" (1 page, 92945 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,59 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage[super]{nth}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - FP2}
+\rfoot{Page \thepage}
+
+\usepackage{cancel}
+
+\begin{document}
+\begin{center}
+\underline{\huge Maclaurin and Taylor Series}
+\end{center}
+\section{Maclaurin's expansion}
+$$f(x)=f(0)+f'(0)x+f''(0)\frac{x^2}{2!}+f'''(0)\frac{x^3}{3!}+...+f^r(0)\frac{x^r}{r!}...$$
+\\
+For the continuous function, f, given by $f:x\Rightarrow f(x)$(where $x$ is real), then providing $f(0),f'(0),f''(0)$ etc all have finite values. This is an infinite series.
+\subsection{Example}
+\textit{Given that $f(x)=e^x$ can be written as an infinite series in the form:}
+$$f(x)=e^x=a_0+a_1x+a_2x^2+a_3x^3+...+a_rx^4+...$$
+\textit{And that it is valid to differentiate an infinite series term by term, show that:}
+$$e^2=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+...+\frac{x^r}{r!}+...$$
+\\
+\\
+\textcolor{red}{Find up to the third differential of $f(x)$ and the value of zero for each}\\
+\begin{tabular}{l l}
+$f(x)=e^x$&$f(0)=1$\\
+$f'(x)=e^x$&$f''(0)=1$\\
+$f''(x)=e^x$&$f''(0)=1$\\
+$f'''(x)=e^x$&$f'''(0)=1$
+\end{tabular}
+\\
+\\
+$$f(x)=1+1\times x+1\times\frac{x^2}{2!}+1\times\frac{x^3}{3!}$$
+$$f(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+...+\frac{x^r}{r!}+...$$
+\subsection{Standard results}
+Standard results are given on the data sheet, these can then be used for adapted forms of the results also. Remember to consider the limits where appropriate.
+
+\end{document}
