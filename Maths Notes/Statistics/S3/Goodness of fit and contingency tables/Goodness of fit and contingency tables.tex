@@ -8,6 +8,7 @@
 \usepackage{pgfplots}
 \usepackage{graphicx}
 \usepackage{tabularx}
+\usepackage{multirow}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
 \usepackage{gensymb}
@@ -31,6 +32,7 @@
 \begin{center}
 \underline{\huge Goodness of fit and contingency tables}
 \end{center}
+\section{Goodness of fit}
 Method for testing goodness of fit:
 \begin{enumerate}
 \item Determine which distribution would conceptually be most appropriate
@@ -311,5 +313,61 @@ $$\chi^2_4 \ \textrm{At 5\%}=9.488$$
 $$X^2>\chi^2$$
 \begin{center}
 Significant result, reject $H_0$, does not follow a normal distribution
+\end{center}
+\newpage
+\section{Contingency tables}
+\begin{itemize}
+\item We use this test to see if two factors are independent of each other
+\item We describe them by: Number of rows $\times$ Number of columns
+\item $H_0$ is that they are independent
+\item $H_1$ is that they are independent
+\item $$\textrm{Expected values}=\frac{\textrm{Row total}\times\textrm{Column total}}{\textrm{Grand total}}$$
+\item $$\nu=(\textrm{Number of rows-1})(\textrm{Number of columns-1})$$
+\end{itemize}
+\subsection{Contingency tables}
+\textit{Determine to the 5\% significance level whether school and grade are dependent}\\
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+\hline
+&&\multicolumn{3}{|X|}{Grade}&\multirow{2}{4em}{Totals}\\
+\cline{3-5}
+&&A&B&C&\\
+\hline
+\multirow{2}{4em}{School}&X&18&12&20&50\\
+\cline{2-6}
+&Y&26&12&32&70\\
+\hline
+Totals&&44&24&52&120\\
+\hline
+\end{tabularx}
+\\
+\\
+\textcolor{red}{Write the hypotheses}
+\begin{center}
+$H_0:$ School and grade are independent\\
+$H_1:$ School and grade are not independent\\
+\end{center}
+\textcolor{red}{Calculate the expected frequencies, using the formula to find expected values}\\
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+\hline
+&&\multicolumn{3}{|X|}{Grade}\\
+\hline
+&&A&B&C\\
+\hline
+\multirow{2}{4em}{School}&X&$$\frac{55}{3}$$&$$10$$&$$\frac{65}{3}$$\\
+\cline{2-5}
+&Y&$$\frac{77}{3}$$&$$14$$&$$\frac{91}{3}$$\\
+\hline
+\end{tabularx}
+\textcolor{red}{Calculate the degrees of freedom}
+$$\nu=(2-1)(3-1)=2$$
+\textcolor{red}{Calculate $X^2$}
+$$X^2=0.916$$
+\textcolor{red}{Find the value of $\chi^2_2$ at 5\%}
+$$\chi^2_2=5.991$$
+\textcolor{red}{Compare values and write conclusion}
+\begin{center}
+$0.916<5.991$ don't reject $H_0$, insufficient evidence to suggest an association, independent
 \end{center}
 \end{document}

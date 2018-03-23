@@ -55,5 +55,20 @@ $$f(x)=1+1\times x+1\times\frac{x^2}{2!}+1\times\frac{x^3}{3!}$$
 $$f(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+...+\frac{x^r}{r!}+...$$
 \subsection{Standard results}
 Standard results are given on the data sheet, these can then be used for adapted forms of the results also. Remember to consider the limits where appropriate.
-
+\newpage
+\section{Taylor expansion}
+The conditions of the Maclaurin expansion mean that some functions, such as $\ln x$ cannot be expanded as a series in ascending powers of x.\\
+\\
+The construction of the Maclaurin expansion focuses on $x=0$ and values of x very close to zero. The Taylor expansion focuses on $x=a$.\\
+\\
+Considering the functions f and g, where $f(x+a)\equiv g(x)$ then:\\
+$f^r(a)=g^r(0)$\\
+\\
+Turning the Maclaurin expansion for g from:
+$$g(x)=g(0)+g'(0)x+\frac{g''(0)}{2!}x^2...$$
+Into
+$$f(x+a)=f(a)+f'(a)x+\frac{f''(a)}{2!}x^2+...+\frac{f^r(a)}{r!}x^r$$
+Replacing x by x-a gives
+$$f(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+...+\frac{f^r(a)}{r!}(x-a)^r$$
+These are the two forms of the Taylor expansion, when a=0, they both become the Maclaurin expansion.
 \end{document}

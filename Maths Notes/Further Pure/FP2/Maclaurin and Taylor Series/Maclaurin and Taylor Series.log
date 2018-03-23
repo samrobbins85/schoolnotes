@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  20 MAR 2018 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  22 MAR 2018 14:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1030,7 +1030,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--54
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(./Maclaurin and Taylor Series.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 60--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--68
+
+ []
+
+[2] (./Maclaurin and Taylor Series.aux) ) 
 Here is how much of TeX's memory you used:
  23961 strings out of 492982
  603076 string characters out of 6138580
@@ -1039,18 +1053,18 @@ Here is how much of TeX's memory you used:
  5949 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,757b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Maclaurin and Taylor Series.pdf" (1 page, 92945 bytes).
+</usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Maclaurin and Taylor Series.pdf" (2 pages, 96007 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
