@@ -71,4 +71,45 @@ $$f(x+a)=f(a)+f'(a)x+\frac{f''(a)}{2!}x^2+...+\frac{f^r(a)}{r!}x^r$$
 Replacing x by x-a gives
 $$f(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+...+\frac{f^r(a)}{r!}(x-a)^r$$
 These are the two forms of the Taylor expansion, when a=0, they both become the Maclaurin expansion.
+\subsection{Example}
+\textit{Find the Taylor expansion of $\cos2x$, in ascending powers of $(x-\frac{\pi}{4})$ up to $(x-\frac{\pi}{4})^5$}
+\textcolor{red}{Find the differentials of $f(x)$ up to the fifth derivative, and the associated values when $x=\frac{\pi}{4}$}\\
+\begin{tabular}{l l}
+$f(x)=\cos2x$&$f(\frac{\pi}{4})=0$\\
+$f'(x)=-2\sin2x$&$f(\frac{\pi}{4})=-2$\\
+$f''(x)=-4\cos2x$&$f(\frac{\pi}{4})=0$\\
+$f'''(x)=8\sin2x$&$f(\frac{\pi}{4})=8$\\
+$f''''(x)=16\cos2x$&$f(\frac{\pi}{4})=0$\\
+$f'''''(x)=-32\sin2x$&$f(\frac{\pi}{4})=-32$
+\end{tabular}\\
+\textcolor{red}{Substitute in the associated values into the formula}
+$$\cos2x=0-2\Big(x-\frac{\pi}{4}\Big)+0+\frac{8}{3!}\Big(x-\frac{\pi}{4}\Big)^3+0-\frac{32}{5!}\Big(x-\frac{\pi}{4}\Big)^5$$
+$$\cos2x=-2\Big(x-\frac{\pi}{4}\Big)+\frac{4}{5}\Big(x-\frac{\pi}{4}\Big)^3-\frac{4}{15}\Big(x-\frac{\pi}{4}\Big)^5$$
+
+
+
+\newpage
+\section{Finding the solution, in the form of a series to a differential equation using the Taylor series method}
+Suppose you have a first order differential equation of the form $\frac{dy}{dx}=f(x,y)$ and you know the initial condition that at $x=x_0$,$y=y_0$, then you can calculate \Large{$(\frac{dy}{dx})_{x_0}$} \normalsize by substituting $x_0$ and $y_0$ into the original differential equation.\\
+\\
+By successive differentiation of the original differential equation, the values of {\Large $(\frac{d^2y}{dx^2})_{x_0}$} and {\Large $(\frac{d^3y}{dx^3})_{x_0}$} and so on can be found by substituting previous results into the derived equations.\\
+\\
+The series solution to the differential equation is found using the Taylor series in the form:
+$$y=y_0+(x-x_0)\bigg(\frac{dy}{dx}\bigg)_{x_0}+\frac{(x-x_0)^2}{2!}\Bigg(\frac{d^2y}{dx^2}\Bigg)_{x_0}+\frac{(x-x_0)^3}{3!}\Bigg(\frac{d^3y}{dx^3}\Bigg)_{x_0}+...$$
+In the common situation where $x_0=0$ then this reduces to the Maclaurin series
+$$y=y_0+x\bigg(\frac{dy}{dx}\bigg)_{x_0}+\frac{x^2}{2!}\Bigg(\frac{d^2y}{dx^2}\Bigg)_{x_0}+\frac{x^3}{3!}\Bigg(\frac{d^3y}{dx^3}\Bigg)_{x_0}+...$$
+\subsection{Example}
+\textit{Using the Taylor method to find a series solution, in ascending powers of x up to and including the term in $x^3$, of:}
+$$\frac{d^2y}{dx^2}=y-\sin x$$
+\textit{Given that when $x=0$,$y=1$ and $\frac{dy}{dx}=2$}
+\\
+\textcolor{red}{Use the formula to find $\frac{d^2y}{dx^2}$}
+$$\frac{d^2y}{dx^2}=1-\sin(0)=1$$
+$$\mathbf{\frac{d^2y}{dx^2}=1}$$
+\textcolor{red}{Differentiate the formula to obtain a formula for $\frac{d^3y}{dx^3}$}
+$$\frac{d^3y}{dx^3}=\frac{dy}{dx}-\cos x=2-\cos(0)=1$$
+$$\mathbf{\frac{d^3y}{dx^3}=1}$$
+\textcolor{red}{Substitute the known values into the Maclaurin formula}
+$$y=1+x\times2+\frac{x^2}{2!}\times1+\frac{x^3}{3!}\times1$$
+$$y=1+2x+\frac{x^2}{2}+\frac{x^3}{6}$$
 \end{document}
