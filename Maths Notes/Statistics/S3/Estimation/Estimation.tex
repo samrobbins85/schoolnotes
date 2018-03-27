@@ -55,6 +55,14 @@ $$Var(\overline{X})=\frac{\sigma^2}{\textrm{Sample size}}$$
 \\
 We use $S^2$ as an estimator for $\sigma^2$
 $$S^2=\frac{1}{n-1}\Big(\Sigma X^2-n\overline{X}^2\Big)$$
+\\
+In formula book
+$$S^2=\frac{\Sigma(X_i-\overline{X})^2}{n-1}$$
+Replace the top of the fraction with $S_{xx}=\Sigma x^2_i-\frac{(\Sigma x_i)^2}{n}$
+\begin{center}
+{\huge$S^2=\frac{\Sigma x_i^2-\frac{(\Sigma x_i)^2}{n}}{n-1}$}
+\end{center}
+\newpage
 \subsection{Uniform Distributions}
 \textit{Random variable X is continuously uniform $[0,\alpha]$. A sample $X_1,X_2..X_N$ is taken}\\
 \textit{Show that $\overline{X}$ is a biased estimate and state the bias}
