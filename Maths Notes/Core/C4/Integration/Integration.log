@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  11 DEC 2017 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  27 MAR 2018 16:26
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Integration.tex
 (./Integration.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
@@ -465,7 +465,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
@@ -819,22 +819,21 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/11/03 3.15 The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/11/03 3.15 Babel common definitions
-
-(/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
-)
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count129
 \U@D=\dimen187
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count130
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -864,11 +863,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texmf-dist/tex/latex/mwe/mwe.sty
-Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
+Package: mwe 2017/12/10 v0.4 Package to support minimal working examples (MWE)
 
 (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count130
+\c@lips@count=\count131
 )
 (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -876,28 +875,28 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count131
-\c@Blindtext=\count132
-\c@blind@countparstart=\count133
-\blind@countxx=\count134
-\blindtext@numBlindtext=\count135
-\blind@countyy=\count136
-\c@blindlist=\count137
-\c@blindlistlevel=\count138
-\c@blindlist@level=\count139
-\blind@listitem=\count140
-\c@blind@listcount=\count141
-\c@blind@levelcount=\count142
-\blind@mathformula=\count143
-\blind@Mathformula=\count144
-\c@blind@randomcount=\count145
-\c@blind@randommax=\count146
-\c@blind@pangramcount=\count147
-\c@blind@pangrammax=\count148
+\c@blindtext=\count132
+\c@Blindtext=\count133
+\c@blind@countparstart=\count134
+\blind@countxx=\count135
+\blindtext@numBlindtext=\count136
+\blind@countyy=\count137
+\c@blindlist=\count138
+\c@blindlistlevel=\count139
+\c@blindlist@level=\count140
+\blind@listitem=\count141
+\c@blind@listcount=\count142
+\c@blind@levelcount=\count143
+\blind@mathformula=\count144
+\blind@Mathformula=\count145
+\c@blind@randomcount=\count146
+\c@blind@randommax=\count147
+\c@blind@pangramcount=\count148
+\c@blind@pangrammax=\count149
 ))
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count149
+\c@float@type=\count150
 \float@exts=\toks41
 \float@box=\box41
 \@float@everytoks=\toks42
@@ -905,7 +904,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/share/texmf-dist/tex/latex/polynom/polynom.sty
 Package: polynom 2017/07/17 0.19 (CH,HA)
-\pld@currstage=\count150
+\pld@currstage=\count151
 )
 (/usr/share/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
@@ -921,16 +920,16 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 (/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box43
-\sift@deathcycles=\count151
+\sift@deathcycles=\count152
 \@vwid@loff=\dimen190
 \@vwid@roff=\dimen191
 )
-\c@taburow=\count152
-\tabu@nbcols=\count153
-\tabu@cnt=\count154
-\tabu@Xcol=\count155
-\tabu@alloc=\count156
-\tabu@nested=\count157
+\c@taburow=\count153
+\tabu@nbcols=\count154
+\tabu@cnt=\count155
+\tabu@Xcol=\count156
+\tabu@alloc=\count157
+\tabu@nested=\count158
 \tabu@target=\dimen192
 \tabu@spreadtarget=\dimen193
 \tabu@naturalX=\dimen194
@@ -954,19 +953,19 @@ Package: relsize 2013/03/29 ver 4.1
 \tindent=\skip60
 
 (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count158
-\calc@Bcount=\count159
+\calc@Acount=\count159
+\calc@Bcount=\count160
 \calc@Adimen=\dimen257
 \calc@Bdimen=\dimen258
 \calc@Askip=\skip61
 \calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count160
+\calc@Ccount=\count161
 \calc@Cskip=\skip63
 )
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -976,7 +975,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count161
+\g_MT_multlinerow_int=\count162
 \l_MT_multwidth_dim=\dimen259
 \origjot=\skip64
 \l_MT_shortvdotswithinadjustabove_dim=\dimen260
@@ -1037,16 +1036,16 @@ LaTeX Font Info:    ... okay on input line 34.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count162
+\scratchcounter=\count163
 \scratchdimen=\dimen266
 \scratchbox=\box48
-\nofMPsegments=\count163
-\nofMParguments=\count164
+\nofMPsegments=\count164
+\nofMParguments=\count165
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count165
+\MPscratchCnt=\count166
 \MPscratchDim=\dimen267
-\MPnumerator=\count166
-\makeMPintoPDFobject=\count167
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
 \everyMPtoPDFconversion=\toks47
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1082,7 +1081,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1350,46 +1349,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--234
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 236--243
+Underfull \hbox (badness 10000) in paragraph at lines 238--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--243
+Underfull \hbox (badness 10000) in paragraph at lines 238--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--255
+Underfull \hbox (badness 10000) in paragraph at lines 248--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--255
+Underfull \hbox (badness 10000) in paragraph at lines 248--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--255
+Underfull \hbox (badness 10000) in paragraph at lines 248--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--255
+Underfull \hbox (badness 10000) in paragraph at lines 248--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+Underfull \hbox (badness 10000) in paragraph at lines 258--261
 
  []
 
 [6] (./Integration.aux) ) 
 Here is how much of TeX's memory you used:
- 25817 strings out of 492985
- 621611 string characters out of 6138637
- 891570 words of memory out of 5000000
- 28902 multiletter control sequences out of 15000+600000
+ 25836 strings out of 492982
+ 621914 string characters out of 6138580
+ 892613 words of memory out of 5000000
+ 28923 multiletter control sequences out of 15000+600000
  13089 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,21n,96p,728b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1408,7 +1407,7 @@ are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Integration.pdf (6 pages, 190333 bytes).
+Output written on Integration.pdf (6 pages, 191008 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
