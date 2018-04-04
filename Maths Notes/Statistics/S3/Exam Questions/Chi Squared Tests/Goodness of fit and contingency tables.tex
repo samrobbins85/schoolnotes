@@ -1,0 +1,355 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{enumitem}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\hyphenpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S3}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Goodness of fit and contingency tables}
+\end{center}
+\subsection{Testing a Binomial distribution as a model}
+\textit{The data in the table is thought to be modelled by a binomial $B(10,0.2)$. Use the table for the binomial cumulative distribution function to find expected values, and conduct a test to see if this is a good model. Use a 5\% significance level.}\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+$x$&0&1&2&3&4&5&6&7&8\\
+\hline
+Freq of $x$&12&28&28&17&7&4&2&2&0\\
+\hline
+\end{tabular}
+\\
+\\
+\textcolor{red}{Define Hypotheses}
+$$H_0: \textrm{A B(10,0.2) distribution is suitable for the results}$$
+$$H_1: \textrm{The distribution is not suitable for the results}$$
+\textcolor{red}{Calculate the sum of frequencies}
+$$N=100$$
+\textcolor{red}{Complete the table of probabilities and expected frequencies, expected frequency=probability$\times$N}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|X|X|}
+\hline
+$x$&0&1&2&3&4&5&6&7&8\\
+\hline
+$p(x)$&0.1074&0.2684&0.3020&0.2013&0.0881&0.0264&0.0055&0.0008&0.0001\\
+\hline
+Expected freq&10.74&26.84&30.20&20.13&8.81&2.64&0.55&0.08&0.01\\
+\hline
+\end{tabularx}
+\\
+\\
+\textcolor{red}{As expected frequencies need to be greater than or equal to five, combine all probabilities greater than or equal to four}
+\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+\hline
+$x$&0&1&2&3&$\geqslant4$\\
+\hline
+$O_i$&12&28&28&17&15\\
+\hline
+$E_i$&10.74&26.84&30.20&20.13&12.09\\
+\hline
+$\dfrac{(O_i-E_i)^2}{E_i}$&0.1478&0.0501&0.1603&0.4867&0.7004\\
+\hline
+\end{tabularx}
+\textcolor{red}{Find the value of $\nu$}
+$$\nu=5-1=4$$
+\textcolor{red}{Find the value of $X^2$}
+$$X^2=0.1478+0.0501+0.1603+0.4867+0.7004=1.5453$$
+\textcolor{red}{Compare the value of $X^2$ to the value on the tables corresponding to the 5\% significance level and $\nu=4$}
+$$9.488>1.5453$$
+\textcolor{red}{Write conclusion}
+\begin{center}
+Not in critical region so insufficient evidence to reject $H_0$, binomial is a possible model
+\end{center}
+\newpage
+\subsection{What to do when p is not given}
+\textit{A study of the number of girls in families with 5 children was done on 100 such families. The results are summarised in the following table.}\\
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Num girls(r)&0&1&2&3&4&5\\
+\hline
+Frequency(f)&13&18&38&20&10&1\\
+\hline
+\end{tabular}\\
+\textit{Test, at the 5\% significance level, whether or not a binomial distribution is a good model.}\\
+\\
+\textcolor{red}{State hypotheses}
+\begin{center}
+$H_0$: The binomial distribution is a good model\\
+$H_1$: The binomial distribution is not a suitable model
+\end{center}
+\textcolor{red}{Calculate the mean}
+$$\overline{x}=\frac{0\times13+1\times18+2\times38+3\times20+4\times10+5\times1}{100}=1.99$$
+\textcolor{red}{Divide the mean by n, the number of children in the families, 5, to find p.}
+$$p=\frac{1.99}{5}=0.398$$
+\textcolor{red}{Using the values of n and p, find the probability the value is a certain number, multiply by 100 to find the expected value.}
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}
+\hline
+r&0&1&2&3&4&5\\
+\hline
+p(r)&0.079&0.261&0.3456&0.229&0.0755&0.0009\\
+\hline
+$E_i$&7.91&26.14&34.56&22.85&7.55&0.09\\
+\hline
+\end{tabularx}\\
+\\
+\textcolor{red}{Use the values in the two above tables to find the values of $O_i$, $E_i$ and $X^2$, combine expected values when under 5}\\
+\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}
+\hline
+r&0&1&2&3&$>3$&Total\\
+\hline
+$O_i$&13&18&38&20&11&\\
+\hline
+$E_i$&7.91&26.14&34.56&22.85&8.54&\\
+\hline
+$\frac{(O_i-E_i)^2}{E_i}$&3.28&2.53&0.34&0.36&0.71&7.22\\
+\hline
+\end{tabularx}
+\textcolor{red}{Calculate the degrees of freedom, subtracting one for a constant frequency sum and one for the estimated p}
+$$\nu=5-1-1=3$$
+\textcolor{red}{Find the value of $\chi^2_3$ at a 5\% significance level}
+$$\chi^2_3=7.815$$
+\textcolor{red}{Compare the value of $\chi^2_3$ to $X^2$ to determine the correct hypothesis}
+$$7.22<7.81$$
+\begin{center}
+Not in critical region, so not significant, do not reject $H_0$, binomial is a suitable model
+\end{center}
+\newpage
+\subsection{Testing a poisson distribution as a model}
+\textit{The numbers of telephone calls arriving at an exchange in six-minute periods were recorded over a period of 8 hours, with the following results}\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Num calls(r)&0&1&2&3&4&5&6&7&8\\
+\hline
+Freq(f)&8&19&26&13&7&5&1&1&0\\
+\hline
+\end{tabular}
+\\
+\textit{Can these results be modelled by a Poisson distribution? Test at the 5\% significance level}\\
+\\
+\textcolor{red}{Calculate $\lambda$ (the mean)}
+$$\lambda=\overline{x}=\frac{0\times8+1\times19+2\times26+3\times13+4\times7+5\times5+6\times1+7\times1+9\times0}{8+19+26+13+7+5+1+1+0}=2.2$$
+\textcolor{red}{Use this value of $\lambda$ to find $P(r)$ and $E(r)$ by multiplying by 80}\\
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+r&$P(r)$&Expected freq of r\\
+\hline
+0&0.1108&8.864\\
+\hline
+1&0.2438&19.504\\
+\hline
+2&0.2681&21.448\\
+\hline
+3&0.1966&15.728\\
+\hline
+4&0.1082&8.656\\
+\hline
+5&0.0476&3.808\\
+\hline
+6&0.0174&1.392\\
+\hline
+$\geqslant7$&0.0075&0.6\\
+\hline
+\end{tabularx}
+\\
+\textcolor{red}{Use the two above tables to calculate $O_i$, $E_i$ and $X^2$, combining classes where needed}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+r&$O_i$&$E_i$&$\frac{(O_i-E_i)^2}{E_i}$\\
+\hline
+0&8&8.864&0.0842\\
+\hline
+1&19&19.504&0.0130\\
+\hline
+2&26&21.448&0.9661\\
+\hline
+3&13&15.728&0.4732\\
+\hline
+4&7&8.656&0.3168\\
+\hline
+$\geqslant5$&7&5.8&0.2483\\
+\hline
+\end{tabularx}\\
+\textcolor{red}{Find the value of $X^2$ by finding the sum of $\frac{(O_i-E_i)^2}{E_i}$}
+$$X^2=0.0842+0.0130+0.9661+0.4732+0.3168+0.2483$$
+\textcolor{red}{Calculate the degrees of freedom, subtracting for constant probability and estimated $\lambda$}
+$$\nu=6-1-1=4$$
+\textcolor{red}{Use the value for the degrees of freedom and significance level to find $\chi^2$}
+$$\chi^2_4=9.488$$
+\textcolor{red}{Compare the value of $\chi_4^2$ to the value of $X^2$ to determine the correct hypothesis}
+$$2.1016<9.488$$
+\begin{center}
+Value not in critical region, non significant, accept $H_0$ insufficient evidence to reject $H_0$
+\end{center}
+\newpage
+\subsection{Testing a uniform distribution as a model}
+\textit{In a study of the habits of a flock of starlings, the direction in which they headed when they left their roost in the mornings was recorded over 240 days. The direction was sound by recording if they headed between certain features of the landscape. The compass bearings of these features were then measured. The results are given below.\\
+Suggest a suitable distribution, and test to see if the data supports this model}\\
+\\
+\textcolor{red}{State hypotheses}
+$$H_0:\textrm{The binomial distribution is a suitable model}$$
+$$H_1:\textrm{The binomial distribution is a suitable model}$$
+\\
+\textcolor{red}{Fill in the table below, calculating the expected value using $\frac{b-a}{\beta-\alpha}\times n$ where a and b are the start and end of the range, and $\alpha$ and $\beta$ are the start and end of the full range}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+\hline
+Direction (degrees)&$0\leqslant d<58$&$58\leqslant d<100$&$100\leqslant d<127$&$127\leqslant d<190$&$190\leqslant d<256$&$256\leqslant d<296$&$296\leqslant d<360$\\
+\hline
+Frequency(O)&31&40&47&40&32&30&20\\
+\hline
+E&38.67&28&18&42&44&26.67&42.67\\
+\hline
+$\frac{(O-E)^2}{E}$&1.52&5.14&46.72&0.095&3.27&0.42&12.04\\
+\hline
+\end{tabularx}\\
+\textcolor{red}{Calculate $X^2$}
+$$X^2=1.52+5.14+46.72+0.095+3.27+0.42+12.04=69.21$$
+\textcolor{red}{Calculate the degrees of freedom, only one restriction for constant frequency}
+$$\nu=7-1=6$$
+\textcolor{red}{Find the value of $\chi^2_6$ at 5\%}
+$$\chi^2_6=12.592$$
+\textcolor{red}{Compare the value of $\chi^2_6$ to the value of $X^2$ to determine the correct hypothesis}
+$$12.592<69.29$$
+\begin{center}
+In critical region, reject $H_0$, accept $H_1$, the uniform distribution is not a suitable model.
+\end{center}
+\newpage
+\subsection{Testing the normal distribution as a model}
+We would fit data to a normal if:
+\begin{itemize}
+\item Data is continuous
+\item Symmetrical about the mean
+\item 68\% of the data falls within 1 standard deviation of the mean
+\end{itemize}
+\textit{During observations on the height of 200 male students the following data was observed:}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|X|X|X|}
+\hline
+Height (cm)&150-154&155-159&160-164&165-169&170-174&175-179&180-184&185-189&190-194\\
+\hline
+Freq&4&6&12&30&64&52&18&10&4\\
+\hline
+\end{tabularx}
+\\
+\textit{Test at the 0.05 level of see if the height of the male students could be modelled by a normal distribution with mean 172 and standard deviation 6}\\
+\\
+\textcolor{red}{State the hypotheses}
+\begin{center}
+$H_0:$ Data can be modelled by a normal distribution $N(172,6^2)$\\
+$H_1:$ Data cannot be modelled by this normal distribution
+\end{center}
+\textcolor{red}{Fill in the below table, calculating the probabilities by finding the z values and converting to probabilities. Find E by multiplying the probability by 200. For the first and last values, find all values past this value}\\
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+Class&Z upper limit&$P(a<x<b)$&E\\
+\hline
+$<154.5$&-2.92&0.0019&0.38\\
+\hline
+154.5-159.5&-2.08&0.0169&3.38\\
+\hline
+159.5-164.5&-1.25&0.0868&17.36\\
+\hline
+164.5-169.5&-0.42&0.2316&46.32\\
+\hline
+169.5-174.5&0.42&0.3256&65.12\\
+\hline
+174.5-179.5&1.25&0.2316&46.32\\
+\hline
+184.5-189.5&2.92&0.0169&3.38\\
+\hline
+$>189.5$&&0.0019&0.38\\
+\hline
+\end{tabularx}
+\\
+\textcolor{red}{Remember to combine rows so that all are greater than 5, find $X^2$}
+$$X^2=12.1$$
+\textcolor{red}{Find the degrees of freedom, subtracting one from the number of combined classes}
+$$\nu=5-1=4$$
+\textcolor{red}{Find the value of $\chi^2_4$ at 5\%}
+$$\chi^2_4 \ \textrm{At 5\%}=9.488$$
+\textcolor{red}{Compare the value of $\chi^2_4$ with the value of $X^2$ and state conclusions}
+$$X^2>\chi^2$$
+\begin{center}
+Significant result, reject $H_0$, does not follow a normal distribution
+\end{center}
+\newpage
+\section{Contingency tables}
+\begin{itemize}
+\item We use this test to see if two factors are independent of each other
+\item We describe them by: Number of rows $\times$ Number of columns
+\item $H_0$ is that they are independent
+\item $H_1$ is that they are independent
+\item $$\textrm{Expected values}=\frac{\textrm{Row total}\times\textrm{Column total}}{\textrm{Grand total}}$$
+\item $$\nu=(\textrm{Number of rows-1})(\textrm{Number of columns-1})$$
+\end{itemize}
+\subsection{Contingency tables}
+\textit{Determine to the 5\% significance level whether school and grade are dependent}\\
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+\hline
+&&\multicolumn{3}{|X|}{Grade}&\multirow{2}{4em}{Totals}\\
+\cline{3-5}
+&&A&B&C&\\
+\hline
+\multirow{2}{4em}{School}&X&18&12&20&50\\
+\cline{2-6}
+&Y&26&12&32&70\\
+\hline
+Totals&&44&24&52&120\\
+\hline
+\end{tabularx}
+\\
+\\
+\textcolor{red}{Write the hypotheses}
+\begin{center}
+$H_0:$ School and grade are independent\\
+$H_1:$ School and grade are not independent\\
+\end{center}
+\textcolor{red}{Calculate the expected frequencies, using the formula to find expected values}\\
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+\hline
+&&\multicolumn{3}{|X|}{Grade}\\
+\hline
+&&A&B&C\\
+\hline
+\multirow{2}{4em}{School}&X&$$\frac{55}{3}$$&$$10$$&$$\frac{65}{3}$$\\
+\cline{2-5}
+&Y&$$\frac{77}{3}$$&$$14$$&$$\frac{91}{3}$$\\
+\hline
+\end{tabularx}
+\textcolor{red}{Calculate the degrees of freedom}
+$$\nu=(2-1)(3-1)=2$$
+\textcolor{red}{Calculate $X^2$}
+$$X^2=0.916$$
+\textcolor{red}{Find the value of $\chi^2_2$ at 5\%}
+$$\chi^2_2=5.991$$
+\textcolor{red}{Compare values and write conclusion}
+\begin{center}
+$0.916<5.991$ don't reject $H_0$, insufficient evidence to suggest an association, independent
+\end{center}
+\end{document}

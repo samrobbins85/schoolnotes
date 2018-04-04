@@ -1,0 +1,86 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{enumitem}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\hyphenpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S3}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Exam Questions - Combinations of random variables}
+\end{center}
+\section{Example 1}
+\textit{Philip and James are racing car drivers. Philip’s lap times, in seconds, are normally distributed with mean 90 and variance 9. James’ lap times, in seconds, are normally distributed with mean 91 and variance 12. The lap times of Philip and James are independent. Before a race, they each take a qualifying lap.\\
+\\
+Find the probability that James’ time for the qualifying lap is less than Philip’s.}\\
+\textcolor{red}{Write down the two distributions}
+$$P\sim N(90,9) \qquad J\sim N(91,12)$$
+\textcolor{red}{Write the probability wanted to be found, and rearrange so the distributions are on the same side}
+$$P(J<P)$$
+$$P(J-P<0)$$
+\textcolor{red}{Combine the two distributions}
+$$(J-P)\sim N(1,21)$$
+\textcolor{red}{Find the z value given the new distribution}
+$$P(Z<\frac{0-1}{\sqrt{21}}$$
+$$P(Z<-0.2182)$$
+\textcolor{red}{Convert into a probability using the tables}
+$$1-\Phi(0.2182)$$
+$$1-0.5871=0.4129$$
+\newpage
+\section{Example 2}
+\textit{The random variable A is defined as}
+$$A=4X-3Y$$
+\textit{where $X\sim N(30,3^2)$, $Y\sim N(20,2^2)$ and X and Y are independent\\
+The random variables $Y_1$, $Y_2$, $Y_3$ and $Y_4$ are independent and each has the same distribution as Y.\\
+The random variable B is defined as}
+$$B=\sum^4_{i=1}Y_i$$
+\textit{Find $P(B>A)$}\\
+\textcolor{red}{Find the distributions of A and B}
+$$E(A)=E(4X-3Y)=4E(X)-3E(Y)=4\times30-3\times20=60$$
+$$Var(A)=Var(4X-3Y)=16Var(X)+9Var(Y)=16\times9+9\times4=180$$
+$$E(B)=4E(Y)=4\times20=80$$
+$$Var(B)=4Var(Y)=4\times4=16$$
+\textcolor{red}{Rewrite the probability to get both distributions on the same side}
+$$P(B-A>0)$$
+\textcolor{red}{Combine A and B to form the distribution B-A}
+$$E(B-A)=80-60=20$$
+$$Var(B-A)=180+16=196$$
+\textcolor{red}{Find the z value given the new distribution}
+$$P(Z>\frac{-20}{\sqrt{196}}$$
+$$P(Z>-1.428)$$
+$$\Phi(1.428)=0.9236$$
+
+ 
+
+
+
+
+
+
+
+
+
+\end{document}

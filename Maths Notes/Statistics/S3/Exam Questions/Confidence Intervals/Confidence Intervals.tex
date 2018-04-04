@@ -1,0 +1,52 @@
+\documentclass{article}[18pt]
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{relsize}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{enumitem}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\hyphenpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S3}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge Exam Questions - Confidence Intervals}
+\end{center}
+\section{Normal mean}
+\textit{A woodwork teacher measures the width, w mm, of a board. The measured width, x mm, is
+normally distributed with mean w mm and standard deviation 0.5 mm.\\
+The same board is measured 16 times and the results are recorded.\\
+Given that the mean of these 16 measurements is 35.6 mm,\\
+find a 98\% confidence interval for w.}
+\textcolor{red}{Find the standard error}
+$$\textrm{Standard error}=\frac{\sigma}{\sqrt{n}}=\frac{0.5}{\sqrt{16}}=\frac{1}{8}$$
+\textcolor{red}{Find the z greater value for 1\%}
+$$P(Z>2.3263)=0.01$$
+\textcolor{red}{Substitute in the values}
+$$\overline{x}\pm z\times\textrm{Standard error}$$
+$$35.6\pm2.3263\times\frac{1}{8}$$
+
+
+
+
+\end{document}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  4 APR 2018 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  4 APR 2018 13:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**Sampling.tex
-(./Sampling.tex
+**Estimation.tex
+(./Estimation.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -886,21 +886,21 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitdp@description=\count132
 )
 \tindent=\skip60
- (./Sampling.aux)
-\openout1 = `Sampling.aux'.
+ (./Estimation.aux)
+\openout1 = `Estimation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1005,170 +1005,101 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Info: Redefining \celsius on input line 29.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
+LaTeX Info: Redefining \celsius on input line 31.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 31.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 29.
-Package gensymb Info: Using \Omega for \ohm on input line 29.
+LaTeX Info: Redefining \ohm on input line 31.
+Package gensymb Info: Using \Omega for \ohm on input line 31.
 
 Package gensymb Warning: Not defining \micro.
 
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Time
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--44
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Can not be used
+Underfull \hbox (badness 10000) in paragraph at lines 36--44
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 when test-ing in-volves
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Data may not be large
- []
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
-
-Underfull \hbox (badness 2197) in paragraph at lines 109--109
-[]|\OT1/cmr/m/n/10 Each thing has an equal
- []
-
-
-Underfull \hbox (badness 6978) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Numbers truly ran-dom
- []
-
-
-Underfull \hbox (badness 6927) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 equal chance of be-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Not suit-able when
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]|\OT1/cmr/m/n/10 Each el-e-ment of a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 Tick-ets drawn ran-domly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 from con-tainer(without
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Tickets are drawn at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 A sam-pling frame is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]|\OT1/cmr/m/n/10 Required el-e-ments are
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Only ran-dom if or-dered
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 109--109
-[]|\OT1/cmr/m/n/10 Population is di-vided into
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 es-ti-mates than sim-ple
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 ran-dom sam-pling where
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Reflects the pop-u-la-tion
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Within the strata, the
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 109--109
-[]|\OT1/cmr/m/n/10 The pop-u-la-tion is di-vided
- []
-
-
-Underfull \hbox (badness 1281) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Enables field-work to be
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 done quickly be-cause a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Interviewers may not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\OT1/cmr/m/n/10 be able to judge
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Non re-sponses are not
- []
-
-
-Underfull \hbox (badness 1845) in paragraph at lines 109--109
-[]\OT1/cmr/m/n/10 Can in-tro-duce in-ter-view
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] (./Sampling.aux) ) 
+] [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 96--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
+
+ []
+
+[5] (./Estimation.aux) ) 
 Here is how much of TeX's memory you used:
- 23794 strings out of 492982
- 592718 string characters out of 6138580
- 796002 words of memory out of 5000000
- 26943 multiletter control sequences out of 15000+600000
- 4393 words of font info for 17 fonts, out of 8000000 for 9000
+ 24297 strings out of 492982
+ 606146 string characters out of 6138580
+ 809379 words of memory out of 5000000
+ 27430 multiletter control sequences out of 15000+600000
+ 12594 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,96p,725b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,100p,727b,1824s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Sampling.pdf (2 pages, 42976 bytes).
+mbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Estimation.pdf (5 pages, 178201 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

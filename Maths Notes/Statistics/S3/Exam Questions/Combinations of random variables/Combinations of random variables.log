@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  27 MAR 2018 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  4 APR 2018 14:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**Estimation.tex
-(./Estimation.tex
+**"Combinations of random variables.tex"
+(./Combinations of random variables.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -434,6 +434,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
@@ -837,6 +847,13 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@cols=\count129
 \TX@ftn=\toks42
 )
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count130
+\multirow@dima=\skip51
+\bigstrutjot=\dimen194
+)
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
@@ -848,11 +865,11 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count130
-\U@D=\dimen194
+\babel@savecnt=\count131
+\U@D=\dimen195
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count131
+\bbl@dirlevel=\count132
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -861,15 +878,15 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
 )
 (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -879,15 +896,16 @@ Package: relsize 2013/03/29 ver 4.1
 )
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip59
-\enit@outerparindent=\dimen195
+\labelindent=\skip61
+\enit@outerparindent=\dimen196
 \enit@toks=\toks43
 \enit@inbox=\box41
-\enitdp@description=\count132
+\enitdp@description=\count133
 )
-\tindent=\skip60
- (./Estimation.aux)
-\openout1 = `Estimation.aux'.
+\tindent=\skip62
+
+(./Combinations of random variables.aux)
+\openout1 = `"Combinations of random variables.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
@@ -938,16 +956,16 @@ LaTeX Font Info:    ... okay on input line 31.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen196
+\scratchcounter=\count134
+\scratchdimen=\dimen197
 \scratchbox=\box42
-\nofMPsegments=\count134
-\nofMParguments=\count135
+\nofMPsegments=\count135
+\nofMParguments=\count136
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen197
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen198
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
 \everyMPtoPDFconversion=\toks45
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1016,69 +1034,44 @@ Package gensymb Info: Using \Omega for \ohm on input line 31.
 
 Package gensymb Warning: Not defining \micro.
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 80--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--111
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
-
- []
-
-[4] (./Estimation.aux) ) 
+(./Combinations of random variables.aux) ) 
 Here is how much of TeX's memory you used:
- 24275 strings out of 492982
- 605805 string characters out of 6138580
- 808278 words of memory out of 5000000
- 27411 multiletter control sequences out of 15000+600000
- 12594 words of font info for 45 fonts, out of 8000000 for 9000
+ 24115 strings out of 492982
+ 596413 string characters out of 6138580
+ 779489 words of memory out of 5000000
+ 27241 multiletter control sequences out of 15000+600000
+ 6589 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,100p,727b,1824s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Estimation.pdf (4 pages, 174163 bytes).
+ 62i,11n,96p,751b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Combinations of random variables.pdf" (2 pages, 99677 bytes)
+.
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
