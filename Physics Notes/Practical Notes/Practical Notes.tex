@@ -3,9 +3,11 @@
 \usepackage[margin=0.7in]{geometry}
 \usepackage{parselines} 
 \usepackage{amsmath}
+\usepackage{gensymb}
 \usepackage{titlesec}
 \usepackage{pgfplots}
 \usepackage{graphicx}
+\usepackage{tabularx}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
 \usepackage{circuitikz}
@@ -16,7 +18,7 @@
 \setlength{\tindent}{\parindent}
 \setlength{\parindent}{0pt}
 \renewcommand{\indent}{\hspace*{\tindent}}
-
+\hyphenpenalty=10000
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Sam Robbins 13SE}
@@ -24,13 +26,224 @@
 \rfoot{Page \thepage}
 
 
+
+
+
 \begin{document}
 \begin{center}
 \underline{\huge Practical Skills}
 \end{center}
-\section{\% error on gradient}
+\section{Tabulating data}
+\begin{itemize}
+\item Left column is the independent variable, the rest are the dependent variables
+\item No units in the body of the table, only in the header
+\end{itemize}
+\subsection{Tabulating logarithmic values}
+Logs have no units, however the thing the log is of does, so it should have units\\
+Example:\\
+Log(Time/s)
+\section{Significant figures}
+Data should be written in tables to the same number of significant figures, determined by resolution or uncertainty.\\
+\\
+When crossing a multiple of 10, keep the same number of decimal laces, accuracy is more important than number of significant figures.\\
+\\
+Give answers to calculations to the least number of significant figures used in the calculation.\\
+\\
+Uncertainty should be rounded to the same number of decimal places as the value.\\
+\\
+For example a thermometer measuring to the nearest 0.5$\degree$C would have an uncertainty of $\pm 0.25$, but would be quoted at $\pm 0.3$ as the values are to one decimal place
+\section{Uncertainty}
+Examples of issues to consider when assessing uncertainty
+\begin{itemize}
+\item The resolution of the instrument used
+\item The manufacturer's tolerance on instruments
+\item The judgements made by the experimenter
+\item The procedures adopted
+\item The size of the increments available
+\end{itemize}
+Resolution is the \textbf{minimum} possible uncertainty
+\subsection{Readings and measurements}
+It is useful when discussing uncertainties to separate measurements into two forms:
+\begin{itemize}
+\item Readings: Values found from a single judgement when using a piece of equipments
+\item Measurements: Values taken as the difference between the judgements of two values
+\end{itemize}
+\begin{tabular}{|c|c|}
+\hline
+Reading&Measurement\\
+\hline
+Thermometer&Ruler\\
+\hline
+Top pan balance&Vernier calliper\\
+\hline
+Measuring cylinder&Micrometer\\
+\hline
+Digital voltmeter&Protractor\\
+\hline
+Geiger counter&Stopwatch\\
+\hline
+Pressure gauge&Analogue meter\\
+\hline
+\end{tabular}
+\\
+The uncertainty in a reading when using a particular instrument is \textbf{no smaller} than plus or minus half of the smallest division or greater.\\
+\\
+However when using a ruler, the readings of the start and end are made, meaning that instead of having $\pm 0.5$cm, it would instead have uncertainty of $\pm 1$cm.
+\subsection{Other factors}
+When using a stopwatch, the main uncertainty does not come from the resolution, but the person using the stopwatch. To show this, the number of significant figures should be reduced in the \textbf{final result only}.
+\subsection{Uncertainties in given values}
+In a given value, the uncertainty is assumed to be $\pm 1$ of the last significant digit.
+\subsection{Multiple instances of measurements}
+For example, when measuring the time for 10 pendulum swings to $\pm 0.1$s, the time for 1 pendulum swing is accurate to $\pm 0.01s$
+\subsection{Repeated measurements}
+With repeated measurements, the uncertainty is half the range of measured values.
+\subsection{Percentage uncertainties}
+$$\textrm{Percentage uncertainty}=\frac{\textrm{Uncertainty}}{\textrm{Value}}\times 100\%$$ 
+\subsubsection{Error bars}
+\begin{itemize}
+\item Plot the data point at the mean value
+\item Calculate the range of data, ignoring any anomalies
+\item Add error bars with the lengths equal to half the range on either side of the data point
+\end{itemize}
+\subsubsection{Uncertainties from gradients}
+To find the uncertainty in a gradient, two lines should be drawn on the graph.
+\begin{itemize}
+\item The "best" line of best fit
+\item The steepest or shallowest possible line of best fit
+\end{itemize}
+Uncertainty in gradient is calculated by:
+$$\textrm{Percentage uncertainty}=\frac{|\textrm{Best Gradient-Worst Gradient}|}{\textrm{Best Gradient}}\times 100\%$$
+In the same way, the percentage uncertainty in the y intercept can be found by:
+$$\textrm{Percentage uncertainty}=\frac{|\textrm{Best y intercept-Worst y intercept}|}{\textrm{Best y intercept}}\times 100\%$$
+
+\subsubsection{\% error on gradient}
 Total \% error = \% error on X + \% error on Y\\
 \\
 \% error on X = 1 Small Square/Number of squares on triangle\\
 \% error on Y = 1 Small Square/Number of squares on triangle\\
+\newpage
+\subsection{Combing uncertainties}
+\large
+{\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+Combination&Operation\\
+\hline
+Adding or subtracting\newline $a=b+c$&Add the absolute uncertainties\newline $\Delta a=\Delta b+\Delta c$\\
+\hline
+Multiplying values\newline $a=b\times c$&Add the percentage uncertainties\newline $\epsilon a=\epsilon b+\epsilon c$\\
+\hline
+Dividing values\newline $a=\dfrac{b}{c}$&Add the percentage uncertainties\newline $\epsilon a=\epsilon b+\epsilon c$\\
+\hline
+Power rules\newline $a=b^c$&Multiply the percentage uncertainty by the power\newline $\epsilon a=c\times\epsilon b$\\
+\hline
+\end{tabularx}}
+Absolute uncertainty($\Delta$) - Same units as quantity\\
+Percentage uncertainty($\epsilon$) - No units
+\section{Graphing}
+Axis labels should have units, no units on the intervals.
+\\
+Data points should be marked with a cross
+\subsection{Scales and origins}
+Data should take up as much of the graph as possible
+Need to consider:
+\begin{itemize}
+\item The maximum and minimum values of each variable
+\item The size of the graph paper
+\item Whether the origin should be included as a data point
+\item If you need to calculate the equation of a line, needing the y intercept
+\item How to draw the axes without using difficult scale markings
+\item Plots should cover \textbf{at least half} the grid supplied with the graph
+\end{itemize}
+\subsection{Lines of best fit}
+Things to consider when drawing a line of best fit
+\begin{itemize}
+\item Is the data supposed to be following an equation - helps to decide if the line should be straight or curved
+\item Are there any anomalous results
+\item Are there uncertainties in the measurements - line of best fit should lie within the error bars
+\end{itemize}
+A non zero intercept may imply a systematic error
+\subsection{Dealing with anomalous results}
+Anomalous results can be ignored if you know the reason for it being there, or if the results are expected to be the same (when calculating a mean etc).\\
+\\
+Otherwise, it should be included to reduce the probability that a key point is being ignored.\\
+Anomalous results should be recorded, and only removed at the data analysis stage.\\
+It is good practice to repeat measurements where an anomalous result is found.
+\subsection{Measuring gradients}
+When finding the gradient of a line of best fit, a triangle should be drawn with the hypotenuse at least half as big as the line of best fit. It is best for the points on the triangle to lie on gridlines for more accurate measurements,\\
+\\
+When finding the gradient of a curve, draw a tangent at the relevant value of the independent variable.
+\subsection{Testing relationships}
+If plotting a graph results in a straight line, there is a relationship.\\
+\\
+One of the values may be raised to a power in order to get a straight line, this still shows a relationship.
+\subsubsection{More complex relationships}
+For more complex relationships given by a formula, they should be rearranged to give it in $y=mx+c$ form, c may be zero.
+\newpage
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{8pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{8pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\section{Definitions}
+\setcounter{secnumdepth}{0}
+\subsection{Accuracy}
+A measurement is considered accurate if it is judged to be close to the true value
+\subsection{Calibration}
+Marking a scale on a measuring instrument\\
+This involves establishing the relationship between indications of a measuring instrument against standard or reference values.
+\subsection{Data}
+Information, either qualitative or quantitative, that has been collected
+\subsection{Errors}
+\subsubsection{Measurement error}
+The difference between a measured value and the true value
+\subsubsection{Anomalies}
+These are values in a set of results which are judged not to be part of the variation caused by random uncertainty
+\subsubsection{Random error}
+These cause readings to be spread about the true value, due to results varying in an unpredictable way from one measurement to the next
+\subsubsection{Systematic error}
+These cause readings to differ from the true value by a consistent amount each time a measurement is made
+\subsubsection{Zero error}
+Any indication that a measuring system gives a false reading when the true value of a measured quantity
+\subsection{Evidence}
+Data which has been shown to be valid
+\subsection{Fair test}
+A fair test is one in which only the independent variable has been allowed to affect the dependent variable
+\subsection{Hypothesis}
+A proposal intended to explain certain facts or observations
+\subsection{Interval}
+The quantity between readings
+\subsection{Precision}
+Measurements where there is very little spread about the mean value
+\subsection{Prediction}
+A statement suggesting what will happen in the future, based on observation, experience or a hypothesis
+\subsection{Range}
+The maximum and minimum values of the independent or dependent variables
+\subsection{Repeatable}
+If the original experimenter repeats the investigation using the same method and equipment and obtains the same results
+\subsection{Reproducible}
+If the investigation is repeated by another person, or by using different equipment or techniques, and the same results are obtained
+\subsection{Resolution}
+The smallest change in the quantity being measured of a measuring instrument that gives a perceptible change in the reading
+\subsection{Sketch graph}
+A line graph showing the general relationship between two variables
+\subsection{True value}
+The value that would be obtained in an ideal measurement
+\subsection{Uncertainty}
+The interval within which the true value can be expected to lie, with a given level of confidence or probability
+\subsection{Validity}
+The suitability of the investigative procedure to answer the question being asked
+\subsection{Valid conclusion}
+A conclusion supported by valid data, obtained from an appropriate experimental design and based on sound reasoning
+\subsection{Variables}
+Physical, chemical or biological quantities or characteristics 
+\subsubsection{Categoric variables}
+Values that have labels
+\subsubsection{Continuous variables}
+Variables that have values
+\subsubsection{Control variables}
+A variable that may, in addition to the independent variable, affect the outcome of the investigation and so must be kept the same
+\subsubsection{Dependent variables}
+The variable of which the value is measured to each and every change of the independent variable
+\subsubsection{Independent variable}
+The variable for which values are changed or selected by the investigator
+
 \end{document}
