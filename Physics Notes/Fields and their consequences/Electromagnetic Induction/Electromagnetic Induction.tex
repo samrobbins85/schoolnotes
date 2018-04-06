@@ -1,31 +1,11 @@
 \documentclass{article}[18pt]
-\usepackage[utf8]{inputenc}
-\usepackage[margin=0.7in]{geometry}
-\usepackage{amsmath}
-\usepackage{titlesec}
-\usepackage{pgfplots}
-\usepackage{graphicx}
-\usepackage[english]{babel}
-\usepackage{fancyhdr}
-\usetikzlibrary{decorations, decorations.text,positioning,quotes,arrows.meta,decorations.markings,3d,shapes,decorations.pathmorphing}
-\pgfplotsset{width=10cm,compat=1.9}
-\usepackage[super]{nth}
-\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
-\newlength\tindent
-\setlength{\tindent}{\parindent}
-\setlength{\parindent}{0pt}
-\renewcommand{\indent}{\hspace*{\tindent}}
-\hyphenpenalty =10000
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Sam Robbins 13SE}
+\usepackage{/home/sam/Documents/School_Notes/format}
 \lhead{A Level Physics - Fields}
-\rfoot{Page \thepage}
-\usepackage{mathtools}
-\usetikzlibrary{calc,quotes,angles}
 
+%File specific Preamble
+\usetikzlibrary{decorations, decorations.text,positioning,quotes,arrows.meta,decorations.markings,3d,shapes,decorations.pathmorphing,calc,quotes,angles}
+\usepackage[super]{nth}
 \tikzstyle{arrow} = [thick,->,>=stealth]
-
 
 \pgfkeys{/pgfplots/Axis Style/.style={
     width=7cm, height=5cm,
@@ -36,7 +16,6 @@
     xmin=0, xmax=4,
     domain=-4*pi:4*pi
 }}
-
 
 \pgfkeys{/pgfplots/Axis Style 2/.style={
     width=13.5cm, height=8cm,
@@ -57,6 +36,7 @@
     xmin=0, xmax=14.0,
     domain=-4*pi:4*pi
 }}
+
 \begin{document}
 \begin{center}
 \underline{\huge Electromagnetic Induction}

@@ -1,51 +1,10 @@
 \documentclass{article}[18pt]
-\usepackage[utf8]{inputenc}
-\usepackage[margin=0.7in]{geometry}
-\usepackage{parselines} 
-\usepackage{amsmath}
-\usepackage{titlesec}
-\usepackage{pgfplots}
-\usepackage{float}
-\usepackage{graphicx}
-\usepackage{tabularx}
-\usepackage[english]{babel}
-\usepackage{fancyhdr}
-\usepackage{circuitikz}
-\usetikzlibrary{decorations.pathmorphing,arrows,shapes,positioning,decorations.markings,angles,quotes}
-
-\pgfplotsset{width=10cm,compat=1.9}
-\usepackage{relsize}
-\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
-\newlength\tindent
-\setlength{\tindent}{\parindent}
-\setlength{\parindent}{0pt}
-\renewcommand{\indent}{\hspace*{\tindent}}
-
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Sam Robbins 13SE}
+\usepackage{/home/sam/Documents/School_Notes/format}
 \lhead{AS Level Physics - Waves}
-\rfoot{Page \thepage}
 
-\pgfkeys{/pgfplots/Axis Style/.style={
-    width=13.5cm, height=10cm,
-    axis x line=center, 
-    axis y line=middle, 
-    samples=100,
-    ymin=-1.2, ymax=1.2,
-    xmin=0, xmax=13.0,
-    domain=-4*pi:4*pi
-}}
-\pgfkeys{/pgfplots/Stationary Wave/.style={
-    width=13.5cm, height=5cm,
-    axis x line=center, 
-    axis y line=middle, 
-    samples=100,
-    ymin=-1.2, ymax=1.2,
-    xmin=0, xmax=13.0,
-    domain=-4*pi:4*pi
-}}
-
+%File specific Preamble
+%Refraction settings
+\usetikzlibrary{decorations.pathmorphing,arrows,shapes,positioning,decorations.markings,angles,quotes}
 \tikzstyle arrowstyle=[scale=1]
 \tikzstyle directed=[postaction={decorate,decoration={markings,
     mark=at position .65 with {\arrow[arrowstyle]{stealth}}}}]

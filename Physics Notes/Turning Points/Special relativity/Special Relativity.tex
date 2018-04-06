@@ -1,31 +1,6 @@
 \documentclass[12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[margin=0.7in]{geometry}
-\usepackage{titlesec}
-\usepackage{graphicx}
-\usepackage[english]{babel}
-\usepackage{fancyhdr}
-\usepackage{blindtext}
-\usepackage{textcomp}
-\usepackage{pgfplots}
-\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
-\newlength\tindent
-\setlength{\tindent}{\parindent}
-\setlength{\parindent}{0pt}
-\renewcommand{\indent}{\hspace*{\tindent}}
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Sam Robbins 13SE}
+\usepackage{/home/sam/Documents/School_Notes/format}
 \lhead{A Level Physics - Turning Points}
-
-\usepackage{tikz}
-\usetikzlibrary{scopes}
-
-
-\usepackage{mathtools}
-
-\newtagform{brackets}{[}{]}
-\usetagform{brackets}
 
 \begin{document}
 \begin{center}
@@ -92,6 +67,7 @@ $$E_K=m_0c^2\Bigg(1+\frac{1}{2}\Big(\frac{v}{c}\Big)^2+\frac{-\frac{1}{2}(-\frac
 $$E_K\approx m_0c^2\times\frac{1}{2}\times\frac{v^2}{c^2}=\frac{1}{2}m_0v^2$$
 Together mass and energy are conserved, but not necessaries individually
 \section{Summary of equations}
+{\renewcommand{\arraystretch}{2}
 \begin{tabular}{l l}
 Gamma factor&$\gamma=\sqrt{1-(\frac{v}{c})^2}$\\
 Length contraction&$L_0\gamma$\\
@@ -99,5 +75,5 @@ Time dilation&\Large{$\frac{t_0}{\gamma}$}\\
 Relativistic mass&\Large{$\frac{m_0}{\gamma}$}\\
 Relativistic momentum&\Large{$\frac{m_0v}{\gamma}$}\\
 Relativistic energy&\Large{$\frac{m_0c^2}{\gamma}$}
-\end{tabular}
+\end{tabular}}
 \end{document}

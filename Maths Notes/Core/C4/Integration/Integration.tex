@@ -1,35 +1,6 @@
 \documentclass{article}[18pt]
-\usepackage[utf8]{inputenc}
-\usepackage[margin=0.7in]{geometry}
-\usepackage{parselines} 
-\usepackage{amsmath}
-\usepackage{titlesec}
-\usepackage{pgfplots}
-\usepackage{graphicx}
-\usepackage[english]{babel}
-\usepackage{fancyhdr}
-\usepackage{amssymb}
-\pgfplotsset{width=10cm,compat=1.9}
-\usepackage{mwe}
-\usepackage{float}
-\usepackage{polynom}
-\usepackage{tabu}
-\usepackage{relsize}
-\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
-\newlength\tindent
-\setlength{\tindent}{\parindent}
-\setlength{\parindent}{0pt}
-\renewcommand{\indent}{\hspace*{\tindent}}
-\usepackage{mathtools}
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Sam Robbins 13SE}
+\usepackage{/home/sam/Documents/School_Notes/format}
 \lhead{A Level Maths - C4}
-\rfoot{Page \thepage}
-\DeclarePairedDelimiter\abs{\lvert}{\rvert}
-\newcommand{\R}{\mathbb{R}}
-\pgfplotsset{ytick style={draw=none}}
-\pgfplotsset{xtick style={draw=none}}
 
 \begin{document}
 \begin{center}
@@ -39,7 +10,7 @@
 Standard results not on formula book:\\
 \\
 {\renewcommand{\arraystretch}{2}
-\begin{tabu} to \textwidth { | X[c] | X[c] | }
+\begin{tabularx}{\textwidth}{|X|X|}
  \hline
  \textbf{f(x)} & $\mathbf{\mathlarger{\int} f(x)\ dx}$ \\
  \hline
@@ -55,7 +26,7 @@ $\cos x$&$\sin x$\\
 \hline
 $a^x$&$\dfrac{a^x}{\ln|a|}+c$\\
 \hline
-\end{tabu}
+\end{tabularx}
 }
 \section{Integration by substitution}
 \textbf{Example}\\
@@ -180,7 +151,7 @@ $2\mathlarger{\int}\dfrac{1}{x+1} \ dx-\mathlarger{\int}\dfrac{1}{x-2} \ dx$\\
 $2\ln(x+1)-\ln(x-2)+c$\\
 \\
 \textbf{Simplify using laws of logs}\\
-$\ln\abs*{\dfrac{(x+1)^2}{x-2}}+c$
+$\ln\Bigg|{\dfrac{(x+1)^2}{x-2}}\Bigg|+c$
 \section{Integration by substitution - Fractional type}
 $\mathlarger{\int}\dfrac{f'(x)}{f(x)} \ dx$ can be written as $\ln f(x)+c$\\
 \section{Integration by parts}

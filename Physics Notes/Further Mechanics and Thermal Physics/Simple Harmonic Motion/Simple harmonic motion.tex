@@ -1,28 +1,9 @@
 \documentclass{article}[18pt]
-\usepackage[utf8]{inputenc}
-\usepackage[margin=0.7in]{geometry}
-\usepackage{parselines} 
-\usepackage{amsmath}
-\usepackage{titlesec}
-\usepackage{pgfplots}
-\usepackage{graphicx}
-\usepackage[english]{babel}
-\usepackage{fancyhdr}
-\usepackage{tikz}
-\pgfplotsset{width=10cm,compat=1.9}
-\usepackage{textcomp}
-\usepackage{gensymb}
-\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
-\newlength\tindent
-\setlength{\tindent}{\parindent}
-\setlength{\parindent}{0pt}
-\renewcommand{\indent}{\hspace*{\tindent}}
-\usepackage{tabu}
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Sam Robbins 13SE}
+\usepackage{/home/sam/Documents/School_Notes/format}
 \lhead{A Level Physics - Further Mechanics and Thermal Physics}
-\rfoot{Page \thepage}
+
+%File specific Preamble
+\usepackage{tabu} %Table
 
 \pgfkeys{/pgfplots/Axis Style/.style={
     width=13.5cm, height=5cm,
@@ -33,9 +14,12 @@
     xmin=0, xmax=14.0,
     domain=-4*pi:4*pi
 }}
+
+%Diagram
 \pgfdeclarelayer{background layer}
 \pgfdeclarelayer{foreground layer}
 \pgfsetlayers{background layer,main,foreground layer}
+
 \begin{document}
 \begin{center}
 \underline{\huge Simple Harmonic Motion}
@@ -55,18 +39,6 @@ Rules of simple harmonic motion:
 \end{itemize}
 
 
-%\begin{tikzpicture}
-%\begin{axis}[ymin=-1,
-%xmin=-360,
-%xmax=360,
-%    xtick={0,-270,-180,180},
-%    xticklabels={0,Test,Test2,Text3},
-%    ]
-%\addplot[color=red, domain=-360:360,samples=1000]{cos(x)};
-%node[pos=800,pin=200:{\color{purple}$f(x)=-2$}] {};
-%\addplot[color=black, domain=-360:360,samples=1000]{0};
-%\end{axis}
-%\end{tikzpicture}
 
 \begin{tikzpicture}
 \begin{axis}[

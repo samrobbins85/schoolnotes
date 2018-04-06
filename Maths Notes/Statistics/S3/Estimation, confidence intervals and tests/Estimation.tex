@@ -1,29 +1,9 @@
 \documentclass{article}[18pt]
-\usepackage[utf8]{inputenc}
-\usepackage[margin=0.7in]{geometry}
-\usepackage{parselines} 
-\usepackage{amsmath}
-\usepackage{titlesec}
-\usepackage{pgfplots}
-\usepackage{graphicx}
-\usepackage{tabularx}
-\usepackage[english]{babel}
-\usepackage{fancyhdr}
-\usepackage{gensymb}
-\usepackage{relsize}
-\pgfplotsset{width=10cm,compat=1.9}
-\usepackage{enumitem}
-\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
-\newlength\tindent
-\setlength{\tindent}{\parindent}
-\setlength{\parindent}{0pt}
-\renewcommand{\indent}{\hspace*{\tindent}}
-\hyphenpenalty=10000
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Sam Robbins 13SE}
+\usepackage{/home/sam/Documents/School_Notes/format}
 \lhead{A Level Maths - S3}
-\rfoot{Page \thepage}
+
+%File specific Preamble
+%Normal Distribution
 \pgfmathdeclarefunction{gauss}{2}{%
   \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
 }
