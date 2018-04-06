@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  6 APR 2018 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  6 APR 2018 22:26
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **"Second Order Differential Equations.tex"
 (./Second Order Differential Equations.tex
@@ -22,11 +22,9 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/home/sam/Documents/School_Notes/format.sty
+) (../../../../format.sty
 
-LaTeX Warning: You have requested package `/home/sam/Documents/School_Notes/for
-mat',
+LaTeX Warning: You have requested package `../../../../format',
                but the package provides `format'.
 
 Package: format 
@@ -1084,8 +1082,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--232
 [7] [8] [9] (./Second Order Differential Equations.aux) ) 
 Here is how much of TeX's memory you used:
  23938 strings out of 492982
- 593130 string characters out of 6138580
- 802795 words of memory out of 5000000
+ 593004 string characters out of 6138580
+ 802375 words of memory out of 5000000
  27047 multiletter control sequences out of 15000+600000
  14336 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1106,7 +1104,7 @@ mr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb>
-Output written on "Second Order Differential Equations.pdf" (9 pages, 205519 by
+Output written on "Second Order Differential Equations.pdf" (9 pages, 205444 by
 tes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)

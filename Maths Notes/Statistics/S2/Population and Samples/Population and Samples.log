@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  6 APR 2018 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  6 APR 2018 22:28
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **"Population and Samples.tex"
 (./Population and Samples.tex
@@ -22,11 +22,9 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/home/sam/Documents/School_Notes/format.sty
+) (../../../../format.sty
 
-LaTeX Warning: You have requested package `/home/sam/Documents/School_Notes/for
-mat',
+LaTeX Warning: You have requested package `../../../../format',
                but the package provides `format'.
 
 Package: format 
@@ -1053,8 +1051,8 @@ Underfull \hbox (badness 1297) in paragraph at lines 61--61
 (./Population and Samples.aux) ) 
 Here is how much of TeX's memory you used:
  23864 strings out of 492982
- 592119 string characters out of 6138580
- 808795 words of memory out of 5000000
+ 591993 string characters out of 6138580
+ 808375 words of memory out of 5000000
  26989 multiletter control sequences out of 15000+600000
  5946 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

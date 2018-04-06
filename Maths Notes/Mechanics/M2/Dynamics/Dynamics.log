@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  6 APR 2018 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  6 APR 2018 22:27
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **Dynamics.tex
 (./Dynamics.tex
@@ -22,11 +22,9 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/home/sam/Documents/School_Notes/format.sty
+) (../../../../format.sty
 
-LaTeX Warning: You have requested package `/home/sam/Documents/School_Notes/for
-mat',
+LaTeX Warning: You have requested package `../../../../format',
                but the package provides `format'.
 
 Package: format 
@@ -922,18 +920,18 @@ ons.text.code.tex
 ) (./Dynamics.aux)
 \openout1 = `Dynamics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -969,14 +967,13 @@ LaTeX Font Info:    ... okay on input line 12.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 12.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 12.
-
+LaTeX Info: Redefining \celsius on input line 8.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 8.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 12.
-Package gensymb Info: Using \Omega for \ohm on input line 12.
+LaTeX Info: Redefining \ohm on input line 8.
+Package gensymb Info: Using \Omega for \ohm on input line 8.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1049,161 +1046,161 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
+Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
+Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
+Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--112
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--155
 
  []
 
 [3] (./Dynamics.aux) ) 
 Here is how much of TeX's memory you used:
  24419 strings out of 492982
- 609684 string characters out of 6138580
- 801795 words of memory out of 5000000
+ 609558 string characters out of 6138580
+ 801375 words of memory out of 5000000
  27524 multiletter control sequences out of 15000+600000
  10711 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,98p,726b,809s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,11n,98p,752b,809s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-di

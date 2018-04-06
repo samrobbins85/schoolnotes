@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  6 APR 2018 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  6 APR 2018 22:31
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **"Goodness of fit and contingency tables.tex"
 (./Goodness of fit and contingency tables.tex
@@ -22,11 +22,9 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/home/sam/Documents/School_Notes/format.sty
+) (../../../../format.sty
 
-LaTeX Warning: You have requested package `/home/sam/Documents/School_Notes/for
-mat',
+LaTeX Warning: You have requested package `../../../../format',
                but the package provides `format'.
 
 Package: format 
@@ -1166,8 +1164,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--332
 [7] (./Goodness of fit and contingency tables.aux) ) 
 Here is how much of TeX's memory you used:
  23934 strings out of 492982
- 593303 string characters out of 6138580
- 807795 words of memory out of 5000000
+ 593177 string characters out of 6138580
+ 807375 words of memory out of 5000000
  27053 multiletter control sequences out of 15000+600000
  7194 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
