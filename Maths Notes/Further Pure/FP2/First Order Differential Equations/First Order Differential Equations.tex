@@ -51,6 +51,35 @@ IF(Integrating factor) is found by finding $\mathlarger{e^{\int p(x) \ dx}}$ And
 \\
 This will result in the DE being in the form:
 $$f(x)\frac{dy}{dx}+f'(x)y$$
+This form can then be shortened by integrating:
+$$\int f'(x)g(x)+f(x)g'(x) dx=f(x)g(x)+c$$
+Integrate both sides then simplify
+\subsection{Example}
+$$p\frac{dx}{dt}+qx=r \qquad \textrm{Where p,q and r are constants}$$
+\textit{Given that $x=0$ when $t=0$}\\
+\textit{Find x in terms of t}\\
+\\
+\textcolor{red}{Divide through by p to ensure $\frac{dx}{dt}$ has no multiplier}
+$$\frac{dx}{dt}+\frac{q}{p}x=\frac{r}{p}$$
+\textcolor{red}{Find the integrating factor (IF)}
+{\Large
+$$IF: \mathlarger{e^{\int \frac{q}{p} \ dt}=e^\frac{qt}{p}}$$}
+\textcolor{red}{Multiply through by the IF to make the equation in the right form}
+{\Large
+$$e^\frac{qt}{p}\frac{dx}{dt}+\frac{q}{t}xe^\frac{qt}{p}=\frac{r}{p}e^\frac{qt}{p}$$}
+\textcolor{red}{Integrate both sides, simplify the LHS}
+{\Large
+$$xe^\frac{qt}{p}=\int \frac{r}{p}e^\frac{qt}{p} \ dt$$}
+\textcolor{red}{Do the integration on the RHS and simplify}
+{\Large
+$$xe^\frac{qt}{p}=\frac{r}{q}e^\frac{qt}{p}+c$$}
+\textcolor{red}{Substitute in x=0 and t=0 to find the value of c}
+$$0=\frac{r}{q}+c$$
+$$c=-\frac{r}{q}$$
+\textcolor{red}{Substitute in the value of c and divide through by the IF}
+{\Large
+$$xe^\frac{qt}{p}=\frac{r}{q}e^\frac{qt}{p}-\frac{r}{q}$$
+$$x=\frac{r}{q}-\frac{r}{q}e^{-\frac{qt}{p}}$$}
 \section{First order DE with given substitution}
 \textbf{Type 1} reduces to separation of variables\\
 \\
