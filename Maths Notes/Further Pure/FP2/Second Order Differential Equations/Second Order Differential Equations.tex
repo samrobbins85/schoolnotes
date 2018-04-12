@@ -5,6 +5,9 @@
 %File specific Preable
 \usepackage[super]{nth} %Provides 2nd etc
 
+\usepackage{chngcntr} %Resets equation numbering after each section or subsection
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
 
 \begin{document}
 \begin{center}
@@ -266,7 +269,7 @@ x^2\frac{d^2y}{dx^2}+x\frac{dy}{dx}+y=0
 \end{equation}
 to
 \begin{equation}\label{eq:2}
-\frac{d^2y}{dx^2}+y=0
+\frac{d^2y}{du^2}+y=0
 \end{equation}
 \\
 Find $\frac{dx}{du}$
@@ -288,9 +291,9 @@ Rearrange to find $x^2\frac{d^2y}{dx^2}$
 x^2\frac{d^2y}{dx^2}=\frac{d^2y}{du^2}-\frac{dy}{du}
 \end{equation}
 Substitute the results from \eqref{eq:3} and \eqref{eq:4} into \eqref{eq:1}.
-$$\frac{d^2y}{dx^2}-\frac{dy}{du}+\frac{dy}{du}+y=0$$
+$$\frac{d^2y}{du^2}-\frac{dy}{du}+\frac{dy}{du}+y=0$$
 Simplify to find answer
-$$\frac{d^2y}{dx^2}+y=0$$
+$$\frac{d^2y}{du^2}+y=0$$
 \textit{Solve this to find the general solution}
 $$m^2+1=0$$
 $$m=\pm i$$
@@ -298,4 +301,35 @@ Substitute into the general form
 $$y=A\cos u+B\sin u$$
 Substitute $u=\ln x$ to give GS in terms of x
 $$y=A\cos(\ln(x))+B\sin(\ln(x))$$
+\newpage
+\subsection{Example 2}
+\textit{Show that the transformation $x=e^u$ transforms the differential equation}
+\begin{equation}\label{eq2:1}
+x^2\frac{d^2y}{dx^2}-7x\frac{dy}{dx}+16y=2\ln x, \ x>0
+\end{equation}
+into the differential equation
+\begin{equation}\label{eq2:2}
+\frac{d^2y}{du^2}-8\frac{dy}{du}+16y=2u
+\end{equation}
+\\
+\textcolor{red}{\large Find $\frac{dy}{dx}$ in terms of $\frac{dy}{du}$}
+$$x=e^u \quad \frac{dx}{du}=e^u \quad \frac{du}{dx}=e^{-u} \quad 
+\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}=\mathbf{e^{-u}\frac{dy}{du}}
+$$
+\textcolor{red}{\large Find $\frac{d^2y}{dx^2}$ in terms of $\frac{d^2y}{du^2}$ and $\frac{dy}{du}$}\\
+\textcolor{red}{Find $\frac{dy}{du}\Big(\frac{dy}{dx}\Big)$ by applying the product rule}
+$$\frac{dy}{du}\Big(\frac{dy}{dx}\Big)=-e^{-u}\frac{dy}{du}+e^{-u}\frac{d^2y}{du^2}$$
+\textcolor{red}{Multiply through by $\frac{du}{dx}$ to find the value of $\frac{d^2y}{dx^2}$}
+$$\frac{d^2y}{dx^2}=\frac{dy}{du}\Big(\frac{dy}{dx}\Big)\times\frac{du}{dx}$$
+$$\frac{d^2y}{dx^2}=e^{-u}\Big(-e^{-u}\frac{dy}{du}+e^{-u}\frac{d^2y}{du^2}\Big)$$
+$$\frac{d^2y}{dx^2}=\mathbf{e^{-2u}\Big(-\frac{dy}{du}+\frac{d^2y}{du^2}\Big)}$$
+\textcolor{red}{Substitute the values into the original formula, replacing $x$ with $e^u$}
+$$e^{2u}\times e^{-2u}\Big(-\frac{dy}{du}+\frac{d^2y}{du^2}\Big)-7e^u\times e^{-u}\frac{dy}{du}+16y=2u$$
+$$-\frac{dy}{du}+\frac{d^2y}{du^2}-7\frac{dy}{du}+16y=2u$$
+$$\frac{d^2y}{du^2}-8\frac{dy}{du}+16y=2u$$
+
+
+
+
+
 \end{document}
