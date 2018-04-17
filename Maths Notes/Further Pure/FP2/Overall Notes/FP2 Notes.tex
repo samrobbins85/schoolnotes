@@ -1,0 +1,78 @@
+\documentclass{article}[18pt]
+\usepackage{../../../../format}
+\lhead{A Level Maths - FP2}
+
+\begin{document}
+\begin{center}
+\underline{\huge FP2}
+\end{center}
+\section{First order differential equations}
+\subsection{Solving first order DE using an integrating factor}
+Solving $\dfrac{dy}{dx}+P(x)y=Q(x)$\\
+\\
+IF(Integrating factor) is found by finding $\mathlarger{e^{\int p(x) \ dx}}$ And multiplying the DE by the IF.\\
+\\
+This will result in the DE being in the form:
+$$f(x)\frac{dy}{dx}+f'(x)y$$
+This form can then be shortened by integrating:
+$$\int f'(x)g(x)+f(x)g'(x) dx=f(x)g(x)+c$$
+Integrate both sides then simplify
+\section{Further complex numbers}
+\subsection{Converting between forms}
+When converting from $x+iy$ to a form in r and $\theta$, take the angle from the positive $x$ axis
+\subsection{Multiplying and dividing complex numbers}
+It is easiest to use the exponential form, then convert if needed
+\subsubsection{Multiplying}
+$$Z_1Z_2=r_1e^{i\theta_1}\times r_2e^{i\theta_2}=r_1r_2e^{i(\theta_1+\theta_2)}$$
+\subsubsection{Dividing}
+$$\frac{Z_1}{Z_2}=r_1e^{i\theta_1}\div r_2e^{i\theta_2}=\frac{r+1}{r+2} e^{i(\theta_1-\theta_2)}$$
+\subsection{De Moivre's theorem}
+This is given on the data sheet
+\subsubsection{Z formulas}
+If $z=\cos\theta+i\sin\theta$
+$$z+\frac{1}{z}=2\cos\theta$$
+$$z-\frac{1}{z}=2i\sin\theta$$
+$$z^n+\frac{1}{z^n}=2\cos n\theta$$
+$$z^n-\frac{1}{z^n}=2i\sin n\theta$$
+\subsection{Loci on the complex plane}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+Equation&Description\\
+\hline
+{\Large$|z-z_1|=r$}&A circle centre $(x_1,y_1)$ with a radius r\\
+\hline
+{\Large$|z-z_1|=|z-z_2|$}&A perpendicular bisector of the line segment joining points $z_1$ and $z_2$\\
+\hline
+{\Large$\arg(z-z_1)=\theta$}&The half line from a fixed point $z_1$, making an angle $\theta$ with the positive real axis\\
+\hline
+{\Large$\arg(\frac{z-z_1}{z-z_2})=\theta$}&An arc between the points $z_1$ and $z_2$ where the angle the lines from $z_1$ and $z_2$ to any point on the arc is $\theta$\\
+\hline
+\end{tabularx}
+\subsection{Translations}
+\begin{itemize}
+\item $w=z+a+ib$ represents a translation with translation vector $\begin{pmatrix}
+a\\b
+\end{pmatrix}$
+\item $w=kz$ represents an enlargement with scale factor $k$ centre $(0,0)$
+\item $w=kz+a+ib$ represents an enlargement scale factor $k$ centre $(0,0)$ followed by a translation with translation vector $\begin{pmatrix}
+a\\b
+\end{pmatrix}$
+\item $w=z^2$ multiply a shape by itself, for example a circle of radius 4 would go to radius 16
+\end{itemize}
+\section{Inequalities}
+We can build upon our previous algebraic skills in order to solve more complex inequalities\\
+Remember:
+\begin{itemize}
+\item Don't multiply anything that could be negative - use "squared" things
+\item Find the critical values (f(x)=0)
+\item Sketch the graph to solve
+\end{itemize}
+\section{Maclaurin and Taylor Series}
+Use the formulas on the data sheet
+\subsection{Solving differential equations using the Taylor expansion}
+From the differential equation, calculate the values of $\frac{dy}{dx}$, $\frac{d^2y}{dx^2}$ etc up to whatever is needed.\\
+Then substitute those values into the Taylor series to solve the differential equation
+
+
+
+\end{document}
