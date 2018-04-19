@@ -1,0 +1,57 @@
+\documentclass{article}[18pt]
+\usepackage{../../../../format}
+\lhead{A Level Maths - S2}
+
+
+\begin{document}
+\begin{center}
+\underline{\huge S2 Notes}
+\end{center}
+\section{Continuous random variables}
+\subsection{Probability Density Function}
+\begin{itemize}
+\item $f(x)\geqslant 0$ for all values of $x$, so that no probabilities are negative.
+\item $\mathlarger{\int_{\infty}^{-\infty}} f(x) dx=1$  (The sum of all probabilities is 1)
+\item $P(a<x<b)=\mathlarger{\int_{a}^{b}} f(x) dx$
+\end{itemize}
+\subsection{Median}
+When finding the median of a CRV with multiple ranges, set F(x) to 0.5 and rearrange. If x lies outside the range, change to a different range until one works
+\section{Continuous distributions}
+\subsection{Continuity correction}
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline
+Probability&Corrected Probability\\
+\hline
+$P(X=n)$&$P(n-0.5<X<n+0.5)$\\
+\hline
+$P(X>n)$&$P(X>n+0.5)$\\
+\hline
+$P(X\leqslant n)$ &$P(X<n+0.5)$\\
+\hline
+$P(X<n)$&$P(X<n-0.5)$\\
+\hline
+$P(X\geqslant n)$&$P(X>n-0.5)$\\
+\hline
+\end{tabular}}
+\section{Discrete distributions}
+\subsection{Samples}
+When asked to list all the possible samples remember:
+$$\textrm{Number of samples}=\textrm{Number of options}^\textrm{Sample size}$$
+\section{Hypothesis tests}
+Remember to split the significance level for a two tailed test
+\subsection{Method}
+\begin{enumerate}
+\item Establish the null and alternative hypothesis ($H_0$ and $H_1$)
+\item Define distribution under $H_0$
+\item Decide on the significance level
+\item Collect data, state the test statistic, X=
+\item Calculate the probability of obtaining the test statistic or a more extreme result (same direction as $H_1$)
+\item Compare this to the sig level as a decimal
+\begin{itemize}
+\item If \textbf{greater} than the sig level, it is a \textbf{non significant} result, it is not in the critical region and we \textbf{do not} reject $H_0$
+\item If \textbf{less} than sig level, it is a \textbf{significant result}, it is in the critical region and we \textbf{reject} $H_0$ 
+\end{itemize}
+\item Interpret the results in terms of the original claim
+\end{enumerate}
+\end{document}

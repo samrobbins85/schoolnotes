@@ -1,0 +1,78 @@
+\documentclass{article}[18pt]
+\usepackage{../../../../format}
+\lhead{A Level Maths - S3}
+
+\begin{document}
+\begin{center}
+\underline{\huge S3 Notes}
+\end{center}
+\section{Estimation, confidence intervals and tests}
+\subsection{Estimators}
+Bias is:
+$$E(T)-\theta$$
+To make the formula for $S^2$ in the formula book easier to use replace the top of the fraction with $S_{xx}$ from the formula book
+\subsection{Standard error}
+Standard error is:
+$$\frac{\sigma}{\sqrt{n}} \ \textrm{or} \ \frac{s}{\sqrt{n}}$$
+This can be remembered as the square root of the approximated variance given in the formula book
+\subsection{Central limit theorem}
+CLT states that sample means from a distribution where n is greater than 50 is:
+$$\overline{X}\sim N(\mu,\frac{\sigma^2}{n})$$
+\subsection{Confidence intervals}
+To calculate the confidence interval use:
+$$\overline{x}\pm z\times\frac{\sigma}{\sqrt{n}}$$
+Where z is the value from the percentage points table that correlates to the probability in each of the tails on the normal distribution
+\section{Goodness of fit and Contingency tables}
+\subsection{Goodness of fit method}
+Method for testing goodness of fit:
+\begin{enumerate}
+\item Determine which distribution would conceptually be most appropriate
+\item Set significance level
+\item Estimate parameters (if necessary) from observed data
+\item Form hypotheses $H_0$ and $H_1$
+\item Calculate expected frequencies
+\item Combine expected frequencies so that none are $<5$
+\item Find degrees of freedom
+\item Calculate critical value of $\chi^2$ from the table
+\item Calculate $\sum\frac{(O_i-E_i)^2}{E_i}$
+\item See if the value is significant and draw conclusion
+\end{enumerate}
+$X^2$ is distributed with a chi squared distribution $\chi^2_\nu$\\
+Where $\nu=$ degrees of freedom\\
+$$\textrm{The number of degrees of freedom}=\textrm{Number of classes (after combining)}-1$$
+\subsection{Contingency tables}
+\begin{itemize}
+\item We use this test to see if two factors are independent of each other
+\item We describe them by: Number of rows $\times$ Number of columns
+\item $H_0$ is that they are independent
+\item $H_1$ is that they are not independent
+\item $$\textrm{Expected values}=\frac{\textrm{Row total}\times\textrm{Column total}}{\textrm{Grand total}}$$
+\item $$\nu=(\textrm{Number of rows-1})(\textrm{Number of columns-1})$$
+\end{itemize}
+\section{Combinations of normal distributions}
+\subsection{Sums and Differences}
+$$\mu_{x+y}=\mu_x+\mu_y$$
+$$\mu_{x-y}=\mu_x-\mu_y$$
+$$\sigma^2_{x+y}=\sigma^2_x+\sigma^2_y$$
+$$\sigma^2_{x-y}=\sigma^2_x+\sigma^2_y$$
+\subsection{Multiples}
+$$\mu_{ax+by}=a\mu_x+b\mu_y$$
+$$\mu_{ax-by}=a\mu_x-b\mu_y$$
+$$\sigma^2_{ax+by}=a^2\sigma^2_x+b^2\sigma^2_x$$
+$$\sigma^2_{ax-by}=a^2\sigma^2_x+b^2\sigma^2_x$$
+\subsection{Addition vs Multiplication}
+$$E(X_1+X_2)=E(2X_1)$$
+However
+$$Var(X_1+X_2)\neq Var(2X_1)$$
+\\
+$$Var(X_1+X_2)=\sigma_1^2+\sigma_1^2=2\sigma_2^2$$
+$$Var(2X_1)=4\sigma^2_1$$
+\section{Regression and Correlation}
+Spearman's rank: The tendency for y to increase as x increases\\
+PMCC:The closeness of the data to follow linear relationship\\
+\\
+For example an $x^3$ graph would have a Spearman's rank of 1 as it always increases, however the PMCC would not be 1 as it does not follow a linear relationship.
+
+
+
+\end{document}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  19 APR 2018 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  19 APR 2018 16:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**"Centres of mass.tex"
-(./Centres of mass.tex
+**"S3 Notes.tex"
+(./S3 Notes.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -901,8 +901,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box42
 )
 \tindent=\skip59
-) (./Centres of mass.aux)
-\openout1 = `"Centres of mass.aux"'.
+) (./S3 Notes.aux)
+\openout1 = `"S3 Notes.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -1039,128 +1039,51 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--27
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<eq.jpg, id=17, 201.75375pt x 207.02344pt>
-File: eq.jpg Graphic file (type jpg)
-<use eq.jpg>
-Package pdftex.def Info: eq.jpg  used on input line 52.
-(pdftex.def)             Requested size: 108.405pt x 111.23817pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 71--75
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--110
-
- []
-
-[2 <./eq.jpg>] (./Centres of mass.aux) ) 
+[2] (./S3 Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 24000 strings out of 492982
- 594889 string characters out of 6138580
- 802375 words of memory out of 5000000
- 27113 multiletter control sequences out of 15000+600000
- 9997 words of font info for 39 fonts, out of 8000000 for 9000
+ 23880 strings out of 492982
+ 592101 string characters out of 6138580
+ 801375 words of memory out of 5000000
+ 27004 multiletter control sequences out of 15000+600000
+ 6848 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,98p,761b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti10.pfb>
-Output written on "Centres of mass.pdf" (2 pages, 143825 bytes).
+ 69i,11n,98p,754b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb>
+Output written on "S3 Notes.pdf" (2 pages, 114349 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
