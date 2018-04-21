@@ -1,0 +1,72 @@
+\documentclass{article}[18pt]
+\usepackage{../../../../format}
+\lhead{A Level Maths - C4}
+
+\begin{document}
+\begin{center}
+\underline{\huge C4 Notes}
+\end{center}
+\section{Binomial Expansion}
+$(a\pm bx)^n$ can be rewritten as $a^n(1\pm\frac{b}{a}x)^n$
+\section{Coordinate Geometry}
+$$\frac{dy}{dx}=\frac{dy}{dt}\times\frac{dt}{dx}$$
+\section{Differentiation}
+\subsection{Implicit differentiation}
+$$\frac{d}{dx}(y^n)=ny^{n-1}\times\frac{dy}{dx}$$
+Use the formula on the data sheet to differentiate $y=a^x$
+$$\frac{d}{dx}(a^{f(x)})=a^{f(x)}f'(x)\ln(a)$$
+\section{Integration}
+{\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|X|X|}
+ \hline
+ \textbf{f(x)} & $\mathbf{\mathlarger{\int} f(x)\ dx}$ \\
+ \hline
+ $x^n$  & $\dfrac{x^{n+1}}{n+1}+c$ \\
+\hline
+$e^x$&$e^x+c$\\
+\hline
+$\dfrac{1}{x}$&$\ln|x|+c$\\
+\hline
+$\sin x$&$-\cos x$\\
+\hline
+$\cos x$&$\sin x$\\
+\hline
+$a^x$&$\dfrac{a^x}{\ln|a|}+c$\\
+\hline
+\end{tabularx}
+}
+\subsection{Parametric integration}
+$$\int y\frac{dx}{dt} \ dt$$
+\subsection{Integration by substitution - Fractional type}
+$$\int \frac{f'(x)}{f(x)} \ dx= \ln f(x)+c$$
+\subsection{Trapezium rule}
+$$\% \textrm{error}=\frac{\textrm{Approx-Actual}}{\textrm{Actual}}\times 100$$
+\subsection{Volumes of revolution}
+$$\textrm{Volume}=\pi\int_a^b y^2 \ dx$$
+\subsubsection{Parametric volumes of revolution}
+$$\textrm{Volume}=\pi\int_a^b y^2\frac{dx}{dt} \ dt$$
+\section{Partial fractions}
+\subsection{Partial fractions with same or higher denominator}
+When the denominator is the same or higher as the numerator, use long division to find the remainder and re-write it so that it can be converted into partial fractions.
+\section{Vectors}
+$$\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$$
+\subsection{Vector dot product}
+$\mathbf{a}=\begin{pmatrix}
+x_1\\
+y_1\\
+z_1\\
+\end{pmatrix}
+\quad
+\mathbf{b}=\begin{pmatrix}
+x_2\\
+y_2\\
+z_2\\
+\end{pmatrix}
+$
+\\
+\\
+$\mathbf{a}\mathlarger{\cdot}\mathbf{b}=x_1x_2+y_1y_2+z_1z_2$\\
+$\cos\theta=\dfrac{\mathbf{a}\cdot \mathbf{b}}{|\mathbf{a}||\mathbf{b}|}$\\
+
+
+\end{document}
