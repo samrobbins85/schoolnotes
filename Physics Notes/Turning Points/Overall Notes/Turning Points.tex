@@ -1,0 +1,140 @@
+\documentclass[12pt]{article}
+\usepackage{../../../format}
+\lhead{A Level Physics - Turning Points}
+
+\begin{document}
+\begin{center}
+\underline{\huge Turning Points}
+\end{center}
+\section{Electrons}
+\subsection{Discharge tube}
+A discharge tube has a high voltage applied across it, this voltage ionises the gas. These ions then accelerate towards the cathode, hitting it with enough energy to release free electrons from the surface. These combine with the ions, emitting light.
+\subsection{Thermionic emission}
+When a metal is heated free electrons are released from the surface
+\subsection{Determining the specific charge of an electron}
+\subsubsection{Method 1}
+Adjust magnetic and electric field so the flow of electrons is horizontal\\
+Combine
+$$eV_a=\frac{1}{2}mv^2 \ \textrm{and} \ Bev=eE$$
+To get
+$$\frac{e}{m}=\frac{1}{2v_a}\Bigg(\frac{E}{B}\Bigg)^2$$
+\subsubsection{Method 2}
+Accelerate electrons in a circle using a magnetic field perpendicular to the direction of motion.\\
+Combine
+$$\frac{mv^2}{R}=Bev \ \textrm{and} \ eV_a=\frac{1}{2}mv^2$$
+To get
+$$\frac{e}{m}=\frac{2V_a}{(BR)^2}$$
+\subsection{Milikan's experiment}
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+\begin{tikzpicture}[
+    force/.style={>=latex,draw=black,fill=black},
+    m/.style={circle,draw=black,fill=white,radius=0.3cm,thin},scale=0.5
+]
+    \node[m] (m) {};
+    {[force,->]
+        \draw (m.north) -- ++(0,1) node[above] {Upthrust+Viscous drag};
+        \draw (m.south) -- ++(0,-1) node[below] {Weight};
+    }
+\end{tikzpicture}
+        \caption{No electric field}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+\begin{tikzpicture}[
+    force/.style={>=latex,draw=black,fill=black},
+    m/.style={circle,draw=black,fill=white,radius=0.3cm,thin},scale=0.5
+]
+    \node[m] (m) {};
+    {[force,->]
+        \draw (m.north) -- ++(0,1) node[above] {Upthrust+Electric force};
+        \draw (m.south) -- ++(0,-1) node[below] {Weight};
+    }
+\end{tikzpicture}    
+        \caption{Electric field}
+    \end{minipage}
+\end{figure}
+\subsubsection{With electric field}
+$$\textrm{Electric field}=\frac{QV}{d}$$
+$$\textrm{Weight}=mg$$
+$$\frac{QV}{d}=mg$$
+\subsubsection{Without electric field}
+$$F_D=6\pi r\eta v$$
+$$\textrm{Weight}=mg$$
+\begin{center}
+Mass=Density$\times$Volume
+$$\textrm{Mass}=\frac{4}{3}\pi r^3\rho$$
+$$6\pi r\eta v=\frac{4}{3}\pi r^3\rho g$$
+$$r^2=\frac{9\eta v}{2\rho g}$$
+\end{center}
+\subsubsection{Significance of results}
+These results were significant because it introduced the idea of quantisation of charge
+\section{Special relativity}
+Special relativity is based on two postulates:
+\begin{itemize}
+\item The laws of physics, expressed in equations, have the same form in all inertial frames
+\item The speed of light in free space is the same for all observers regardless of their state of motion and the speed of the light source
+\end{itemize}
+\subsection{The Michelson-Morley Experiment}
+\includegraphics[width=6cm]{michelson.png}
+\subsection{Relativistic momentum}
+$$p=mv-\frac{m_0v}{\sqrt{1-(\frac{v}{c})^2}}$$
+\subsection{Relativistic kinetic energy}
+\begin{center}
+Total energy=Rest energy+Relativistic KE
+\end{center}
+$$E_K=E-E_0$$
+$$E_K=\frac{m_0c^2}{\sqrt{1-(\frac{v}{c})^2}}-m_0c^2$$
+$$E_K=m_0c^2\Bigg(\bigg(1-\bigg(\frac{v}{c}\bigg)^2\bigg)^{-\frac{1}{2}}-1\Bigg)$$
+Apply binomial expansion and approximation to get
+$$E_K=\frac{1}{2}m_0v^2$$
+\subsection{Bertozzi's Experiment}
+\begin{center}
+\includegraphics[width=12cm]{Bertozzi.jpg}
+\end{center}
+The experiment was set out to determine the variation of the kinetic energy of an electron, based on derived measurements.\\
+\\
+Electrons accelerated from rest, through a known P.D.\\
+Gain kinetic energy = eV (Known value)\\
+Calculate speed from $v=\frac{d}{t}$ (d=8.4m)\\
+\\
+As the bunch of electrons collided with the plate, the electrons give up their energy and the plate changes its temperature.\\
+\\
+Knowing the specific heat capacity and the number of electrons, the energy of one electron can be determined
+$$E=\frac{mc\Delta\theta}{n}$$
+\section{Wave Particle Duality}
+\subsection{Electromagnetic waves}
+\subsubsection{The nature of electromagnetic waves}
+Electromagnetic waves are formed of perpendicular electric and magnetic fields, each of which sustain the other.\\
+\subsubsection{Maxwell's Formula}
+Permeability of free space - Relates the magnetic flux density of a magnetic field to the electric current that creates it\\
+Permittivity of free space - Relaters the electric field strength to the charge that creates it
+\subsubsection{Hertz and Radio waves}
+\includegraphics[width=6cm]{hertz_1.jpg}\\
+Radio waves were produced when a spark lept between the spark balls across an induction coil\\
+The radio waves induce an EMF across the loop, causing a spark.\\
+By placing a metal sheet in different places Hertz discovered radio waves are reflected by metal and pass straight through insulating materials.\\
+By creating a standing wave and measuring the position of nodes and antinodes, the wavelength could be calculated.\\
+The waves were demonstrated to be polarised when the loop was rotated 90 degrees and no sparks appeared, as the electric field was perpendicular to the loop.
+\newpage
+\subsubsection{Fizeau's determination of the speed of light and it's implications}
+\includegraphics[width=6cm]{fizeau.jpg}\\
+This experiment used a fast moving cog wheel which was increased in speed until the reflected light could not be seen. This meant that twice the distance between the wheel and the mirror would be equal to the time for a gap to be replaced by a tooth.\\
+Time for one rotation:
+$$T=\frac{1}{f_0}$$
+Time for the wheel to move one tooth, where n is the number of teeth
+$$t=\frac{T}{2N}$$
+Combine the two above equations
+$$t=\frac{1}{2f_0N}$$
+Apply $\textrm{Speed}=\frac{\textrm{Distance}}{\textrm{Time}}$
+$$c=\frac{2D}{\frac{1}{2f_0N}}=4Df_0N$$
+
+
+
+
+
+
+
+\end{document}

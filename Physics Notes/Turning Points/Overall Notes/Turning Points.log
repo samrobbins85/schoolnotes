@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  24 APR 2018 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  24 APR 2018 16:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**"Special Relativity.tex"
-(./Special Relativity.tex
+**"Turning Points.tex"
+(./Turning Points.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -901,8 +901,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box42
 )
 \tindent=\skip59
-) (./Special Relativity.aux)
-\openout1 = `"Special Relativity.aux"'.
+) (./Turning Points.aux)
+\openout1 = `"Turning Points.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -1039,35 +1039,26 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
-<michelson.png, id=4, 277.035pt x 183.68625pt>
-File: michelson.png Graphic file (type png)
-<use michelson.png>
-Package pdftex.def Info: michelson.png  used on input line 19.
-(pdftex.def)             Requested size: 284.52756pt x 188.65517pt.
-<time_dilation.png, id=5, 662.475pt x 233.87375pt>
-File: time_dilation.png Graphic file (type png)
-<use time_dilation.png>
-Package pdftex.def Info: time_dilation.png  used on input line 23.
-(pdftex.def)             Requested size: 227.62204pt x 80.35463pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no ] in font nullfont!
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1077,70 +1068,80 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./michelson.png> <./time_dilation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
-[2] [3]
-<Bertozzi.jpg, id=31, 1606.0pt x 903.375pt>
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+<michelson.png, id=16, 519.44063pt x 493.0922pt>
+File: michelson.png Graphic file (type png)
+<use michelson.png>
+Package pdftex.def Info: michelson.png  used on input line 81.
+(pdftex.def)             Requested size: 170.71652pt x 162.05128pt.
+ [2 <./michelson.png>]
+<Bertozzi.jpg, id=21, 1606.0pt x 903.375pt>
 File: Bertozzi.jpg Graphic file (type jpg)
 <use Bertozzi.jpg>
-Package pdftex.def Info: Bertozzi.jpg  used on input line 82.
+Package pdftex.def Info: Bertozzi.jpg  used on input line 95.
 (pdftex.def)             Requested size: 341.43306pt x 192.0577pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--95
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-[4 <./Bertozzi.jpg>] (./Special Relativity.aux) ) 
+[3 <./Bertozzi.jpg>]
+<hertz_1.jpg, id=27, 319.1925pt x 325.215pt>
+File: hertz_1.jpg Graphic file (type jpg)
+<use hertz_1.jpg>
+Package pdftex.def Info: hertz_1.jpg  used on input line 115.
+(pdftex.def)             Requested size: 170.71652pt x 173.9362pt.
+ [4 <./hertz_1.jpg>]
+<fizeau.jpg, id=31, 108.405pt x 64.0794pt>
+File: fizeau.jpg Graphic file (type jpg)
+<use fizeau.jpg>
+Package pdftex.def Info: fizeau.jpg  used on input line 123.
+(pdftex.def)             Requested size: 170.71652pt x 100.92459pt.
+ [5 <./fizeau.jpg>]
+(./Turning Points.aux) ) 
 Here is how much of TeX's memory you used:
- 23929 strings out of 492982
- 592879 string characters out of 6138580
+ 23980 strings out of 492982
+ 594094 string characters out of 6138580
  801344 words of memory out of 5000000
- 27041 multiletter control sequences out of 15000+600000
- 11757 words of font info for 45 fonts, out of 8000000 for 9000
+ 27091 multiletter control sequences out of 15000+600000
+ 10102 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,98p,778b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Special Relativity.pdf" (4 pages, 314766 bytes).
+ 69i,12n,98p,774b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Turning Points.pdf" (5 pages, 401774 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
