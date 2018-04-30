@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  6 APR 2018 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  30 APR 2018 16:17
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Kinematics.tex
 (./Kinematics.tex
@@ -1043,181 +1043,104 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 72--85
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--85
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 76--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
+Underfull \hbox (badness 10000) in paragraph at lines 76--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
+Underfull \hbox (badness 10000) in paragraph at lines 76--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--137
+Underfull \hbox (badness 10000) in paragraph at lines 76--90
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 143--147
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
+Underfull \hbox (badness 10000) in paragraph at lines 127--132
 
  []
 
 [4]
-<vector_problems.png, id=29, 537.00626pt x 193.72375pt>
+<vector_problems.png, id=33, 537.00626pt x 193.72375pt>
 File: vector_problems.png Graphic file (type png)
 <use vector_problems.png>
-Package pdftex.def Info: vector_problems.png  used on input line 177.
+Package pdftex.def Info: vector_problems.png  used on input line 145.
 (pdftex.def)             Requested size: 284.52756pt x 102.64352pt.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 183.
+LaTeX Warning: Command \textendash invalid in math mode on input line 151.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 183.
+LaTeX Warning: Command \textendash invalid in math mode on input line 151.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--186
+Underfull \hbox (badness 10000) in paragraph at lines 145--154
 
  []
 
 [5 <./vector_problems.png>] (./Kinematics.aux) ) 
 Here is how much of TeX's memory you used:
- 24040 strings out of 492982
- 595433 string characters out of 6138580
- 802375 words of memory out of 5000000
- 27144 multiletter control sequences out of 15000+600000
- 14206 words of font info for 53 fonts, out of 8000000 for 9000
+ 24046 strings out of 492982
+ 595536 string characters out of 6138580
+ 801375 words of memory out of 5000000
+ 27150 multiletter control sequences out of 15000+600000
+ 14513 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,98p,754b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,11n,98p,754b,719s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Kinematics.pdf (5 pages, 156834 bytes).
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Kinematics.pdf (5 pages, 188878 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
