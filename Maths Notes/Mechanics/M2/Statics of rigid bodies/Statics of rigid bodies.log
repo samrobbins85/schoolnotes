@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  30 APR 2018 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  1 MAY 2018 21:55
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **"Statics of rigid bodies.tex"
 (./Statics of rigid bodies.tex
@@ -1050,26 +1050,31 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+Overfull \hbox (8.7723pt too wide) detected at line 23
+[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 j[]j ^^B []
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 <eq_rigid.png, id=13, 376.40625pt x 202.7575pt>
 File: eq_rigid.png Graphic file (type png)
 <use eq_rigid.png>
-Package pdftex.def Info: eq_rigid.png  used on input line 26.
+Package pdftex.def Info: eq_rigid.png  used on input line 29.
 (pdftex.def)             Requested size: 227.62204pt x 122.61452pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--37
+Underfull \hbox (badness 10000) in paragraph at lines 29--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--37
+Underfull \hbox (badness 10000) in paragraph at lines 29--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--51
+Underfull \hbox (badness 10000) in paragraph at lines 46--54
 
  []
 
@@ -1091,7 +1096,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb>
-Output written on "Statics of rigid bodies.pdf" (2 pages, 106867 bytes).
+Output written on "Statics of rigid bodies.pdf" (2 pages, 107367 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
