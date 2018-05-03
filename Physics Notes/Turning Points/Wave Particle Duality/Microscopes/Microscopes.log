@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  6 APR 2018 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  3 MAY 2018 16:23
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Microscopes.tex
 (./Microscopes.tex
@@ -1052,12 +1052,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--30
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--30
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
 
@@ -1069,27 +1069,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./tem.png>]
-<stm.png, id=18, 363.3575pt x 272.01625pt>
+ <./tem.png>] [2] [3]
+<stm.png, id=24, 363.3575pt x 272.01625pt>
 File: stm.png Graphic file (type png)
 <use stm.png>
-Package pdftex.def Info: stm.png  used on input line 32.
+Package pdftex.def Info: stm.png  used on input line 68.
 (pdftex.def)             Requested size: 142.26378pt x 106.50096pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
 
  []
 
-[2 <./stm.png>] (./Microscopes.aux) ) 
+[4 <./stm.png>] (./Microscopes.aux) ) 
 Here is how much of TeX's memory you used:
  23909 strings out of 492982
  592428 string characters out of 6138580
- 799404 words of memory out of 5000000
+ 800404 words of memory out of 5000000
  27023 multiletter control sequences out of 15000+600000
  9795 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1100,10 +1100,10 @@ mi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on Microscopes.pdf (2 pages, 97672 bytes).
+Output written on Microscopes.pdf (4 pages, 102063 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
