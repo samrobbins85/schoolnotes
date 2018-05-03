@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  28 APR 2018 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  2 MAY 2018 16:08
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Inequalities.tex
 (./Inequalities.tex
@@ -1063,19 +1063,19 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--46
+Underfull \hbox (badness 10000) in paragraph at lines 29--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--46
+Underfull \hbox (badness 10000) in paragraph at lines 29--47
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 56--73
+Underfull \hbox (badness 10000) in paragraph at lines 57--74
 
  []
 
@@ -1083,7 +1083,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--73
 Here is how much of TeX's memory you used:
  24825 strings out of 492982
  620320 string characters out of 6138580
- 809711 words of memory out of 5000000
+ 809710 words of memory out of 5000000
  27925 multiletter control sequences out of 15000+600000
  8403 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1095,7 +1095,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
 b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Inequalities.pdf (2 pages, 86035 bytes).
+Output written on Inequalities.pdf (2 pages, 86272 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
