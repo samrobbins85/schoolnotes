@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  19 MAY 2018 11:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  19 MAY 2018 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Distribution Overview.tex"
-(./Distribution Overview.tex
+**Sampling2.tex
+(./Sampling2.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -901,21 +901,52 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-(./Distribution Overview.aux)
-\openout1 = `"Distribution Overview.aux"'.
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen197
+\extrarowheight=\dimen198
+\NC@list=\toks41
+\extratabsurround=\skip63
+\backup@length=\skip64
+)
+\TX@col@width=\dimen199
+\TX@old@table=\dimen256
+\TX@old@col=\dimen257
+\TX@target=\dimen258
+\TX@delta=\dimen259
+\TX@cols=\count135
+\TX@ftn=\toks42
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip65
+\enit@outerparindent=\dimen260
+\enit@toks=\toks43
+\enit@inbox=\box41
+\enitdp@description=\count136
+)
+(/usr/share/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language84
+LaTeX Info: Redefining \_ on input line 43.
+) (./Sampling2.aux)
+\openout1 = `Sampling2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -953,17 +984,17 @@ LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
-\scratchdimen=\dimen197
-\scratchbox=\box41
-\nofMPsegments=\count136
-\nofMParguments=\count137
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count138
-\MPscratchDim=\dimen198
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count137
+\scratchdimen=\dimen261
+\scratchbox=\box42
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen262
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1020,55 +1051,50 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Info: Redefining \celsius on input line 28.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
+LaTeX Info: Redefining \celsius on input line 31.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 31.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 28.
-Package gensymb Info: Using \Omega for \ohm on input line 28.
+LaTeX Info: Redefining \ohm on input line 31.
+Package gensymb Info: Using \Omega for \ohm on input line 31.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd)
+Underfull \hbox (badness 4048) in paragraph at lines 126--126
+[]\OT1/cmr/m/n/10 Can not be used when test-ing
+ []
 
-Overfull \hbox (3.41484pt too wide) in paragraph at lines 36--268
- [] 
+
+Underfull \hbox (badness 5431) in paragraph at lines 126--126
+[]\OT1/cmr/m/n/10 More ac-cu-rate when strata are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]\OT1/cmr/m/n/10 Not pos-si-ble to es-ti-mate the
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-(./Distribution Overview.aux) ) 
+] (./Sampling2.aux) ) 
 Here is how much of TeX's memory you used:
- 24057 strings out of 492982
- 597570 string characters out of 6138580
- 791116 words of memory out of 5000000
- 27188 multiletter control sequences out of 15000+600000
- 7597 words of font info for 28 fonts, out of 8000000 for 9000
+ 24430 strings out of 492982
+ 603352 string characters out of 6138580
+ 794116 words of memory out of 5000000
+ 27558 multiletter control sequences out of 15000+600000
+ 4393 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,96p,740b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy9.pfb>
-Output written on "Distribution Overview.pdf" (1 page, 123488 bytes).
+ 62i,11n,96p,726b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Sampling2.pdf (1 page, 39252 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

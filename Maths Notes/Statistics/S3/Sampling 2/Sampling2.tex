@@ -1,0 +1,130 @@
+\documentclass{article}[5pt]
+\usepackage[utf8]{inputenc}
+\usepackage[lmargin=0.1in,rmargin=0.1in,bmargin=0.1in,tmargin=0.6in,landscape,a4paper]{geometry}
+\usepackage{parselines} 
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{pbox}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{mathtools}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\usepackage{relsize}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Sam Robbins 13SE}
+\lhead{A Level Maths - S3}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{tabularx}
+%File specific Preamble
+\usepackage{enumitem} %Helps with lists in tables
+\setitemize{noitemsep,topsep=-5pt,leftmargin=*}%Compress list
+\usepackage[none]{hyphenat}
+\begin{document}
+\begin{center}
+\underline{\huge Sampling}
+\end{center}
+\begin{tabularx}{\textwidth}{|c|X|X|X|X|}
+\hline
+&What it is&When to use&Advantages&Disadvantages\\
+\hline
+Census&A collection of data from an entire population&Gives a completely accurate result&
+\begin{itemize}
+\item Small population
+\item Easy to collect data
+\item Large variation of opinion
+\end{itemize}&
+
+\begin{itemize}
+\item Time consuming+Expensive
+\item Can not be used when testing involves destruction
+\item Large volume of data to process
+\end{itemize}\\
+\hline
+
+
+Random Sampling
+&Each thing has an equal chance of being selected&
+
+\begin{itemize}
+\item Large population
+\item Have a sampling frame
+\end{itemize}&
+
+\begin{itemize}
+\item Numbers truly random and free from bias
+\item Easy to use
+\item Each number has a known equal chance of being selected
+\end{itemize}&
+\begin{itemize}
+\item Needs a sampling frame
+\end{itemize}\\
+\hline
+
+
+Systematic sampling
+&Required elements are chosen at regular intervals in an ordered list&
+\begin{itemize}
+\item Time constraint
+\end{itemize}&
+
+\begin{itemize}
+\item Simple to use
+\item Suitable for large samples
+\end{itemize}&
+\begin{itemize}
+\item Only random if ordered list is truly random
+\item Can introduce bias
+\end{itemize}\\
+\hline
+
+
+Stratified sampling
+&Population is divided into groups and a simple random sample is carried out in each group&
+
+\begin{itemize}
+\item More accurate when strata are present
+\item Reflects population structure
+\end{itemize}&
+
+\begin{itemize}
+\item It can give more accurate estimates than simple random sampling where clear strata are present
+\item Reflects the population structure
+\end{itemize}&
+\begin{itemize}
+\item Within the strata, the problems are than same as for any simple random sample
+\item If the strata are not clearly defined they may overlap
+\end{itemize}\\
+\hline
+
+Quota sampling
+&The population is divided into groups by gender etc. A quota of people in each group is set to try and reflect the group's proportion in the whole population&
+\begin{itemize}
+\item There is no sampling frame
+\end{itemize}&
+
+\begin{itemize}
+\item Enables fieldwork to be done quickly because a small sample size is taken.
+\item Costs kept to a minimum
+\item Administering test is easy
+\end{itemize}&
+\begin{itemize}
+\item Not possible to estimate the sampling errors
+\item Interviewers may not be able to judge characteristics easily
+\item Non responses are not recorded
+\item Can introduce interview bias
+\end{itemize}\\
+\hline
+\end{tabularx}
+
+
+
+\end{document}
