@@ -150,6 +150,8 @@ $H_0$ is always that the distribution is a good model\\
 $H_1$ is always that the distribution is not a good model
 \subsubsection{Normal distribution}
 When testing for a normal distribution the two ends of the table must extend to infinity to ensure that the probabilities add to 1
+\subsubsection{Continuous uniform distribution}
+Remember when testing for a uniform distribution to state that it is a \textbf{continuous} uniform distribution
 \subsubsection{Degrees of freedom}
 The degrees of freedom starts as the number of columns, then 1 is subtracted from it for various reasons:
 \begin{itemize}
@@ -167,6 +169,8 @@ The degrees of freedom starts as the number of columns, then 1 is subtracted fro
 \item $$\nu=(\textrm{Number of rows-1})(\textrm{Number of columns-1})$$
 \item Remember that the same rule that expected frequencies cannot be less than 5 still applies
 \end{itemize}
+Contingency tables and PMCC tests both look for linear relationships, however a contingency table looks to see if the data lies on the line $y=x$, whereas the PMCC looks to see if the data lies on the line $y=kx$
+
 \section{Hypothesis tests for PMCC and Spearman's Rank Correlation Coefficient}
 Spearman's rank - The tendency for y to increase as x increases\\
 PMCC - How close x and y are to a linear relationship\\
@@ -182,5 +186,84 @@ $r$ and $r_s$ is the observed correlation based on the sample\\
 \\
 Hypothesis tests can be either one or two tailed, depending if you are just looking for a correlation or specifically a positive/negative correlation.
 \newpage
+\begin{center}
+\underline{\huge Hypothesis tests}
+\end{center}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+\textbf{What is being tested}&$\mathbf{H_0}$&$\mathbf{H_1}$\\
+\hline
+Difference between means&$\mu_a=\mu_b$&$H_1:\mu_a>\mu_b \ \textrm{or} \ 
+\mu_a<\mu_b \  \textrm{or} \ 
+\mu_a\neq\mu_b$\\
+\hline
+Goodness of fit&A \underline{\hspace{1cm}} Distribution is a suitable model&A \underline{\hspace{1cm}} Distribution is not a suitable model\\
+\hline
+Contingency Tables&No association between the two data sets&Association between the two data sets\\
+\hline
+Spearman's rank&$\rho_s=0$&$\rho_s>0,\rho_s<0,\rho_s\neq0$\\
+\hline
+PMCC&$\rho=0$&$\rho>0,\rho<0,\rho\neq0$\\
+\hline
+\end{tabularx}
+\begin{center}
+\underline{\huge Tables}
+\end{center}
+\setcounter{section}{6}
+\subsection{Goodness of fit}
+{\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+Number&&\\
+\hline
+Observed&&\\
+\hline
+Expected&&\\
+\hline
+$\dfrac{(O-E)^2}{E}$&&\\
+\hline
+\end{tabularx}}
+\subsection{Contingency tables}
+{\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}
+\hline
+&\multicolumn{3}{|c|}{\centering C}&\multicolumn{3}{|c|}{\centering D}\\
+\cline{2-7}
+&O&E&$\frac{(O-E)^2}{E}$&O&E&$\frac{(O-E)^2}{E}$\\
+\hline
+A&&&&&&\\
+\hline
+B&&&&&&\\
+\hline
+\end{tabularx}}
+\subsection{Difference between means}
+{\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+&A&B\\
+\hline
+$\overline{x}$&&\\
+\hline
+$s^2$&&\\
+\hline
+n&&\\
+\hline
+\end{tabularx}
+\subsection{Spearman's rank}
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+&A&B&C\\
+\hline
+Rank 1&&&\\
+\hline
+Rank 2&&&\\
+\hline
+$d^2$&&&\\
+\hline
+
+
+\end{tabularx}
+
+
 
 \end{document}
