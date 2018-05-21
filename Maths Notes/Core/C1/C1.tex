@@ -1,3 +1,4 @@
+
 \documentclass{article}[18pt]
 \usepackage{../../../format}
 \lhead{A Level Maths - C1}
@@ -49,4 +50,19 @@ To create a recurrence relation formula from a formula given in n, substitute n+
 $$U_n=2^n+4n$$
 $$U_{n+1}=2^{n+1}+4{n+1}$$
 $$U_{n+1}=2U_n-4n+4$$
+\subsection{Finding a and d}
+Remember that the formula for the $\textrm{n}^\textrm{th}$ term may not be given in the form $a+(n-1)d$, and if it is not, it must be changed.\\
+\textbf{Example}\\
+$u_r=4r-7$\\
+$u_1=4-7=-3=a$\\
+$4r-7=-3+(r-1)d \quad \Rightarrow 4r-4=(r-1)d \quad \Rightarrow d=4$
+\subsection{Finding the nth term from a recurrence relation}
+To find the nth term, use a standard form, deducted from what is happening to the previous term.\\
+\textbf{Example}\\
+$U_{n+1}=2U_n-5$\\
+The multiplier by 2 implies doubling, and so the nth term will contain $A\times2^n$, the subtraction of 5 suggests there will also be a constant term, $B$.\\
+$$U_n=A\times2^n+B$$
+Given $U_1=6$, A and B can be found to be $\frac{1}{2}$ and 5.
+
+
 \end{document}
