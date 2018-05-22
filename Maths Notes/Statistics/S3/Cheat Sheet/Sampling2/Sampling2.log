@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  19 MAY 2018 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  22 MAY 2018 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,17 +1063,17 @@ Package gensymb Info: Using \Omega for \ohm on input line 31.
 Package gensymb Warning: Not defining \micro.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd)
-Underfull \hbox (badness 4048) in paragraph at lines 126--126
+Underfull \hbox (badness 4048) in paragraph at lines 127--127
 []\OT1/cmr/m/n/10 Can not be used when test-ing
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 126--126
+Underfull \hbox (badness 5431) in paragraph at lines 127--127
 []\OT1/cmr/m/n/10 More ac-cu-rate when strata are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []\OT1/cmr/m/n/10 Not pos-si-ble to es-ti-mate the
  []
 
@@ -1083,7 +1083,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--126
 Here is how much of TeX's memory you used:
  24437 strings out of 492982
  603456 string characters out of 6138580
- 794116 words of memory out of 5000000
+ 795116 words of memory out of 5000000
  27564 multiletter control sequences out of 15000+600000
  4699 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1091,7 +1091,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Sampling2.pdf (1 page, 39584 bytes).
+Output written on Sampling2.pdf (1 page, 39637 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
