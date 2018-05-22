@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  21 MAY 2018 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  22 MAY 2018 16:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1254,15 +1254,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--192
 
  []
 
-[6]
-Underfull \hbox (badness 3189) in paragraph at lines 212--212
+[6] [7]
+Underfull \hbox (badness 3189) in paragraph at lines 240--240
 []|\OT1/cmr/m/n/10 A $[]$ Dis-tri-bu-tion is not a
  []
 
-[7] (./S3 Cheat Sheet.aux) )
+[8] (./S3 Cheat Sheet.aux) )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 244 ({)
+### simple group (level 1) entered at line 272 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  25105 strings out of 492982
@@ -1288,10 +1288,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts
 sfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "S3 Cheat Sheet.pdf" (7 pages, 214795 bytes).
+Output written on "S3 Cheat Sheet.pdf" (8 pages, 215773 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
