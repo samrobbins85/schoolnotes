@@ -4,19 +4,21 @@
 \usepackage{tabularx}
 \begin{document}
 \begin{center}
-\underline{\huge FP2}
+\underline{\huge FP2 Cheat Sheet}
 \end{center}
-\section{First order differential equations}
-\subsection{Solving first order DE using an integrating factor}
-Solving $\dfrac{dy}{dx}+P(x)y=Q(x)$\\
+\section{Inequalities}
+We can build upon our previous algebraic skills in order to solve more complex inequalities\\
+Remember:
+\begin{itemize}
+\item Don't multiply anything that could be negative - use "squared" things
+\item Try to avoid fully expanding where possible
+\item Find the critical values (f(x)=0)
+\item Sketch the graph to solve
+\end{itemize}
+\section{Series}
+Summations can sometimes be simplified using the method of differences\\
 \\
-IF(Integrating factor) is found by finding $\mathlarger{e^{\int p(x) \ dx}}$ And multiplying the DE by the IF.\\
-\\
-This will result in the DE being in the form:
-$$f(x)\frac{dy}{dx}+f'(x)y$$
-This form can then be shortened by integrating:
-$$\int f'(x)g(x)+f(x)g'(x) dx=f(x)g(x)+c$$
-Integrate both sides then simplify
+This involves a summation where one term is subtracted from another, often gained from partial fractions. The terms in the middle of the series will then cancel with each other, leaving the summation just the terms at the beginning at the end, by summing these a simpler form can be gained.
 \section{Further complex numbers}
 \subsection{Converting between forms}
 When converting from $x+iy$ to a form in r and $\theta$, take the angle from the positive $x$ axis
@@ -27,13 +29,15 @@ $$Z_1Z_2=r_1e^{i\theta_1}\times r_2e^{i\theta_2}=r_1r_2e^{i(\theta_1+\theta_2)}$
 \subsubsection{Dividing}
 $$\frac{Z_1}{Z_2}=r_1e^{i\theta_1}\div r_2e^{i\theta_2}=\frac{r+1}{r+2} e^{i(\theta_1-\theta_2)}$$
 \subsection{De Moivre's theorem}
-This is given on the data sheet
+This is given on the data sheet and has multiple applications
 \subsubsection{Z formulas}
 If $z=\cos\theta+i\sin\theta$
 $$z+\frac{1}{z}=2\cos\theta$$
 $$z-\frac{1}{z}=2i\sin\theta$$
 $$z^n+\frac{1}{z^n}=2\cos n\theta$$
 $$z^n-\frac{1}{z^n}=2i\sin n\theta$$
+\subsubsection{Roots of unity}
+
 \subsection{Solving complex equations}
 When solving $z^a=r(\cos(\theta)+i\sin(\theta))$ type questions, remember to first rewrite as:
 $$z^a=r(\cos(\theta+2k\pi)+i\sin(\theta+2k\pi))$$
@@ -64,14 +68,20 @@ a\\b
 \end{pmatrix}$
 \item $w=z^2$ multiply a shape by itself, for example a circle of radius 4 would go to radius 16
 \end{itemize}
-\section{Inequalities}
-We can build upon our previous algebraic skills in order to solve more complex inequalities\\
-Remember:
-\begin{itemize}
-\item Don't multiply anything that could be negative - use "squared" things
-\item Find the critical values (f(x)=0)
-\item Sketch the graph to solve
-\end{itemize}
+
+\section{First order differential equations}
+\subsection{Solving first order DE using an integrating factor}
+Solving $\dfrac{dy}{dx}+P(x)y=Q(x)$\\
+\\
+IF(Integrating factor) is found by finding $\mathlarger{e^{\int p(x) \ dx}}$ And multiplying the DE by the IF.\\
+\\
+This will result in the DE being in the form:
+$$f(x)\frac{dy}{dx}+f'(x)y$$
+This form can then be shortened by integrating:
+$$\int f'(x)g(x)+f(x)g'(x) dx=f(x)g(x)+c$$
+Integrate both sides then simplify
+
+
 \section{Maclaurin and Taylor Series}
 Use the formulas on the data sheet
 \subsection{Solving differential equations using the Taylor expansion}
@@ -97,7 +107,6 @@ $r^2=a^2\sin2\theta$&Infinity symbol rotated by $\frac{\pi}{4}$\\
 $r=a\sin3\theta$&A windmill with 3 blades\\
 \hline
 \end{tabularx}
-\newpage
 \subsection{Integration}
 $$\textrm{Area}=\frac{1}{2}\int_\alpha^\beta r^2 \ d\theta$$
 The area of the sector is bounded by the half lines $\theta=\alpha$ and $\theta=\beta$
@@ -151,10 +160,7 @@ $$\frac{dy}{du}\Big(\frac{dy}{dx}\Big)=-e^{-u}\frac{dy}{du}+e^{-u}\frac{d^2y}{du
 $$\frac{d^2y}{dx^2}=\frac{dy}{du}\Big(\frac{dy}{dx}\Big)\times\frac{du}{dx}$$
 $$\frac{d^2y}{dx^2}=e^{-u}\Big(-e^{-u}\frac{dy}{du}+e^{-u}\frac{d^2y}{du^2}\Big)$$
 $$\frac{d^2y}{dx^2}=\mathbf{e^{-2u}\Big(-\frac{dy}{du}+\frac{d^2y}{du^2}\Big)}$$
-\section{Series}
-Summations can sometimes be simplified using the method of differences\\
-\\
-This involves a summation where one term is subtracted from another, often gained from partial fractions. The terms in the middle of the series will then cancel with each other, leaving the summation just the terms at the beginning at the end, by summing these a simpler form can be gained.
+
 
 
 
