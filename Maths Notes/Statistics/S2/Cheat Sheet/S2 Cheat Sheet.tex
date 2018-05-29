@@ -53,6 +53,10 @@ Sometimes the probability calculated by possion can then be fed into binomial fo
 \textit{Defects occur at a rate of 0.5 per 10cm. If bob boys 6 planks each of length 100cm, find the probability fewer than 2 planks contain at most 3 defects}
 $$X\sim P_o(5) \quad P(X\leqslant3)=0.2560$$
 $$Y\sim B(6,0.256) \quad P(Y<2)=0.4987$$
+\subsection{Probability questions involving population parameters}
+\textit{Find to 2d.p. the value of k so that $P(\mu-k\sigma<X<\mu+k\sigma)=0.5$}
+$$P(-k<Z<k)=0.5$$
+$$P(Z=k)=0.75$$
 \section{Continuous random variables}
 \subsection{Find the probability of a range of values}
 $$P(a<X<b)=\int^b_a f(x) \ dx$$
@@ -79,6 +83,9 @@ To find $F(x)$, integrate f(x), the +c should be used to make sure that the star
 As the probability of any given value:
 $$P(X\geqslant10)=1-P(X\leqslant10)$$
 Unlike for discrete distributions
+\subsection{Skew}
+$$\textrm{Positive skew:} Mean>Median>Mode$$
+$$\textrm{Negative skew:} Mean<Median<Mode$$
 \newpage
 \section{Continuous uniform distribution}
 \subsection{Proof of formulas on the data sheet}
@@ -114,7 +121,7 @@ Method:
 \item Find the probability
 \end{enumerate}
 \section{Population and samples}
-\subsection{Definitions}
+\setitemize{}
 \begin{itemize}
 \item \textbf{Statistic} - A random variable which is some function of the sample and not dependent on any population parameters
 \item \textbf{Population} - A collection of all items
@@ -124,5 +131,70 @@ Method:
 \item \textbf{Sampling frame} - A list of all sampling units or all the population
 \item \textbf{Sampling distribution} - All possible samples that are chosen from a population, the values of a statistic and the associated probabilities.
 \end{itemize}
-
+\setitemize{noitemsep,topsep=-5pt,leftmargin=*}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+&Advantages&Disadvantages\\
+\hline
+Sample survey&
+\begin{itemize}
+\item If the population is large and well mixed the sample will be representative
+\item Cheaper than a census
+\item Advantageous when testing results in destruction
+\item Data is more readily available
+\end{itemize}&
+\begin{itemize}
+\item Uncertainty as there is variation between samples
+\item Could have bias
+\end{itemize}\\
+\hline
+Census&
+\begin{itemize}
+\item Every single member of the population is used
+\item Unbiased
+\item Accurate
+\end{itemize}&
+\begin{itemize}
+\item Time
+\item Cost
+\item Difficult to ensure the whole population is surveyed
+\end{itemize}\\
+\hline
+\end{tabularx}
+\section{Hypothesis testing}
+\setitemize{}
+\subsection{Definitions}
+\begin{itemize}
+\item \textbf{Critical region} - The range of values such that the null hypothesis is rejected
+\item \textbf{Hypothesis test} - A procedure to examine a value of a population parameter proposed by the null hypothesis
+\item \textbf{Significance level} - The probability of incorrectly rejecting $H_0$
+\end{itemize}
+\subsection{Determining the critical region (from a table)}
+Remember to halve the significance level for a two tailed test\\
+Small value tail: Find the closest value under the significance level, unless otherwise stated\\
+Large value tail: Find the closest value above (1-Sig level), then add one to the value\\
+Remember to state the probability in each tail, and the actual critical region using inequalities, not just equations showing the critical values\\
+If the distribution has an upper limit, remember to state that too, for example in the binomial distribution, X cannot be greater than n.\\
+\textbf{Actual significance} - The sum of the probabilities in the two tails
+\newpage
+\subsection{Methods}
+\subsubsection{Without normal approximation}
+\begin{enumerate}
+\item Specify $H_0$ and $H_1$
+\item Specify the distribution for $X$ under the null hypothesis
+\item Determine the probability of the observed value or a more extreme value, or determine the critical region
+\item Use the probability to state whether $H_0$ is rejected or not, ensuring you directly compare the probability with the significance level
+\item Put the conclusion in context
+\end{enumerate}
+\subsubsection{With normal approximation}
+\begin{enumerate}
+\item Specify $H_0$ and $H_1$
+\item Specify the distribution for $X$ under the null hypothesis
+\item Specify the distribution for $Y$ for the normal approximation
+\item Do continuity correction
+\item Standardise to get a probability in $Z$
+\item Compare to the critical values on the data sheet
+\item Use the probability to state whether $H_0$ is rejected or not, ensuring you directly compare the probability with the significance level
+\item Put the conclusion in context
+\end{enumerate}
 \end{document}
