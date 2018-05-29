@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  28 MAY 2018 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  29 MAY 2018 11:19
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **"Paper 1.tex"
 (./Paper 1.tex
@@ -901,21 +901,78 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box42
 )
 \tindent=\skip59
-) (./Paper 1.aux)
+)
+(/usr/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks45
+\pgfopts@list@add@b@toks=\toks46
+)
+(/usr/share/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen195
+\pgfarrowlength=\dimen196
+\pgfarrowwidth=\dimen197
+\pgfarrowlinewidth=\dimen198
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.markings.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.markings.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/graphs/tikz
+librarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
+\tikz@lib@auto@number=\count133
+\tikz@qnode@count=\count134
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+patterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
+ric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex)))
+(./Paper 1.aux)
 \openout1 = `"Paper 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -951,29 +1008,29 @@ LaTeX Font Info:    ... okay on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 5.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 5.
+LaTeX Info: Redefining \celsius on input line 9.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 9.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 5.
-Package gensymb Info: Using \Omega for \ohm on input line 5.
+LaTeX Info: Redefining \ohm on input line 9.
+Package gensymb Info: Using \Omega for \ohm on input line 9.
 
 Package gensymb Warning: Not defining \micro.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen195
+\scratchcounter=\count135
+\scratchdimen=\dimen199
 \scratchbox=\box43
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen196
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks46
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen256
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks48
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -997,11 +1054,6 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
@@ -1030,16 +1082,21 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+
+Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
+utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
+luatex=false on input line 9.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1087) in paragraph at lines 27--27
+Underfull \hbox (badness 1087) in paragraph at lines 31--31
 []|\OT1/cmr/m/n/12 Multiply the per-cent-age un-cer-tainty by the
  []
 
@@ -1051,26 +1108,89 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] (./Paper 1.aux) ) 
+] [2] [3]
+<neutron-neutrino.png, id=25, 358.33875pt x 454.69875pt>
+File: neutron-neutrino.png Graphic file (type png)
+<use neutron-neutrino.png>
+Package pdftex.def Info: neutron-neutrino.png  used on input line 130.
+(pdftex.def)             Requested size: 170.71652pt x 216.62245pt.
+<proton-antineutrino.png, id=27, 326.21875pt x 457.71pt>
+File: proton-antineutrino.png Graphic file (type png)
+<use proton-antineutrino.png>
+Package pdftex.def Info: proton-antineutrino.png  used on input line 131.
+(pdftex.def)             Requested size: 170.71652pt x 239.5331pt.
+<betaminus.png, id=28, 312.16624pt x 377.41pt>
+File: betaminus.png Graphic file (type png)
+<use betaminus.png>
+Package pdftex.def Info: betaminus.png  used on input line 132.
+(pdftex.def)             Requested size: 170.71652pt x 206.40134pt.
+<betaplus.png, id=29, 316.18124pt x 366.36874pt>
+File: betaplus.png Graphic file (type png)
+<use betaplus.png>
+Package pdftex.def Info: betaplus.png  used on input line 133.
+(pdftex.def)             Requested size: 170.71652pt x 197.8194pt.
+<electron_capture.png, id=30, 338.26375pt x 450.68375pt>
+File: electron_capture.png Graphic file (type png)
+<use electron_capture.png>
+Package pdftex.def Info: electron_capture.png  used on input line 134.
+(pdftex.def)             Requested size: 170.71652pt x 227.45938pt.
+
+Overfull \hbox (4.25429pt too wide) in paragraph at lines 130--135
+[] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/12 Electron
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/12 Muon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/12 Quark
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+\OT1/cmr/m/n/12 an-ti-quark
+ []
+
+[4 <./neutron-neutrino.png> <./proton-antineutrino.png> <./betaminus.png> <./be
+taplus.png> <./electron_capture.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 148.
+
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+ [5] (./Paper 1.aux) ) 
 Here is how much of TeX's memory you used:
- 23898 strings out of 492982
- 592242 string characters out of 6138580
- 800284 words of memory out of 5000000
- 27018 multiletter control sequences out of 15000+600000
+ 26104 strings out of 492982
+ 656201 string characters out of 6138580
+ 847077 words of memory out of 5000000
+ 29168 multiletter control sequences out of 15000+600000
  12403 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,98p,750b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Paper 1.pdf" (2 pages, 83523 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Paper 1.pdf" (5 pages, 315789 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
