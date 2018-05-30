@@ -2,9 +2,14 @@
 \usepackage{../../format}
 \lhead{A Level Physics}
 \setcounter{secnumdepth}{5}
-\usepackage[compat=1.1.0]{tikz-feynman}
+\usepackage[english]{babel}
 
-%REMINDER: This needs to be compiled with LuaLaTeX to work
+\makeatletter
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{0ex}%
+    {-3.25ex plus -1ex minus -0.2ex}%
+    {1.5ex plus 0.2ex}%
+    {\normalfont\normalsize\bfseries}}
+\makeatother
 
 \begin{document}
 \begin{center}
@@ -148,4 +153,69 @@ What it is&3 quarks&Quark antiquark pair&&&&\\
 \item Baryon number is conserved during interactions
 \item The proton is the only stable baryon, all other baryons decay to it
 \end{itemize}
+\paragraph{Kaons and pions}
+Kaons (K mesons) decay into Pions($\pi$ mesons), they decay by the weak interaction, so strangeness need not be conserved
+$$K^+\rightarrow \mu^++\nu_\mu$$
+$$K^+\rightarrow \pi^++\pi^0$$
+$$K^-\rightarrow \mu^-+\overline{\nu_\mu}$$
+$$K^-\rightarrow \pi^-+\pi^0$$
+$$K^-\rightarrow \pi^0+\mu^-+\overline{\nu_\mu}$$
+\paragraph{Leptons}
+Lepton number is conserved in an interaction, muons decay into electrons
+$$\mu^-\rightarrow e^-+\overline{\nu_e}+\nu_\mu$$
+$$\mu^+\rightarrow e^++\nu_e+\overline{\nu_\mu}$$
+\paragraph{Strange particles}
+Strange particles are produced through the strong interaction and decay through the weak interaction, this is because strangeness is conserved during the strong interaction, but not during the weak interaction.
+\subsubsection{Quarks and antiquarks}
+Differences between quarks and antiquarks
+\begin{itemize}
+\item Opposite strangeness
+\item Opposite charge
+\item Opposite strangeness
+\end{itemize}
+\paragraph{Quark compositions}
+\begin{itemize}
+\item Proton -UUD
+\item Neutron - DUD
+\item Pion - Not strange, sign indicates charge
+\item Kaon - Strange, sign indicates charge
+\end{itemize}
+\subsubsection{Applications of conservation laws}
+Changes of quark nature
+\begin{itemize}
+\item $\beta^-$, down $\rightarrow$ up
+\item $\beta^+$, up $\rightarrow$ down
+\end{itemize}
+\begin{center}
+\includegraphics[width=10cm]{quark_beta.png}
+\end{center}
+In all interactions, energy and momentum must be conserved
+\subsection{Electromagnetic radiation and quantum phenomena}
+\subsubsection{The photoelectric effect}
+\textbf{Photoelectric effect} - The emission of electrons from a metal surface when the surface is illuminated by a light of frequency greater than a minimum value known as the threshold frequency
+\paragraph{Threshold frequency}
+Because the energy of a photon is proportional to its frequency ($E=hf$), a minimum frequency must be reached so that the electrons have sufficient energy to escape the surface
+\paragraph{Work function and stopping potential}
+\textbf{Work function} - The minimum amount of energy needed by an electron to escape from a metal surface\\
+\textbf{Stopping potential} - The potential difference required to stop an electron
+\paragraph{The photoelectric equation}
+$$hf=\phi+E_{K(Max)}$$
+$hf$ is the energy of the incident photon\\
+$\phi$ is the work function\\
+$E_{K(max)}$ is the maximum kinetic energy\\
+Electrons emitted will have a range of kinetic energies, depending how much work is done to escape the metal
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle,scale=0.8,ylabel = KE,xlabel=Frequency,ylabel style={rotate=90,anchor=south},xlabel style={anchor=south},xmin=0,xmax=7,ymin=-5,ymax=7,xtick={2},xticklabels={$F_0$},ytick={-2},yticklabels={$-\Phi$}
+]
+\addplot[color=black,domain=0:7]{x-2};
+\end{axis}
+\end{tikzpicture}\\
+The gradient of the line is Planck's constant
+\subsubsection{Collisions of electrons with atoms}
+\paragraph{Ionisation and excitation}
+\textbf{Ion} - A charged atom\\
+\textbf{Ionisation} - The process of creating ions\\
+\textbf{Excitation} - The process in which an atom absorbs energy without becoming ionised as a result of an electron inside an atom moving from an inner shell to an outer shell
+\paragraph{•}
+
 \end{document}
