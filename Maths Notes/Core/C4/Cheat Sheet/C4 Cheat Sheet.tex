@@ -24,5 +24,80 @@ $\polylongdiv{3x^2-3x-2}{x^2-3x+2}$\\
 $3+\dfrac{6x-8}{(x-1)(x-2)}$\\
 \textbf{Partial fractions can then be applied normally}
 \section{Parametric equations}
-
+$$\frac{dy}{dx}=\frac{(\frac{dy}{dt})}{(\frac{dx}{dt})}$$
+$$\int y \ dx=\int y\frac{dx}{dt}dt$$
+Remember to make use of $\sin^2x+\cos^2x=1$ when converting between parametric and Cartesian
+\section{Binomial expansion}
+$$(a+bx)^n=a^n(a+\frac{b}{a}x)^n$$
+Remember that fractions can be simplified for binomial expansion using negative powers
+\section{Differentiation}
+On C3 data sheet:
+$$a^x=e^{\ln(a^x)}=e^{x\ln(a)}$$
+$$\frac{d}{dx}(a^x)=\ln a\times e^{x\ln a}=a^x\ln a$$
+\subsection{Implicit differentiation}
+$$\frac{d}{dx}(y^2)=2y\frac{dy}{dx}$$
+\subsection{Setting up differential equations}
+\textbf{Example:}\\
+\textit{Temperature falls at a rate proportional to its current temperature}
+$$\frac{dT}{dt}=-kT$$
+\subsection{Related rates of change}
+When given a rate and asked to find a different rate, use equations like
+$$\frac{dA}{dx}=\frac{dA}{dt}\times\frac{dt}{dx}$$
+Remember that finding relations between length, area and volume can be found using known formulas
+\section{Vectors}
+\subsection{Point of intersection}
+Set the two vector lines equal to each other, find $\lambda$ etc, substitute in to see if they agree, remember to write the final point
+\subsection{Angle between two lines}
+$$\cos\theta=\frac{a\cdot b}{|a||b|}$$
+This can be used when lines are perpendicular as then
+$$a\cdot b=|a||b|$$
+\subsection{Find a missing x/y/z value of a point on a line}
+Solve the equation for the two known points to find $\lambda$, then use that to find the other point
+\subsection{Find the length of a vector/distance between two points}
+Find the equation of the vector using the formula
+$$\overrightarrow{AB}=\begin{pmatrix}x_b-x_a\\y_b-y_a\\z_b-z_a\end{pmatrix}$$
+Then use
+$$|AB|=\sqrt{x^2+y^2+z^2}$$
+\subsection{Find the nearest point on a line to a point not on the line}
+The shortest distance is always at a right angle, so you can use the fact that:
+$$|a||b|=a\cdot b$$
+Set up the equation of the line including $\lambda$, then solve the equation of the two of them being at right angles to find the value of $\lambda$ and so find the point
+\subsection{Show that 3 points are collinear}
+Show that the vector between the first and second points is a multiple of the vector between the second and third points
+\subsection{Find the equation of a line from two points}
+Find the direction vector from $\overrightarrow{AB}$ then arrange it either the form:
+$$A+\lambda\Big(\overrightarrow{AB}\Big) \quad \textrm{or} \quad B+\lambda\Big(\overrightarrow{AB}\Big)$$
+\subsection{Find the reflection of a point in a line}
+Find the shortest distance vector from the point to the line, then draw the vector coming out the other side of the line (negative of the vector)
+\subsection{Find the point after going a specific distance in the direction of a given vector}
+\textbf{Example}:\\
+\textit{What is the position vector 10 units in the direction
+$\begin{pmatrix}1\\0\\3\end{pmatrix}$ from the point $\begin{pmatrix}2\\2\\2\end{pmatrix}$?}\\
+\textcolor{red}{Convert the direction into a unit vector}
+$$\sqrt{1^2+0^2+3^2}=2$$
+This means that the vector is 2 units away from the origin, so to create the unit vector (1 unit away from the origin) multiply it by $\frac{1}{2}$
+$$\frac{1}{2}\begin{pmatrix}2\\2\\2\end{pmatrix}$$
+Then add 10 of these units to the initial vector point to get the answer
+$$\begin{pmatrix}1\\2\\2\end{pmatrix}+10\times\frac{1}{2}\begin{pmatrix}2\\2\\2\end{pmatrix}=\begin{pmatrix}7\\2\\17\end{pmatrix}$$
+\section{Integration}
+\subsection{Integral of Trig squares}
+{\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+$f(x)$&$\int f(x) \ dx$\\
+\hline
+$\sec^2x$&On formula book\\
+\hline
+$\csc^2x$&On differentiation side of formula book\\
+\hline
+$\cot^2x$&Use the identity
+$1+\cot^2x=\csc^2x$, then use known integral of $\csc^2x$ to integrate\\
+\hline
+$\sin^2x$&Use cos addition formula\\
+\hline
+$\cos^2x$&Use cos addition formula\\
+\hline
+$\tan^2x$&Use the identity $\tan^2x+1=\sec^2x$\\
+\hline
+\end{tabularx}}
 \end{document}
