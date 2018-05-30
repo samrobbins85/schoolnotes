@@ -2,8 +2,24 @@
 \usepackage{../../format}
 \lhead{A Level Physics}
 \usepackage{enumitem}
-\setcounter{secnumdepth}{4}
+\setcounter{secnumdepth}{6}
 \usepackage{float}
+\usepackage[english]{babel}
+
+\makeatletter
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{0ex}%
+    {-3.25ex plus -1ex minus -0.2ex}%
+    {1.5ex plus 0.2ex}%
+    {\normalfont\normalsize\bfseries}}
+\makeatother
+
+\makeatletter
+\renewcommand{\subparagraph}{\@startsection{subparagraph}{4}{0ex}%
+    {-3.25ex plus -1ex minus -0.2ex}%
+    {1.5ex plus 0.2ex}%
+    {\normalfont\normalsize\bfseries}}
+\makeatother
+
 \begin{document}
 \begin{center}
 \underline{\huge Paper 2 Cheat Sheet}
@@ -144,7 +160,6 @@ $$KE=\frac{1}{2}m\frac{GM}{r}$$
 $$GPE=mV \quad	V=-\frac{GM}{r} \quad \therefore E_p=-\frac{GMm}{r}$$
 $$E_T=E_K+E_P=\frac{GMm}{2r}+-\frac{GMm}{r}=-\frac{GMm}{2r}$$
 \paragraph{Synchronous orbits}
-$ $\\
 \textbf{Geosynchronous orbit} - Time period of 24h, will be seen at the same place at the same time every day\\ 
 \textbf{Geostationary orbit} - Time period of 24h, but in the plane of the equator and travelling the same direction as the earth, appears stationary to an observer on the ground\\
 \\
@@ -261,9 +276,9 @@ Energy of each particle&Constant for a given source&Varies up to a maximum for a
 \end{tabularx}
 \paragraph{Inverse square law for gamma radiation}
 $$I=\frac{k}{x^2}$$
-\paragraph{Safety}$ $\\
+\paragraph{Safety}
 Those working in areas of high radiation, for example nuclear power plants, should wear film badges which monitor a persons exposure to radiation
-\paragraph{Background radiation}$ $\\
+\paragraph{Background radiation}
 Background radiation has many sources:
 \begin{itemize}
 \item Air (Radon gas)
@@ -271,6 +286,57 @@ Background radiation has many sources:
 \item Ground and buildings
 \item Food and drink
 \end{itemize}
-\paragraph{Uses of radiation in medicine}$ $\\
+\paragraph{Uses of radiation in medicine}
 The health benefits from using radiation in medicine almost always outweigh the risks, but doctors must protect themselves as repeated exposure is dangerous
+\subsubsection{Radioactive decay}
+$$\frac{\Delta N}{\Delta t}=-\lambda N$$
+$$N=N_0e^{-\lambda t}$$
+$$A=\lambda N$$
+$$A=A_0e^{-\lambda t}$$
+$$m=m_0e^{-\lambda t}$$
+$$C=C_0e^{-\lambda t}$$
+$$T_{\frac{1}{2}}=\frac{\ln 2}{\lambda}$$
+$N$ - Number of nuclei\\
+$\lambda$ - Decay constant\\
+$A$ - Activity\\
+$m$ - Mass of the isotope\\
+$C$  - Count rate on a Geiger counter\\
+$T_{\frac{1}{2}}$ - Half life of the isotope
+\paragraph{Constant decay probability}
+There is a constant decay probability of an isotope, and the decays happen at random, this means that the number of nuclei that decay in a certain time interval depends only on the total number of nuclei present.
+\paragraph{Applications}
+\subparagraph{Carbon dating}
+The half life of carbon-14 is a known value and so can be used to determine the age of objects. By looking at the activity of a live equivalent of equal mass and comparing it, the age can be found.\\
+\textbf{Example}:\\
+Activity =0.28Bq, Live activity=1.3Bq, half life = 5570 years
+$$T_{\frac{1}{2}}=1.76\times 10^{11}$$
+$$\lambda=\frac{\ln 2}{1.76 \times 10^{11}}=3.95\times 10^{12}$$
+$$A=A_0e^{-\lambda t} \Rightarrow 0.28=1.3e^{-\lambda t} \Rightarrow \lambda t=1.535$$
+$$t=\frac{1.535}{\lambda}=\frac{1.535}{3.95\times 10^{-12}}=3.88\times 10^{11}s$$
+\subparagraph{Radioactive tracers}
+Radioactive tracers should:
+\begin{itemize}
+\item Have a half life long enough for the necessary measurements to be made, but short enough to decay quickly after use
+\item Emit $\beta$ or $\gamma$ radiation so that it can be detected outside the body
+\end{itemize}
+\subsubsection{Nuclear instability}
+\includegraphics[width=8cm]{nz_plot.png}
+\includegraphics[width=6cm]{nz_changes.png}
+Electron capture would be a horizontal line to the left
+\paragraph{Nuclear excited states}
+The nuclear excited state is where the nucleus has more energy than its basic state, to counteract this, the nucleus gives off the energy in the form of a $\gamma$ ray\\
+This can be used to make artificial gamma ray emitters
+\subsubsection{Nuclear radius}
+\paragraph{Closest approach of alpha particles}
+By determining the percentage of $\alpha$ particles that are deflected by more than 90\degree, around 1 in 10,000. Given n layers of atoms, the probability is 1 in 10,000n. Then determine the cross sectional area of the radius of the atom and nucleus as a ratio. 
+$$\frac{\frac{1}{4}\pi d^2}{\frac{1}{4}\pi D^2}=\frac{1}{10,000n}$$
+$$d^2=\frac{D^2}{10000n}$$
+A typical value of n is 10,000
+$$d=\frac{D}{10000}$$
+As the diameter of an atom can be more easily measured, this gives a result of around 1fm
+\paragraph{Electron diffraction}
+The diffraction of electrons can be used to give a more accurate answer for the nuclear radius. Electrons are accelerated so that their de Broglie wavelength is approximately the radius of the nucleus so that they diffract best.\\
+There is an angle $\theta_{min}$ away from the normal at which there is a local minimum intensity, using the relation
+$$R\sin\theta_{min}=0.61\lambda$$
+The value of R can be found, $\lambda$ is the wavelength of the electrons
 \end{document}
