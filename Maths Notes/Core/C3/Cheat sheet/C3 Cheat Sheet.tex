@@ -1,0 +1,124 @@
+\documentclass{article}[18pt]
+\usepackage{../../../../format}
+\lhead{A Level Maths - C3}
+\begin{document}
+\begin{center}
+\underline{\huge C3 Cheat Sheet}
+\end{center}
+\section{Algebraic fractions}
+Algebraic long division can help to simplify a fraction, remember fractions can be expressed as:
+$$Q(x)+\frac{R(x)}{D(x)}$$
+Where $Q(x)$ is the quotient, $R(x)$ is the remainder and $D(x)$ is the divisor
+\section{Functions}
+\textbf{Domain} - Inputs\\
+\textbf{Range} - Outputs\\
+Reasons for a restricted domain:
+\begin{itemize}
+\item The denominator of the fraction can't be zero
+\item You can't square root a negative number
+\item You can't log numbers $\leqslant0$
+\end{itemize}
+Reasons for a restricted range:
+\begin{itemize}
+\item A restricted domain
+\item Asymptotes
+\item Minimum or maximum of a quadratic/trig graph
+\end{itemize}
+If the function doesn't have any obvious restrictions, still remember to put $x\in\mathbb{R}$, or $f(x)\in\mathbb{R}$
+\subsection{Finding the inverse of a function}
+Rearrange the function to make x the subject, then swap y for x and x for $f^{-1}(x)$\\
+\\
+The inverse function is a reflection in the line $y=x$ of the original function.\\
+\\
+If asked to find the values where the inverse function equals the original function, find where $f(x)=x$ as this will not have been transformed by the reflection\\
+\\
+A function will not have an inverse if it is a many to one function 
+\subsection{Finding a composite function}
+Substitute the inner function as x into the outer function
+\subsection{What to do when not given an explicit function}
+When not given an explicit function, remember that given a pair of coordinates $f(x)=f^{-1}(y)$, this can be used to find the function
+\section{Exponential and log functions}
+$$\log a+\log b=\log(ab)$$
+$$\log a-\log b=\log(\frac{a}{b})$$
+$$\log a^b=b\log a$$
+Remember that you can only apply e to both sides when there is one term on each side, combine terms
+\subsection{Quadratic functions}
+Some questions with varying powers of $e$ are usually best solved as a quadratic, multiplying through by $e^{ax}$ then substituting $y=e^x$ and solving for $y$ then finding the natural log of the answer.
+\subsection{Drawing graphs of $e^x$ and $\ln(x)$}
+$\ln(x)$ is the inverse function of $e^x$, so just reflect in the line $y=x$, other than that, apply graph transformations as normal, remember to draw in asymptotes.
+\section{Numerical methods}
+To prove a root (turning point) is in a range, there will be a change of sign of the gradient.\\
+Use the structure of the equation you are trying to rearrange to to help your method.
+\section{Transforming graphs of functions}
+\subsection{Modulus graphs}
+$y=f(|x|)$ - Reflect in y axis (there can't be the correct values for negative x values)\\
+$y=|f(x)|$ - Reflect in x axis (there can't be negative y values)\\
+Remember that for curved graphs, the point of transformation will likely be sharp, rather than smooth
+\subsection{Solving modulus equations}
+To solve a modulus equation, use both the positive and negative versions, for example:
+$$|3x-2|=x+4|$$
+$$3x-2=x+4 \quad \textrm{and} -3x+2=x+4$$
+Though remember to substitute the values found back into the original equation to check they are valid
+\section{Trigonometry}
+$$\sin(x)=\sin(180-x)$$
+$$\cos(x)=\cos(360-x)$$
+$$\sin \textrm{and} \cos \textrm{repeat every 360}\degree$$
+$$\tan \textrm{repeats every 180}\degree$$
+$$\sin(x)=\cos(90-x)$$
+Remember to get the other identities, divide:
+$$\sin^2x+\cos^2x=1$$
+By either $\sin^2x$ or $\cos^2x$
+\subsection{The R formula}
+$a\sin\theta\pm b\cos\theta$ can be expressed in the form $R\sin(\theta\pm\alpha)$\\
+$a\cos\theta\pm b\sin\theta$ can be expressed in the form $R\sin(\theta\mp\alpha)$\\
+Where: 
+$$R = \sqrt{a^2+b^2}$$
+$$\alpha=\arctan(\frac{b}{a})$$
+\newpage
+\section{Differentiation}
+Product rule:
+$$y=f(x)g(x)\quad \textrm{then} \quad\frac{dy}{dx}=f'(x)g(x)+f(x)g'(x)$$
+Quotient rule:
+$$y=\frac{f(x)}{g(x)} \quad \textrm{then} \quad\frac{dy}{dx}=\frac{f'(x)g(x)-f(x)g'(x)}{(g(x))^2}$$
+Chain rule:
+$$y=[f(x)]^n \quad \textrm{then} \quad \frac{dy}{dx}=n[f(x)]^{n-1}f'(x)$$
+$$y=f[g(x)] \quad \textrm{then} \quad \frac{dy}{dx}=f'[g(x)]g'(x)$$
+$$\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$$
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
