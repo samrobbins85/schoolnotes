@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  2 JUN 2018 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  2 JUN 2018 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,33 +1183,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--440
  []
 
 [11 <./Interference.jpg> <./Diffraction_Colours.png> <./Diffraction.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
+<Fibre_Optic_1.png, id=71, 319.1925pt x 187.45032pt>
+File: Fibre_Optic_1.png Graphic file (type png)
+<use Fibre_Optic_1.png>
+Package pdftex.def Info: Fibre_Optic_1.png  used on input line 446.
+(pdftex.def)             Requested size: 199.16928pt x 116.96451pt.
+<Fibre_Optic_2.jpg, id=72, 297.36093pt x 240.9pt>
+File: Fibre_Optic_2.jpg Graphic file (type jpg)
+<use Fibre_Optic_2.jpg>
+Package pdftex.def Info: Fibre_Optic_2.jpg  used on input line 447.
+(pdftex.def)             Requested size: 199.16928pt x 161.3507pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
-[12 <./nlambda_1.png> <./nlambda_2.png>] (./Paper 1.aux) ) 
+[12 <./nlambda_1.png> <./nlambda_2.png>]
+<Air_Resistance.JPG, id=78, 1308.38812pt x 574.39594pt>
+File: Air_Resistance.JPG Graphic file (type jpg)
+<use Air_Resistance.JPG>
+Package pdftex.def Info: Air_Resistance.JPG  used on input line 463.
+(pdftex.def)             Requested size: 327.09622pt x 143.59862pt.
+ [13 <./Fibre_Optic_1.png> <./Fibre_Optic_2.jpg>]
+<metal.jpg, id=84, 273.27094pt x 207.02344pt>
+File: metal.jpg Graphic file (type jpg)
+<use metal.jpg>
+Package pdftex.def Info: metal.jpg  used on input line 492.
+(pdftex.def)             Requested size: 170.71652pt x 129.33246pt.
+<rubber.jpg, id=85, 155.07938pt x 145.29282pt>
+File: rubber.jpg Graphic file (type jpg)
+<use rubber.jpg>
+Package pdftex.def Info: rubber.jpg  used on input line 493.
+(pdftex.def)             Requested size: 170.71652pt x 159.94229pt.
+<Stress_Strain.jpg, id=86, 481.8pt x 256.70906pt>
+File: Stress_Strain.jpg Graphic file (type jpg)
+<use Stress_Strain.jpg>
+Package pdftex.def Info: Stress_Strain.jpg  used on input line 494.
+(pdftex.def)             Requested size: 170.71652pt x 90.95804pt.
+
+Overfull \hbox (4.25429pt too wide) in paragraph at lines 487--495
+[] [] [] 
+ []
+
+[14 <./Air_Resistance.JPG>] [15 <./metal.jpg> <./rubber.jpg> <./Stress_Strain.j
+pg>]
+<diode.jpeg, id=93, 226.8475pt x 223.83624pt>
+File: diode.jpeg Graphic file (type jpg)
+<use diode.jpeg>
+Package pdftex.def Info: diode.jpeg  used on input line 519.
+(pdftex.def)             Requested size: 144.54pt x 142.62283pt.
+
+Overfull \hbox (10.30588pt too wide) in paragraph at lines 523--528
+\OT1/cmr/m/n/12 The lower the tem-per-a-ture, the less the vi-bra-tion of the a
+toms, and re-sis-tance re-duces \OT1/cmr/bx/n/12 Su-per-con-duc-tor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--528
+
+ []
+
+[16 <./diode.jpeg>] [17] (./Paper 1.aux) ) 
 Here is how much of TeX's memory you used:
- 25134 strings out of 492982
- 625186 string characters out of 6138580
+ 25213 strings out of 492982
+ 626661 string characters out of 6138580
  816910 words of memory out of 5000000
- 28232 multiletter control sequences out of 15000+600000
+ 28302 multiletter control sequences out of 15000+600000
  12403 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,100p,750b,1870s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Paper 1.pdf" (12 pages, 582586 bytes).
+</usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Paper 1.pdf" (17 pages, 820512 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -438,9 +438,124 @@ $n\lambda=d\sin\theta$\\
 \\
 A diffraction grating can be used to analyse spectra
 \subsubsection{Refraction}
-\textbf{Refractive index} - $\frac{\textrm{Speed of light in free space}}{\textrm{Speed of light in that medium}}$\\
-
-
-
+\textbf{Refractive index} - $\frac{\textrm{Speed of light in free space}}{\textrm{Speed of light in that medium}}$
+$$\textrm{Snell's law:} - n_1\sin\theta_1=n_2\sin\theta_2$$
+$$\sin\theta_c=\frac{n_1}{n_2}$$
+Total internal reflection occurs if the angle of incidence is \textbf{larger} than the critical value
+\paragraph{Fibre optics}
+\includegraphics[width=7cm]{Fibre_Optic_1.png}\\
+\includegraphics[width=7cm]{Fibre_Optic_2.jpg}\\
+\subsubsection{Modal Dispersion}
+Waves entering the fibre at different angles will reflect differently and so will have different path lengths
+\subsubsection{Material Dispersion}
+Different wavelengths of light enter the same but refract differently, causing a difference in path length
+\section{Mechanics and materials}
+\subsection{Forces, energy and momentum}
+\subsubsection{Moments}
+\textbf{Moment} - Force $\times$ perpendicular distance from the line of action of the force to the point\\
+\textbf{Couple} - A pair of equal and opposite coplanar forces
+$$\textrm{Moment of a couple}=Fd$$
+Where F is one of the forces, and d is the distance between them\\
+\textbf{Principle of moments} - For an object in equilibrium, the sum of clockwise moments equals the sum of anticlockwise moments\\
+\textbf{Centre of mass} - The point through which a single force on the body has no turning effect
+\subsubsection{Projectile motion}
+\paragraph{The effect of air resistance}
+\includegraphics[scale=0.25]{Air_Resistance.JPG}\\
+\textcolor{orange}{No Air Resistance}\\
+\textcolor{red}{Air resistance
+\begin{itemize}
+\item Steeper descent
+\item Peak Further Left
+\item Smaller Range
+\end{itemize}}
+\subsubsection{Newton's laws of motion}
+\textbf{1st law} - An object remains at rest or in uniform motion unless acted on by a resultant force\\
+\textbf{2nd law} - $F=ma$\\
+\textbf{3rd law} - Every action has an equal and opposite reaction
+\subsubsection{Momentum}
+\textbf{Momentum} - Mass$\times$Velocity\\
+\textbf{Impulse} - Change in momentum per second\\
+\textbf{Elastic collision} - No loss of kinetic energy\\
+\textbf{Inelastic collision} - Loss of kinetic energy
+\subsubsection{Work, energy and power}
+When \textbf{work} is done \textbf{energy} is transferred
+$$W=FS\cos\theta$$
+\subsubsection{Conservation of energy}
+\textbf{Principle of conservation of energy} - Energy cannot be created or destroyed
+\subsection{Materials}
+\subsubsection{Bulk properties of solids}
+\textbf{Hooke's law} - Force is proportional to extension, provided the proportionality limit has not been reached\\
+\textbf{Breaking stress (Ultimate tensile stress)} - Tensile stress needed to break a solid material\\
+\textbf{Plastic deformation} - Deformation of a solid beyond its elastic limit\\
+\textbf{Brittle} - Snaps without bending or stretching when subject to stress\\
+\textbf{Fracture} - The separation of a material into two or more pieces when subject to stress\\
+\includegraphics[width=6cm]{metal.jpg}
+\includegraphics[width=6cm]{rubber.jpg}
+\includegraphics[width=6cm]{Stress_Strain.jpg}
+\subsubsection{The Young Modulus}
+\textbf{Young Modulus} - Stress/Strain assuming the limit of proportionality has not been reached
+\section{Electricity}
+\subsection{Current electricity}
+\subsubsection{Basics of electricity}
+\textbf{Current} - The rate of flow of charge\\
+\textbf{Potential difference} - Work done per unit charge\\
+\textbf{Resistance} - Voltage/current
+\subsubsection{Current - Voltage characteristics}
+\paragraph{Ohmic Conductor}
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle, ticks=none,scale=0.5,    ylabel = Current,xlabel=Voltage,ylabel style={rotate=90}
+]
+\addplot[color=black]{x};
+\end{axis}
+\end{tikzpicture}
+\paragraph{Bulb}
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle, ticks=none,scale=0.5,    ylabel = Current,xlabel=Voltage,ylabel style={rotate=90}
+]
+\addplot[color=black,domain=-90:90]{sin(x)};
+\end{axis}
+\end{tikzpicture}
+\paragraph{Diode}
+\includegraphics[width=2in]{diode.jpeg}\\
+\textbf{Ohm's Law}: Current is proportional to voltage under constant physical conditions
+\subsubsection{Resistivity}
+\paragraph{The effect of temperature on conductors}
+The lower the temperature, the less the vibration of the atoms, and resistance reduces
+\textbf{Superconductor} - A material that has no electrical resistance\\
+\textbf{Critical temperature} - The temperature below which a conductor becomes a superconductor\\
+\\
+Superconductors are used for very high current applications.
+\subsubsection{Circuits}
+\paragraph{Resistor combinations}
+$$\textrm{Series}: R_T=R_1+R_2+R_3...$$
+$$\textrm{Parallel}: \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3}+...$$
+\paragraph{Voltage in series and parallel}
+Parallel: Voltage across components in parallel is the same\\
+Series: The total voltage across all the components is the voltage supplied
+\paragraph{Current in series and parallel}
+The current entering a component or junction is the same as the current leaving the component, meaning current in series is the same for each component.\\
+For parallel circuits, use voltage and resistance to calculate
+\paragraph{Power}
+$$P=\frac{E}{t}$$
+\paragraph{Kirchoff's laws}
+Current in=Current out (Conservation of charge)\\
+The sum of all the voltages around the system is zero (Conservation of energy)
+\subsubsection{Potential divider}
+$$V_{Out}=V_{In}\frac{R_2}{R_1+R_2}$$
+Potential dividers can be used with environment sensors that change their resistance based on changed to the environment to change output voltage
+\subsubsection{The electromotive force and internal resistance}
+\textbf{Electromotive force} - The amount of electrical energy per unit charge produced inside a source of electrical energy\\
+\textbf{Internal resistance} - Resistance inside a source of electrical energy\\
+\textbf{Terminal pd} - The potential difference across the terminals of a power supply\\
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle,scale=0.5,    ylabel = Vr,xlabel=Current,ylabel style={rotate=90,anchor=south},xlabel style={anchor=south},xmin=0,xmax=7,ymin=0,ymax=7,xtick={5},xticklabels={Short Circuit Current},ytick={5},yticklabels={$\epsilon$}
+]
+\addplot[color=black,domain=0:5]{-x+5};
+\end{axis}
+\end{tikzpicture}
+\\
+The equation of this line can be derived from:
+$$\epsilon=I(R+r)$$
+Remember that the terminal voltage is $Ir$
 
 \end{document}
