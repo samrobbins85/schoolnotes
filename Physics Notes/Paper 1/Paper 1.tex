@@ -11,6 +11,29 @@
     {\normalfont\normalsize\bfseries}}
 \makeatother
 
+\usetikzlibrary{decorations.pathmorphing,arrows}
+
+\pgfkeys{/pgfplots/Axis Style/.style={
+    width=13.5cm, height=10cm,
+    axis x line=center, 
+    axis y line=middle, 
+    samples=100,
+    ymin=-1.2, ymax=1.2,
+    xmin=0, xmax=13.0,
+    domain=-4*pi:4*pi
+}}
+
+\pgfkeys{/pgfplots/Stationary Wave/.style={
+    width=13.5cm, height=5cm,
+    axis x line=center, 
+    axis y line=middle, 
+    samples=100,
+    ymin=-1.2, ymax=1.2,
+    xmin=0, xmax=13.0,
+    domain=-4*pi:4*pi
+}}
+
+
 \begin{document}
 \begin{center}
 \underline{\huge Paper 1 Cheat Sheet}
@@ -203,7 +226,7 @@ $$hf=\phi+E_{K(Max)}$$
 $hf$ is the energy of the incident photon\\
 $\phi$ is the work function\\
 $E_{K(max)}$ is the maximum kinetic energy\\
-Electrons emitted will have a range of kinetic energies, depending how much work is done to escape the metal
+Electrons emitted will have a range of kinetic energies, depending how much work is done to escape the metal\\
 \begin{tikzpicture}
 \begin{axis}[axis lines=middle,scale=0.8,ylabel = KE,xlabel=Frequency,ylabel style={rotate=90,anchor=south},xlabel style={anchor=south},xmin=0,xmax=7,ymin=-5,ymax=7,xtick={2},xticklabels={$F_0$},ytick={-2},yticklabels={$-\Phi$}
 ]
@@ -216,6 +239,208 @@ The gradient of the line is Planck's constant
 \textbf{Ion} - A charged atom\\
 \textbf{Ionisation} - The process of creating ions\\
 \textbf{Excitation} - The process in which an atom absorbs energy without becoming ionised as a result of an electron inside an atom moving from an inner shell to an outer shell
-\paragraph{•}
+\paragraph{The fluorescent tube}
+\begin{itemize}
+\item Ionisation and excitation of the mercury atoms as they collide with each other and the electrons in the tube
+\item The mercury atoms emit visible and ultraviolet photons when they de excite
+\item The ultraviolet photons are absorbed by the atoms in the fluorescent coating, causing them to excite
+\item The atoms in the coating de excite, emitting visible light
+\end{itemize}
+\paragraph{The electron volt}
+\textbf{Electron volt} - The work done when an electron is moved through a P.D. of 1V
+\subsubsection{Energy levels and photon emission}
+\paragraph{Line spectra}
+Light is emitted from an atom when the electrons in it de-excite. Because the line spectra are discrete, this suggests that only certain changes in energies are possible in the atom, implying discrete energy levels
+$$hf=E_1-E_2$$
+Energies given in joules
+\subsubsection{Wave particle duality}
+\paragraph{Electron diffraction}
+When electrons are fired at a slit, they exhibit the same behaviour as light does, implying that particles can posses wave properties.
+\paragraph{The photoelectric effect}
+Because there is a threshold frequency for the photoelectric effect, light must have a particle nature, where one particle provides the energy to release the electron. If it had a wave nature, given enough time, an electron would be released, regardless of frequency
+\paragraph{The de Broglie Wavelength}
+$$\lambda=\frac{h}{p}=\frac{h}{mv}$$
+This causes the amount of diffraction to change based on the momentum of the particle, the greater the momentum, the smaller the wavelength, and so the less diffraction.
+\section{Waves}
+\subsection{Progressive and stationary waves}
+\subsubsection{Progressive waves}
+\textbf{Amplitude} - The maximum displacement of a vibrating particle\\
+\textbf{Frequency} - The number of cycles of a wave that pass a point per second\\
+\textbf{Period} - The time for one complete cycle of a wave to pass a point\\
+\textbf{Wavelength} - The least distance between two vibrating particles with the same displacement and velocity at the same time\\
+\textbf{Phase} - The position of a point in time on a waveform cycle\\
+\textbf{Phase difference} - The fraction of a cycle between the vibrations of two vibrating particles
+\subsubsection{Longitudinal and transverse waves}
+\paragraph{Transverse wave}
+\begin{tikzpicture}[scale=0.8]
+\tikzstyle{vlabel} = [fill=white,font=\footnotesize,inner sep=1pt,rotate=90]
+\tikzstyle{hlabel} = [fill=white,font=\normalsize,inner sep=1pt]
+\node[vlabel] at (1.2,6) {Amplitude};
+\draw[arrows=<->,red,ultra thick](1.35,4.2)--(1.35,7.6);
+\node[hlabel] at (7,3.3) {Wavelength};
+\draw[arrows=<->,red,ultra thick](3,3.6)--(8.9,3.6);
+
+\begin{axis}[
+    Axis Style,
+    y label style={at={(axis description cs:-0.1,.5)},rotate=90,anchor=south},
+    ylabel = {Displacement},
+    xlabel= {Distance},
+    ticks=none
+]
+\addplot [mark=none, ultra thick, black] {sin(deg(x))};
+\end{axis}
+\end{tikzpicture}
+\\
+\\
+Wave direction and energy are perpendicular
+\paragraph{Longitudinal wave}
+\begin{tikzpicture}[decoration={coil},scale=1.8]
+\tikzstyle{hlabel} = [fill=white,font=\normalsize,inner sep=1pt]
+\node[hlabel] at (5,0.8) {Wavelength};
+
+\draw[arrows=<->,red,ultra thick](3.26,0.5)--(6.74,0.5);
+\draw[arrows=->,red,ultra thick](3.26,-1)--(3.26,-0.5);
+\draw[arrows=->,red,ultra thick](8.5,-1)--(8.5,-0.5);
+\node[hlabel] at (3.26,-1.2) {Compression};
+\node[hlabel] at (8.5,-1.2) {Rarefaction};
+\draw[decorate, decoration={aspect=0.3, segment length=3mm, amplitude=3mm}] (0,0) --(3.03,0);
+\draw[decorate, decoration={aspect=0.3, segment length=0.5mm, amplitude=-3mm}] (3.03,0) -- (3.49,0); 
+\draw[decorate, decoration={aspect=0.3, segment length=3mm, amplitude=-3mm}] (3.48,0) -- (6.51,0);
+\draw[decorate, decoration={aspect=0.3, segment length=0.5mm, amplitude=-3mm}] (6.51,0) -- (6.97,0);
+\draw[decorate, decoration={aspect=0.3, segment length=3mm, amplitude=-3mm}] (6.97,0) -- (10,0);
+\end{tikzpicture}\\
+Wave direction and energy are parallel
+\paragraph{Polarisation}
+\begin{tikzpicture}[x={(0.866cm,-0.5cm)}, y={(0.866cm,0.5cm)}, z={(0cm,1cm)}, scale=.8,
+    %Option for nice arrows
+    >=stealth, %
+    inner sep=0pt, outer sep=2pt,%
+    axis/.style={thick,<-},
+    wave/.style={thick,color=#1,smooth},
+    polaroid/.style={fill=black!60!white, opacity=0.3},
+]
+    % Colors
+    \colorlet{darkgreen}{green!50!black}
+    \colorlet{lightgreen}{green!80!black}
+    \colorlet{darkred}{red!50!black}
+    \colorlet{lightred}{red!80!black}
+
+    % Frame
+    \coordinate (O) at (0, 0, 0);
+    \draw[axis] (O) -- +(14, 0,   0);
+    \draw[thick,dashed] (-2,0,0) -- (0,0,0);
+
+    % Electric field vectors
+    \draw[wave=blue, variable=\x,samples at={0,0.25,...,6}]
+        plot (\x,{sin(2*\x r)},0);
+    %Polarized light between polaroid and thin section
+    \foreach \x in{0, 0.25,...,6}
+        \draw[color=blue,->] (\x,0,0) -- (\x,{sin(2*\x r)},0);
+
+    \draw (3,1,1) node [text width=2.5cm, text centered]{Polarized light};
+
+    %Crystal thin section
+    \begin{scope}[thick]
+        \draw (6,-2,-1.5) -- (6,-2,1.5) node [above, sloped, midway]{Polarising filter}
+                -- (6, 2, 1.5) -- (6, 2, -1.5) -- cycle % First face
+            (6,  -2, -1.5) -- (6.2, -2,-1.5)
+            (6,   2, -1.5) -- (6.2,  2,-1.5)
+            (6,  -2,  1.5) -- (6.2, -2, 1.5)
+            (6,   2,  1.5) -- (6.2,  2, 1.5)
+            (6.2,-2, -1.5) -- (6.2, -2, 1.5) -- (6.2, 2, 1.5) 
+                -- (6.2, 2, -1.5) -- cycle; % Second face
+    \end{scope}
+
+    %Rays leaving thin section
+    \draw[wave=darkred,   variable=\x, samples at={6.2,6.45,...,12}] 
+        plot (\x, {0.26*0.26*sin(2*(\x-0.5) r)},  {0.966*0.26*sin(2*(\x-0.5) r)});  %n'g-oriented ray
+    \draw[wave=darkgreen, variable=\x, samples at={6.2,6.45,...,12}]
+        plot (\x, {0.966*0.966*sin(2*(\x-0.1) r)},{-0.26*0.966*sin(2*(\x-0.1) r)}); %n'p-oriented ray
+    \draw (10,1,1) node [text width=2.5cm, text centered] {Unpolarised light};
+
+    \foreach \x in{6.2,6.45,...,12} {
+        \draw[color=darkgreen, ->] (\x, 0, 0) --
+            (\x, {0.966*0.966*sin(2*(\x-0.1) r)}, {-0.26*0.966*sin(2*(\x-0.1) r)});
+        \draw[color=darkred,   ->] (\x, 0, 0) --
+            (\x, {0.26*0.26*sin(2*(\x-0.5) r)}, {0.966*0.26*sin(2*(\x-0.5) r)});
+            }
+\end{tikzpicture}\\
+Polarised light all travels in the same direction\\
+Unpolarised light travels in all directions\\
+Unpolarised light can be polarised using a polarising filter which contains stripes, only allowing one direction of light through\\
+\textbf{Only transverse waves can be polarised}
+\subsubsection{Principle of superposition of waves and formation of stationary waves}
+Stationary waves are formed when a wave collides with itself after reflection\\
+\\
+\\
+\begin{tikzpicture}
+\draw[black,ultra thick] (11.5,0.2) -- ++(0,3.1);
+\draw[black,ultra thick] (11.5,0.3) -- (12,0.7);
+\draw[black,ultra thick] (11.5,1) -- ++(0.5,0.4);
+\draw[black,ultra thick] (11.5,1.7) -- ++(0.5,0.4);
+\draw[black,ultra thick] (11.5,2.4) -- ++(0.5,0.4);
+\draw[black,ultra thick] (11.5,3.1) -- ++(0.5,0.4);
+\tikzstyle{hlabel} = [font=\normalsize,inner sep=1pt]
+\draw[arrows=->,red,ultra thick](3.26,3.5)--(6.74,3.5);
+\node[hlabel,red] at (5,3.7) {Incoming wave};
+\draw[arrows=<-,blue,ultra thick](3.26,-0.2)--(6.74,-0.2);
+\node[hlabel,blue] at (5,-0.4) {Reflected wave};
+\draw[arrows=->,orange,ultra thick](10.1,-0.7)-- ++(0,0.8);
+\node[hlabel,orange] at (10.1,-0.9) {Antinode};
+
+\draw[arrows=->,orange,ultra thick](8.65,4.5)-- ++(0,-2.5);
+\node[hlabel,orange] at (8.65,4.7) {Node};
+
+
+
+\begin{axis}[
+    Stationary Wave,
+    ticks=none,
+    axis line style={draw=none}
+]
+\addplot [mark=none, ultra thick, blue] {sin(deg(x))};
+\addplot [mark=none, ultra thick, red] {sin(deg(x+pi))};
+\end{axis}
+\end{tikzpicture}
+\\
+When both waves are at equilibrium there is a \textbf{node}\\
+When one wave is at a maximum and one at a minimum there is an \textbf{antinode}\\
+\\
+\textbf{Stationary wave} - Wave pattern with nodes and antinodes formed when two or more progressive waves of the same frequency and amplitude pass through each other\\
+\textbf{Node} - A fixed point in a stationary wave pattern where the amplitude is zero\\
+\textbf{Antinode} - A fixed point in a stationary wave pattern where the amplitude is a maximum
+\paragraph{Harmonics}
+$$f_1=\frac{1}{2l}\sqrt{\frac{T}{\mu}}$$
+T - String tension\\
+$\mu$ - Mass/Length\\
+\\
+The formula for the nth harmonic is:
+$$f_n=\frac{n}{2l}\sqrt{\frac{T}{\mu}}$$
+\subsection{Refraction, diffraction and interference}
+\subsubsection{Interference}
+\textbf{Path difference} - The difference in distances from two coherent sources to an interference fringe\\
+\textbf{Coherence} - Constant phase difference\\
+\includegraphics[width=8cm]{Interference.jpg}
+$$w=\frac{\lambda D}{s}$$
+w- Separation of fringes (Distance between adjacent brightest points etc)\\
+$\lambda$ - Wavelength\\
+D - Distance from slits to screen\\
+s - Separation of the two slits\\
+\includegraphics[width=8cm]{Diffraction_Colours.png}
+\subsubsection{Diffraction}
+\includegraphics[width=7cm]{Diffraction.png}\\
+Increasing the width of the slit causes the central maxima to get narrower, this can be remembered from the fringe spacing formula, remember the central maxima is double the width calculated using that formula though.
+\paragraph{Diffraction grating equation}
+\includegraphics[width=7cm]{nlambda_1.png}\\
+\includegraphics[width=7cm]{nlambda_2.png}\\
+Path difference =$d\sin\theta$\\
+$n\lambda=d\sin\theta$\\
+\\
+A diffraction grating can be used to analyse spectra
+\subsubsection{Refraction}
+\textbf{Refractive index} - $\frac{\textrm{Speed of light in free space}}{\textrm{Speed of light in that medium}}$\\
+
+
+
 
 \end{document}
