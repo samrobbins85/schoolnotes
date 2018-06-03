@@ -33,6 +33,16 @@
     domain=-4*pi:4*pi
 }}
 
+\pgfkeys{/pgfplots/Axis Style 2/.style={
+    width=13.5cm, height=5cm,
+    axis x line=center, 
+    axis y line=middle, 
+    samples=100,
+    ymin=-1.5, ymax=1.5,
+    xmin=0, xmax=14.0,
+    domain=-4*pi:4*pi
+}}
+
 
 \begin{document}
 \begin{center}
@@ -520,7 +530,7 @@ $$W=FS\cos\theta$$
 \textbf{Ohm's Law}: Current is proportional to voltage under constant physical conditions
 \subsubsection{Resistivity}
 \paragraph{The effect of temperature on conductors}
-The lower the temperature, the less the vibration of the atoms, and resistance reduces
+The lower the temperature, the less the vibration of the atoms, and resistance reduces\\
 \textbf{Superconductor} - A material that has no electrical resistance\\
 \textbf{Critical temperature} - The temperature below which a conductor becomes a superconductor\\
 \\
@@ -557,5 +567,163 @@ Potential dividers can be used with environment sensors that change their resist
 The equation of this line can be derived from:
 $$\epsilon=I(R+r)$$
 Remember that the terminal voltage is $Ir$
+\newpage
+\section{Periodic motion}
+\subsection{Circular motion}
+As circular motion has a constant speed but a changing direction, it is implied that there is a force perpendicular to the direction of motion, and so an acceleration\\
+$v$ (Velocity)- Displacement per unit time\\
+$\omega$ (Angular velocity)- Angle per unit time\\
+\subsection{Simple harmonic motion}
+\begin{tikzpicture}
+\begin{axis}[
+    Axis Style 2,
+    xtick={
+        3.14159,6.28319,9.42478,12.56637
+    },
+    xticklabels={
+        $\dfrac{T}{2}$,T,$\dfrac{3T}{2}$,2T
+    },
+    ytick={-1,1},
+    yticklabels={-A,A},
+    y label style={at={(axis description cs:-0.1,.5)},rotate=90,anchor=south},
+    ylabel = {Displacement, x},
+    xlabel= {Time, t}
+]
+\addplot [mark=none, ultra thick, black] {cos(deg(x))};
+\end{axis}
+\end{tikzpicture}
+$x=Acos(\omega t)$
+\\
+\begin{tikzpicture}
+\begin{axis}[
+    Axis Style 2,
+    xtick={
+        3.14159,6.28319,9.42478,12.56637
+    },
+    xticklabels={
+        $\dfrac{T}{2}$,T,$\dfrac{3T}{2}$,2T
+    },
+    ytick={-1,1},
+    yticklabels={$-\omega A$,$\omega A$},
+    y label style={at={(axis description cs:-0.1,.5)},rotate=90,anchor=south},
+    ylabel = {Velocity, v},
+    xlabel= {Time, t}
+]
+\addplot [mark=none, ultra thick, black] {-sin(deg(x))};
+\end{axis}
+\end{tikzpicture}
+$v=-\omega A\sin(\omega t)$
+\\
+\begin{tikzpicture}
+\begin{axis}[
+    Axis Style 2,
+    xtick={
+        3.14159,6.28319,9.42478,12.56637
+    },
+    xticklabels={
+        $\dfrac{T}{2}$,T,$\dfrac{3T}{2}$,2T
+    },
+    ytick={-1,1},
+    yticklabels={$-\omega^2 A$,$\omega^2 A$},
+    y label style={at={(axis description cs:-0.1,.5)},rotate=90,anchor=south},
+    ylabel = {Acceleration, a},
+    xlabel= {Time, t}
+]
+\addplot [mark=none, ultra thick, black] {-cos(deg(x))};
+\end{axis}
+\end{tikzpicture}
+$a=-\omega^2A\cos(\omega t)$\\
+\\
+All these equations can be derived from the equation $x=A\cos(\omega t)$, by differentiating it with respect to time.\\
+The maximum values of each of them can be found as the maximum value of cos or sin is 1
+\subsection{Simple harmonic systems}
+\subsubsection{Energy in SHM}
+\begin{tikzpicture}
+\begin{axis}[
+    Axis Style 2,
+    xtick={
+        3.14159,6.28319
+    },
+    xticklabels={
+        $\dfrac{T}{2}$,T
+    },
+    ytick={1},
+    yticklabels={$\frac{1}{2}m\omega^2A^2$},
+    y label style={at={(axis description cs:-0,.25)},rotate=90,anchor=south},
+    ylabel = {Energy/J},
+    xlabel= {Time, t},
+    x label style={at={(axis description cs:1.12,0)},anchor=east},
+    xmax=6.28319,
+    ymin=0
+]
+\addplot [mark=none, ultra thick, black,samples=200] {(cos(deg(x)))^2};
+\addplot [mark=none, ultra thick, red,samples=200] {(sin(deg(x)))^2};
+\end{axis}
+\end{tikzpicture}
+\\
+Red - Kinetic Energy\\
+Black - Gravitational potential energy\\
+\\
+\begin{tikzpicture}
+\begin{axis}[ymin=0,ticks=none,xlabel={Displacement,x/m},ylabel={Energy/J}]
+\addplot [mark=none, ultra thick, black,samples=200] {x^2};
+\addplot [mark=none, ultra thick, red,samples=200] {-x^2+25};
+\draw[ultra thin] (axis cs:0,\pgfkeysvalueof{/pgfplots/ymin}) -- (axis cs:0,\pgfkeysvalueof{/pgfplots/ymax});
+\end{axis}
+\end{tikzpicture}
+\subsubsection{Period of a mass-spring system}
+The period of a mass-spring system is $T=2\pi\sqrt{\dfrac{m}{k}}$ or $T^2=\dfrac{4\pi^2m}{k}$\\
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[ymin=-0.001,ticks=none,ylabel=$T^2/s^2$,xlabel=$m/kg$,axis lines=middle,
+label style={font=\large}
+]
+\addplot[mark=none]{x};
+\end{axis}
+\end{tikzpicture}\\
+The gradient is $\dfrac{4\pi^2}{k}$\\
+The line passes through the origin\\
+This is only true for small oscillations as large oscillations go past the limit of proportionality
+\subsubsection{Energy in a vertically oscillating spring}
+\begin{tabular}{|c|c|c|c|}
+\hline
+&KE&GPE&Elastic Energy\\
+\hline
+Top&0&$2mgA$&$\frac{1}{2}k(e-A)^2$\\
+\hline
+Middle&Max=$\frac{1}{2}m\omega^2A^2$&$mgA$&$\frac{1}{2}ke^2$\\
+\hline
+Bottom&0&0&$\frac{1}{2}k(e+A)^2$\\
+\hline
+\end{tabular}
+
+
+
+\subsubsection{Damping}
+Damping is the reduction in amplitude due to energy losses (e.g. overcoming friction).\\
+\\
+It will also cause the period to increase (it is essentially a driver).\\
+\\
+\textbf{Light(underdamping)} - Small amplitude change per oscillation\\
+\textbf{Heavy(underdamping)} - Large amplitude change per oscillation\\
+\\
+\textbf{Critical damping} - Reaches equilibrium in the shortest possible time \textbf{without} oscillating\\
+\\
+\textbf{Over damping} - Reaches equilibrium after a long period of time
+\paragraph{Damping graph}
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle,samples=200,ymax=10,ticks=none,ylabel=Amplitude,ylabel style={rotate=90, anchor=south,at={(axis description cs:0,0.42)},},xlabel=Time,x label style={at={(axis description cs:1.1,0.42)},anchor=east},]
+\addplot[blue,domain=0:21] {1/x};\addlegendentry{Critically Damped}
+\addplot[red,domain=0.01:20.58] {78*sin(deg(x+7.7))/(x+7.7)};\addlegendentry{Under Damped}
+\addplot[green,domain=0.01:21] {-3*ln(x+2)+12};\addlegendentry{Over damped}
+\end{axis}
+\end{tikzpicture}
+\subsection{Forced vibrations and resonance}
+\textbf{Free vibrations} - Vibrations where there is no damping and no periodic force acting on the system, amplitude of the oscillations is constant\\
+\textbf{Forced vibrations} - Vibrations of a system subjected to an external periodic force
+\subsubsection{The effects of damping on the sharpness of resonance}
+\includegraphics[width=8cm]{damp_6.jpg}\\
+The less damping there is, the sharper the resonance
+\subsubsection{Standing waves}
+Standing waves can be produced at the resonant (natural) frequencies of a material, causing point on it to alternate between minimum and maximum amplitude, causing solid materials such as concrete to break.
 
 \end{document}
