@@ -40,6 +40,7 @@ $$z+\frac{1}{z}=2\cos\theta$$
 $$z-\frac{1}{z}=2i\sin\theta$$
 $$z^n+\frac{1}{z^n}=2\cos n\theta$$
 $$z^n-\frac{1}{z^n}=2i\sin n\theta$$
+These can be calculated by using DMs theorem to find $z^{-1} =\frac{1}{z}$ then adding or subtracting
 \subsubsection{Multiples of $\theta\rightarrow$ Powers of cos/sin}
 Whatever the multiple of $\theta$ is, raise $(\cos\theta+i\sin\theta)$ to that power. Use De Moivre's theorem to express this in multiples of $\theta$, and use binomial expansion to express it in terms of powers of $\theta$. Equate the real/imaginary parts, depending on whether it is cos or sin to simplify.
 
@@ -94,19 +95,25 @@ $$\int f'(x)g(x)+f(x)g'(x) dx=f(x)g(x)+c$$
 Integrate both sides then simplify
 \section{Second order differential equations}
 {\renewcommand{\arraystretch}{2}
-\begin{tabularx}{\textwidth}{|X|X|}
+\begin{tabularx}{\textwidth}{|X|X|X|}
 \hline
-\textbf{Solution to auxiliary equation}&\textbf{General solution}\\
+\textbf{Solution to auxiliary equation}&\textbf{General solution}&\textbf{Trig general solution}\\
 \hline
-Two real roots $b^2>4ac$&$Ae^{\alpha x}+Be^{\beta x}$\\
+Two real roots $b^2>4ac$&$Ae^{\alpha x}+Be^{\beta x}$&\\
 \hline
-One real root $b^2=4ac$&$(A+bx)e^{\alpha x}$\\
+One real root $b^2=4ac$&$(A+bx)e^{\alpha x}$&\\
 \hline
-Imaginary only root $b^2<4ac$&$y=Ae^{\alpha x}+Be^{-\alpha x}$\\
+Imaginary only root $b^2<4ac$&$Ae^{\alpha x}+Be^{-\alpha x}$&
+$p\cos\alpha x+q\sin\alpha x$
+\\
 \hline
-Complex root $b^2<4ac$&$y=Ae^{(\beta+\alpha i)x}+Be^{(\beta-\alpha i)x}$\\
+Complex root $b^2<4ac$&$Ae^{(\beta+\alpha i)x}+Be^{(\beta-\alpha i)x}$&
+$e^{\beta x}(p\cos\alpha x+q\sin\alpha x)$
+\\
 \hline
 \end{tabularx}}
+P=A+B\\
+Q=i(A+B)
 \subsection{Second ODE=f(x)}
 \subsubsection{Standard forms of f(x)}
 $f(x)=\lambda$\\
