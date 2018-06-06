@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  30 MAY 2018 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  6 JUN 2018 13:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1271,30 +1271,78 @@ Overfull \hbox (7.7768pt too wide) in paragraph at lines 323--326
 [] [] \OT1/cmr/m/n/12 Elec-tron cap-ture would
  []
 
-[11 <./nz_plot.png> <./nz_changes.png>] [12] (./Paper 2.aux) ) 
+[11 <./nz_plot.png> <./nz_changes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 346--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 367--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--377
+
+ []
+
+<Binding_Energy.jpg, id=70, 394.1124pt x 277.5168pt>
+File: Binding_Energy.jpg Graphic file (type jpg)
+<use Binding_Energy.jpg>
+Package pdftex.def Info: Binding_Energy.jpg  used on input line 385.
+(pdftex.def)             Requested size: 284.52756pt x 200.35818pt.
+[13 <./Binding_Energy.jpg>]
+<chain_reaction.png, id=76, 351.3125pt x 406.51875pt>
+File: chain_reaction.png Graphic file (type png)
+<use chain_reaction.png>
+Package pdftex.def Info: chain_reaction.png  used on input line 393.
+(pdftex.def)             Requested size: 170.71652pt x 197.54593pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--397
+
+ []
+
+[14 <./chain_reaction.png>] [15] (./Paper 2.aux) ) 
 Here is how much of TeX's memory you used:
- 24239 strings out of 492982
- 597861 string characters out of 6138580
+ 24256 strings out of 492982
+ 598184 string characters out of 6138580
  804284 words of memory out of 5000000
- 27341 multiletter control sequences out of 15000+600000
- 12403 words of font info for 48 fonts, out of 8000000 for 9000
+ 27355 multiletter control sequences out of 15000+600000
+ 13997 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,98p,750b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "Paper 2.pdf" (12 pages, 820254 bytes).
+</usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb>
+Output written on "Paper 2.pdf" (15 pages, 1068796 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
