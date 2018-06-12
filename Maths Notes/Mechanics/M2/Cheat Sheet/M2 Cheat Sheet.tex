@@ -2,6 +2,9 @@
 \usepackage{../../../../format}
 \lhead{A Level Maths - M2}
 
+\usetikzlibrary{positioning} %Used for diagram at bottom
+
+
 \begin{document}
 \begin{center}
 \underline{\huge M2 Cheat Sheet}
@@ -81,4 +84,17 @@ $$y=-\frac{1}{2}gt^2+vt\sin\alpha$$
 \\
 $$y=-\frac{g}{2}\Bigg(\frac{x}{v\cos\alpha}\Bigg)^2+v\Bigg(\frac{x}{v\cos\alpha}\Bigg)\sin\alpha$$
 $$y=x^2\Bigg(\frac{-g}{2v^2\cos^2\alpha}\Bigg)+x\Big(\tan\alpha\Big)$$
+\section{Variable acceleration using differentiation and integration}
+When using more than 1 dimension, consider each component separately \\
+\begin{center}
+\begin{tikzpicture}
+  \node (disp) {\textbf{Displacement} $x$};
+  \node[right=2cm of disp] (vel) {\textbf{Velocity} $v$};
+  \node[right=2cm of vel] (acc) {\textbf{Acceleration} $a$};
+  \draw[-stealth,shorten >= 2pt] (disp.north) to[bend left] node[midway,above] {Differentiate} (vel.north);
+  \draw[-stealth] (vel.south) to[bend left] node[midway,below] {Integrate} (disp.south);
+  \draw[-stealth,shorten >= 2pt] (vel.north) to[bend left] node[midway,above] {Differentiate} (acc.north);
+    \draw[-stealth] (acc.south) to[bend left] node[midway,below] {Integrate} (vel.south);
+\end{tikzpicture}
+\end{center}
 \end{document}
