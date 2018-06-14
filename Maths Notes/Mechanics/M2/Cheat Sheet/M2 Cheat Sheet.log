@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.6)  10 JUN 2018 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.8)  14 JUN 2018 12:22
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **"M2 Cheat Sheet.tex"
 (./M2 Cheat Sheet.tex
@@ -1089,7 +1089,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts
 msfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "M2 Cheat Sheet.pdf" (3 pages, 106793 bytes).
+Output written on "M2 Cheat Sheet.pdf" (3 pages, 106840 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
